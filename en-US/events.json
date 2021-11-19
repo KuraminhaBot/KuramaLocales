@@ -1,0 +1,192 @@
+{
+  "error": {
+    "userPermission": {
+      "inGuild": "You don't have permissions to use this command! To be able to use it, you need to have permissions to `{{perm}}`!",
+      "inChannel": "You don't have permissions in {{channel}} to use this command! To be able to use it, you need to have permissions to `{{perm}}`!"
+    },
+    "botPermission": {
+      "inGuild": "I wanted to do this command, but unfortunately I don't have permissions to `{{perm}}`! Ask someone from staff to give that permission to me! Thank you!",
+      "inSpecificChannel": "I wanted to do this command, but unfortunately I don't have permissions to `{{perm}}` in channel! Ask someone from staff to give that permission to me! Thank you!"
+    },
+    "missingArguments": "without the necessary arguments, please check usage using `{{prefix}}help {{command}}`",
+    "discordError": "Something went terribly wrong when executing this command... Sorry for the inconvenience. `{{error}}`",
+    "onlyDevs": "Only special people can use this command :3",
+    "interaction": {
+      "youCanNot": "You cannot interact with this component, only the command author can.",
+      "noInteract": "Wait a minute... you aren't {{user}}! This isn't for you, go away!"
+    },
+    "notFoundImage": "Sorry, but I couldn't find any images I can use! I tried to get images from links, attached images, mentioned user avatars, emojis... but I didn't find any of that in your message.",
+    "youReBanned": "You cannot use my commands, you are **banned**!\n✍️ **|** Reason: `{{reason}}`"
+  },
+  "status": {
+    "disabled": "Disabled",
+    "enabled": "Enabled"
+  },
+  "deferReply": "I'm thinking... Wait a minute.",
+  "onlyguilds": "you cannot use this command in private messages!",
+  "mention": "Hello! My prefix in this server is `{{prefix}}`, if you need help, use `{{prefix}}help`",
+  "cooldown": {
+    "hours": "Calm down! You need to wait **a few hours**, before you can execute another command!",
+    "milliseconds": "Calm down! You need to wait **a few {{time}}**, before you can execute another command!",
+    "default": "Calm down! You need to wait **{{time}} {{context}}**, before you can execute another command!"
+  },
+  "database": {
+    "registeredUser": "oops! All done, now you are registered in my Database!",
+    "registeredGuild": "Oops, hello guys! Everything ready, now this guild is registered in my Database! Have fun.",
+    "notFoundProfile": "I couldn't find your profile or your friend's profile in my database"
+  },
+  "buttons": {
+    "link": "Open {{item}} in the browser"
+  },
+  "onlyguild": "you cannot use this command in private messages!",
+  "image_hyperlink": "[Click here]({{url}}) to download the image!",
+  "footer_markdown": "Command executed by {{user}}",
+  "profileUtil": {
+    "about_me": "About me",
+    "note": "Note",
+    "friends": "Friends",
+    "servers": "Servers",
+    "notMarried": "Status: Not married",
+    "message": "here is your profile",
+    "marriedWith": "Married with\n{{user}}",
+    "marriedWith2": "Married with {{user}}"
+  },
+  "blockedCommands": "this channel was configured to not receive commands from me. Use commands on another channel!",
+  "invalidUsers": {
+    "plural": "I searched everywhere, mentions, messages, ID's and guilds, but it seems that {{list}} are not valid users.",
+    "nouns": "I searched everywhere for mentions, messages, ID's and servers, but it seems that `{{list}}` is not a valid user.",
+    "none": "I searched everywhere for mentions, messages, ID's and servers, but I couldn't find any valid users in your message."
+  },
+  "clickHere_hyperlink": "[Click here]({{link}})",
+  "action_commands": {
+    "embed_footer": "Click the button to reciprocate!",
+    "reciprocate": "Reciprocate"
+  },
+  "invalidChannels": "I did not identify any channels in your message, I search between mentions and ID's, try again!",
+  "Boolean": {
+    "yesOrNo": {
+      "true": "Yes",
+      "false": "No"
+    },
+    "trueOrFalse": {
+      "true": "True",
+      "falso": "False"
+    }
+  },
+  "guildCreate": {
+    "embed": [
+      "Hi {{inviter}}, I was recently added to` {{guild}} `, it's a pleasure to be available to help you and your team on this server. Anyway, I think it's time to introduce myself, in case you are getting to know me now, I'm {{name}}, a simple bot for Discord. My goal is to help as many people as possible on this platform, whether helping with **Moderation**, **Administration**, **Entertainment**, **Music** and many others!",
+      "And if you are really getting to know me now, I bet you are curious to know what I do, right? I do a lot of things, ban users, make an image command, play a song and many others. To see all my \"skills\" use `d!help`, I will send you several super cool commands about me.",
+      "And if you need help, don't forget, I have a **Support Server**, you can join it using {{support}}, get in there. I hope you are well received.",
+      "I hope you enjoyed the \"little bit\" I told you about, sorry to bother you and I hope to see you around."
+    ]
+  },
+  "moderation": {
+    "youCannotPunish": "You cannot punish `{{list}}`, as you do not have the necessary permissions to do so.",
+    "iCannotPunish": "I cannot punish `{{list}}`, my position is less than that of the user to be punished! So that I can punish, climb my position to the top of the list of positions, thank you!",
+    "noReason": "No reason set.",
+    "punishmentConfirm": "you are about to punish `{{list}}` on your server!\n\n<:kurama_coffee:826415473775869962> **|** Click the <:certo:713730585989873767> to confirm the action or click at the <:errado:639895787983339531> to cancel the action.",
+    "notBePunished": "user will not be punished! I hope he learns this time! <:kurama_knife:770307319325130753>",
+    "punished": "ready, that idiot was punished! minus a riot on the server. registered reason `{{reason}}`",
+    "kick": {
+      "notOnServer": {
+        "nouns": "the {{list}} user exists, but is not on the server, and due to API limitations, I cannot kick that user.",
+        "plural": "{{list}} users exist, but are not on the server, and due to API limitations, I cannot kick these users."
+      }
+    },
+    "punishments": {
+      "kicked": "Kicked",
+      "banned": "Banned",
+      "unbanned": "Unbanned"
+    },
+    "log": {
+      "title": "The staffs took action!",
+      "description": "The user was punished for breaking the rules of **{{guild}}**, doing what, right? If you had read the <#{{rulesID}}> or if you were a less stupid person, maybe so she could stay here.",
+      "tag": "User Tag:",
+      "id": "User ID:",
+      "reason": "Reason:",
+      "duration": "Duration:",
+      "messageContent": "Whoops! Is this a punished user? It looks like it! **{{userTag}} {{userID}}** was punished by `{{staffTag}} ({{staffID}})`",
+      "permanent": "Permanently"
+    }
+  },
+  "reaction_logs": {
+    "added": "{{user}} Reacted with the emoji in the message.",
+    "channel": "Text channel",
+    "message_id": "Message ID",
+    "reaction_name": "Reaction name",
+    "reaction": "Reaction",
+    "user_id": "User ID"
+  },
+  "linkBlocker": {
+    "message": {
+      "default": "Sorry but you can not send this link here in this channel... If you think this is an error, look for the server management team."
+    }
+  },
+  "pending_restart": "**Scheduled update**, we would like to warn you that the bot can be restarted at any time, I will probably be back after ~1 minuto e 20 segundos after after restarting... Sorry for the inconvenience! <:kurama_sob:826430408173813820>",
+  "disableCommand": "This command has been disabled due to technical problems, sorry for the inconvenience.",
+  "verification_level": {
+    "NONE": "None",
+    "LOW": "Low",
+    "MEDIUM": "Medium",
+    "HIGH": "High (╯°□°）╯︵ ┻━┻",
+    "VERY_HIGH": "Very high (ノಠ益ಠ)ノ彡┻━┻"
+  },
+  "regions": {
+    "brazil": ":flag_br: Brazil",
+    "eu-central": ":flag_eu: Europa Central",
+    "singapore": ":flag_sg: Singapore",
+    "us-central": ":flag_us: E.U.A Central",
+    "sydney": ":flag_au: Sydney",
+    "us-east": ":flag_us: U.S. East",
+    "us-south": ":flag_us: U.S. South",
+    "us-west": ":flag_us: U.S. West",
+    "eu-west": ":flag_eu: Europe West",
+    "vip-us-east": ":flag_us: VIP E.U.A East",
+    "london": ":flag_gb: London",
+    "amsterdam": ":flag_nl: Amsterdam",
+    "hongkong": ":flag_hk: Hong Kong",
+    "russia": ":flag_ru: Russia",
+    "southafrica": ":flag_za: South Africa",
+    "japan": ":flag_jp: Japan",
+    "europe": ":flag_eu: Europe",
+    "india": ":flag_in: India"
+  },
+  "time": {
+    "secunds": "secunds",
+    "secund": "secund",
+    "minute": "minute",
+    "minutes": "minutes",
+    "milliseconds": "milliseconds",
+    "day": "day",
+    "months": "months",
+    "month": "month",
+    "millisecund": "millisecund",
+    "year": "year",
+    "hour": "hour",
+    "week": "week"
+  },
+  "transactions": {
+    "received": "Received",
+    "send": "Send",
+    "userType": {
+      "received": "from {{user}}",
+      "send": "to {{user}}",
+      "null": ""
+    },
+    "types": {
+      "PAYMENT": ".",
+      "PROFILE": "when purchasing profile layouts.",
+      "MARRIAGE": "for marriage.",
+      "MARRIAGE_TAX": "in wedding rates.",
+      "DAILY": "on daily.",
+      "SUPPORT_BOOST": "in Support Server boosts.",
+      "BACKGROUND": "on background purchases.",
+      "KAME_BET": "on Kamehameha bets.",
+      "DBL_VOTE": "voting for me on the Discord Bot List.",
+      "CHARGEBACK": "for chargeback.",
+      "BUNDLE_PURCHASE": "on buying Kurama-Coins.",
+      "COINFLIP_BET": "on bets by spinning a coin."
+    }
+  }
+}

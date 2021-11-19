@@ -1,0 +1,202 @@
+{
+  "error": {
+    "userPermission": {
+      "inGuild": "Você não tem as permissões necessárias para utilizar esse comando! Para utilizar, você precisa ter as permissões `{{perm}}`!",
+      "inChannel": "Você não tem as permissões necessárias em {{channel}} para utilizar esse comando! Para utilizar, você precisa ter as permissões `{{perm}}`!"
+    },
+    "botPermission": {
+      "inGuild": "Eu queria executar este comando, mas infelizmente eu não tenho permissão para `{{perm}}`! Peça para alguém da administração dar esta permissão para mim! Obrigado!",
+      "inSpecificChannel": "Eu queria executar este comando, mas infelizmente eu não tenho permissão para `{{perm}}` no canal! Peça para alguém da administração dar esta permissão para mim! Obrigado!"
+    },
+    "missingArguments": "sem os argumentos necessários, verifique o uso usando `{{prefix}}help {{command}}`",
+    "discordError": "Alguma coisa deu extremamente errada ao executar este comando... Desculpe pela inconveniência. `{{error}}`",
+    "onlyDevs": "Apenas pessoas especiais podem utilizar esse comando :3",
+    "interaction": {
+      "youCanNot": "Você não pode interagir com esse componente, apenas o autor do comando pode.",
+      "noInteract": "Espere um minuto... você não é {{user}}! Isso não é para você, vá embora!"
+    },
+    "notFoundImage": "Desculpe, mas eu não achei nenhuma imagem que eu possa usar! Eu tentei pegar imagens em links, imagens anexadas, avatares de usuários mencionados, emojis... mas eu não achei nada disso na sua mensagem.",
+    "youReBanned": "Você não pode utilizar meus comandos, você está **banido**!\n✍️ **|** Motivo: `{{reason}}`"
+  },
+  "status": {
+    "disabled": "Desativado",
+    "enabled": "Habilitado"
+  },
+  "deferReply": "Eu estou pensando... Espere um momento.",
+  "onlyguilds": "você não pode usar este comando em mensagens privadas!",
+  "mention": "Olá! Meu prefix nesse servidor é `{{prefix}}`, se você precisar de ajuda, use `{{prefix}}help`",
+  "cooldown": {
+    "hours": "Espera aí! Você precisa esperar **algumas horas**, antes de executar outro comando!",
+    "milliseconds": "Espera aí! Você precisa esperar **alguns {{time}}**, antes de executar outro comando!",
+    "default": "Espera aí! Você precisa esperar **{{time}} {{context}}**, antes de executar outro comando!"
+  },
+  "database": {
+    "registeredUser": "opa! Tudo pronto, agora você está registrado na minha Database!",
+    "registeredGuild": "Opa, olá galera! Tudo pronto, agora esta guild está registrada na minha Database! Se divirtam.",
+    "notFoundProfile": "não encontrei seu perfil ou o perfil do seu amigo em minha database"
+  },
+  "buttons": {
+    "link": "Abrir {{item}} no navegador"
+  },
+  "coins": {
+    "youDoNotHaveMoney": "você não tem coins suficientes para isso! Precisa pegar mais dailys amigo...",
+    "invalidValue": "valor de Kurama-Coins inválido, poderia por favor colocar algo que seja válido? Por favor <3",
+    "dontHaveEnoughMoney": "você não tem **Kurama Coins** suficientes para finalizar este comando, volte quando tiver o dinheiro para utilizar este comando.",
+    "heDontHaveEnoughMoney": "{{user}} não tem **Kurama Coins** suficientes para finalizar este comando, volte quando tiver o dinheiro para utilizar este comando.",
+    "applyRate": "Você precisa apostar um pouco mais, vamos lá! Eu preciso aplicar taxa, acha que sobrevivo como nessa crise?"
+  },
+  "onlyguild": "você não pode usar esse comando em mensagens privadas!",
+  "image_hyperlink": "[Clique aqui]({{url}}) para baixar a imagem!",
+  "footer_markdown": "Comando executado por {{user}}",
+  "profileUtil": {
+    "about_me": "Sobre mim",
+    "note": "Nota",
+    "friends": "Amigos",
+    "servers": "Servidores",
+    "notMarried": "Status: Solteiro",
+    "message": "aqui está seu perfil",
+    "marriedWith": "Casado com\n{{user}}",
+    "marriedWith2": "Casado com {{user}}"
+  },
+  "blockedCommands": "este canal foi configurado para não receber comandos meus. Use comandos em outro canal!",
+  "invalidUsers": {
+    "plural": "Eu procurei por todo lugar, menções, mensagens, ID's e servidores, mas tudo indica que, `{{list}}` não são usuários válidos.",
+    "nouns": "Eu procurei por todo lugar, menções, mensagens, ID's e servidores, mas tudo indica que, `{{list}}` não é um usuário válido.",
+    "none": "Eu procurei por todo lugar, menções, mensagens, ID's e servidores, mas não achei nenhum usuário válido na sua mensagem."
+  },
+  "moderation": {
+    "noReason": "O motivo não foi informado."
+  },
+  "clickHere_hyperlink": "[Clique aqui]({{link}})",
+  "action_commands": {
+    "embed_footer": "Clique no botão para retribuir!",
+    "reciprocate": "Retribuir"
+  },
+  "invalidChannels": "Não identifiquei nenhum canal na sua mensagem, eu procuro entre menções e ID's, tente novamente!",
+  "Boolean": {
+    "yesOrNo": {
+      "true": "Sim",
+      "false": "Não"
+    },
+    "trueOrFalse": {
+      "true": "Verdadeiro",
+      "falso": "Falso"
+    }
+  },
+  "guildCreate": {
+    "embed": [
+      "Olá {{inviter}}, recentemente eu fui adicionado ao `{{guild}}`, é um prazer estar disponível para ajudar você e sua equipe neste servidor. Enfim, acho que é hora de me apresentar, caso você esteja me conhecendo agora, eu sou o {{name}}, um simples bot para o Discord. O meu objetivo é ajudar o máximo de pessoas possíveis nessa plataforma, seja ajudando com **Moderação**, **Administração**, **Entretenimento**, **Música** e muito outros!",
+      "E se você estiver mesmo me conhecendo agora, aposto que está curioso para saber o que eu faço né? Eu faço várias coisas, banir usuários, fazer um comando de imagem, tocar uma música e muitos outros. Para ver todas as minhas \"habilidades\" use `d!help`, eu te enviarei vários comandos super legais sobre mim.",
+      "E se caso você precise de ajuda, não se esqueça, eu tenho um **Servidor de Suporte**, você pode entrar nele usando o {{support}}, entra lá. Espero que você seja bem recebido.",
+      "Espero que você tenha gostado do \"pouquinho\" eu falei de mim, desculpe incomodar e espero vê-lo por aí."
+    ]
+  },
+  "moderation": {
+    "youCannotPunish": "Você não pode punir `{{list}}`, pois você não tem permissões necessárias para isso.",
+    "iCannotPunish": "Eu não posso punir `{{list}}`, meu cargo é menor que o do usuário a ser punido! Para que eu possa punir, suba o meu cargo para o topo na lista de cargos, obrigado!",
+    "noReason": "Sem motivo definido.",
+    "punishmentConfirm": "você está prestes a punir `{{list}}` no seu servidor!\n\n<:kurama_coffee:826415473775869962> **|** Clique no <:certo:713730585989873767> para confirmar a ação ou clique no <:errado:639895787983339531> para cancelar a ação. ",
+    "notBePunished": "usuário não será punido! Espero que ele aprenda dessa vez! <:kurama_knife:770307319325130753>",
+    "punished": "prontinho, esse idiota foi punido! Menos um baderneiro no servidor. Motivo registrado `{{reason}}`",
+    "kick": {
+      "notOnServer": {
+        "nouns": "o usuário {{list}} existe, porém não está no servidor, e devido a limitações da API, eu não posso kickar esse usuário.",
+        "plural": "os usuários {{list}} existem, porém não estão no servidor, e devido a limitações da API, eu não posso kickar esses usuários."
+      }
+    },
+    "punishments": {
+      "kicked": "Kickado",
+      "banned": "Banido",
+      "unbanned": "Desbanido"
+    },
+    "log": {
+      "title": "Os staffs entraram em ação!",
+      "description": "O usuário foi punido por quebrar as regras do **{{guild}}**, fazer o quê né? Se tivesse lido as <#{{rulesID}}> ou se fosse uma pessoa menos babaca, talvez assim ela pudesse ficar aqui.",
+      "tag": "Tag de Usuário:",
+      "id": "ID do Usuário:",
+      "reason": "Motivo:",
+      "duration": "Duração:",
+      "messageContent": "Epa! Isso é um usuário punido? Parece que sim! **{{userTag}} {{userID}}** foi punido por `{{staffTag}} ({{staffID}})`",
+      "permanent": "Permanente"
+    }
+  },
+  "reaction_logs": {
+    "added": "{{user}} Reagiu com o emoji na mensagem.",
+    "channel": "Canal de texto",
+    "message_id": "ID da mensagem",
+    "reaction_name": "Nome da reação",
+    "reaction": "Reação",
+    "user_id": "ID do usuário"
+  },
+  "linkBlocker": {
+    "message": {
+      "default": "desculpe! Mas você não pode enviar este link aqui neste canal... Se você acha que isto é um erro, procure a equipe de administração do servidor."
+    }
+  },
+  "pending_restart": "**Atualização programada**, gostaríamos de avisar que o bot pode ser reiniciado à qualquer momento, provavelmente voltarei depois de ~1 minuto e 20 segundos após reiniciar... Desculpe pela inconveniência! <:kurama_sob:826430408173813820>",
+  "disableCommand": "Este comando foi desabilitado por problemas técnicos, desculpe pela inconveniência.",
+  "verification_level": {
+    "NONE": "Nenhum",
+    "LOW": "Baixo",
+    "MEDIUM": "Médio",
+    "HIGH": "Alto (╯°□°）╯︵ ┻━┻",
+    "VERY_HIGH": "Muito alto (ノಠ益ಠ)ノ彡┻━┻"
+  },
+  "regions": {
+    "brazil": ":flag_br: Brasil",
+    "eu-central": ":flag_eu: Europa Central",
+    "singapore": ":flag_sg: Singapura",
+    "us-central": ":flag_us: E.U.A Central",
+    "sydney": ":flag_au: Sydney",
+    "us-east": ":flag_us: U.S. Leste",
+    "us-south": ":flag_us: U.S. Sul",
+    "us-west": ":flag_us: U.S. Oeste",
+    "eu-west": ":flag_eu: Europa Ocidental",
+    "vip-us-east": ":flag_us: VIP E.U.A Leste",
+    "london": ":flag_gb: Londres",
+    "amsterdam": ":flag_nl: Amsterdam",
+    "hongkong": ":flag_hk: Hong Kong",
+    "russia": ":flag_ru: Rússia",
+    "southafrica": ":flag_za: África do Sul",
+    "japan": ":flag_jp: Japão",
+    "europe": ":flag_eu: Europa",
+    "india": ":flag_in: India"
+  },
+  "time": {
+    "secunds": "segundos",
+    "secund": "segundo",
+    "minute": "minuto",
+    "minutes": "minutos",
+    "milliseconds": "milissegundos",
+    "day": "dia",
+    "months": "meses",
+    "month": "mês",
+    "millisecund": "millisegundo",
+    "year": "ano",
+    "hour": "hora",
+    "week": "semana"
+  },
+  "transactions": {
+    "received": "Recebeu",
+    "send": "Enviou",
+    "userType": {
+      "received": "de {{user}}",
+      "send": "para {{user}}",
+      "null": ""
+    },
+    "types": {
+      "PAYMENT": ".",
+      "PROFILE": "em compras de layouts de perfil.",
+      "MARRIAGE": "para casamento.",
+      "MARRIAGE_TAX": "em taxas de casamento.",
+      "DAILY": "no daily.",
+      "SUPPORT_BOOST": "em boosts do Servidor de Suporte.",
+      "BACKGROUND": "em compras de backgrounds.",
+      "KAME_BET": "em apostas de Kamehameha.",
+      "DBL_VOTE": "votando em mim no Discord Bot List.",
+      "CHARGEBACK": "por devoluções de dinheiro (chargeback).",
+      "BUNDLE_PURCHASE": "em compra de Kurama-Coins.",
+      "COINFLIP_BET": "em apostas girando uma moeda."
+    }
+  }
+}
