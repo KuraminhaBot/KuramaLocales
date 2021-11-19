@@ -426,11 +426,11 @@
   },
   "mcplayerinfo": {
     "config": {
-      "description": "Mostra as informações de um jogador do Minecraft.",
+      "description": "Shows the informations for a Minecraft account.",
       "examples": [
-        "PeterStark000 |-| Veja as informações da conta \"PeterStark000\"",
-        "viniccius13 |-| Veja as informações da conta \"viniccius13\"",
-        "AuthenticGames |-| Veja as informações da conta \"AuthenticGames\""
+        "PeterStark000 |-| See the account \"PeterStark000\" information",
+        "viniccius13 |-| See the account \"viniccius13\" information",
+        "AuthenticGames |-| See the account \"AuthenticGames\" information"
       ]
     },
     "notFound": "I have logged into various worlds, servers, Minecraft maps and I have not found this player... Are you sure it exists?",
@@ -469,8 +469,8 @@
       ]
     },
     "banInfo": "All ban information for `{{user}}`",
-    "noReason": "No reason informed",
-    "isNotBanned": "This user is not banned (at least not yet `^-^`).",
+    "noReason": "No reason given",
+    "isNotBanned": "this user is not banned (at least not yet `^-^`).",
     "clickToUnban": "To unban the user, click {{emoji}}.",
     "reason": "Reason",
     "userUnbanned": "ready ^^, the user has been unbanned from your server I hope she learn this time.",
@@ -870,7 +870,7 @@
         "@Kuraminha#7575 |-| Punishes a user for mention... but don't punish me, a cute fox did nothing to deserve this okay? ;3",
         "361977144445763585 |-| Punishes the user by ID",
         "361977144445763585 Breaking server rules |-| Punishes the user by ID and with a reason",
-        "361977144445763585 705179663550513263 822117348608573470 Quebrar as regras do servidor |-| Pune vários usuários pelo ID e com um motivo",
+        "361977144445763585 705179663550513263 822117348608573470 Break the server rules |-| Punishes multiple users by ID and with a reason",
         "361977144445763585 Breaking server rules | f |-| Punishes the user by ID, with a reason and doesn't ask for confirmation of the punishment",
         "361977144445763585 Breaking server rules | s |-| Punishes the user by ID, with a reason and doesn't notify the punishment"
       ]
@@ -883,7 +883,7 @@
         "@Kuraminha#7575 |-| Punishes a user for mention... but don't punish me, a cute fox did nothing to deserve this okay? ;3",
         "361977144445763585 |-| Punishes the user by ID",
         "361977144445763585 Breaking server rules |-| Punishes the user by ID and with a reason",
-        "361977144445763585 705179663550513263 822117348608573470 Quebrar as regras do servidor |-| Pune vários usuários pelo ID e com um motivo",
+        "361977144445763585 705179663550513263 822117348608573470 Break the server rules |-| Punishes multiple users by ID and with a reason",
         "361977144445763585 Breaking server rules | f |-| Punishes the user by ID, with a reason and doesn't ask for confirmation of the punishment",
         "361977144445763585 Breaking server rules | s |-| Punishes the user by ID, with a reason and doesn't notify the punishment"
       ]
@@ -896,7 +896,7 @@
         "@Kuraminha#7575 |-| Punishes a user for mention... but don't punish me, a cute fox did nothing to deserve this okay? ;3",
         "361977144445763585 |-| Punishes the user by ID",
         "361977144445763585 Breaking server rules |-| Punishes the user by ID and with a reason",
-        "361977144445763585 705179663550513263 822117348608573470 Quebrar as regras do servidor |-| Pune vários usuários pelo ID e com um motivo",
+        "361977144445763585 705179663550513263 822117348608573470 Break the server rules |-| Punishes multiple users by ID and with a reason",
         "361977144445763585 Breaking server rules | f |-| Punishes the user by ID, with a reason and doesn't ask for confirmation of the punishment",
         "361977144445763585 Breaking server rules | s |-| Punishes the user by ID, with a reason and doesn't notify the punishment"
       ]
