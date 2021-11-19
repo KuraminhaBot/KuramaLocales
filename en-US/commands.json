@@ -426,11 +426,11 @@
   },
   "mcplayerinfo": {
     "config": {
-      "description": "Shows the informations for a Minecraft account.",
+      "description": "Mostra as informações de um jogador do Minecraft.",
       "examples": [
-        "PeterStark000 |-| Use the \"PeterStark000\" account",
-        "viniccius13 |-| Use the \"viniccius13\" account",
-        "AuthenticGames |-| Use the \"AuthenticGames\" account"
+        "PeterStark000 |-| Veja as informações da conta \"PeterStark000\"",
+        "viniccius13 |-| Veja as informações da conta \"viniccius13\"",
+        "AuthenticGames |-| Veja as informações da conta \"AuthenticGames\""
       ]
     },
     "notFound": "I have logged into various worlds, servers, Minecraft maps and I have not found this player... Are you sure it exists?",
@@ -929,7 +929,7 @@
     "autoArchiveDuration": "Auto Archive",
     "archivedAt": "Archived At",
     "archived": "Archived",
-    "members": "Membros",
+    "members": "Members",
     "slowmode": "Slowmode",
     "private": "Private"
   },
@@ -1071,7 +1071,7 @@
   },
   "bwbattles": {
     "config": {
-      "description": "Veja os logs de batalhas de um jogador do Brawl Stars"
+      "description": "See the brawler's of a Brawl Stars player"
     },
     "ranked": "Ranked",
     "friendly": "Friendly",
