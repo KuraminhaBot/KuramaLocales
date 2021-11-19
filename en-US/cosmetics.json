@@ -1,56 +1,56 @@
 {
   "backgrounds": {
     "default": {
-      "noHasDescription": "Este background não tem uma descrição definida!"
+      "noHasDescription": "This background hasn't a defined description!"
     },
     "OrangeBackground": {
-      "name": "Simplesmente Cor Laranja",
-      "description": "O background padrão que você utiliza!",
+      "name": "Simply Orange Color",
+      "description": "The default background that you use!",
       "collection": "Rede Dark"
     },
     "AquaBackground": {
-      "name": "Simplesmente Cor Aqua",
-      "description": "A versão do background padrão, porém com a cor aqua.",
+      "name": "Simply Aqua Color",
+      "description": "The default background version, but in aqua color.",
       "collection": "Rede Dark"
     },
     "BlueBackground": {
-      "name": "Simplesmente Azulado",
-      "description": "A versão do background padrão, só que azulado.",
+      "name": "Simply Blue",
+      "description": "The default background version, but blue.",
       "collection": "Rede Dark"
     },
     "DarkBlueBackground": {
-      "name": "Simplesmente Azulado Escuro",
-      "description": "A versão do background padrão, só que azulado escurinho.",
+      "name": "Simply Dark Blue",
+      "description": "The default background version, but dark blue.",
       "collection": "Rede Dark"
     },
     "GreenBackground": {
-      "name": "Simplesmente Esverdeado",
-      "description": "A versão do background padrão, só que esverdeado.",
+      "name": "Simply Green",
+      "description": "The default background version, but green.",
       "collection": "Rede Dark"
     },
     "PinkBackground": {
-      "name": "Simplesmente Cor Rosa",
-      "description": "A versão do background padrão, porém com a cor rosa.",
+      "name": "Simply Pink",
+      "description": "The default background version, but pink.",
       "collection": "Rede Dark"
     },
     "PurpleBackground": {
-      "name": "Simplesmente Cor Roxa",
-      "description": "A versão do background padrão, porém com a cor roxa.",
+      "name": "Simply Purple",
+      "description": "The default background version, but purple.",
       "collection": "Rede Dark"
     },
     "RedBackground": {
-      "name": "Simplesmente Avermelhado",
-      "description": "A versão do background padrão, só que avermelhado.",
+      "name": "Simply Red",
+      "description": "The default background version, but red.",
       "collection": "Rede Dark"
     },
     "YellowBackground": {
-      "name": "Simplesmente Amarelado",
-      "description": "A versão do background padrão, só que amarelado.",
+      "name": "Simply Yellow",
+      "description": "The default background version, but yellow.",
       "collection": "Rede Dark"
     },
     "academyNarutoDark": {
       "name": "Konoha Academy, Naruto Dark",
-      "description": "Bem vindo à Konoha, mas antes de começar, vire um Genin na Academia!",
+      "description": "Welcome to Konoha, but before you start become a Genin at the Academy!",
       "collection": "Rede Dark"
     },
     "akatsukiTheme": {
