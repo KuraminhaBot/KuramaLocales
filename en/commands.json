@@ -1,0 +1,1151 @@
+{
+  "userinfo": {
+    "config": {
+      "description": "Mostra a informação de algum usuário!",
+      "examples": [
+        "|-| Mostra as informações do usuário que executou o comando.",
+        "361977144445763585 |-| Puxa as informações de um usuário pelo ID.",
+        "@PeterStark000#6011 |-| Puxa as informações do usuário que foi mencionado."
+      ]
+    },
+    "tag": "Tag do Discord:",
+    "id": "ID do Discord:",
+    "createdAt": "Conta criada em:",
+    "joinedAt": "Entrou em:",
+    "premiumSince": "Impulsionando desde:",
+    "badges": "Emblemas:",
+    "voicechannel": "Canal de Voz:"
+  },
+  "help": {
+    "config": {
+      "description": "Mostra todos os comandos do bot e suas informações.",
+      "examples": [
+        "|-| Mostra todos os comandos do bot.",
+        "falar |-| Mostra a informação específica do comando falar."
+      ]
+    },
+    "examples": "Exemplos",
+    "aliases": "Sinônimos",
+    "commands": "Comandos",
+    "Mod": "Moderação",
+    "Util": "Utilitários",
+    "Action": "Ação",
+    "Fun": "Diversão",
+    "Economy": "Economia",
+    "Music": "Música",
+    "permissions": "Permissões",
+    "add-me": "Clique aqui para me adicionar!",
+    "youNeedPermissions": "Você precisa ter permissão para `{{perm}}` para utilizar esse comando.",
+    "iNeedPermissions": "Eu preciso ter permissão para `{{perm}}` para executar esse comando."
+  },
+  "language": {
+    "config": {
+      "description": "Muda a linguagem do bot no seu servidor! Se você um dia tiver interesse, que tal vir até o nosso servidor de suporte se prontificar para ajudar!"
+    },
+    "embed": {
+      "description": "Para alterar a linguagem que eu interajo nesse servidor, reaja no emoji com a nova linguagem desejada.",
+      "title": "Escolha a linguagem desejada!"
+    },
+    "translatedBy": "Traduzido por:"
+  },
+  "say": {
+    "config": {
+      "description": "Faça eu falar alguma coisa!",
+      "examples": [
+        "Olá mundo! |-| Envia uma mensagem no canal no qual o comando foi executado, e obrigado por me chamar de foof.",
+        "#😎│bate-papo Olá mundo! |-| Envia uma mensagem no canal que foi mencionado.",
+        "297732013006389252 Olá mundo! |-| Envia uma mensagem em outro canal pelo ID.",
+        "{ \"embed\": { \"description\": \"Olá mundo\", \"color\": \"BLURPLE\" } } |-| Envia uma mensagem com embed usando o código JSON do embed."
+      ]
+    },
+    "messageSend": "Mensagem enviada em {{channel}} com sucesso!",
+    "markdown": "**Mensagem enviada por {{user}}**"
+  },
+  "invite": {
+    "botInvite": "Deseja me adicionar a outros servidores do Discord? Então [clique aqui]({{invite}}) para me adicionar a outro servidor!",
+    "haveFun": "Você não tem ideia de como isso me ajuda :person_bowing:. Espero estar em servidores suficientes para poder trabalhar e te divertir!",
+    "supportGuild": "E, claro, junte-se ao meu servidor para dar sugestões, relatar bugs e muito mais! [Entre no servidor, clique aqui]({{supportGuild}})",
+    "title": "Obrigado por me adicionar!"
+  },
+  "aboutme": {
+    "config": {
+      "description": "Troque o seu \"Sobre mim\" no perfil!",
+      "examples": [
+        "Kuraminha é meu amigo |-| Troca seu \"Sobre mim\" para a frase escrita."
+      ]
+    },
+    "sucess": "Sua mensagem do perfil foi trocada para `{{aboutMe}}`."
+  },
+  "background": {
+    "config": {
+      "description": "Com esse comando você pode comprar os seus amados backgrounds para o seu perfil. Cada background tem um valor diferente. `(Comum, Incomum, Raro, Épico e Lendário.)`",
+      "examples": [
+        "list |-| Para ver todos os backgrounds que você tem.",
+        "set OrangeBackground |-| Equipa o background padrão, Orange Background, no seu perfil.",
+        "background set kameHouse |-| Equipa o background, kameHouse, no seu perfil.",
+        "background set random |-| Ativa o modo aleatório, backgrounds aleatórios irão aparecer no seu perfil."
+      ]
+    },
+    "noHasDescription": "Não há nenhuma descrição para esse background!",
+    "notFoundArtist": "Eu não encontrei o artista.",
+    "name": "Nome:",
+    "price": "Preço:",
+    "collection": "Coleção:",
+    "rarity": "Raridade:",
+    "artist": "Artista:",
+    "dontHaveMoney": "você não tem dinheiro suficiente para comprar esse background.",
+    "alreadyHave": "você já tem esse background, vai comprar de novo por quê?",
+    "youPurchased": "você comprou o background `{{name}} ({{fileName}})`, você pode usar-lo usando, `d!background set {{fileName}}`.",
+    "backList": "aqui estão todas as opções para você: `random, {{list}}`.",
+    "randomMode": "agora o modo de background random está ativo, toda vez que alguém visualizar seu profile aparecerá um background diferente!",
+    "disableRandomMode": "agora o modo de background random está desativado, o seu antigo background que estava ativo aparecerá sempre no seu profile!",
+    "dontHave": "você não tem esse background, ou ele não existe.",
+    "usingNow": "você agora está usando o `{{name}}` como o seu background no perfil.",
+    "selectYourBackground": "Selecione seu background",
+    "selectThis": "Selecionar este",
+    "randomModeB": "Modo Aleatório"
+  },
+  "background-set": {
+    "config": {
+      "description": "Gerencie a imagem que aparece de fundo no seu perfil!"
+    }
+  },
+  "avatar": {
+    "config": {
+      "description": "Mostra o avatar do usuário ou de um bot.",
+      "examples": [
+        "|-| Veja o seu avatar, usando o comando.",
+        "640593174171090984 |-| Veja o avatar da raposa mais linda do site.",
+        "@PeterStark000#6011 |-| Veja o avatar da pessoa mencionada."
+      ]
+    },
+    "noHas": "Este usuário não está utilizando nenhum avatar.",
+    "noHasGuild": "Este usuário não possuí nenhum avatar customizado neste servidor.",
+    "artist": "Meu avatar!\n🎨 • Fan art feita por: {{artist}}",
+    "notFountMember": "Eu procurei por este membro aqui no servidor, mas não o encontrei, talvez ele possa ter saído desta guild!",
+    "guild": "Avatar no Servidor",
+    "normal": "Avatar de Usuário"
+  },
+  "serverinfo": {
+    "config": {
+      "description": "Veja as informações de um servidor do Discord.",
+      "examples": [
+        "|-| Veja as informações do servidor atual.",
+        "417061847489839106 |-| Veja as informações do servidor no qual o ID foi fornecido."
+      ]
+    },
+    "boostLevel0": "Nenhum.",
+    "owner": "Dono",
+    "createdAt": "Criado em",
+    "channel": {
+      "channels": "Canais",
+      "text": "Texto",
+      "voice": "Voz",
+      "news": "Anúncios",
+      "store": "Loja",
+      "stage": "Palco"
+    },
+    "threads": {
+      "public_thread": "Públicas",
+      "private_thread": "Privadas",
+      "news_thread": "Anúncio"
+    },
+    "member": {
+      "members": "Membros",
+      "users": "Usuários"
+    },
+    "roles": "Cargos",
+    "locale": "Idioma Principal",
+    "verification_level": "Nível de Verificação"
+  },
+  "serverbanner": {
+    "config": {
+      "description": "Veja o banner de um servidor do Discord.",
+      "examples": [
+        "|-| Veja o banner do servidor atual.",
+        "417061847489839106 |-| Veja o banner do servidor no qual o ID foi fornecido."
+      ]
+    },
+    "noHasBanner": "O servidor não tem um banner definido."
+  },
+  "botinfo": {
+    "config": {
+      "description": "Veja todas as informações do bot usando este comando"
+    },
+    "description": "Olá, tudo bem? Eu sou o **{{bot}}**, um BOT desenvolvido no Brasil para ajudar servidores nas partes de **Moderação**, **Administração**, **Entretenimento e muitos outros.** Atualmente estou tentando crescer, e se você quer contribuir com isso, use: `{{prefix}}invite`.",
+    "servers": "Servidores",
+    "libraryField": "Feito em [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript), usando [Discord JS](https://discord.js.org/)",
+    "supportGuild": "Servidor Suporte:",
+    "createdBy": "Bot criado por {{user}}",
+    "addMe": "Me adicione:",
+    "voteMe": "Vote em mim:"
+  },
+  "kurama-coins": {
+    "config": {
+      "description": "Veja quantas Kurama-Coins você tem!",
+      "examples": [
+        "@PeterStark000#6011 |-| Mostra a quantidade de Kurama-Coins que o usuário mencionado possui.",
+        "640593174171090984 |-| Mostra as Kurama-Coins do usuário por ID"
+      ]
+    },
+    "youBalance": "você possui **{{coins}} Kurama Coins**!",
+    "userBalance": "**__{{user}}__** possui **{{coins}} Kurama Coins**!"
+  },
+  "kurama-ban": {
+    "config": {
+      "description": "Com esse comando bana algum usuário de utilizar o bot.",
+      "examples": [
+        "@PeterStark000#6011 |-| Bane o usuário do bot pela menção.",
+        "361977144445763585 |-| Bane o usuário do bot pelo ID e sem definir um motivo.",
+        "361977144445763585 | Quebrar os termos de uso |-| Bane um usuário do bot pelo ID com um definindo um motivo.",
+        "361977144445763585 | Quebrar os termos de uso | en-US |-| Bane um usuário do bot pelo ID com um definindo um motivo e usando uma locale especifica.",
+        "361977144445763585 | Quebrar os termos de uso | darkSync |-| Bane um usuário do bot e da Rede Dark pelo ID com um definindo um motivo.",
+        "361977144445763585 | Quebrar os termos de uso | en-US | darkSync |-| Bane um usuário do bot e da Rede Dark pelo ID com um definindo um motivo e usando uma locale especifica."
+      ]
+    },
+    "bannedMessage": {
+      "1": "Parabéns! Você foi devidamente __banido__ de usar o Kuraminha Bot e suas outras versões. ᕙ(⇀‸↼‶)ᕗ",
+      "2": "Que pena... Será que o pobre usuário fez algo de errado? É tão complicado assim seguir as minhas regras e as regras do Servidor de Suporte? Se quiser eu posso desenhar pra você. Espero que você aprenda a ser uma pessoa melhor. Mas enquanto as pessoas não sabem ser sociáveis, elas continuam banidas de me utilizar.",
+      "3": "**» __Motivo__:** {{reason}}\n**» __Duração__:** Permanente.",
+      "4": "Se você acha que o ban foi injusto (o quê provavelmente não foi), você pode ir no meu servidor de Suporte ({{invite}}), caso não esteja banido nele, tentar pedir unban. Ou se você está arrependido (estar arrependido não significa que você será desbanido) você pode ir lá tentar também.",
+      "5": "Gostaria de lembra-lo que, usar o Kuraminha não é um direito, mas sim um privilégio. Desculpe pela inconveniência... Ou, se você foi banido por um motivo justo, sofra com a inconveniência!!"
+    }
+  },
+  "bite": {
+    "config": {
+      "description": "Alguém te irrita no servidor? Não deixe barato, dê uma mordida nessa pessoa!",
+      "examples": [
+        "@PeterStark000#6011 |-| Morda o usuário mencionado.",
+        "361977144445763585 |-| Morda um usuário pelo ID dele."
+      ]
+    },
+    "heBit": "mordeu",
+    "dontBitMe": "tá louco filho? Tentando morder uma bijuu!? Perdeu a cabeça?",
+    "cantBitYourself": "Você não pode morder a si mesmo!"
+  },
+  "eat": {
+    "config": {
+      "description": "Você tem aquele amigo que diz que é gostosinho? Por quê não provar? Já que ele diz que é gostoso, experimente uwu.",
+      "examples": [
+        "@PeterStark000#6011 |-| Coma o usuário mencionado.",
+        "361977144445763585 |-| Coma um usuário pelo ID dele."
+      ]
+    },
+    "eats": "comeu com toda força",
+    "dontEatsMe": "tá louco filho? Eu sou uma bijuu fofinha uwu (⁄ ⁄•⁄ω⁄•⁄ ⁄) e não um pedaço de carne.",
+    "cantEatsYourself": "Você não pode comer a si mesmo! Eu acho..."
+  },
+  "highfive": {
+    "config": {
+      "description": "Depois de um trabalho em equipe, nada melhor do que comemorar algo com seu companheiro né? Toca aqui!!",
+      "examples": [
+        "@PeterStark000#6011 |-| Faça um \"toque aqui\" com o usuário mencionado.",
+        "361977144445763585 |-| Faça um \"toque aqui\" com um usuário pelo ID dele."
+      ]
+    },
+    "madeAction": "fez um \"toca aqui\" aqui com",
+    "cantThisYourself": "Você não pode fazer isso com si mesmo!"
+  },
+  "hug": {
+    "config": {
+      "description": "Está carente? Ou seu amigo está carente? Dê um abraço bem quentinho nele.",
+      "examples": [
+        "@PeterStark000#6011 |-| Abrace o usuário mencionado.",
+        "361977144445763585 |-| Abrace um usuário pelo ID dele."
+      ]
+    },
+    "hugs": "abraçou",
+    "selfhug": "abraçou a si mesmo"
+  },
+  "kill": {
+    "config": {
+      "description": "Alguém te irritou? Retribua matando ela (apenas no bot, isto é errado na vida real, talkei? uwu) usando esse comando!",
+      "examples": [
+        "@PeterStark000#6011 |-| Mate o usuário mencionado.",
+        "361977144445763585 |-| Mate um usuário pelo ID dele."
+      ]
+    },
+    "dontKillMe": "tá louco filho? Eu sou uma bijuu, te esmago numa porrada.",
+    "dontKillYourself": "Você não pode cometer suícidio, valorize a vida. Se estiver passando por problemas, busque ajuda. ❤️",
+    "kill": "matou"
+  },
+  "kiss": {
+    "config": {
+      "description": "Sentiu um clima no ar? Aproveite a deixa e beije alguém 👀.",
+      "examples": [
+        "@PeterStark000#6011 |-| Beije o usuário mencionado.",
+        "361977144445763585 |-| Beije um usuário pelo ID dele."
+      ]
+    },
+    "kiss": "beijou",
+    "dontKissMe": "tá louco filho? Gosto de você, mas como amigo, talkei?",
+    "cantKissYourself": "Você não pode beijar a si mesmo!"
+  },
+  "pat": {
+    "config": {
+      "description": "Tem algum amiguinho carente? Ou quer apenas retribuir um carinho e afeto? Que tal fazer um cafuné nele?",
+      "examples": [
+        "@PeterStark000#6011 |-| Faça cafuné no usuário mencionado.",
+        "361977144445763585 |-| Faça cafuné em um usuário pelo ID dele."
+      ]
+    },
+    "pats": "fez um cafuné em",
+    "cantPatYourself": "Você não pode fazer cafuné em si mesmo!"
+  },
+  "punch": {
+    "config": {
+      "description": "Tá com vontade de dar na cara de alguém? Adivinha! É o seu dia de sorte, você pode fazer isso virtualmente ^-^.",
+      "examples": [
+        "@PeterStark000#6011 |-| Soque o usuário mencionado.",
+        "361977144445763585 |-| Soque um usuário pelo ID dele."
+      ]
+    },
+    "punched": "socou",
+    "cantPunchYourself": "Você não pode socar a si mesmo!"
+  },
+  "to-bown": {
+    "config": {
+      "description": "Seu amigo transcendeu numa resposta? Nada melhor do que se curvar perante tanta sabedoria.",
+      "examples": [
+        "@PeterStark000#6011 |-| Se curve perante ao usuário mencionado.",
+        "361977144445763585 |-| Se curve para um usuário pelo ID dele."
+      ]
+    },
+    "bowed": "se curvou perante a"
+  },
+  "play": {
+    "config": {
+      "description": "Faça o bot tocar uma música na call onde você está!",
+      "examples": [
+        "positions - ari |-| Toca a música \"Positions\" de Ariana Grande na call onde você está.",
+        "https://www.youtube.com/watch?v=t_NcYj0e_J8 |-| Procura e toca uma música pelo link informado na call onde você está! Esses versos parecem serem feitos para mim 👀!",
+        "https://www.youtube.com/watch?v=P7GL97LN3Ng&list=PLeTgUtymqw_g-SZ_PXS14BRT_A8mqGkqc |-| Adiciona músicas de uma playlist do youtube à lista de reprodução do bot."
+      ]
+    },
+    "playingNow": "Tocando agora `{{song}}` na call.",
+    "missingCall": "Você precisa estar em um canal de voz para usar este comando.",
+    "youCantAddSong": "Você precisa estar na mesma call onde as músicas estão sendo tocadas.",
+    "addQueue": "Prontinho! `{{song}}` foi adicionada à playlist!",
+    "playlistWithNoQueue": "Aparentemente você colocou um link para uma playlist, eu sugiro que você execute o comando novamente com a mesma playlist, então você pode ouvir a playlist inteira e não só apenas uma música ^^",
+    "playlistAdded": "Eu adicionei as músicas na minha playlist! Curta a música! Total de {{songs}} músicas."
+  },
+  "leave": {
+    "config": {
+      "description": "Me faça sair da call onde as músicas estão sendo tocadas."
+    },
+    "leavingCall": "Obrigado por tudo! Estou saindo da call, fico te esperando para a próxima balada!",
+    "noCall": "Não estou em nenhuma call no momento. Que tal começar a festa?"
+  },
+  "skip": {
+    "config": {
+      "description": "Pula a música que está sendo tocada no momento na call.",
+      "examples": [
+        "|-| Cria uma votação para que possa pular a música.",
+        "force |-| Pula a música sem que haja uma votação."
+      ]
+    },
+    "skipedMusic": "música pulada com sucesso!",
+    "voteSkip": "para pular a música, clique na reação abaixo, são necessários **{{number}} votos** para pular a música.",
+    "nextSong": "💿 **|** Próxima música: `{{nextSong}} - Pedido por: {{user}}`"
+  },
+  "playing": {
+    "config": {
+      "description": "Veja a música que está sendo tocada no momento na call!"
+    },
+    "playlistDontExit": "Não estou tocando nenhuma música no momento bobinho.",
+    "playingNow": "Tocando agora `{{song}} - Pedido por: {{user}}`.",
+    "duration": "Duração",
+    "progressBar": "Progresso"
+  },
+  "playlist": {
+    "config": {
+      "description": "Veja a lista de músicas que estão na playlista da call onde eu estou tocando.",
+      "examples": [
+        "|-| Vê as 10 primeiras músicas que estão na playlist.",
+        "2 |-| Vê a página dois das músicas que estão na playlist."
+      ]
+    },
+    "pageDontExist": "Eu procurei até o infinito e além, mas não achei a página.. Creio que não hajam músicas suficientes para que ela exista.",
+    "nextSongs": "💿 **|** Próximas músicas - Total de Músicas {{total}}:\n{{songs}}"
+  },
+  "search": {
+    "config": {
+      "description": "Procure uma música para que eu possa tocar.",
+      "examples": [
+        "Wait a minute |-| Procura músicas com nome \"Wait a minute\" para colocar na call."
+      ]
+    },
+    "collectorEnd": "Talvez você não tenha fornecido um nome válido, colocado o número certo ou até mesmo esquecido do uso desse comando, tente novamente.",
+    "foundSongs": "Musicas encontradas:",
+    "choiceYourMusic": "Escolha a sua música.",
+    "howToSelect": "Como selecionar?",
+    "select": "Envie no chat o número correspondente à música escolhida, para que eu possa toca-la.",
+    "notFound": "Não encontrei nenhuma música que se encaixe no texto digitado."
+  },
+  "roleinfo": {
+    "config": {
+      "description": "Veja as informações de um cargo do seu servidor.",
+      "examples": [
+        "@✔️ » Anbus do Kurama |-| Busca as informações do cargo mencionado.",
+        "592830296265588767 |-| Busca as informações do cargo pelo seu ID.",
+        "Administrador |-| Busca as informações do cargo pelo nome dele."
+      ]
+    },
+    "notFound": "Tentei procurar por cargos mencionados, IDs, e nomes de cargos e não encontrei nenhum cargo!",
+    "ID": "ID do cargo",
+    "members": "Membros",
+    "createdAt": "Data de criação",
+    "position": "Posição",
+    "mention": "Menção",
+    "mentionable": "Mencionável",
+    "maneged": "Integração",
+    "hoist": "Exibido separadamente",
+    "color": "Cor do cargo"
+  },
+  "profile": {
+    "config": {
+      "description": "Mostra o seu perfil!",
+      "examples": [
+        "|-| Mostra o seu próprio perfil",
+        "@Kuraminha#7575 |-| Veja o perfil da raposa mais fofinha do Discord!",
+        "361977144445763585 |-| Mostra o perfil de um usuário pelo ID"
+      ]
+    },
+    "userBanned": "{{user}} está **banido(a)**! \n✍️ **|** Reason: `{{reason}}`"
+  },
+  "mcskin": {
+    "config": {
+      "description": "Mostra a skin de uma conta do Minecraft.",
+      "examples": [
+        "PeterStark000 |-| Usa a conta \"PeterStark000\"",
+        "viniccius13 |-| Usa a conta \"viniccius13\"",
+        "AuthenticGames |-| Usa a conta \"AuthenticGames\""
+      ]
+    },
+    "skin_hyperlink": "[Clique aqui]({{skin}}) para baixar a skin!"
+  },
+  "mcplayerinfo": {
+    "config": {
+      "description": "Shows the informations for a Minecraft account.",
+      "examples": [
+        "PeterStark000 |-| Use the \"PeterStark000\" account",
+        "viniccius13 |-| Use the \"viniccius13\" account",
+        "AuthenticGames |-| Use the \"AuthenticGames\" account"
+      ]
+    },
+    "notFound": "Eu entrei em vários mundos, servidores, mapas de Minecraft e não encontrei este player... Tem certeza de que ele existe?",
+    "nameHistory": "Histórico de Nomes"
+  },
+  "mcserver": {
+    "config": {
+      "description": "Mostra o status de um servidor do Minecraft",
+      "examples": [
+        "mc.hypixel.net |-| Mostra o status do servidor HyPixel.",
+        "mc.sparklypower.net |-| Mostra o status do servidor SparklyPower.",
+        "play.narutodark.com |-| Mostra o status do servidor Naruto Dark (que aliás é muito bom!)"
+      ]
+    },
+    "serverOnline": "Servidor** está **online** - ",
+    "serverOffline": "Servidor está offline - ",
+    "players": "pessoas estão jogando.",
+    "noOnePlay": "Ninguem está jogando!",
+    "latency": "Os dados acimas podem estar errados, depende da latência da API utilizada"
+  },
+  "imgur": {
+    "config": {
+      "description": "Envia uma imagem para o imgur usando este comando.",
+      "examples": [
+        "https://cdn.discordapp.com/emojis/624803136888111107.png?v=1 |-| Envia o emoji do Roberto para o imgur.",
+        "Imagem anexada |-| Envia a imagem anexada na sua mensagem para o imgur"
+      ]
+    },
+    "imageSent": "a sua imagem foi enviada: {{url}}"
+  },
+  "baninfo": {
+    "config": {
+      "description": "Veja o motivo de banimento de um membro do seu servidor.",
+      "examples": [
+        "123170274651668480 |-| Puxa as informações de um usuário banido, usando o ID de usuário."
+      ]
+    },
+    "banInfo": "Todas as informações do ban de `{{user}}`",
+    "noReason": "Sem motivo informado",
+    "isNotBanned": "este usuário não está banido (pelo menos ainda não `^-^`).",
+    "clickToUnban": "Para desbanir o usuário clique em {{emoji}}.",
+    "reason": "Motivo",
+    "userUnbanned": "prontinho ^^, o usuário foi desbanido do seu servidor. Espero que ela aprenda dessa vez!",
+    "unbanReason": "Desbanido pelo comando d!baninfo, por: {{user}}!"
+  },
+  "daily": {
+    "config": {
+      "description": "Receba seus Kurama Coins diários para gastar com outras bobagens, comprar backgrounds entre outras coisas!"
+    },
+    "prases": [
+      "Agora curta com seu dinheiro, mas gaste com responsabilidade. {{emoji}}",
+      "Ih ala, ganho dinheiro ui ui. {{emoji}}",
+      "Tá rico! Quer ganhar mais dinheiro? Continue pegando o daily. {{emoji}}",
+      "Quem quer dinheiro?? Aff, quem eu quero enganar, não sou o Silvio Santos.. {{emoji}}"
+    ],
+    "youAlreadyClaimed": "você só pode pegar seus Kurama Coins diários daqui `{{time}}`.",
+    "dailyReceived": "você recebeu {{daily}} Kurama Coins. {{prase}}",
+    "accountLess": "Olá! você não pode receber seu daily ainda. Contas com menos de 3 dias no Discord não podem ter domínios (exemplo Twitter.com). E contas com menos de 30 dias não podem pegar daily no Kurama Bot.",
+    "guildMembers": "por segurança, como você está numa guild relativamente pequena, você não pode coletar seu daily"
+  },
+  "cat": {
+    "config": {
+      "description": "Gatos fofos, aleatórios e bonitos."
+    },
+    "cute": "Ownt, que fofinho."
+  },
+  "dog": {
+    "config": {
+      "description": "Cachorros fofos, aleatórios e bonitos."
+    },
+    "cute": "Ownt, que fofinho."
+  },
+  "fakecomment": {
+    "config": {
+      "description": "Faça um comentário fake no youtube de um usuário.",
+      "examples": [
+        "640593174171090984 Sou a raposa mais linda do site |-| Faça um comentário fake usando o ID do Kurama, um comentário fake, mas com fatos verdadeiros.",
+        "@PeterStark000#6011 Olá Youtube! |-| Faça um comentário de um usuário mencionado."
+      ]
+    },
+    "comment": "Olokinho meu! `{{user}}` acaba de comentar algo."
+  },
+  "faketweet": {
+    "config": {
+      "description": "Faça um tweet fake no youtube de um usuário.",
+      "examples": [
+        "KuraminhaBot Sou a raposa mais linda do site |-| Faça um tweet fake usando o Twitter do Kurama, um tweet fake, mas com fatos verdadeiros.",
+        "PeterStark000 Olá Twitter! |-| Faça um tweet de um usuário do twitter."
+      ]
+    },
+    "tweet": "Olokinho meu! `{{user}}` acaba de tweetar algo."
+  },
+  "rmemes": {
+    "config": {
+      "description": "Você está triste? Quer ver alguns memes? Talvez eles alegrem o seu dia... Direto do subreddit de alguém!"
+    },
+    "tryLatter": "parece que estamos sem memes novos! Tente novamente mais tarde.",
+    "comments": "Comentários",
+    "joke": "Piadoca do `{{subreddit}}`"
+  },
+  "cadelinha": {
+    "config": {
+      "description": "Eita, pelo visto você tem aqueles amigos que fazem de tudo por você? Que tal usar esse comando pra desmontrar isso da maneira mais expressa o possível?",
+      "examples": [
+        "640593174171090984 361977144445763585 |-| Faz uma montagem minha com meu dono, usando os nossos IDs.",
+        "@Kuraminha#7575 @PeterStark000#6011 @hechfx#9336 @okaabe#4561 |-| Faz uma montagem minha com os meus devs."
+      ]
+    }
+  },
+  "sedutores": {
+    "config": {
+      "description": "Cuidado! O Cidade Alerta vai ao ar, trazendo uma notícia urgente!!! Cuidado com alguns sedutores na internet.. Eles não são quem aparentam ser...",
+      "examples": [
+        "802161969238376468 |-| Faz uma montagem com o ID do usuário.",
+        "@PeterStark000#6011 |-| Faz uma montagem com o usuário mencionado.",
+        "https://c.tenor.com/junKven5uwgAAAAM/floppa-brick-hill.gif |-| Faz uma montagem com o link enviado."
+      ]
+    }
+  },
+  "doente": {
+    "config": {
+      "description": "Tá sozinho no zap, que tal mandar uma fotinha pra algum contato, vamos ver se a resposta dela será positiva!",
+      "examples": [
+        "802161969238376468 |-| Faz uma montagem com o ID do usuário.",
+        "@PeterStark000#6011 |-| Faz uma montagem com o usuário mencionado.",
+        "https://c.tenor.com/junKven5uwgAAAAM/floppa-brick-hill.gif |-| Faz uma montagem com o link enviado."
+      ]
+    }
+  },
+  "kame-bet": {
+    "config": {
+      "description": "Funciona da seguinte maneira, o usuário que pegou o personagem que vencer o Kamehameha ganha a aposta.",
+      "examples": [
+        "361977144445763585 2000 |-| Aposte 2 mil Kurama Coins com um usuário pelo ID",
+        "PeterStark000#6011 2k |-| Aposte 2 mil Kurama Coins com um usuário mencionado"
+      ]
+    },
+    "youWin": "você venceu! E ganhou **{{coins}} Kurama Coins ({{tax}}.0 de taxa)** de {{user}}! Parabéns!",
+    "heDoesntHave": "{{user}} não tem **Kurama Coins** suficientes para cobrir a aposta, volte quando tiver o dinheiro para utilizar este comando.",
+    "message": [
+      "e {{user}} preparados? Então vamos iniciar a aposta.\n",
+      "ficou com o <:kurama2_kamehameha:826416553276080149>!",
+      "{{user}} ficou com o <:shukaku_kamehameha:826445270144385025>!\n",
+      "Funciona da seguinte maneira, o usuário que pegou o personagem que vencer o **Kamehameha** ganha a aposta.\n",
+      "{{user}} você quer aceitar a aposta? Você está prestes a apostar **{{price}} Kurama Coins** ({{tax}}.0 Kurama-Coins de taxa) com {{author}}!",
+      "Para confirmar, clique em ✅ para aceitar a transação."
+    ]
+  },
+  "pay": {
+    "config": {
+      "description": "Transfira Kurama-Coins para algum amigo usando esse comando.",
+      "examples": [
+        "361977144445763585 2k |-| Envia 2000 Kurama Coins para um usuário pelo ID.",
+        "PeterStark000#6011 2000 |-| Envia 2000 Kurama Coins para o usuário mencionado."
+      ]
+    },
+    "heIsSure": "você tem certeza disso? Você está prestes a transferir **{{coins}} Kurama Coins** para {{user}}!",
+    "toConfirm": "Para confirmar, clique em ✅ para aceitar a transação.",
+    "transactionMade": "você enviou **{{coins}} Kurama Coins** para {{user}} com sucesso.",
+    "cannotYourself": "você não pode utilizar este comando com si mesmo, querendo burlar o sistema né?",
+    "accountLess": "Olá! você não pode transferir coins ainda. Contas com menos de 3 dias no Discord não podem ter domínios (exemplo Twitter.com). E contas com menos de 30 dias não podem transferir coins no Kurama Bot.",
+    "guildMembers": "por segurança, como você está numa guild relativamente pequena, você não pode transferir coins."
+  },
+  "anime": {
+    "config": {
+      "description": "Veja as informações do anime desejado, direto do My Anime List.",
+      "examples": [
+        "Naruto |-| Procura o anime \"Naruto\" no comando.",
+        "Dragon Ball |-| Procura o anime \"Dragon Ball\" no comando."
+      ]
+    },
+    "searchingHentai": "Que coisa feia, procurando por hentais e yaois, vou contar pra sua mãe viu!",
+    "episodes": "Episódios",
+    "aired": "Início & Término",
+    "rating": "Classificação",
+    "popularity": "Popularidade",
+    "genres": "Gêneros",
+    "notFound": "Não consegui encontrar este anime, talvez você tenha errado o nome dele ou algo do tipo."
+  },
+  "translate": {
+    "config": {
+      "description": "Traduz uma frase para outra linguagem",
+      "examples": [
+        "pt Building a better world together! |-| Traduz a frase indicada para o idioma indicado!",
+        "en Construindo um mundo melhor juntos! |-| Traduz a frase indicada para o idioma indicado!"
+      ]
+    }
+  },
+  "vote": {
+    "config": {
+      "description": "Com preguiça de fazer uma votação? Adicionar reações, mensagem e etc? Esse comando vai te ajudar!",
+      "examples": [
+        "Criar um canal de jogos? |-| Cria uma votação para o assunto pautado."
+      ]
+    },
+    "votation": "Votação"
+  },
+  "replace": {
+    "config": {
+      "description": "Você errou a escrita de uma palavra num texto? Não se preocupe, use este comando e troque a palavra errada pela certa!",
+      "examples": [
+        "Gostaria de mandar um abraço para Carol que foi uma pessoa muito legal. Abraços Carol! | Carol | Karol |-| Troca na frase toda \"Carol\" por \"Karol\"."
+      ]
+    },
+    "replaced": "Os argumentos foram trocados, sua mensagem atual é ```{{text}}```"
+  },
+  "morse": {
+    "config": {
+      "description": "Encode/Decode uma mensagem de código morse",
+      "examples": [
+        "Kuraminha |-| Converta \"Kuraminha\" em código morse.",
+        "...- -.-. / / ..-. --- --- ..-. -·-·-- |-| Converta o código morse em texto."
+      ]
+    },
+    "morsed": "O resultado obtido do conversor e decoder morse é! ```{{text}}```"
+  },
+  "reversetext": {
+    "config": {
+      "description": "Coloca um texto ao contrário",
+      "examples": [
+        "Olá mundo |-| Coloca a frase indicada ao contrário."
+      ]
+    },
+    "reversed": "O texto foi colocado ao contrário, o resultado da sua mensagem agora é ```{{text}}```"
+  },
+  "weather": {
+    "config": {
+      "description": "Hmmm... Achando que vai chuver? Que tal verificar a previsão do tempo. Esse comando vai te ajudar!",
+      "examples": [
+        "São Paulo |-| Veja as informações do clima de São Paulo.",
+        "Nova York |-| Veja as informações do clima de Nova York."
+      ]
+    },
+    "today": "Hoje o clima está **{{climate}}**",
+    "timezone": "Fuso Horário",
+    "degreetype": "Escala Termométrica",
+    "temperature": "Temperatura",
+    "feelslike": "Sensação Térmica",
+    "winddisplay": "Núvens",
+    "humidity": "Umidade do Ar",
+    "weekday": "Dia da Semana",
+    "date": "Data"
+  },
+  "addemoji": {
+    "config": {
+      "description": "Adiciona emojis no seu servidor a partir do link da imagem dele. Perfeito se você está cansado de ficar baixando imagens para o seu computador só para adicionar no servidor!",
+      "examples": [
+        "discord <:discordlogo:826399361390477332> |-| Adiciona no servidor um emoji de outro servidor.",
+        "quartz https://cdn.discordapp.com/emojis/666786466436743183.png |-| Adiciona no servidor um emoji utilizando o link de outro emoji.",
+        "red_cat https://i.imgur.com/SVkttz4.png |-| Adiciona no servidor um emoji utilizando a imagem do Imgur."
+      ]
+    },
+    "emojiAdded": "emoji adicionado com sucesso!",
+    "maxSize": "Seu arquivo tem {{size}} bytes, você pode tentar cortá-lo ou reduzir o tamanho. Ele precisa ser igual ou menor que 256000 bytes para que o emote seja adicionado.",
+    "invalidUrl": "url está inválida, tente usar outro link."
+  },
+  "clear": {
+    "config": {
+      "description": "Limpa as mensagens do canal no qual o comando foi utilizado.",
+      "examples": [
+        "100 |-| Limpa 100 mensagens do canal onde o comando foi executado."
+      ]
+    },
+    "twoWeeksMessages": "Eu não consigo deletar mensagens que foram enviadas a mais de duas semanas devido a limitações da API do Discord!",
+    "cleaned": "um total de {{size}} mensagens foram deletadas!",
+    "between": "Eu só posso apagar entre 2 e 100 mensagens.. Tente de novo."
+  },
+  "config": {
+    "config": {
+      "description": "Configure as minhas funções no seu servidor!"
+    },
+    "newModerationChannel": "Log de Eventos atualizado com sucesso! O seu novo Log de Eventos é <#{{channelID}}>.",
+    "newPunishmentChannel": "Log de Punições atualizado com sucesso! O seu novo Log de Punições é <#{{channelID}}>.",
+    "moduleDisabled": "Lembrete: Este módulo foi desabilitado, lembrando que você pode reabita-lo usando o comando novamente.",
+    "howDisable": "Se caso você queira desabilitar o este módulo, utilize o argumento `disable`.",
+    "allOptions": "aqui estão todas as opções para você: `{{list}}`",
+    "blockedChannels": {
+      "message": {
+        "updated": "A mensagem para quando um canal estiver bloqueado foi redefinida com sucesso.",
+        "placeholders": "Sabia que você pode usar placeholders na minhas mensagens?",
+        "current": "A mensagem que está sendo usada atualmente é:"
+      },
+      "channel": {
+        "added": "{{channel}} foi adicionado na lista de \"canais onde comandos não podem ser executados\" com sucesso!",
+        "removed": "{{channel}} foi removido da lista de \"canais onde comandos não podem ser executados\" com sucesso! Agora qualquer um pode executar comandos nele.",
+        "list": "Estes são os canais que estão configurados para não receber comandos:",
+        "empty": "Você ainda não configurou uma lista de canais.",
+        "notFound": "Eu não encontrei esse canal na lista de canais configurados.",
+        "even": "Acho que você se esqueceu.. Mas esse canal já foi listado nessa lista."
+      },
+      "roles": {
+        "added": "{{role}} foi adicionado na lista de \"cargos que podem executar comandos em qualquer canal\" com sucesso!",
+        "removed": "{{role}} foi removido da lista de \"cargos que podem executar comandos em qualquer canal\" com sucesso! Agora usuários com esse cargo não podem utilizar comandos em canais bloqueados.",
+        "list": "Estes são os cargos que estão configurados para não receber comandos:",
+        "empty": "Você ainda não configurou uma lista de cargos.",
+        "notFound": "Eu não encontrei esse cargo na lista de cargos configurados.",
+        "even": "Acho que você se esqueceu.. Mas esse cargo já foi listado nessa lista."
+      }
+    },
+    "linkBlocker": {
+      "message": {
+        "disable": "Você desativou as mensagens de aviso do módulo. Para reativar, basta utilizar o argumento `enable`.",
+        "enable": "Você re-ativou as mensagens de aviso do módulo. Para desabilitar novamente, basta utilizar o argumento `disable`.",
+        "updated": "A mensagem para quando alguém enviar algum link não permitido foi redefinida com sucesso.",
+        "placeholders": "Sabia que você pode usar placeholders na minhas mensagens?",
+        "current": "A mensagem que está sendo usada atualmente é:",
+        "local": {
+          "dm": "Se quiser que eu mande a mensagem nas mensagens diretas do usuário, utilize o argumento `dm`.",
+          "guild": "Se quiser que eu mande a mensagem no canal onde o usuário tentou enviar a mensagem, utilize `guild`.",
+          "updated": "Prontinho! Eu acabei de trocar o tipo do canal onde as mensagens serão enviadas!"
+        }
+      },
+      "whitelist": {
+        "added": "`{{link}}` foi adicionado na lista de \"links permitidos nos canais selecionados\" com sucesso!",
+        "removed": "`{{link}}` foi removido da lista de \"links permitidos nos canais selecionados\" com sucesso! Agora qualquer pessoa pode enviar links que não estão na lista nele.",
+        "list": "Estes são os links que estão na whitelist:",
+        "empty": "Você ainda não configurou uma lista de links.",
+        "notFound": "Eu não encontrei esse link na lista de links configurados.",
+        "even": "Acho que você se esqueceu.. Mas esse link já foi listado nessa lista."
+      },
+      "channel": {
+        "added": "{{channel}} foi adicionado na lista de \"canais onde apenas links permitidos podem ser enviados\" com sucesso!",
+        "removed": "{{channel}} foi removido da lista de \"canais onde apenas links permitidos podem ser enviados\" com sucesso! Agora qualquer pessoa pode enviar links que não estão na lista nele.",
+        "list": "Estes são os canais que estão configurados para receber apenas links da lista:",
+        "empty": "Você ainda não configurou uma lista de canais.",
+        "notFound": "Eu não encontrei esse canal na lista de canais configurados.",
+        "even": "Acho que você se esqueceu.. Mas esse canal já foi listado nessa lista."
+      },
+      "roles": {
+        "added": "{{role}} foi adicionado na lista de \"cargos que podem enviar qualquer link\" com sucesso!",
+        "removed": "{{role}} foi removido da lista de \"cargos que podem enviar qualquer link\" com sucesso! Agora usuários com esse cargo não podem enviar links que não são permitidos nos canais do módulo.",
+        "list": "Estes são os cargos que estão configurados para enviar qualquer link:",
+        "empty": "Você ainda não configurou uma lista de cargos.",
+        "notFound": "Eu não encontrei esse cargo na lista de cargos configurados.",
+        "even": "Acho que você se esqueceu.. Mas esse cargo já foi listado nessa lista."
+      },
+      "auto_delete": {
+        "disable": "O auto delete da mensagem foi desativado, para reativar basta utilizar o argumento `enable`!",
+        "enable": "O auto delete da mensagem foi ativado, para desativar basta utilizar o argumento `disable`!"
+      }
+    }
+  },
+  "setPrefix": {
+    "config": {
+      "description": "Customize o meu prefixo no seu servidor a sua vontade."
+    },
+    "missingPrefix": "Você não especificou o novo prefixo!",
+    "changedPrefix": "Prefixo atualizado com sucesso! O seu novo prefix é `{{prefix}}`.",
+    "tooBig": "Esse prefixo é muito grande! Tá querendo me crashar?!"
+  },
+  "divorce": {
+    "config": {
+      "description": "Infelizmente você se casou com alguém que não presta? A vida nem sempre é como queremos, ou talvez você simplesmente encontrou um novo amor.. Se você não está infeliz com seu relacionamento atual, você pode se divorciar dessa pessoa."
+    },
+    "isNotMarried": "epa, epa, epa, calma lá amigão, você não é um(a) casado(a) para pedir o divorcio.. Que história é essa?",
+    "confirmationMessage": "você está casado com {{user}}.. Deseja mesmo descumprir tudo que você jurou para ele? `\"Aceita-lo como seu legítimo esposo, até que a morte vós separem?\"` Se for isso mesmo, clique em 💔 para divorciar-se.",
+    "youGotDivorced": "você se divorciou, seja feliz encontrando outra pessoa para amar!"
+  },
+  "marry": {
+    "config": {
+      "description": "O amor é lindo né? Falando em amor, se você ama uma pessoa, você pode se casar com ela no Kurama! Para se casar vocês precisam ter **8.000 Kurama Coins (16.000 ao todo)**. E você pode se casar usando esse comando! Yay",
+      "examples": [
+        "@PeterStark000#6011 |-| Faz um pedido de casamento para pessoa mencionada.",
+        "361977144445763585 |-| Faz um pedido de casamento para uma pessoa pelo ID."
+      ]
+    },
+    "message": [
+      "Epa! Parece que temos um casamento aqui! Uma coisa que vocês devem saber sobre casamentos. Eles são importantes e vocês precisam ter amor e respeito um com os outros. Mas chega de enrolação, vamos aos votos:\n",
+      "Você {{user}} é de livre e espontânea vontade que você aceita {{author}} como seu legítimo esposo, até que a morte vós separem? Se sua resposta é sim, clique no 💍."
+    ],
+    "married": "ownt, finalmente, felicidades ao casal! Parabéns, vocês se casaram! Felicidades! Viva o amor!",
+    "youNeeds": "pelo visto, você precisa de **{{price}}.0 Kurama Coins** para casar, infelizmente você ainda não tem esse valor.",
+    "yourPartnerNeeds": "pelo visto, o seu par precisa de **{{price}}.0 Kurama Coins** para casar, infelizmente ele ainda não tem esse valor.",
+    "personIsAlreadyMarried": "epa amigo... Parece que o amor bateu atrasado na sua porta. Essa pessoa já está casada..",
+    "alreadyMarried": "pera, pera, pera.. Isso não é um Teste de Fidelidade! Para com essa vida, para que trair seu companheiro!! Toma vergonha nessa cara..",
+    "dontMarryMe": "deu um baita de um fora em"
+  },
+  "fakemsg": {
+    "config": {
+      "description": "Faça alguém falar algo que ela nunca falaria, mas lembre-se, com grandes poderes vem grandes responsabilidades",
+      "examples": [
+        "150662786257518592 Olá eu sou o Wumpus! |-| Faça uma mensagem fake do usuário usando o ID.",
+        "@PeterStark000#6011 Olá mundo! |-| Faça uma mensagem fake do usuário mencionado."
+      ]
+    }
+  },
+  "transactions": {
+    "config": {
+      "description": "Veja todas as transações que você recebeu e realizou!",
+      "examples": [
+        "640593174171090984 |-| Puxa todas as transações feitas por um usuário pelo ID.",
+        "@PeterStark000#6011 |-| Puxa todas as transações feitas por um usuário mencionado."
+      ]
+    },
+    "yourTransactions": "Suas Transações",
+    "transactionsFrom": "Transações de {{user}}",
+    "allTransactions": "Total de Transações: {{total}}.",
+    "pageDontExist": "Eu procurei até no infinito e além, mas pelo visto as páginas acabam aqui...",
+    "unknownTransactions": "Essa pessoa nunca fez transações de Kurama-Coins na vida dela!",
+    "page": "Página {{number}}"
+  },
+  "coinflip": {
+    "config": {
+      "description": "Gire uma moeda com um amigo e veja se irá cair cara ou coroa! Perfeito para descobrir quem irá ir primeiro em uma partida de joguinhos.",
+      "examples": [
+        "361977144445763585 2000 |-| Aposte 2 mil Kurama Coins com um usuário pelo ID",
+        "PeterStark000#6011 2k |-| Aposte 2 mil Kurama Coins com um usuário mencionado"
+      ]
+    },
+    "message": "{{author}} você ficou com **Cara**, e {{user}} ficou com **Coroa**... Que vença o melhor!\n"
+  },
+  "lyrics": {
+    "config": {
+      "description": "Veja a letra de uma música que está tocando na call ou apenas que veio na sua mente.",
+      "examples": [
+        "Hino nacional brasileiro |-| Mostra a letra do Hino Nacional Brasileiro."
+      ]
+    },
+    "lyricsSugestion": "Sugestão de Letra: Você está ouvindo no momento `{{song}}`, para selecionar clique em 🎶."
+  },
+  "ocr": {
+    "config": {
+      "description": "Pega o texto em uma imagem usando OCR.",
+      "examples": [
+        "https://i.imgur.com/6fpCRmG.png |-| Lê o conteúdo de uma imagem usando o URL.",
+        "[Imagem anexada] |-| Lê o conteúdo da imagem que foi anexada na mensagem."
+      ]
+    },
+    "couldntFind": "**Não encontrei nenhum texto nesta imagem...**",
+    "choiceLanguage": "Escolha a linguagem para qual você deseja traduzir.",
+    "translate": "Traduzir"
+  },
+  "ban": {
+    "config": {
+      "description": "Bane um usuário do seu servidor, você pode customizar as ações deste comando (como enviar via mensagem direta o motivo da punição, enviar em um canal a punição, entre outras coisas) usando o comando de configuração.",
+      "examples": [
+        "@Kuraminha#7575 |-| Pune um usuário pela menção... só não me puna, uma raposa fofa não fez nada pra merecer isso okay? ;3",
+        "361977144445763585 |-| Pune o usuário pelo ID",
+        "361977144445763585 Quebrar as regras do servidor |-| Pune o usuário pelo ID e com um motivo",
+        "361977144445763585 705179663550513263 822117348608573470 Quebrar as regras do servidor |-| Pune vários usuários pelo ID e com um motivo",
+        "361977144445763585 Quebrar as regras do servidor | f |-| Pune o usuário pelo ID, com um motivo e não pede a confirmação da punição",
+        "361977144445763585 Quebrar as regras do servidor | s |-| Pune o usuário pelo ID, com um motivo e não notifica a punição"
+      ]
+    }
+  },
+  "unban": {
+    "config": {
+      "description": "Retira o ban de um usuário do seu servidor, você pode customizar as ações deste comando (como enviar via mensagem direta o motivo da punição, enviar em um canal a punição, entre outras coisas) usando o comando de configuração.",
+      "examples": [
+        "@Kuraminha#7575 |-| Pune um usuário pela menção... só não me puna, uma raposa fofa não fez nada pra merecer isso okay? ;3",
+        "361977144445763585 |-| Pune o usuário pelo ID",
+        "361977144445763585 Quebrar as regras do servidor |-| Pune o usuário pelo ID e com um motivo",
+        "361977144445763585 705179663550513263 822117348608573470 Quebrar as regras do servidor |-| Pune vários usuários pelo ID e com um motivo",
+        "361977144445763585 Quebrar as regras do servidor | f |-| Pune o usuário pelo ID, com um motivo e não pede a confirmação da punição",
+        "361977144445763585 Quebrar as regras do servidor | s |-| Pune o usuário pelo ID, com um motivo e não notifica a punição"
+      ]
+    }
+  },
+  "kick": {
+    "config": {
+      "description": "Expulsa um usuário do seu servidor, você pode customizar as ações deste comando (como enviar via mensagem direta o motivo da punição, enviar em um canal a punição, entre outras coisas) usando o comando de configuração.",
+      "examples": [
+        "@Kuraminha#7575 |-| Pune um usuário pela menção... só não me puna, uma raposa fofa não fez nada pra merecer isso okay? ;3",
+        "361977144445763585 |-| Pune o usuário pelo ID",
+        "361977144445763585 Quebrar as regras do servidor |-| Pune o usuário pelo ID e com um motivo",
+        "361977144445763585 705179663550513263 822117348608573470 Quebrar as regras do servidor |-| Pune vários usuários pelo ID e com um motivo",
+        "361977144445763585 Quebrar as regras do servidor | f |-| Pune o usuário pelo ID, com um motivo e não pede a confirmação da punição",
+        "361977144445763585 Quebrar as regras do servidor | s |-| Pune o usuário pelo ID, com um motivo e não notifica a punição"
+      ]
+    }
+  },
+  "channelinfo": {
+    "config": {
+      "description": "Mostra as informações de um canal de texto ou voz.",
+      "examples": [
+        "|-| Mostra as informações do canal de texto onde o comando foi utilizado",
+        "<#769897341121069097> |-| Mostra as informações do canal mencionado.",
+        "769897341121069097 |-| Mostra a informação de um canal pelo ID.",
+        "<#702156877210845315> |-| Mostra as informações de um canal de voz.",
+        "total |-| Mostra informações totais sobre canais de voz."
+      ]
+    },
+    "totalInfo": "Informações Totais",
+    "totalStreamUsers": "Membros Conectados",
+    "fullChannels": "Canais Lotados",
+    "totalCategory": "Categorias",
+    "mostFullChannels": "Canais mais lotados",
+    "ID": "ID do canal",
+    "userLimit": "Limite de Usuários",
+    "guild": "Servidor",
+    "noTopic": "Tópico do canal não foi definido.",
+    "dontMatch": "Ninguém está utilizando calls.",
+    "mostOlderChannels": "Canais mais antigos",
+    "mostCategorys": "Categorias mais lotadas",
+    "originalChannel": "Canal Original",
+    "autoArchiveDuration": "Auto Arquivar",
+    "archivedAt": "Arquivado em",
+    "archived": "Arquivado",
+    "members": "Membros",
+    "slowmode": "Modo Lento",
+    "private": "Privado"
+  },
+  "strongDoge": {
+    "config": {
+      "description": "Aposto que você se lembra deste meme. Quando se quer fazer uma comparação para zoar um amigo ou uma situação lembre-se deste comando!",
+      "examples": [
+        "Você na Educação Física | Você na sala de aula |-| Gera um meme de comparação entre essas duas frases.",
+        "Você na Educação Física | Você na sala de aula | É ágil e rápido como um Leão | \"Pera.. 9*7 é quanto mesmo?\" |-| Gera um meme de comparação entre dois estados cada um com uma frase."
+      ]
+    }
+  },
+  "among": {
+    "config": {
+      "description": "Tem aquele amigo suspeito que você fica zoando? Que tal fazer um gif simulando a eliminação de um usuário no Among-Us? Será que ele é um impostor mesmo?",
+      "config": [
+        "640593174171090984 |-| Faz a montagem com o usuário pelo ID.",
+        "@PeterStark000#6011 |-| Faz a montagem com o usuário mencionado.",
+        "Yellow https://cdn.discordapp.com/emojis/830998322994479115.gif |-| Faz a montagem com um nome e avatar personalizado."
+      ]
+    }
+  },
+  "searchBans": {
+    "config": {
+      "description": "Faça o Kurama retornar uma lista de usuários banidos filtrando-os pelo motivo do banimento.",
+      "config": [
+        "selfbot |-| Busca usuários que foram banidos com o termo \"selfbot\" nos motivos.",
+        "selfbot | log |-| Busca usuários que foram banidos com o termo \"selfbot\" nos motivos, e manda num arquivo log especial."
+      ]
+    },
+    "filtred": "Foi anexado em um arquivo a lista de usuários que foram filtrados com este motivo específico. Ao todo todo {{size}} usuários.",
+    "notFound": "Não foi encontrado nenhum usuário banido que se encaixe no filtro..."
+  },
+  "extinct": {
+    "config": {
+      "description": "Faça uma montagem com um usuário ou imagem, dizendo que essa pessoa deveria tomar cuidado... Ao menos no futuro.",
+      "examples": [
+        "https://c.tenor.com/junKven5uwgAAAAM/floppa-brick-hill.gif |-| Faça o comando com uma imagem pela URL",
+        "@PeterStark000 |-| Faça o comando mencionando um usuário.",
+        "640593174171090984 |-| Faça o comando com um usuário pelo ID."
+      ]
+    },
+    "texts": [
+      "Pelo menos",
+      "você não foi",
+      "extinto"
+    ]
+  },
+  "banner": {
+    "config": {
+      "description": "Mostra o banner do usuário ou de um bot.",
+      "examples": [
+        "|-| Veja o seu banner, usando o comando.",
+        "640593174171090984 |-| Veja o banner da raposa mais linda do site.",
+        "@PeterStark000#6011 |-| Veja o banner da pessoa mencionada."
+      ]
+    },
+    "hyperlink": "**[Clique aqui]({{url}}) para baixar o banner!**",
+    "noHas": "Esse usuário não definiu um banner em seu perfil."
+  },
+  "emojiinfo": {
+    "config": {
+      "description": "Mostra a informação dos emojis do servidor ou de um específico."
+    },
+    "page": "Página",
+    "sightedIn": "Avistado em {{guild}}",
+    "name": "Nome do Emoji",
+    "ID": "ID do Emoji",
+    "mention": "Menção",
+    "createdAt": "Criado há",
+    "guild": "Servidor",
+    "noHasEmoji": "Este servidor não tem emojis, tente utilizar o comando novamente, desta vez com argumentos"
+  },
+  "anagram": {
+    "config": {
+      "description": "Gere e calcule quantos anagramas a palavra tem."
+    },
+    "hasAnagrams": "A palavra `{{word}}` tem **{{number}} anagramas**!",
+    "wordAnagram": "O anagrama gerado é... **{{text}}**"
+  },
+  "dictionary": {
+    "config": {
+      "description": "Procure o significado de uma palavra no dicionário."
+    },
+    "choiceWord": "Escolha o significado da palavra",
+    "title": "Dicionário",
+    "sentences": "Frases",
+    "synonyms": "Sinônimos",
+    "notFound": "Eu li e reli meu dicionário várias vezes, e mesmo assim não encontrei essa palavra! Você tem certeza de que ela existe?"
+  },
+  "servericon": {
+    "config": {
+      "description": "Veja o ícone de um servidor do Discord."
+    },
+    "icon": "ícone",
+    "noHasIcon": "O servidor não tem um ícone definido."
+  },
+  "fnstats": {
+    "config": {
+      "description": "Veja os status dos seus parceiros prefiridos do Fortnite"
+    },
+    "notFound": "Eu procurei em todos os lugares... Em partidas, no Battle-Royale, até mesmo no ônibus de batalha. Você tem certeza que esse usuário tem este nick na `Epic Games`?",
+    "playedTime": "Tempo Jogado"
+  },
+  "bwstats": {
+    "config": {
+      "description": "Busque informações de um player do Brawl Stars."
+    },
+    "trophies": "Troféus",
+    "level": "Nível",
+    "trophiesPerBrawl": "Troféus por Brawler",
+    "highestTrophies": "Recorde de Troféus",
+    "soloVictories": "Vitórias Sozinho",
+    "duoVictories": "Vitórias em Duplas",
+    "3x3Victories": "Vitórias 3 vs 3",
+    "president": "Presidente",
+    "requiredTrophies": "Troféus Necessários",
+    "mostAwardedMember": "Membro mais premiado",
+    "members": "Membros",
+    "notFound": "Eu procurei por todo lugar, em arenas, em modos de dupla, mas não achei nenhum usuário ou clube com esta tag! Lembre-se, eu só consigor encontrar usuários pela tag `(#TAG)`, e não pelo nome!",
+    "seePlayerInfo": "Estatísticas do Jogador",
+    "seeClubInfo": "Informações do Clube",
+    "seeBattleLogs": "10 últimas batalhas"
+  },
+  "bwclubs": {
+    "config": {
+      "description": "Busque informações de um clube do Brawl Stars"
+    }
+  },
+  "bwbrawlers": {
+    "config": {
+      "description": "Veja os brawler's de um jogador do Brawl Stars"
+    },
+    "notFound": "Eu não consegui encontrar o Brawler, talvez você não tenha fornecido um filtro válido para mim ou então este usuário não tem Brawlers...",
+    "power": "Nível de Poder",
+    "starPowers": "Poderes",
+    "rank": "Ranking",
+    "gadgets": "Gadgets"
+  },
+  "bwbattles": {
+    "config": {
+      "description": "Veja os logs de batalhas de um jogador do Brawl Stars"
+    },
+    "ranked": "Rankeada",
+    "friendly": "Amistoso",
+    "victory": "Vitória",
+    "draw": "Empate",
+    "defeat": "Derrota",
+    "challenge": "Desafio",
+    "undefined": "Desconhecido",
+    "at": "às",
+    "notFound": "Acho que este jogador não competiu nenhum tipo de batalha ainda...",
+    "map": "Mapa",
+    "result": "Resultado",
+    "duration": "Duração",
+    "battleTime": "Horário",
+    "mode": "Modo",
+    "select": "Selecione a batalha para ver as informações",
+    "unknown": "Desconhecido"
+  },
+  "poll": {
+    "messageDeleted": "Mensagem deletada com sucesso!",
+    "notFound": "Eu não consegui encontra essa votação! Talvez eu já tenha deletado ela...",
+    "youHaveAlreadyVoted": "Você já escolheu uma opção, aguarde até o final da votação.",
+    "computedVote": "Seu voto foi computado com sucesso! Aguarde o resultado da votação.",
+    "insufficientPermissions": "Eu não tenho permissão para ver as mensagens do canal ou não consigo enviar mensagens nele, me dê essas permissões para que eu consiga finalizar a votação!",
+    "notFoundMessage": "Eu não consegui encontrar a mensagem ou o canal onde a votação foi feita... Talvez alguém as tenha apagado ou eu perdi acesso ao canal.",
+    "tieString": "🏆 **| Empate!** `{{options}}` empataram",
+    "duration": "Duração",
+    "winnerString": "🏆 **| {{winner}}** ganhou com {{winnerVotes}} de {{votes}} votos",
+    "endString": "Votação encerrada, confira o resultado [aqui]({{url}})",
+    "incorrectTime": "Eu não conheço esse valor de tempo, você mora em Marte? Tente utilizar: (`1 hora`, `5 minutos`, `10m`, `etc`).",
+    "longTime": "Você forneceu um valor muito grande para o tempo, o valor máximo de tempo que você pode colocar é de 1 semana.",
+    "pollRecommendations": "**Recomendações:**\n\t- Deixe sua DM aberta para que eu possa te avisar se algo der errado;\n\t- Verifique se o bot tem permissão para \"Ver Mensagens\" e \"Enviar Mensagens\" no canal para que não corra nenhum problema;",
+    "warnMessage": "⚠️ **|** Tente arrumar o problema o mais rápido possível, em **15 minutos** tentarei executar a tarefa novamente, caso falhe. Sua enquete será deletada da minha Database."
+  },
+  "serversplash": {
+    "config": {
+      "description": "Veja o invite background de um servidor do Discord.",
+      "examples": [
+        "|-| Veja o splash do servidor atual.",
+        "417061847489839106 |-| Veja o splash do servidor no qual o ID foi fornecido."
+      ]
+    },
+    "noHasSplash": "O servidor não tem um splash definido."
+  },
+  "bwregister": {
+    "config": {
+      "description": "Registre no bot sua tag do Brawl Stars!"
+    },
+    "alreadyUsed": "Essa tag já está sendo utilizada por outra pessoa! Se você acha que isto é um erro, entre em contato com a gente no nosso Servidor de Suporte.",
+    "wrongFormat": "Acho que talvez isso possa não ser uma tag do Brawl Stars, lembrando que elas devem ter o formato `#XXXXXXXX`.",
+    "registerWarn": "Lembrando que: se você colocou uma tag errada, você pode utilizar o comando novamente para trocar.",
+    "registedTag": "perfeito!! Sua tag foi registrada no bot para que você possa executar os comandos de forma mais eficiente!"
+  },
+  "tictactoe": {
+    "config": {
+      "description": "Jogue Jogo da Velha com algum amigo!"
+    },
+    "winMessage": "Parabéns <@{{user}}> você ganhou o jogo!",
+    "playWithYourself": "Você não pode jogar com si mesmo! Tente escolher um outro usuário para jogar!",
+    "youDontInteract": "Você não pode interagir com esse jogo! Somente os jogadores podem!",
+    "itsNotYourTurn": "Você não pode jogar agora, aguarde o seu turno de jogo!!",
+    "hasAlreadyBeenMarked": "Você não pode marcar essa caixa, ela já foi marcada!",
+    "tieMessage": "Deu velha! Vocês dois empataram! Parabéns!",
+    "onlyTextChannels": "Você não pode executar esse comando em Threads! Apenas em canais de comando!",
+    "cantPlayWithBot": "Nossa.. Mas você quer jogar logo com um bot? Tenha piedade da gente!!!",
+    "iCanTSendMessages": {
+      "channel": "Eu não consigo `Enviar Mensagens` ou não tenho a permissão para `Ver Mensagens` neste canal! Arrume isto por favor!",
+      "thread": "Eu não consigo `Enviar Mensagens` nesta thread ou então não estou nela! Me mencione nela para que possa entrar como um membro da thread! Obrigado"
+    }
+  },
+  "util": {
+    "noHasDescription": "Esse comando não tem descrição.",
+    "examples": {
+      "userExamples": []
+    }
+  }
+}
