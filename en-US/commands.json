@@ -40,8 +40,8 @@
   },
   "language": {
     "config": {
-       "description": "Change the bot language on your server! If you are ever interested, how about coming to our support server to be ready to help!"
-     },
+      "description": "Change the bot language on your server! If you are ever interested, how about coming to our support server to be ready to help!"
+    },
     "embed": {
       "description": "To change the language I interact with on this server, react to the emoji with the new desired language.",
       "title": "Choose your desired language!"
@@ -91,8 +91,8 @@
     "name": "Name:",
     "price": "Price:",
     "collection": "Collection:",
-    "artist": "Artist:",
     "rarity": "Rarity:",
+    "artist": "Artist:",
     "dontHaveMoney": "you don't have enough money to buy this background.",
     "alreadyHave": "you already have this background, why are you going to buy it again?",
     "youPurchased": "you bought the `{{name}} ({{fileName}})` background, you can use it using, `d!background set {{fileName}}`.",
@@ -360,28 +360,28 @@
   "playlist": {
     "config": {
       "description": "See the list of songs that are in the playlist of the voice channel I'm playing on.",
-       "examples": [
-         "|-| See the first 10 songs that are in the playlist.",
-         "2 |-| See page two of the songs that are in the playlist."
-       ]
+      "examples": [
+        "|-| See the first 10 songs that are in the playlist.",
+        "2 |-| See page two of the songs that are in the playlist."
+      ]
     },
     "pageDontExist": "I searched to infinity and beyond, but did not find the page .. I do not think there are enough songs for it to exist.",
     "nextSongs": "💿 **|** Next songs - Total Songs {{total}}:\n{{songs}}"
   },
   "search": {
-     "config": {
-       "description": "Search for a song so I can play.",
-       "examples": [
-         "Wait a minute | - | Search for songs named \"Wait a minute\" to put on the call."
-       ]
-     },
-     "collectorEnd": "You may not have provided a valid name, entered the correct number, or even forgot to use this command, try again.",
-     "foundSongs": "Found songs:",
-     "choiceYourMusic": "Choose your music.",
-     "howToSelect": "How to select?",
-     "select": "Send in the chat the number corresponding to the chosen song, so that I can play it.",
-     "notFound": "I couldn't find any music that fits the text you typed."
-   },
+    "config": {
+      "description": "Search for a song so I can play.",
+      "examples": [
+        "Wait a minute | - | Search for songs named \"Wait a minute\" to put on the call."
+      ]
+    },
+    "collectorEnd": "You may not have provided a valid name, entered the correct number, or even forgot to use this command, try again.",
+    "foundSongs": "Found songs:",
+    "choiceYourMusic": "Choose your music.",
+    "howToSelect": "How to select?",
+    "select": "Send in the chat the number corresponding to the chosen song, so that I can play it.",
+    "notFound": "I couldn't find any music that fits the text you typed."
+  },
   "roleinfo": {
     "config": {
       "description": "See the information from a role of your server.",
@@ -393,8 +393,8 @@
     },
     "notFound": "I tried to find mentioned roles, IDs, and role names and couldn't find any role!",
     "ID": "Role ID",
-    "createdAt": "Creation date",
     "members": "Members",
+    "createdAt": "Creation date",
     "position": "Position",
     "mention": "Mention",
     "mentionable": "Mentionable",
@@ -404,47 +404,47 @@
   },
   "profile": {
     "config": {
-       "description": "Show your profile!",
-       "examples": [
-         "|-| Show your own profile",
-         "@Kuraminha#7575 |-| See the profile of the cutest fox Discord!",
-         "361977144445763585 |-| Shows a user's profile by ID"
-       ]
-     },
+      "description": "Show your profile!",
+      "examples": [
+        "|-| Show your own profile",
+        "@Kuraminha#7575 |-| See the profile of the cutest fox Discord!",
+        "361977144445763585 |-| Shows a user's profile by ID"
+      ]
+    },
     "userBanned": "{{user}} is **banned**!\n✍️ **|** Reason: `{{reason}}`"
   },
   "mcskin": {
-     "config": {
-       "description": "Shows the skin for a Minecraft account.",
-       "examples": [
-         "PeterStark000 |-| Use the \"PeterStark000\" account",
-         "viniccius13 |-| Use the \"viniccius13\" account",
-         "AuthenticGames |-| Use the \"AuthenticGames\" account"
-       ]
-     },
+    "config": {
+      "description": "Shows the skin for a Minecraft account.",
+      "examples": [
+        "PeterStark000 |-| Use the \"PeterStark000\" account",
+        "viniccius13 |-| Use the \"viniccius13\" account",
+        "AuthenticGames |-| Use the \"AuthenticGames\" account"
+      ]
+    },
     "skin_hyperlink": "[Click here]({{skin}}) to download the skin!"
   },
   "mcplayerinfo": {
-     "config": {
-       "description": "Shows the informations for a Minecraft account.",
-       "examples": [
-         "PeterStark000 |-| Use the \"PeterStark000\" account",
-         "viniccius13 |-| Use the \"viniccius13\" account",
-         "AuthenticGames |-| Use the \"AuthenticGames\" account"
-       ]
-     },
+    "config": {
+      "description": "Shows the informations for a Minecraft account.",
+      "examples": [
+        "PeterStark000 |-| Use the \"PeterStark000\" account",
+        "viniccius13 |-| Use the \"viniccius13\" account",
+        "AuthenticGames |-| Use the \"AuthenticGames\" account"
+      ]
+    },
     "notFound": "I have logged into various worlds, servers, Minecraft maps and I have not found this player... Are you sure it exists?",
     "nameHistory": "Name History"
   },
   "mcserver": {
-     "config": {
-       "description": "Shows the status of a Minecraft server",
-       "examples": [
-         "mc.hypixel.net |-| Shows the status of the HyPixel server.",
-         "mc.sparklypower.net |-| Shows the status of the SparklyPower server.",
-         "play.narutodark.com |-| Shows the status of the Naruto Dark server (which by the way is very good!)"
-       ]
-     },
+    "config": {
+      "description": "Shows the status of a Minecraft server",
+      "examples": [
+        "mc.hypixel.net |-| Shows the status of the HyPixel server.",
+        "mc.sparklypower.net |-| Shows the status of the SparklyPower server.",
+        "play.narutodark.com |-| Shows the status of the Naruto Dark server (which by the way is very good!)"
+      ]
+    },
     "serverOnline": "Server** is **online** - ",
     "serverOffline": "Server is offline - ",
     "players": "people are playing.",
@@ -452,25 +452,25 @@
     "latency": "The above data may be wrong, it depends on the latency of the API used"
   },
   "imgur": {
-     "config": {
-       "description": "Send an image to imgur using this command.",
-       "examples": [
-         "https://cdn.discordapp.com/emojis/624803136888111107.png?v=1 |-| Send Roberto's emoji to imgur.",
-         "Image attached |-| Send the image attached to your message to imgur"
-       ]
-     },
+    "config": {
+      "description": "Send an image to imgur using this command.",
+      "examples": [
+        "https://cdn.discordapp.com/emojis/624803136888111107.png?v=1 |-| Send Roberto's emoji to imgur.",
+        "Image attached |-| Send the image attached to your message to imgur"
+      ]
+    },
     "imageSent": "your image has been uploaded: {{url}}"
   },
   "baninfo": {
-     "config": {
-       "description": "See the banishment reason a member of your server.",
-       "examples": [
-         "123170274651668480 |-| Pulls information from a banned user, using user'ID."
-       ]
-     },
+    "config": {
+      "description": "See the banishment reason a member of your server.",
+      "examples": [
+        "123170274651668480 |-| Pulls information from a banned user, using user'ID."
+      ]
+    },
     "banInfo": "All ban information for `{{user}}`",
-    "NoReason": "No reason informed",
-    "IsNotBanned": "This user is not banned (at least not yet `^-^`).",
+    "noReason": "Sem motivo informado",
+    "isNotBanned": "este usuário não está banido (pelo menos ainda não `^-^`).",
     "clickToUnban": "To unban the user, click {{emoji}}.",
     "reason": "Reason",
     "userUnbanned": "ready ^^, the user has been unbanned from your server I hope she learn this time.",
@@ -488,7 +488,7 @@
     ],
     "youAlreadyClaimed": "you can only get your daily Kurama Coins from here `{{time}}`.",
     "dailyReceived": "you received {{daily}} Kurama Coins. {{prase}}",
-    "accountLess": "Hello! you cannot receive your daily yet. Accounts under 3 days old on Discord cannot have domains (example Twitter.com). And accounts under 30 days old cannot get daily on Kurama Bot." ,
+    "accountLess": "Hello! you cannot receive your daily yet. Accounts under 3 days old on Discord cannot have domains (example Twitter.com). And accounts under 30 days old cannot get daily on Kurama Bot.",
     "guildMembers": "for security, as you are in a relatively small guild, you cannot collect your daily"
   },
   "cat": {
@@ -532,33 +532,33 @@
     "joke": "`{{subreddit}}` Jokes"
   },
   "cadelinha": {
-     "config": {
-       "description": "Jeez, do you have those friends who do everything for you? How about using this command to unmount it in the most expressive way possible?",
-       "examples": [
-         "640593174171090984 361977144445763585 |-| Make a montage of me with my owner, using our IDs.",
-         "@Kuraminha#7575 @PeterStark000#6011 @hechfx#9336 @okaabe#4561 |-| Make my montage with my devs."
-       ]
-     }
+    "config": {
+      "description": "Jeez, do you have those friends who do everything for you? How about using this command to unmount it in the most expressive way possible?",
+      "examples": [
+        "640593174171090984 361977144445763585 |-| Make a montage of me with my owner, using our IDs.",
+        "@Kuraminha#7575 @PeterStark000#6011 @hechfx#9336 @okaabe#4561 |-| Make my montage with my devs."
+      ]
+    }
   },
   "sedutores": {
-     "config": {
-       "description": "Watch out! Cidade Alerta goes live, bringing urgent news!!! Watch out for some seducers on the internet.. They are not who they appear to be...",
-       "examples": [
-         "802161969238376468 |-| Make an assembly with the user ID.",
-         "@PeterStark000#6011 |-| Make an assembly with the mentioned user.",
-         "https://c.tenor.com/junKven5uwgAAAAM/floppa-brick-hill.gif |-| Make an assembly with the link sent."
-       ]
-     }
+    "config": {
+      "description": "Watch out! Cidade Alerta goes live, bringing urgent news!!! Watch out for some seducers on the internet.. They are not who they appear to be...",
+      "examples": [
+        "802161969238376468 |-| Make an assembly with the user ID.",
+        "@PeterStark000#6011 |-| Make an assembly with the mentioned user.",
+        "https://c.tenor.com/junKven5uwgAAAAM/floppa-brick-hill.gif |-| Make an assembly with the link sent."
+      ]
+    }
   },
   "doente": {
-     "config": {
-       "description": "You are alone in the zap, how about sending a photo to some contact, let's see if her response will be positive!",
-       "examples": [
-         "802161969238376468 |-| Make an assembly with the user ID.",
-         "@PeterStark000#6011 |-| Make an assembly with the mentioned user.",
-         "https://c.tenor.com/junKven5uwgAAAAM/floppa-brick-hill.gif |-| Make an assembly with the link sent."
-       ]
-     }
+    "config": {
+      "description": "You are alone in the zap, how about sending a photo to some contact, let's see if her response will be positive!",
+      "examples": [
+        "802161969238376468 |-| Make an assembly with the user ID.",
+        "@PeterStark000#6011 |-| Make an assembly with the mentioned user.",
+        "https://c.tenor.com/junKven5uwgAAAAM/floppa-brick-hill.gif |-| Make an assembly with the link sent."
+      ]
+    }
   },
   "kame-bet": {
     "config": {
@@ -597,10 +597,10 @@
   "anime": {
     "config": {
       "description": "See the information for the desired anime, direct from the My Anime List.",
-       "examples": [
-         "Naruto |-| Search for the anime \"Naruto \"in charge.",
-         "Dragon Ball |-| Search for the anime \"Dragon Ball\" in charge."
-       ]
+      "examples": [
+        "Naruto |-| Search for the anime \"Naruto \"in charge.",
+        "Dragon Ball |-| Search for the anime \"Dragon Ball\" in charge."
+      ]
     },
     "searchingHentai": "What a bad thing, searching for hentais and yaoi, I will tell your mother ok?!",
     "episodes": "Episodes",
@@ -629,12 +629,12 @@
     "votation": "Votation"
   },
   "replace": {
-     "config": {
-       "description": "You missed the writing of a word in a text? Don't worry, use this command and change the wrong word for the right one!",
-       "examples": [
-         "I would like to send a hug to Carol, who was a very nice person. Hugs Carol! | Carol | Karol |-| Change the entire sentence \"Carol\" with \"Karol\"."
-       ]
-     },
+    "config": {
+      "description": "You missed the writing of a word in a text? Don't worry, use this command and change the wrong word for the right one!",
+      "examples": [
+        "I would like to send a hug to Carol, who was a very nice person. Hugs Carol! | Carol | Karol |-| Change the entire sentence \"Carol\" with \"Karol\"."
+      ]
+    },
     "replaced": "The arguments have been exchanged, your current message is ```{{text}}```"
   },
   "morse": {
@@ -650,29 +650,29 @@
   "reversetext": {
     "config": {
       "description": "Put a text backwards",
-       "examples": [
-         "Hello world | - | Put the sentence in reverse."
-       ]
+      "examples": [
+        "Hello world | - | Put the sentence in reverse."
+      ]
     },
     "reversed": "The text has been placed in reverse, the result of your message is now ```{{text}}```"
   },
   "weather": {
     "config": {
-       "description": "Hmmm ... Thinking it is going to rain? How about checking the weather forecast. This command will help you!",
-       "examples": [
-         "São Paulo |-| See information about São Paulo's climate.",
-         "New York |-| See the New York weather information."
-       ]
-     },
-     "today": "Today the weather is **{{climate}}**",
-     "timezone": "Timezone",
-     "degreetype": "Thermometric Scale",
-     "temperature": "Temperature",
-     "feelslike": "Thermal sensation",
-     "winddisplay": "Clouds",
-     "humidity": "Air Humidity",
-     "weekday": "Weekday",
-     "date": "Date"
+      "description": "Hmmm ... Thinking it is going to rain? How about checking the weather forecast. This command will help you!",
+      "examples": [
+        "São Paulo |-| See information about São Paulo's climate.",
+        "New York |-| See the New York weather information."
+      ]
+    },
+    "today": "Today the weather is **{{climate}}**",
+    "timezone": "Timezone",
+    "degreetype": "Thermometric Scale",
+    "temperature": "Temperature",
+    "feelslike": "Thermal sensation",
+    "winddisplay": "Clouds",
+    "humidity": "Air Humidity",
+    "weekday": "Weekday",
+    "date": "Date"
   },
   "addemoji": {
     "config": {
@@ -699,9 +699,9 @@
     "between": "I can only delete between 2 and 100 messages.. Try again."
   },
   "config": {
-     "config": {
-       "description": "Configure my functions on your server!"
-     },
+    "config": {
+      "description": "Configure my functions on your server!"
+    },
     "newModerationChannel": "Event Log updated successfully! Your new Event Log is <#{{channelID}}>.",
     "newPunishmentChannel": "Punishment Log updated successfully! Your new Punishment Log is <#{{channelID}}>.",
     "moduleDisabled": "Reminder: This module has been disabled, remembering that you can re-enable it using the command again.",
@@ -863,7 +863,7 @@
     "choiceLanguage": "Choose the language you want to translate to.",
     "translate": "Translate"
   },
-    "ban": {
+  "ban": {
     "config": {
       "description": "Ban a user from your server, you can customize the actions of this command (like send the punishment reason by direct message, send the punishment by channel, and other things) using the configuration command.",
       "examples": [
@@ -968,7 +968,7 @@
       "description": "Make a montage with an user or image, saying that the person should be careful... At least in the future.",
       "examples": [
         "https://c.tenor.com/junKven5uwgAAAAM/floppa-brick-hill.gif |-| Make the command with an image by URL",
-        "@PeterStark000 |-| Make the command mentioning/pinging an user",  
+        "@PeterStark000 |-| Make the command mentioning/pinging an user",
         "640593174171090984 |-| Make the command with an user by ID."
       ]
     },
@@ -1070,13 +1070,16 @@
     "gadgets": "Gadgets"
   },
   "bwbattles": {
+    "config": {
+      "description": "Veja os logs de batalhas de um jogador do Brawl Stars"
+    },
     "ranked": "Ranked",
     "friendly": "Friendly",
     "victory": "Victory",
-    "challenge": "Challenge",
-    "undefined": "Unknown",
     "draw": "Tie",
     "defeat": "Defeat",
+    "challenge": "Challenge",
+    "undefined": "Unknown",
     "at": "at",
     "notFound": "I think this player hasn't competed in any kind of battle yet...",
     "map": "Map",
@@ -1099,7 +1102,8 @@
     "winnerString": "🏆 **| {{winner}}** won with {{winnerVotes}} of {{votes}} votes",
     "endString": "Vote closed, check the result [here]({{url}})",
     "incorrectTime": "I don't know this time value, do you live on Mars? Try using: (`1 hour`, `5 minutes`, `10m`, `etc`)",
-    "longTime": "You have entered too large a value for time, the maximum amount of time you can enter is 1 week.",    "pollRecommendations": "**Recommendations:**\n\t- Leave your DM open so I can let you know if something goes wrong;\n\t- Make sure the bot has \"View Messages\" permission and \"Send Messages\" in the channel so that no problem will run;",
+    "longTime": "You have entered too large a value for time, the maximum amount of time you can enter is 1 week.",
+    "pollRecommendations": "**Recommendations:**\n\t- Leave your DM open so I can let you know if something goes wrong;\n\t- Make sure the bot has \"View Messages\" permission and \"Send Messages\" in the channel so that no problem will run;",
     "warnMessage": "⚠️ **|** Try to fix the problem as soon as possible, in **15 minutes** I will try to run the task again if it fails. Your poll will be deleted from my Database."
   },
   "serversplash": {
@@ -1119,7 +1123,7 @@
     "alreadyUsed": "This tag is already being used by someone else! If you think this is an error, please contact us at our Support Server.",
     "wrongFormat": "I think maybe this might not be a Brawl Stars tag, remembering that they must have the format `#XXXXXXXX`.",
     "registerWarn": "Remembering that: if you put a wrong tag, you can use the command again to change it.",
-    "registeredTag": "perfect!! Your tag has been registered in the bot so you can run the commands more efficiently!"
+    "registedTag": "perfeito!! Sua tag foi registrada no bot para que você possa executar os comandos de forma mais eficiente!"
   },
   "tictactoe": {
     "config": {
