@@ -1,0 +1,3 @@
+files:
+  - source: pt-BR/*.json
+    translation: /%locale%/%original_file_name%

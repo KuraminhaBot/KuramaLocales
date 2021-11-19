@@ -469,8 +469,8 @@
       ]
     },
     "banInfo": "All ban information for `{{user}}`",
-    "noReason": "Sem motivo informado",
-    "isNotBanned": "este usuário não está banido (pelo menos ainda não `^-^`).",
+    "noReason": "No reason informed",
+    "isNotBanned": "This user is not banned (at least not yet `^-^`).",
     "clickToUnban": "To unban the user, click {{emoji}}.",
     "reason": "Reason",
     "userUnbanned": "ready ^^, the user has been unbanned from your server I hope she learn this time.",
@@ -1123,7 +1123,7 @@
     "alreadyUsed": "This tag is already being used by someone else! If you think this is an error, please contact us at our Support Server.",
     "wrongFormat": "I think maybe this might not be a Brawl Stars tag, remembering that they must have the format `#XXXXXXXX`.",
     "registerWarn": "Remembering that: if you put a wrong tag, you can use the command again to change it.",
-    "registedTag": "perfeito!! Sua tag foi registrada no bot para que você possa executar os comandos de forma mais eficiente!"
+    "registedTag": "perfect!! Your tag has been registered in the bot so you can run the commands more efficiently!"
   },
   "tictactoe": {
     "config": {

@@ -426,11 +426,11 @@
   },
   "mcplayerinfo": {
      "config": {
-       "description": "Shows the informations for a Minecraft account.",
+       "description": "Mostra as informações de um jogador do Minecraft.",
        "examples": [
-         "PeterStark000 |-| Use the \"PeterStark000\" account",
-         "viniccius13 |-| Use the \"viniccius13\" account",
-         "AuthenticGames |-| Use the \"AuthenticGames\" account"
+         "PeterStark000 |-| Veja as informações da conta \"PeterStark000\"",
+         "viniccius13 |-| Veja as informações da conta \"viniccius13\"",
+         "AuthenticGames |-| Veja as informações da conta \"AuthenticGames\""
        ]
      },
     "notFound": "Eu entrei em vários mundos, servidores, mapas de Minecraft e não encontrei este player... Tem certeza de que ele existe?",
