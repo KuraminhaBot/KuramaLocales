@@ -39,7 +39,7 @@
     "link": "Open {{item}} in the browser"
   },
   "coins": {
-    "youDoNotHaveMoney": "você não tem coins suficientes para isso! Precisa pegar mais dailys amigo...",
+    "youDoNotHaveMoney": "you don't have enough coins for that! You need claim more dailies my friend...",
     "invalidValue": "valor de Kurama-Coins inválido, poderia por favor colocar algo que seja válido? Por favor <3",
     "dontHaveEnoughMoney": "você não tem **Kurama Coins** suficientes para finalizar este comando, volte quando tiver o dinheiro para utilizar este comando.",
     "heDontHaveEnoughMoney": "{{user}} não tem **Kurama Coins** suficientes para finalizar este comando, volte quando tiver o dinheiro para utilizar este comando.",
