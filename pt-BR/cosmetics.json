@@ -6,337 +6,293 @@
     "OrangeBackground": {
       "name": "Simplesmente Cor Laranja",
       "description": "O background padrão que você utiliza!",
-      "collection": "Rede Dark"
     },
     "AquaBackground": {
       "name": "Simplesmente Cor Aqua",
       "description": "A versão do background padrão, porém com a cor aqua.",
-      "collection": "Rede Dark"
     },
     "BlueBackground": {
       "name": "Simplesmente Azulado",
       "description": "A versão do background padrão, só que azulado.",
-      "collection": "Rede Dark"
     },
     "DarkBlueBackground": {
       "name": "Simplesmente Azulado Escuro",
       "description": "A versão do background padrão, só que azulado escurinho.",
-      "collection": "Rede Dark"
     },
     "GreenBackground": {
       "name": "Simplesmente Esverdeado",
       "description": "A versão do background padrão, só que esverdeado.",
-      "collection": "Rede Dark"
     },
     "PinkBackground": {
       "name": "Simplesmente Cor Rosa",
       "description": "A versão do background padrão, porém com a cor rosa.",
-      "collection": "Rede Dark"
     },
     "PurpleBackground": {
       "name": "Simplesmente Cor Roxa",
       "description": "A versão do background padrão, porém com a cor roxa.",
-      "collection": "Rede Dark"
     },
     "RedBackground": {
       "name": "Simplesmente Avermelhado",
       "description": "A versão do background padrão, só que avermelhado.",
-      "collection": "Rede Dark"
     },
     "YellowBackground": {
       "name": "Simplesmente Amarelado",
       "description": "A versão do background padrão, só que amarelado.",
-      "collection": "Rede Dark"
     },
     "academyNarutoDark": {
       "name": "Konoha Academy, Naruto Dark",
       "description": "Bem vindo à Konoha, mas antes de começar, vire um Genin na Academia!",
-      "collection": "Rede Dark"
     },
     "akatsukiTheme": {
       "name": "Akatsuki Members",
       "description": "Os ninjas mais procurados do mundo, sempre usando um manto de nuvens vermelhas de sangue.",
-      "collection": "Naruto"
     },
     "borutoKonoha": {
       "name": "Konoha: New Gerenations",
       "description": "Boruto Uzumaki, filho de Naruto Uzumaki, o Sétimo Hokage, se inscreveu na Academia Ninja para aprender o verdadeiro significado da Vontade do Fogo!",
-      "collection": "Boruto: Naruto Next Generations"
     },
     "borutoKonohaFriends": {
       "name": "Boruto: Melhores Amigos.",
       "description": "Mitsuki e Boruto fazem parte do novo Time 7, juntos de Sarada e Konohamaru!",
-      "collection": "Boruto: Naruto Next Generations"
     },
     "borutoMitsukiSnake": {
       "name": "Boruto: Mitsuki (ミツキ).",
       "description": "Mitsuki! Apenas um estudante transferido que frequentava aulas em Konohagakure para se tornar um ninja.",
-      "collection": "Boruto: Naruto Next Generations"
     },
     "borutoTheKages": {
       "name": "Boruto: Os Cinco Kages (影).",
       "description": "Os Cinco Kages. Um Kage (影) é o líder de uma das cinco maiores Vilas Ocultas e geralmente são os ninjas mais fortes de seus vilarejos, embora a ideologia e suas ideias, estão sempre dispostos a lutar pelo Mundo Shinobi!",
-      "collection": "Boruto: Naruto Next Generations"
     },
     "discordPark": {
       "name": "Discord **|** Seu lugar para conversar!",
       "description": "Não importa se você faz parte de um clube escolar, uma comunidade artística mundial ou só amigos querendo ficar de boa, o Discord torna mais fácil conversar todo dia e se ver com mais frequência.",
-      "collection": "Discord"
     },
     "gogetaRage": {
       "name": "Gogeta Poder Supremo",
       "description": "\"Eu sou calmo e também pura maldade no coração, guerreiro que nunca desiste e o limite ultrapassa, represento o orgulho da minha raça\"",
-      "collection": "Dragon Ball"
     },
     "gokuTransforms": {
       "name": "Eu sou o Goku",
       "description": "Quantos morreram e eu não pude evitar, e para isso impedir então quando for a hora, eu vou lutar, gritar, Kamehameha!",
-      "collection": "Dragon Ball"
     },
     "happyPudim": {
       "name": "Pudim feliz uwu.",
       "description": "Considerado a comida dos deuses. Queria saber por quê comidas com rostos são tão fofinhas meu deus (⁄ ⁄•⁄ω⁄•⁄ ⁄), deu fome só de olhar...",
-      "collection": "Comidas Fofinhas"
     },
     "inosukeSakuraForest": {
       "name": "Fuyu no Isuke",
       "description": "O frio é intenso, mas a certeza no olhar é certa, certa de que um novo dia chegará.",
-      "collection": "Demon Slayer"
     },
     "kameHouse": {
       "name": "Kame House",
       "description": "Essa é a casa do nosso querido mestre Kame, uma pequena casinha localizada no meio do mar em uma ilha.",
-      "collection": "Dragon Ball"
     },
     "kimetsuTeam": {
       "name": "Demon Slayer Team",
       "description": "Trabalho duro é a soma de esforços diários, e essa amizade, é resultado desse trabalho.",
-      "collection": "Demon Slayer"
     },
     "kuraminhaHuman": {
       "name": "Kyuubi no Kitsune",
       "description": "Já ouviu falar na Kurama? Conhecida por ser um Kitsune, como seres inteligentes e com capacidades mágicas que aumentam com a sua idade e sabedoria. Imagine humanizada!",
-      "collection": "Rede Dark"
     },
     "meliodasAndElizabeth": {
       "name": "Meliodas & Elizabeth - Deusa e Demônio",
       "description": "Pois num espaço entre zero e um farei, fronteira! Ali meus desejos vagos se encontrarão...",
-      "collection": "Nanatsu no Taizai"
     },
     "meliodasVsZeldris": {
       "name": "Dois irmãos, um trono, um destino.",
       "description": "Desesperados para salvar a quem amam, dois irmãos lutam pelo trono. Quem vencerá? Quem subirá ao topo? Quem se libertará de seu sofrimento?",
-      "collection": "Nanatsu no Taizai"
     },
     "narutoAndSasuke": {
       "name": "Sol e Lua de Konoha",
       "description": "\"Alguém me disse que sou um fracassado, e eu vou provar que eles estão errados!\"",
-      "collection": "Naruto"
     },
     "narutoBestFriends": {
       "name": "Naruto: Laços",
       "description": "\"Quebrar os laços com os meus amigos não é sequer uma opção!\", ~ Naruto Uzumaki",
-      "collection": "Naruto"
     },
     "narutoJinchuuriks": {
       "name": "As Bijuus de Cauda.",
       "description": "\"Chamam a gente de Jinchuuriki. Quem te deu o direito de rotular a gente?! Quem são vocês pra decidirem o destino de alguém?!\", ~ Naruto Uzumaki",
-      "collection": "Naruto"
     },
     "narutoJirayaTeam": {
       "name": "Jiraya: A história do Herói",
       "description": "\"Entender a dor é o que te faz ser gentil com os outros... Entender a dor é o que nos faz amadurecer\", ~ Jiraya.",
-      "collection": "Naruto"
     },
     "narutoNagatoTeam": {
       "name": "Os Órfãos de Amegakure",
       "description": "Os Órfãos de Ame foram três crianças que perderam seus pais. Se juntaram, até que foram encontrados por Jiraiya, deu comida, abrigo e lhes ensinou como usar ninjutsu para que eles pudessem se defender.",
-      "collection": "Naruto"
     },
     "narutoNarutoSmile": {
       "name": "Naruto: Sorriso",
       "description": "\"E o meu sonho é ser o maior Hokage!! Dessa forma, as pessoas vão parar de me desrespeitar e começar a me tratar como se eu fosse alguém. Alguém importante!\", ~ Naruto Uzumaki",
-      "collection": "Naruto"
     },
     "narutoOldTeam7": {
       "name": "O Antigo Time 7",
       "description": "“No mundo ninja, quem quebra as regras é lixo, é verdade, mas quem abandona seus amigos é pior que lixo.”",
-      "collection": "Naruto"
     },
     "narutoOrange": {
       "name": "Meu nome é, Naruto Uzumaki! Datebayo, tô certo!",
       "description": "\"Eu nunca volto atrás da minha palavra, e esse é o meu Jeito Ninja de Ser!\"",
-      "collection": "Naruto"
     },
     "narutoUchihaOldGen": {
       "name": "Clan Uchiha: Antiga geração.",
       "description": "Não importa que tipo de humano somos, é somente na hora da morte que descobrimos nossa verdadeira natureza, a verdadeira razão de nossa existência.",
-      "collection": "Naruto"
     },
     "narutoUchihasNewGen": {
       "name": "Clan Uchiha: Nova geração.",
       "description": "Não importa que tipo de humano somos, é somente na hora da morte que descobrimos nossa verdadeira natureza, a verdadeira razão de nossa existência.",
-      "collection": "Naruto"
     },
     "narutoWillOfFire": {
       "name": "A Vontade do Fogo!",
       "description": "“Enquanto eu estiver vivo, eu não vou deixar você morrer em uma missão! Se você é um shinobi de Konoha, encontre a sua Determinação do Fogo!”",
-      "collection": "Naruto"
     },
     "tanjiroPower": {
       "name": "Hinokami! Irmãos",
       "description": "O coração é o que move as pessoas. Então, seu coração poderá ter a força que você quiser!",
-      "collection": "Demon Slayer"
     },
     "tanjiroSwordRage": {
       "name": "The only one who sees her as human",
       "description": "Está tudo bem em chorar. Está tudo bem em fugir. Apenas não desista.",
-      "collection": "Demon Slayer"
     },
     "tokyoDSDark": {
       "name": "Demon Slayer Dark, Tokyo",
       "description": "Tokyo, a capital do Japão, combina luzes e cores com o tradicional, desde festiváis e luzes a templos históricos.",
-      "collection": "Demon Slayer Dark"
     },
     "cyberpunk2077CityCar": {
       "name": "CyberPunk 2077",
       "description": "Deixamos a ganância para os outros.",
-      "collection": "Cyberpunk"
     },
     "lolBloodAkali": {
       "name": "Akali Sangrenta",
       "description": "Já estou pensando no próximo alvo.",
-      "collection": "League of Legends"
     },
     "lolSilverAkali": {
       "name": "Akali Presas de Prata",
       "description": "Faremos do meu jeito, rápido e mortal!",
-      "collection": "League of Legends"
     },
     "lolTargon": {
       "name": "Monte Targon",
       "description": "Histórias dizem que aquele que chega no topo é divinamente abençoado.",
-      "collection": "League of Legends"
     },
     "onePieceThousandSunny": {
       "name": "Uma nova jornada",
       "description": "E assim, se começa uma nova aventura para Luffy e sua tripulação.",
-      "collection": "One Piece"
     },
     "pokemonMimikyuPikachu": {
       "name": "Pikachu?",
       "description": "Um estranho pokémon apareceu, parece ser um pikachu, certo?",
-      "collection": "Pokémon"
     },
     "lolBloodAkali": {
       "name": "Akali Lua Sangrenta",
       "description": "Já estou pensando no próximo alvo.",
-      "collection": "League of Legends"
     },
     "narutoLetsGoKurama": {
       "name": "Naruto e Kurama",
       "description": "O inicio de uma grande amizade... Vamos lá Kurama!!",
-      "collection": "Naruto Shippuden"
     },
     "yourNameDestiny": {
       "name": "Kimi no na wa",
       "description": "Tenho medo de um dia esquecer tudo... E isso é porque agora tenho muitas coisas importantes para mim.",
-      "collection": "Your Name"
     },
     "hxhAnimePersons": {
       "name": "Gon e seus Memoráveis Amigos",
       "description": "Você nunca irá conhecer alguém por inteiro. Se você quer conhecer alguém, descubra o que os deixa com raiva.",
-      "collection": "Hunter x Hunter."
     },
     "narutoAfternoonOfKonoha": {
       "name": "Afternoon Of Konoha",
       "description": "Um pouco após o entardecer, a bela Konoha é tomada de ventos e folhas, um lugar sereno sob uma linda lua.",
-      "collection": "Naruto Shippuden"
     },
     "lofiStudentGirlBrasil": {
       "name": "Lo fi Brasil: Ouvindo uma música",
       "description": "Nada melhor do que se sentar e ouvir um samba, um funk, um sertanejo? Estudar e passar a tarde assim é o melhor remédio.",
-      "collection": "Anime"
     },
     "lofiStudentGirl": {
       "name": "Lo fi: Ouvindo uma música",
       "description": "Nada melhor do que se sentar e ouvir uma musiquinha, estudar e passar a tarde.",
-      "collection": "Anime"
     },
     "discordWumpusBeach": {
       "name": "Wumpus na Praia",
       "description": "Apenas tomando um solzinho, se refrescando neste calor, o dia está realmente lindo.",
-      "collection": "Discord"
     },
     "discordMinimalistWumpus": {
       "name": "Wumpus Minimalista",
       "description": "Sabia que o Wumpus não possuí amigos? Talvez você possa ser o primeiro amigo dele.",
-      "collection": "Discord"
     },
     "lolKDAPopStars": {
       "name": "KDA Pop Stars",
       "description": "They could try but we’re gonna wear the crown, wish you luck but you’re not bringing us down. We go hard",
-      "collection": "League of Legends."
     },
     "onePieceBaratie": {
       "name": "O restaurante flutuante! Baratie!",
       "description": "O nosso dilema é, servir quem tem fome, os clientes são sempre prioridade. Quem estiver com fome, deverá ser tratado como cliente.",
-      "collection": "One Piece"
     },
     "stevenUniverseIsland": {
       "name": "Aventura na Ilha.",
       "description": "Esta ilha é habitada por várias criaturas mágicas, tem várias praias, uma cachoeira gigante e muitas árvores.",
-      "collection": "Steven Universe"
     },
     "stevenUniverseFloatingIsland": {
       "name": "Ilha Flutuante.",
       "description": "Ah se você pudesse, sequer imaginar, viemos de além do Sol e Lua, até aqui chegar!",
-      "collection": "Steven Universe"
     },
     "lolJaxDivine": {
       "name": "Jax Cajado Divino",
       "description": "Após sua terra natal ser derrotada por sua própria arrogância ao libertar o Vazio, Jax e seu povo juraram proteger o pouco que restou!",
-      "collection": "League of Legends"
     },
     "demonSlayerShinobu": {
       "name": "Shinobu Kocho!",
       "description": "\"Se as pessoas acreditam em tudo que ouvem, então não há diferença entre a mentira e a verdade\"",
-      "collection": "Demon Slayer"
     },
     "fateSNRinEArcher": {
       "name": "Rin e Archer",
       "description": "\"Meu lema é se eu tenho tempo para me preocupar eu tenho tempo para agir\"",
-      "collection": "Fate Stay Night"
     },
     "jujutsuKaisenParadaise": {
       "name": "Jujutsu Kaisen Ending",
       "description": "\"Perdido no Paraíso\" - Ending Lost in Paradise feat. AKLO",
-      "collection": "Jujutsu Kaisen"
     },
     "onePieceZoro": {
       "name": "Roronoa Zoro",
       "description": "\"A lâmina mais forte é aquela que pode proteger o que você quer proteger e cortar aquilo que você quer cortar\"",
-      "collection": "One Piece"
     },
     "narutoUchihaBlood": {
       "name": "Naruto: O sangue dos Uchihas.",
       "description": "\"Meu nome é Sasuke Uchiha. O que eu tenho não é um sonho, porque eu vou torná-lo uma realidade. Vou restaurar meu clã, e matar um certo alguém.\"",
-      "collection": "Naruto"
     },
     "lolGalaxyZed": {
       "name": "Zed o destruidor de Galáxias.",
       "description": "\"Kayn, até que em outra vida, você teria sido um bom pupilo.\"",
-      "collection": "League of Legends"
     },
     "onePieceLuffy": {
       "name": "Monkey D. Luffy",
       "description": "\"Eu não quero conquistar nada, só acho que a pessoa com mais liberdade do mundo é o rei dos piratas! E por isso, eu serei o Rei dos Piratas\"",
-      "collection": "One Piece"
     },
     "lolAkaliKDA": {
       "name": "Akali: KDA Pop Stars",
       "description": "\"Não há como deter oque está por vir. Regras só atrapalham, melhor deixá-las pra quem precisa. Não pensamos da mesma forma. Chegou a hora de você, aprender.\"",
-      "collection": "League of Legends"
+    },
+    "collections": {
+      "narutoDark": "Naruto Dark",
+      "boruto": "Boruto: Naruto Next Generations",
+      "discord": "Discord",
+      "cuteFood": "Comidas Fofinhas",
+      "dragonBall": "Dragon Ball",
+      "demonSlayer": "Demon Slayer",
+      "nanatsuNoTaizai": "Nanatsu No Taizai",
+      "redeDark": "Rede Dark",
+      "naruto": "Naruto",
+      "demonSlayerDark": "Demon Slayer Dark",
+      "cyberpunk": "Cyberpunk 2077",
+      "leagueOfLegends": "League of Legends",
+      "onePiece": "One Piece",
+      "pokemon": "Pokémon",
+      "narutoShippuden": "Naruto Shippuden",
+      "yourName": "Your Name",
+      "hunterXHunter": "Hunter x Hunter.",
+      "anime": "Anime",
+      "stevenUniverse": "Steven Universe",
+      "fateSayNight": "Fate Stay Night",
+      "jujutsuNoKaisen": "Jujutsu Kaisen",
     }
   }
 }
