@@ -40,10 +40,10 @@
   },
   "coins": {
     "youDoNotHaveMoney": "you don't have enough coins for that! You need claim more dailies my friend...",
-    "invalidValue": "valor de Kurama-Coins inválido, poderia por favor colocar algo que seja válido? Por favor <3",
-    "dontHaveEnoughMoney": "você não tem **Kurama Coins** suficientes para finalizar este comando, volte quando tiver o dinheiro para utilizar este comando.",
-    "heDontHaveEnoughMoney": "{{user}} não tem **Kurama Coins** suficientes para finalizar este comando, volte quando tiver o dinheiro para utilizar este comando.",
-    "applyRate": "Você precisa apostar um pouco mais, vamos lá! Eu preciso aplicar taxa, acha que sobrevivo como nessa crise?"
+    "invalidValue": "invalid Kurama-Coins' value, please, can you put something valid? Please <3",
+    "dontHaveEnoughMoney": "you don't have enough **Kurama Coins** to execute this command, come back later when you have enough money to use this command.",
+    "heDontHaveEnoughMoney": "{{user}} don't have enough **Kurama Coins** to execute this command, come back later when they have enough money to use this command.",
+    "applyRate": "You need bet a little more, let's go! I need apply a tax, how you think I survive this crisis?"
   },
   "onlyguild": "you cannot use this command in private messages!",
   "image_hyperlink": "[Click here]({{url}}) to download the image!",
