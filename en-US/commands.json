@@ -1147,11 +1147,11 @@
       "description": "Procura o nome de uma musica a partir de um video!"
     },
     "errorInDownload": "Eu não consegui baixar este vídeo... Tem certeza de que ele é um link válido? Ou que não é um vídeo muito grande?",
-    "biggerFile": "O vídeo tem uma duração muito grande! Tente fornecer um vídeo que tenha entre 10 e 20 segundos, por favor!",
-    "notFound": "Não consegui encontrar a música que está sendo tocada no vídeo!",
-    "unknownArtist": "Artista Desconhecido",
-    "iFound": "Eu achei: {{song}}",
-    "card": "Talvez seja o clipe seja: {{card}}"
+    "biggerFile": "The video has a very long duration! Try to provide a video that is between 10 and 20 seconds, please!",
+    "notFound": "I couldn't find the song being played in the video!",
+    "unknownArtist": "Unknown Artist",
+    "iFound": "I found: {{song}}",
+    "card": "Maybe the video is: {{card}}"
   },
   "util": {
     "noHasDescription": "This command hasn't description.",
