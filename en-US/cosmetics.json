@@ -267,6 +267,22 @@
       "name": "Akali: KDA Pop Stars",
       "description": "\"Não há como deter oque está por vir. Regras só atrapalham, melhor deixá-las pra quem precisa. Não pensamos da mesma forma. Chegou a hora de você, aprender.\""
     },
+    "zenitsuDemonSlayer": {
+      "name": "Respiração do Trovão",
+      "description": "Se eu dormir eu não, vou temer nenhuma assombração, vão sentir o poder do deus do trovão, eu não vou ter piedade até meus olhos abrirem"
+    },
+    "kakeguruiYumeko": {
+      "name": "Yumeko Jabami",
+      "description": "Eu não gosto de situações onde sei de certeza se vou ganhar ou perder. Porque isso não é verdadeiramente jogo"
+    },
+    "kimetsuRengokuVsAkaza": {
+      "name": "Rengoku Vs Akaza",
+      "description": "Envelhecer e morrer é o que dá sentido e beleza ao tempo fugaz de uma vida humana. É exatamente porque envelhecemos e morremos que nossas vidas têm valor e nobreza."
+    },
+    "sunsetGogeta": {
+      "name": "Gogeta",
+      "description": "Não sou Goku nem Vegeta, sou o encarregado de acabar com você"
+    },
     "collections": {
       "narutoDark": "Naruto Dark",
       "boruto": "Boruto: Naruto Next Generations",
@@ -288,7 +304,8 @@
       "anime": "Anime",
       "stevenUniverse": "Steven Universe",
       "fateSayNight": "Fate Stay Night",
-      "jujutsuNoKaisen": "Jujutsu Kaisen"
+      "jujutsuNoKaisen": "Jujutsu Kaisen",
+      "kakegurui": "Kakegurui"
     }
   }
 }
