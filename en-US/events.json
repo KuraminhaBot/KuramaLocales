@@ -16,7 +16,7 @@
       "noInteract": "Wait a minute... you aren't {{user}}! This isn't for you, go away!"
     },
     "notFoundImage": "Sorry, but I couldn't find any images I can use! I tried to get images from links, attached images, mentioned user avatars, emojis... but I didn't find any of that in your message.",
-    "notFoundVideos": "Desculpe, mas eu não achei nenhum video que eu possa usar! Eu tentei pegar videos em links, videos anexados... mas eu não achei nada disso na sua mensagem.",
+    "notFoundVideos": "Sorry, but I couldn't find any videos I can use! I tried to get videos from links, attached videos... but I didn't find any of that in your message.",
     "youReBanned": "You cannot use my commands, you are **banned**!\n✍️ **|** Reason: `{{reason}}`"
   },
   "status": {
