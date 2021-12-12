@@ -1155,16 +1155,16 @@
   },
   "temperature": {
     "config": {
-      "description": "Converta medidas de temperaturas em outras escalas termométricas."
+      "description": "Convert temperature measurements to other thermometric scales."
     },
-    "converted": "**{{number}} {{from}} em {{to}}:** {{result}}"
+    "converted": "**{{number}} {{from}} in {{to}}:** {{result}}"
   },
   "roleicon": {
     "config": {
-      "description": "Veja o ícone que está sendo utilizado em um cargo."
+      "description": "See the icon being used in a role"
     },
-    "icon": "ícone",
-    "noHas": "Eu procurei por todo lugar, e pelo visto este cargo não possui um ícone definido nele!"
+    "icon": "icon",
+    "noHas": "I looked everywhere, and apparently this role doesn't have an icon defined in it!"
   },
   "util": {
     "noHasDescription": "This command hasn't description.",
