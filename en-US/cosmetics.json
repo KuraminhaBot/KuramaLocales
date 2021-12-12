@@ -68,28 +68,28 @@
       "description": "Whether you’re part of a school club, a gaming group, a worldwide art community, or just a handful of friends that want to spend time together, Discord makes it easy to talk every day and hang out more often."
     },
     "gogetaRage": {
-      "name": "Gogeta Poder Supremo",
-      "description": "\"Eu sou calmo e também pura maldade no coração, guerreiro que nunca desiste e o limite ultrapassa, represento o orgulho da minha raça\""
+      "name": "Gogeta Supreme Power",
+      "description": "\"I am calm and pure evil in heart, a warrior who never gives up and exceeds the limit, I represent the pride of my race.\""
     },
     "gokuTransforms": {
       "name": "I am Goku",
-      "description": "Quantos morreram e eu não pude evitar, e para isso impedir então quando for a hora, eu vou lutar, gritar, Kamehameha!"
+      "description": "How many died and I couldn't avoid, and to avoid that when time comes, I will fight, scream, Kamehameha!"
     },
     "happyPudim": {
       "name": "Happy Pudding uwu.",
-      "description": "Considerado a comida dos deuses. Queria saber por quê comidas com rostos são tão fofinhas meu deus (⁄ ⁄•⁄ω⁄•⁄ ⁄), deu fome só de olhar..."
+      "description": "Considering the food of the gods. I wanted to know why foods with faces are so cute my god (⁄ ⁄•⁄ω⁄•⁄ ⁄), gave me hunger just by looking..."
     },
     "inosukeSakuraForest": {
       "name": "Fuyu no Isuke",
-      "description": "O frio é intenso, mas a certeza no olhar é certa, certa de que um novo dia chegará."
+      "description": "The cold is intense, but the trust in sight is right, trust that a new day will come."
     },
     "kameHouse": {
       "name": "Kame House",
-      "description": "Essa é a casa do nosso querido mestre Kame, uma pequena casinha localizada no meio do mar em uma ilha."
+      "description": "This is the house of our dear master Kame, a small house located in the middle of the sea on an island."
     },
     "kimetsuTeam": {
       "name": "Demon Slayer Team",
-      "description": "Trabalho duro é a soma de esforços diários, e essa amizade, é resultado desse trabalho."
+      "description": "Hard work is the sum of daily efforts, and this friendship, is the result of this work."
     },
     "kuraminhaHuman": {
       "name": "Kyuubi no Kitsune",
@@ -97,7 +97,7 @@
     },
     "meliodasAndElizabeth": {
       "name": "Meliodas & Elizabeth - Goddess and Demon",
-      "description": "Pois num espaço entre zero e um farei, fronteira! Ali meus desejos vagos se encontrarão..."
+      "description": "In a space between zero and one I will do, border! There my vague desires will meet..."
     },
     "meliodasVsZeldris": {
       "name": "Two brothers, one throne, one destiny.",
@@ -109,15 +109,15 @@
     },
     "narutoBestFriends": {
       "name": "Naruto: Bonds",
-      "description": "\"Quebrar os laços com os meus amigos não é sequer uma opção!\", ~ Naruto Uzumaki"
+      "description": "\"Brake the ties with my friends is not even an option!\", ~ Naruto Uzumaki"
     },
     "narutoJinchuuriks": {
-      "name": "As Bijuus de Cauda.",
-      "description": "\"Chamam a gente de Jinchuuriki. Quem te deu o direito de rotular a gente?! Quem são vocês pra decidirem o destino de alguém?!\", ~ Naruto Uzumaki"
+      "name": "The Tailed Beasts.",
+      "description": "\"They call us the Jinchuuriki. Who gave you the right to label us?! Who are you to decide someones destiny?!\", ~ Naruto Uzumaki"
     },
     "narutoJirayaTeam": {
-      "name": "Jiraya: A história do Herói",
-      "description": "\"Entender a dor é o que te faz ser gentil com os outros... Entender a dor é o que nos faz amadurecer\", ~ Jiraya."
+      "name": "Jiraya: The heroes story",
+      "description": "\"Understand the pain is what makes you be kind with others... Understand the pain is what makes us mature\", ~ Jiraya."
     },
     "narutoNagatoTeam": {
       "name": "The Amegakure's Orphans",
@@ -132,79 +132,79 @@
       "description": "\"In the ninja world, those who break the rules are scum, that's true, but those who abandon their friends are worse than scum.\""
     },
     "narutoOrange": {
-      "name": "Meu nome é, Naruto Uzumaki! Datebayo, tô certo!",
-      "description": "\"Eu nunca volto atrás da minha palavra, e esse é o meu Jeito Ninja de Ser!\""
+      "name": "My name is, Naruto Uzumaki! Datebayo, I am right!",
+      "description": "\"I never go back on my word, that's my nindo! My ninja way!\""
     },
     "narutoUchihaOldGen": {
       "name": "Clan Uchiha: Old generation.",
-      "description": "Não importa que tipo de humano somos, é somente na hora da morte que descobrimos nossa verdadeira natureza, a verdadeira razão de nossa existência."
+      "description": "Doesn't matter what type of human we are, it's only at the time of death that we discover our true nature, the true reason of our existence."
     },
     "narutoUchihasNewGen": {
       "name": "Clan Uchiha: New generation.",
-      "description": "Não importa que tipo de humano somos, é somente na hora da morte que descobrimos nossa verdadeira natureza, a verdadeira razão de nossa existência."
+      "description": "Doesn't matter what type of human we are, it's only at the time of death that we discover our true nature, the true reason of our existence."
     },
     "narutoWillOfFire": {
       "name": "Will of Fire!",
-      "description": "“Enquanto eu estiver vivo, eu não vou deixar você morrer em uma missão! Se você é um shinobi de Konoha, encontre a sua Determinação do Fogo!”"
+      "description": "\"While I'm still alive, I wont let you die on a mission! If you are a Shinobi of the leaf, find your determination of Fire!\""
     },
     "tanjiroPower": {
       "name": "Hinokami! Brothers",
-      "description": "O coração é o que move as pessoas. Então, seu coração poderá ter a força que você quiser!"
+      "description": "The heart is what moves people. So, my heart may have the strength you want!"
     },
     "tanjiroSwordRage": {
       "name": "The only one who sees her as human",
-      "description": "Está tudo bem em chorar. Está tudo bem em fugir. Apenas não desista."
+      "description": "It's ok to cry. It's ok to run away. Just don't give up."
     },
     "tokyoDSDark": {
       "name": "Demon Slayer Dark, Tokyo",
-      "description": "Tokyo, a capital do Japão, combina luzes e cores com o tradicional, desde festiváis e luzes a templos históricos."
+      "description": "Tokyo, the capital of Japan, combines lights and colors with the traditional, from festivals and lights to historic temples."
     },
     "cyberpunk2077CityCar": {
       "name": "Cyberpunk 2077",
-      "description": "Deixamos a ganância para os outros."
+      "description": "We let greed for others."
     },
     "lolBloodAkali": {
       "name": "Blood Moon Akali",
-      "description": "Já estou pensando no próximo alvo."
+      "description": "I'm already thinking on the next target."
     },
     "lolSilverAkali": {
       "name": "Silverfang Akali",
-      "description": "Faremos do meu jeito, rápido e mortal!"
+      "description": "We'll do it my way, fast and mortal!"
     },
     "lolTargon": {
       "name": "Mount Targon",
-      "description": "Histórias dizem que aquele que chega no topo é divinamente abençoado."
+      "description": "Stories say that the one that reaches the top is definitely blessed."
     },
     "onePieceThousandSunny": {
-      "name": "Uma nova jornada",
-      "description": "E assim, se começa uma nova aventura para Luffy e sua tripulação."
+      "name": "A new journey",
+      "description": "And so, a new adventure begins for Luffy and his crew."
     },
     "pokemonMimikyuPikachu": {
       "name": "Pikachu?",
-      "description": "Um estranho pokémon apareceu, parece ser um pikachu, certo?"
+      "description": "A strange pokemon appeared, seems like a pikachu, right?"
     },
     "narutoLetsGoKurama": {
       "name": "Naruto And Kurama",
-      "description": "O inicio de uma grande amizade... Vamos lá Kurama!!"
+      "description": "The start of a great friendship... Let's go Kurama!!"
     },
     "yourNameDestiny": {
       "name": "Kimi no na wa",
-      "description": "Tenho medo de um dia esquecer tudo... E isso é porque agora tenho muitas coisas importantes para mim."
+      "description": "I'm scared of forgetting everything one day... And that's because I now have a lot of important things to me."
     },
     "hxhAnimePersons": {
-      "name": "Gon e seus Memoráveis Amigos",
-      "description": "Você nunca irá conhecer alguém por inteiro. Se você quer conhecer alguém, descubra o que os deixa com raiva."
+      "name": "Gon and your memorable friends",
+      "description": "You will never meet someone entirely. If you want to know someone, find out what angers them."
     },
     "narutoAfternoonOfKonoha": {
       "name": "Afternoon Of Konoha",
-      "description": "Um pouco após o entardecer, a bela Konoha é tomada de ventos e folhas, um lugar sereno sob uma linda lua."
+      "description": "A little after sunset, the beautiful leaf village is taken by winds and leaves, a serene place under a beautiful moon."
     },
     "lofiStudentGirlBrasil": {
-      "name": "Lo fi Brasil: Ouvindo uma música",
-      "description": "Nada melhor do que se sentar e ouvir um samba, um funk, um sertanejo? Estudar e passar a tarde assim é o melhor remédio."
+      "name": "Lo fi Brasil: Listening to a song",
+      "description": "Nothing better than to sit down and listen to a samba, a funk, a sertanejo? Study and pass the evening, this is the best medicine."
     },
     "lofiStudentGirl": {
-      "name": "Lo fi: Ouvindo uma música",
+      "name": "Lo fi: Listening a song",
       "description": "Nada melhor do que se sentar e ouvir uma musiquinha, estudar e passar a tarde."
     },
     "discordWumpusBeach": {
@@ -220,11 +220,11 @@
       "description": "They could try but we’re gonna wear the crown, wish you luck but you’re not bringing us down. We go hard"
     },
     "onePieceBaratie": {
-      "name": "O restaurante flutuante! Baratie!",
+      "name": "The floating restaurant! Baratie!",
       "description": "O nosso dilema é, servir quem tem fome, os clientes são sempre prioridade. Quem estiver com fome, deverá ser tratado como cliente."
     },
     "stevenUniverseIsland": {
-      "name": "Aventura na Ilha.",
+      "name": "Adventure on island.",
       "description": "Esta ilha é habitada por várias criaturas mágicas, tem várias praias, uma cachoeira gigante e muitas árvores."
     },
     "stevenUniverseFloatingIsland": {
@@ -253,11 +253,11 @@
     },
     "narutoUchihaBlood": {
       "name": "Naruto: Uchiha Blood.",
-      "description": "\"Meu nome é Sasuke Uchiha. O que eu tenho não é um sonho, porque eu vou torná-lo uma realidade. Vou restaurar meu clã, e matar um certo alguém.\""
+      "description": "\"My name is Sasuke Uchiha. What I have is not a dream, because I will make it a reality. I'm going to restore my clan and destroy a certain somebody.\""
     },
     "lolGalaxyZed": {
       "name": "The Galaxy Slayer Zed.",
-      "description": "\"Kayn, até que em outra vida, você teria sido um bom pupilo.\""
+      "description": "\"Kayn, in another life, you would have been a good pupil.\""
     },
     "onePieceLuffy": {
       "name": "Monkey D. Luffy",
@@ -268,7 +268,7 @@
       "description": "\"Não há como deter oque está por vir. Regras só atrapalham, melhor deixá-las pra quem precisa. Não pensamos da mesma forma. Chegou a hora de você, aprender.\""
     },
     "zenitsuDemonSlayer": {
-      "name": "Respiração do Trovão",
+      "name": "Thunder Breathing",
       "description": "Se eu dormir eu não, vou temer nenhuma assombração, vão sentir o poder do deus do trovão, eu não vou ter piedade até meus olhos abrirem"
     },
     "kakeguruiYumeko": {
@@ -281,7 +281,7 @@
     },
     "sunsetGogeta": {
       "name": "Gogeta",
-      "description": "Não sou Goku nem Vegeta, sou o encarregado de acabar com você"
+      "description": "Im neither Goku or Vegeta, I am the one in charge to defeat you"
     },
     "collections": {
       "narutoDark": "Naruto Dark",
