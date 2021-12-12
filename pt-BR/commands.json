@@ -1153,6 +1153,19 @@
     "iFound": "Eu achei: {{song}}",
     "card": "Talvez seja o clipe seja: {{card}}"
   },
+  "temperature": {
+    "config": {
+      "description": "Converta medidas de temperaturas em outras escalas termométricas."
+    },
+    "converted": "**{{number}} {{from}} em {{to}}:** {{result}}"
+  },
+  "roleicon": {
+    "config": {
+      "description": "Veja o ícone que está sendo utilizado em um cargo."
+    },
+    "icon": "ícone",
+    "noHas": "Eu procurei por todo lugar, e pelo visto este cargo não possui um ícone definido nele!"
+  },
   "util": {
     "noHasDescription": "Esse comando não tem descrição.",
     "examples": {

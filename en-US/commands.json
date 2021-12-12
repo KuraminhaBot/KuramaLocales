@@ -1153,6 +1153,19 @@
     "iFound": "I found: {{song}}",
     "card": "Maybe the video is: {{card}}"
   },
+  "temperature": {
+    "config": {
+      "description": "Convert temperature measurements to other thermometric scales."
+    },
+    "converted": "**{{number}} {{from}} in {{to}}:** {{result}}"
+  },
+  "roleicon": {
+    "config": {
+      "description": "See the icon being used in a role"
+    },
+    "icon": "icon",
+    "noHas": "I looked everywhere, and apparently this role doesn't have an icon defined in it!"
+  },
   "util": {
     "noHasDescription": "This command hasn't description.",
     "examples": {
