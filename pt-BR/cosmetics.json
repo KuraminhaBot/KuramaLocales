@@ -273,7 +273,7 @@
     },
     "zenitsuDemonSlayer": {
       "name": "Respiração do Trovão",
-      "description": "Se eu dormir eu não, vou temer nenhuma assombração, vão sentir o poder do deus do trovão, eu não vou ter piedade até meus olhos abrirem"
+      "description": "Se eu dormir eu não vou temer nenhuma assombração, vão sentir o poder do deus do trovão, eu não vou ter piedade até meus olhos se abrirem"
     },
     "kakeguruiYumeko": {
       "name": "Yumeko Jabami",
@@ -286,6 +286,34 @@
     "sunsetGogeta": {
       "name": "Gogeta",
       "description": "Não sou Goku nem Vegeta, sou o encarregado de acabar com você"
+    },
+    "attackOnTitanLeviTeam": {
+      "name": "Esquadrão de Operações Especiais",
+      "description": "Não importa que tipo de sabedoria dite a opção que você escolher, ninguém será capaz de dizer se é certa ou errada até que você chegue a algum resultado."
+    },
+    "jujutsuKaisenItadori": {
+      "name": "Yuji Itadori: O hospedeiro de Sukuna",
+      "description": "Não sei como é a sensação de quando a gente está pra morrer, mas não vou me arrepender do meu jeito de viver."
+    },
+    "superiorMoonsKimetsu": {
+      "name": "Luas Superiores",
+      "description": "Neste mundo, existe apenas um demônio cujo sangue correndo em suas veias tem o poder de transformar humanos em demônios."
+    },
+    "theLastOfUsEllie": {
+      "name": "A última esperança da humanidade",
+      "description": "Depois de tudo que vivemos, o que fizemos, não pode ser por nada, eu vou te vingar Joel"
+    },
+    "discordFuturisticCity": {
+      "name": "Imagine uma cidade futurista",
+      "description": "Não existe uma visão mais bonita do que olhar para o céu e ver o Wumpus!"
+    },
+    "wumpusWinterForest": {
+      "name": "Wumpus na Floresta Congelada",
+      "description": "Não existe nada melhor do que viajar, brincar na neve, tomar um chocolate quente e apreciar uma bela paisagem!"
+    },
+    "discordMovie": {
+      "name": "Imagine um lugar!",
+      "description": "Aqui você pode tudo o que quiser, seja um pirata, um grande explorador ou quem sabe um ninja muito hábil! Tanto faz! Seja você mesmo!"
     },
     "collections": {
       "narutoDark": "Naruto Dark",
@@ -309,7 +337,9 @@
       "stevenUniverse": "Steven Universe",
       "fateSayNight": "Fate Stay Night",
       "jujutsuNoKaisen": "Jujutsu Kaisen",
-      "kakegurui": "Kakegurui"
+      "kakegurui": "Kakegurui",
+      "theLastOfUs": "The Last Of Us",
+      "attackOnTitan": "Attack On Titan"
     }
   }
 }
