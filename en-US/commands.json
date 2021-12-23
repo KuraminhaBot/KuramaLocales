@@ -1166,6 +1166,26 @@
     "icon": "icon",
     "noHas": "I looked everywhere, and apparently this role doesn't have an icon defined in it!"
   },
+  "inviteinfo": {
+    "config": {
+      "description": "See the information for a Discord invite"
+    },
+    "guild": {
+      "ID": "Server ID",
+      "createdAt": "Created at"
+    },
+    "footer": {
+      "yes": "😊 Yes, I'm on the server!",
+      "no": "😭 No, I'm not on the server!"
+    },
+    "channel": "Invite Channel",
+    "members": "Members",
+    "features": "Server Features",
+    "inviter": "Inviter",
+    "expiresAt": "Expires in",
+    "uses": "Uses",
+    "notFound": "Maybe this is not a valid server invite... Please try again!"
+  },
   "util": {
     "noHasDescription": "This command hasn't description.",
     "examples": {

@@ -1166,6 +1166,26 @@
     "icon": "ícone",
     "noHas": "Eu procurei por todo lugar, e pelo visto este cargo não possui um ícone definido nele!"
   },
+  "inviteinfo": {
+    "config": {
+      "description": "Veja as informações de um invite do Discord"
+    },
+    "guild": {
+      "ID": "ID do Servidor",
+      "createdAt": "Criado em"
+    },
+    "footer": {
+      "yes": "😊 Sim, eu estou no servidor!",
+      "no": "😭 Não, eu não estou no servidor!"
+    },
+    "channel": "Canal do convite",
+    "members": "Membros",
+    "features": "Recursos do Servidor",
+    "inviter": "Quem convidou",
+    "expiresAt": "Expira em",
+    "uses": "Usos",
+    "notFound": "Talvez isto não seja um convite válido... Tente novamente!"
+  },
   "util": {
     "noHasDescription": "Esse comando não tem descrição.",
     "examples": {
