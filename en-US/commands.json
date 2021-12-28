@@ -1171,19 +1171,19 @@
       "description": "Veja as informações de um invite do Discord"
     },
     "guild": {
-      "ID": "ID do Servidor",
-      "createdAt": "Criado em"
+      "ID": "Server ID",
+      "createdAt": "Created at"
     },
     "footer": {
       "yes": "😊 Sim, eu estou no servidor!",
       "no": "😭 Não, eu não estou no servidor!"
     },
     "channel": "Canal do convite",
-    "members": "Membros",
-    "features": "Recursos do Servidor",
+    "members": "Members",
+    "features": "Server Resources",
     "inviter": "Quem convidou",
-    "expiresAt": "Expira em",
-    "uses": "Usos",
+    "expiresAt": "Expires in",
+    "uses": "Uses",
     "notFound": "Talvez isto não seja um convite válido... Tente novamente!"
   },
   "util": {
