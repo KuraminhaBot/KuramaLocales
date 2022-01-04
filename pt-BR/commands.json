@@ -86,16 +86,6 @@
         "background set random |-| Ativa o modo aleatório, backgrounds aleatórios irão aparecer no seu perfil."
       ]
     },
-    "noHasDescription": "Não há nenhuma descrição para esse background!",
-    "notFoundArtist": "Eu não encontrei o artista.",
-    "name": "Nome:",
-    "price": "Preço:",
-    "collection": "Coleção:",
-    "rarity": "Raridade:",
-    "artist": "Artista:",
-    "dontHaveMoney": "você não tem dinheiro suficiente para comprar esse background.",
-    "alreadyHave": "você já tem esse background, vai comprar de novo por quê?",
-    "youPurchased": "você comprou o background `{{name}} ({{fileName}})`, você pode usar-lo usando, `d!background set {{fileName}}`.",
     "backList": "aqui estão todas as opções para você: `random, {{list}}`.",
     "randomMode": "agora o modo de background random está ativo, toda vez que alguém visualizar seu profile aparecerá um background diferente!",
     "disableRandomMode": "agora o modo de background random está desativado, o seu antigo background que estava ativo aparecerá sempre no seu profile!",
@@ -849,7 +839,8 @@
         "Hino nacional brasileiro |-| Mostra a letra do Hino Nacional Brasileiro."
       ]
     },
-    "lyricsSugestion": "Sugestão de Letra: Você está ouvindo no momento `{{song}}`, para selecionar clique em 🎶."
+    "lyricsSugestion": "Sugestão de Letra: Você está ouvindo no momento `{{song}}`, para selecionar clique em 🎶.",
+    "notFound": "Infelizmente eu não consegui encontrar a letra desta música!"
   },
   "ocr": {
     "config": {
@@ -1185,6 +1176,27 @@
     "expiresAt": "Expira em",
     "uses": "Usos",
     "notFound": "Talvez isto não seja um convite válido... Tente novamente!"
+  },
+  "shop": {
+    "config": {
+      "description": "Adquira novos profiles e backgrounds utilizando a Loja Diária! Todos os dias um item novo!"
+    },
+    "noHasDescription": "Não há nenhuma descrição para esse item!",
+    "notFoundArtist": "Eu não encontrei o artista.",
+    "name": "Nome:",
+    "price": "Preço:",
+    "collection": "Coleção:",
+    "rarity": "Raridade:",
+    "artist": "Artista:",
+    "addedAt": "Adicionado em:",
+    "dontHaveMoney": "você não tem dinheiro suficiente para comprar esse item.",
+    "alreadyHave": "você já possui este item de perfil, tente escolher outro!",
+    "youPurchased": "você comprou o item `{{name}}`, você pode usar-lo usando, `/background set` ou `/layout set`.",
+    "placeholder": "Clique aqui para ver as opções da Loja Diária.",
+    "buyThisItem": "Comprar este item!",
+    "new": "NOVO",
+    "newItensIn": "Novos itens em `{{time}}`!",
+    "itemUnavailable": "Sinto muito mas você não pode comprar este item, pois ele não está mais na Loja Diária!"
   },
   "util": {
     "noHasDescription": "Esse comando não tem descrição.",

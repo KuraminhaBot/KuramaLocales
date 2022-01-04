@@ -305,7 +305,15 @@
       "stevenUniverse": "Steven Universe",
       "fateSayNight": "Fate Stay Night",
       "jujutsuNoKaisen": "Jujutsu Kaisen",
-      "kakegurui": "Kakegurui"
+      "kakegurui": "Kakegurui",
+      "jojoBizarreAdventures": "JoJo: Bizarre Adventures"
     }
+  },
+  "rarity": {
+    "COMMON": "Common",
+    "UNCOMMON": "Uncommon",
+    "RARE": "Rare",
+    "EPIC": "Epic",
+    "LEGENDARY": "Legendary"
   }
 }
