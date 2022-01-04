@@ -311,6 +311,58 @@
       "name": "Imagine a place!",
       "description": "Aqui você pode tudo o que quiser, seja um pirata, um grande explorador ou quem sabe um ninja muito hábil! Tanto faz! Seja você mesmo!"
     },
+    "lolEmissariesOfLight": {
+      "name": "Os Emissários!",
+      "description": "Luz e Trevas, Caos e Ordem, forças opostas e ao mesmo tempo necessárias, que trabalham em conjunto para manter o equilíbrio do Universo!"
+    },
+    "jojoBloodline": {
+      "name": "JoJo: Linhagem de Sangue",
+      "description": "Aqueles marcados com a estrela em sua nuca, possuem o sangue da família Joestar e devem carregar o nosso legado!"
+    },
+    "jojoBrothers": {
+      "name": "JoJo: Irmãos!",
+      "description": "Laços são inexplicáveis e se tornam mais fortes quando compartilhamos os mesmos objetivos!"
+    },
+    "jojoGiornoPose": {
+      "name": "Eu sou Giorno Giovanna, e eu tenho um sonho",
+      "description": "Você me disse que havia 2 caminhos, mas, infelizmente, você só tem um"
+    },
+    "jojoJolynePose": {
+      "name": "Jolyne Cujoh",
+      "description": "\"Yare Yare Dawa.\""
+    },
+    "jojoJonathanBoxes": {
+      "name": "[JoJo] | Eu luto pela minha honra!",
+      "description": "\"Eu vou fazer você chorar como um bebê, Dio!!!\""
+    },
+    "jojoJonathanPose": {
+      "name": "Ao seu dispor, Jonathan Joestar",
+      "description": "\"Como meu coração ressoa! Estou pulsando com calor e vida! Meu próprio sangue é uma sinfonia dentro de mim!\""
+    },
+    "jojoJosephPose": {
+      "name": "\"Joseph Joestar! Prazer em conhecê-lo!\"",
+      "description": "\"O que você disse? Dependendo da sua resposta, posso ter que chutar o seu traseiro!\""
+    },
+    "jojoJotaroPose": {
+      "name": "Jotaro Kujo",
+      "description": "\"Eu paralisei o tempo na marca de 9 segundos! E agora Dio, eu vou precisar de apenas 1 segundo para acabar com você!\""
+    },
+    "jojoJosukePose": {
+      "name": "O meu nome é Josuke Higashikata",
+      "description": "\"É verdade que eu não me sentiria bem batendo em alguém de cama. Portanto eu já previa isto e eu já te curei, sendo assim, se eu te curasse antes, não seria mais baixaria né?\""
+    },
+    "jojoPolnareffPose": {
+      "name": "Jean Pierre Polnareff",
+      "description": "\"O meu stand possuí a carta da Carruagem, Silver Chariot! Muhammad Avdol, se eu não estiver enganado, não me diga que quer morrer primeiro.\""
+    },
+    "jojoSpeedwagon": {
+      "name": "Eu sou só um enxerido, meu nome é Speedwagon",
+      "description": "\"Eu estou fazendo o possível para conter a minha tristeza e fúria! Enquanto Dio não for derrotado, não podemos nos entregar ao luto\""
+    },
+    "jojoWattermellowSugar": {
+      "name": "[JoJo] Tastes like strawberries!",
+      "description": "\"Mas mesmo que seu sangue tenha sido derramado, seu espirito continua vivo. Descanse em paz Caesar Zeppeli.\" - Narrador"
+    },
     "collections": {
       "narutoDark": "Naruto Dark",
       "boruto": "Boruto: Naruto Next Generations",
@@ -335,7 +387,15 @@
       "jujutsuNoKaisen": "Jujutsu Kaisen",
       "kakegurui": "Kakegurui",
       "theLastOfUs": "The Last Of Us",
-      "attackOnTitan": "Attack On Titan"
+      "attackOnTitan": "Attack On Titan",
+      "jojoBizarreAdventures": "JoJo: Bizarre Adventures"
     }
+  },
+  "rarity": {
+    "COMMON": "Comum",
+    "UNCOMMON": "Incomum",
+    "RARE": "Raro",
+    "EPIC": "Épico",
+    "LEGENDARY": "Legendário"
   }
 }
