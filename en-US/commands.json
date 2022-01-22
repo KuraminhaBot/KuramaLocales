@@ -840,7 +840,7 @@
       ]
     },
     "lyricsSugestion": "Lyrics Suggestion: You are currently listening to `{{song}}`, to select, click 🎶.",
-    "notFound": "Infelizmente eu não consegui encontrar a letra desta música!"
+    "notFound": "Unfortunately I couldn't find the lyrics of this song!"
   },
   "ocr": {
     "config": {
