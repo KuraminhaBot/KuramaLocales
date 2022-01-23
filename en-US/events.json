@@ -19,6 +19,9 @@
     "notFoundVideos": "Sorry, but I couldn't find any videos I can use! I tried to get videos from links, attached videos... but I didn't find any of that in your message.",
     "youReBanned": "You cannot use my commands, you are **banned**!\n✍️ **|** Reason: `{{reason}}`"
   },
+  "autocomplete": {
+    "typeQuery": "Type your query."
+  },
   "status": {
     "disabled": "Disabled",
     "enabled": "Enabled"

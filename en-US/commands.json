@@ -1198,6 +1198,11 @@
     "newItensIn": "New itens in `{{time}}`!",
     "itemUnavailable": "Sorry, you can't purchase this item as it is no longer in the Daily Shop!"
   },
+  "ytvideo": {
+    "config": {
+      "description": "Search for a video on YouTube using Kurama!"
+    }
+  },
   "util": {
     "noHasDescription": "This command hasn't description.",
     "examples": {
