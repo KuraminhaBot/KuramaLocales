@@ -21,7 +21,7 @@
       "description": "Shows all bot commands and their information.",
       "examples": [
         "|-| Show all bot commands.",
-        "say |-| Displays the specific information for the say command."
+        "user info |-| Mostra a informação específica do comando user info."
       ]
     },
     "examples": "Examples",
@@ -36,7 +36,8 @@
     "permissions": "Permissions",
     "add-me": "Click here to add me!",
     "youNeedPermissions": "You need to have `{{perm}}` permissions use this command",
-    "iNeedPermissions": "I need `{{perm}}` permissions use this command"
+    "iNeedPermissions": "I need `{{perm}}` permissions use this command",
+    "notFound": "Eu não achei nenhum comando que se encaixe nos termos digitados!"
   },
   "language": {
     "config": {
@@ -53,8 +54,8 @@
       "description": "Make me say something!",
       "examples": [
         "Hello world! |-| Send a message on the channel on which the command was executed, and thanks for calling me cute.",
-        "# 😎│chat hello world! |-| Send a message on the channel that was mentioned.",
-        "297732013006389252 Hello world! |-| Send a message on another channel by ID.",
+        "Olá mundo! /-/ #😎│bate-papo |-| Envia uma mensagem no canal que foi mencionado.",
+        "Olá mundo! /-/ 297732013006389252 |-| Envia uma mensagem em outro canal pelo ID.",
         "{\"embed\": {\"description\": \"Hello world\", \"color\": \"BLURPLE\"}} |-| Send an embed message using the embed JSON code."
       ]
     },
@@ -80,10 +81,10 @@
     "config": {
       "description": "With this command you can buy your beloved backgrounds for your profile. Each background has a different value. `(Common, Uncommon, Rare, Epic and Legendary.)`",
       "examples": [
-        "list |-| To see all the backgrounds you have.",
-        "set OrangeBackground |-| Equip the default background, OrangeBackground, in your profile.",
-        "background set kameHouse |-| Equip the background, kameHouse, in your profile.",
-        "background set random |-| Activate random mode, random backgrounds will appear on your profile."
+        "|-| Para ver todos os backgrounds que você tem.",
+        "OrangeBackground |-| Equipa o background padrão, Orange Background, no seu perfil.",
+        "kameHouse |-| Equipa o background, kameHouse, no seu perfil.",
+        "random |-| Ativa o modo aleatório, backgrounds aleatórios irão aparecer no seu perfil."
       ]
     },
     "backList": "here are all the options for you: `random, {{list}}`.",
@@ -377,8 +378,7 @@
       "description": "See the information from a role of your server.",
       "examples": [
         "@✔️» Kurama's Anbus |-| Search for the information of the mentioned role.",
-        "592830296265588767 |-| Find role information by its ID.",
-        "Administrator |-| Search the role information by name."
+        "592830296265588767 |-| Find role information by its ID."
       ]
     },
     "notFound": "I tried to find mentioned roles, IDs, and role names and couldn't find any role!",
@@ -497,8 +497,8 @@
     "config": {
       "description": "Make a fake user YouTube comment.",
       "examples": [
-        "640593174171090984 I am the most beautiful fox on the site |-| Make a fake comment using Kurama's ID, a fake comment, but with true facts.",
-        "@PeterStark000#6011 Hello Youtube! |-| Make a comment from a mentioned user."
+        "Sou a raposa mais linda do site /-/ 640593174171090984 |-| Faça um comentário fake usando o ID do Kurama, um comentário fake, mas com fatos verdadeiros.",
+        "Olá Youtube! /-/ @PeterStark000#6011 |-| Faça um comentário de um usuário mencionado."
       ]
     },
     "comment": "`{{user}}` just commented."
@@ -507,8 +507,10 @@
     "config": {
       "description": "Make a fake user tweet.",
       "examples": [
-        "640593174171090984 I am the most beautiful fox on the site |-| Make a fake tweet using Kurama's Twitter, a fake tweet, but with true facts.",
-        "@PeterStark000#6011 Hello Twitter! |-| Make a tweet from a twitter user."
+        "Sou a raposa mais linda do site /-/ 640593174171090984 |-| Faça um tweet fake usando o ID do Kurama, um tweet fake, mas com fatos verdadeiros.",
+        "Olá Twitter! /-/ @PeterStark000 |-| Faça um tweet de um usuário do twitter.",
+        "Oi pessoal! /-/  /-/ Dark |-| Faça um tweet de você porém usando o tema escuro do Twitter!",
+        "Iai gente /-/  /-/ Dark /-/ Verified |-| Faça um tweet de você porém usando o tema escuro do Twitter e com o ícone de conta verificada!"
       ]
     },
     "tweet": "`{{user}}` just tweeted."
@@ -525,8 +527,8 @@
     "config": {
       "description": "Jeez, do you have those friends who do everything for you? How about using this command to unmount it in the most expressive way possible?",
       "examples": [
-        "640593174171090984 361977144445763585 |-| Make a montage of me with my owner, using our IDs.",
-        "@Kuraminha#7575 @PeterStark000#6011 @hechfx#9336 @okaabe#4561 |-| Make my montage with my devs."
+        "640593174171090984 /-/ 361977144445763585 |-| Faz uma montagem minha com meu dono, usando os nossos IDs.",
+        "@Kuraminha#7575 /-/ @PeterStark000#6011 /-/ @hechfx#9336 /-/ @okaabe#4561 |-| Faz uma montagem minha com os meus devs."
       ]
     }
   },
@@ -554,8 +556,8 @@
     "config": {
       "description": "It works as follows, the user who stayed with the character who wins the Kamehameha wins the bet.",
       "examples": [
-        "361977144445763585 2000 |-| Bet 2000 Kurama Coins with a user by ID",
-        "PeterStark000#6011 2k |-| Bet 2000 Kurama Coins with a mentioned user"
+        "361977144445763585 /-/ 2000 |-| Aposte 2 mil Kurama Coins com um usuário pelo ID",
+        "PeterStark000#6011 /-/ 2k |-| Aposte 2 mil Kurama Coins com um usuário mencionado"
       ]
     },
     "youWin": "You won! And won **{{coins}} Kurama Coins ({{tax}}.0 of tax)** de {{user}}! Congratulations!!",
@@ -573,8 +575,8 @@
     "config": {
       "description": "Give Kurama-Coins to a friend using this command.",
       "examples": [
-        "361977144445763585 2k |-| Send 2000 Kurama Coins to a user by ID.",
-        "PeterStark000#6011 2000 |-| Send 2000 Kurama Coins to mentioned user."
+        "361977144445763585 /-/ 2k |-| Envia 2000 Kurama Coins para um usuário pelo ID.",
+        "PeterStark000#6011 /-/ 2000 |-| Envia 2000 Kurama Coins para o usuário mencionado."
       ]
     },
     "heIsSure": "Are you sure about this transaction ? You are almost transfering **{{coins}} Kurama Coins** to {{user}}!",
@@ -604,8 +606,8 @@
     "config": {
       "description": "Translate a sentence into another language",
       "examples": [
-        "pt Building a better world together! |-| Translate the indicated phrase into the indicated language!",
-        "en Construindo um mundo melhor juntos! |-| Translate the indicated phrase into the indicated language!"
+        "Building a better world together! /-/ pt |-| Traduz a frase indicada para o idioma indicado!",
+        "Construindo um mundo melhor juntos! /-/ en |-| Traduz a frase indicada para o idioma indicado!"
       ]
     }
   },
@@ -613,7 +615,7 @@
     "config": {
       "description": "Too lazy to take a poll? Add reactions, message and etc? This command will help you!",
       "examples": [
-        "Create gaming channel? |-| Creates a poll for the subject matter."
+        "Criar um canal de jogos? /-/ 1 minuto /-/ Sim /-/ Não |-| Cria uma votação para o assunto pautado."
       ]
     },
     "votation": "Votation"
@@ -622,7 +624,7 @@
     "config": {
       "description": "You missed the writing of a word in a text? Don't worry, use this command and change the wrong word for the right one!",
       "examples": [
-        "I would like to send a hug to Carol, who was a very nice person. Hugs Carol! | Carol | Karol |-| Change the entire sentence \"Carol\" with \"Karol\"."
+        "Gostaria de mandar um abraço para Carol que foi uma pessoa muito legal. Abraços Carol! /-/ Carol /-/ Karol |-| Troca na frase toda \"Carol\" por \"Karol\"."
       ]
     },
     "replaced": "The arguments have been exchanged, your current message is ```{{text}}```"
@@ -668,9 +670,10 @@
     "config": {
       "description": "Add emotes in your server by its image's link. Perfect if you are tired of downloading images to your computer just to add them to your server!",
       "examples": [
-        "discord <:discordlogo:826399361390477332> |-| Adds an emoji from another server on the server.",
-        "quartz https://cdn.discordapp.com/emojis/666786466436743183.png |-| Add an emoji to the server using the link of another emoji.",
-        "red_cat https://i.imgur.com/SVkttz4.png |-| Add an emoji to the server using the image from Imgur."
+        "<:discordlogo:826399361390477332> |-| Adiciona no servidor um emoji de outro servidor (com o mesmo nome).",
+        "<:discordlogo:826399361390477332> /-/ logo |-| Adiciona no servidor um emoji de outro servidor, porém com o nome diferente.",
+        "https://cdn.discordapp.com/emojis/666786466436743183.png /-/ quartz |-| Adiciona no servidor um emoji utilizando o link de outro emoji.",
+        "https://i.imgur.com/SVkttz4.png /-/ red_cat |-| Adiciona no servidor um emoji utilizando a imagem do Imgur."
       ]
     },
     "emojiAdded": "emoji added successfully!",
@@ -796,7 +799,8 @@
     "yourPartnerNeeds": "Apparently, your partner needs **{{price}}.0 Kurama Coins** to marry, unfortunately he doesn't have that value yet.",
     "personIsAlreadyMarried": "Hey friend ... It looks like love knocked late at your door. That person is already married ..",
     "alreadyMarried": "wait, wait, wait.. This is not a Loyalty Test! Stop with that life, why betray your partner!! Shame on you..",
-    "dontMarryMe": "dumped"
+    "dontMarryMe": "dumped",
+    "youCantMarryYouself": "Você não pode casar com si mesmo!"
   },
   "fakemsg": {
     "config": {
@@ -847,7 +851,7 @@
       "description": "Get text in an image using OCR.",
       "examples": [
         "https://i.imgur.com/6fpCRmG.png |-| Reads the content of an image using the URL.",
-        "[Attached image] |-| Reads the content of the image that was attached to the message."
+        "|-| Lê o conteúdo da última imagem foi anexada no chat onde o comando foi executado."
       ]
     },
     "couldntFind": "**Couldn't find any text in this image...**",
@@ -901,7 +905,7 @@
         "<#769897341121069097> |-| Shows the information of the mentioned channel.",
         "769897341121069097 |-| Shows the information of a channel by ID.",
         "<#702156877210845315> |-| Shows the information of a voice channel.",
-        "total |-| Shows total information about voice channels."
+        "null /-/ total |-| Mostra informações totais sobre canais de voz."
       ]
     },
     "totalInfo": "Total Information",
@@ -928,8 +932,8 @@
     "config": {
       "description": "I bet you remember this meme When you want to make a comparison to joke whit a friend or a situation remember this command!",
       "examples": [
-        "You in Physical Education | You in the classroom |-| Generates a comparison meme between these two sentences.",
-        "You in Physical Education | You in the classroom | It's agile and fast as a Lion | \"wait.. 9*7 is how much? \" |-| Generates a comparison meme between two states each with one sentence. "
+        "Você na Educação Física /-/ Você na sala de aula |-| Gera um meme de comparação entre essas duas frases.",
+        "Você na Educação Física /-/ Você na sala de aula /-/ É ágil e rápido como um Leão /-/ \"Pera.. 9*7 é quanto mesmo?\" |-| Gera um meme de comparação entre dois estados cada um com uma frase."
       ]
     }
   },
@@ -939,7 +943,7 @@
       "config": [
         "640593174171090984 |-| Assembles with user by ID.",
         "@PeterStark000#6011 |-| Does the assembly with the user mentioned.",
-        "Yellow https://cdn.discordapp.com/emojis/830998322994479115.gif |-| Assembles with a custom name and avatar. "
+        "Yellow /-/ https://cdn.discordapp.com/emojis/830998322994479115.gif |-| Faz a montagem com um nome e avatar personalizado."
       ]
     }
   },
@@ -983,7 +987,11 @@
   },
   "emojiinfo": {
     "config": {
-      "description": "Displays the information of emojis from the server or a specific one."
+      "description": "Displays the information of emojis from the server or a specific one.",
+      "examples": [
+        "|-| Veja a lista de emojis disponíveis no servidor!",
+        "<:kurama_reverse:934586313582207016> |-| Veja as informações de um emoji específico!"
+      ]
     },
     "page": "Page",
     "sightedIn": "Sighted in {{guild}}",
@@ -996,14 +1004,23 @@
   },
   "anagram": {
     "config": {
-      "description": "Generate and calculate how many anagrams the word has."
+      "description": "Generate and calculate how many anagrams the word has.",
+      "examples": [
+        "Kurama |-| Cria um anagrama usando a palavra \"Kurama\"",
+        "Inemafoo |-| Cria um anagrama usando a palavra \"Inemafoo\"",
+        "Cuscuz pronto |-| Cria um anagrama usando as palavras \"Cuscuz pronto\""
+      ]
     },
     "hasAnagrams": "The word `{{word}}` has **{{number}} anagrams**!",
     "wordAnagram": "The generated anagram is... **{{text}}**"
   },
   "dictionary": {
     "config": {
-      "description": "Look up the meaning of a word in the dictionary."
+      "description": "Look up the meaning of a word in the dictionary.",
+      "examples": [
+        "Raposa |-| Procura o significado da palavra \"raposa\" no dicionário!",
+        "Dicionário |-| Procura o significado da palavra \"dicionário\" no dicionário!"
+      ]
     },
     "choiceWord": "Choose the meaning of the word",
     "title": "Dictionary",
@@ -1013,14 +1030,22 @@
   },
   "servericon": {
     "config": {
-      "description": "See the icon of a Discord server."
+      "description": "See the icon of a Discord server.",
+      "examples": [
+        "|-| Veja as o ícone do servidor atual.",
+        "417061847489839106 |-| Veja o ícone do servidor no qual o ID foi fornecido."
+      ]
     },
     "icon": "icon",
     "noHasIcon": "The server does not have an icon defined."
   },
   "fnstats": {
     "config": {
-      "description": "See the status of your favorite Fortnite partners"
+      "description": "See the status of your favorite Fortnite partners",
+      "examples": [
+        "PeterStark000 |-| Mostra os stats da conta \"PeterStark000\"",
+        "Ninja |-| Mostra os stats da conta \"Ninja\". Ponpon dashite shimaeba ii no, zenzen shinai no tsumaranai desho~ ♫"
+      ]
     },
     "notFound": "I searched everywhere... In matches, in Battle-Royale, even on the battle bus. Are you sure this user has this nickname on `Epic Games`?",
     "playedTime": "Played Time"
@@ -1146,7 +1171,10 @@
   },
   "temperature": {
     "config": {
-      "description": "Convert temperature measurements to other thermometric scales."
+      "description": "Convert temperature measurements to other thermometric scales.",
+      "examples": [
+        "30 /-/ Celsius /-/ Kelvin |-| Converta 30º Celsius para Kelvin!"
+      ]
     },
     "converted": "**{{number}} {{from}} in {{to}}:** {{result}}"
   },
@@ -1159,7 +1187,11 @@
   },
   "inviteinfo": {
     "config": {
-      "description": "Veja as informações de um invite do Discord"
+      "description": "Veja as informações de um invite do Discord",
+      "examples": [
+        "discord.gg/rededark |-| Veja as informações do convite da Rede Dark",
+        "band6PU |-| Veja as informações do convite do servidor de suporte do Kurama"
+      ]
     },
     "guild": {
       "ID": "Server ID",
@@ -1179,7 +1211,10 @@
   },
   "shop": {
     "config": {
-      "description": "Get new profiles and backgrounds using the Daily Shop! Every day has a new item!"
+      "description": "Get new profiles and backgrounds using the Daily Shop! Every day has a new item!",
+      "examples": [
+        "|-| Veja quais itens estão disponíveis no catálogo da Loja Diária!"
+      ]
     },
     "noHasDescription": "There's no description for this item!",
     "notFoundArtist": "I didn't find the artist.",
@@ -1197,6 +1232,14 @@
     "new": "NEW",
     "newItensIn": "New items in {{time}}!",
     "itemUnavailable": "Sinto muito mas você não pode comprar este item, pois ele não está mais na Loja Diária!"
+  },
+  "ytvideo": {
+    "config": {
+      "description": "Procure por um vídeo no YouTube usando o Kurama!",
+      "examples": [
+        "Drivers License |-| Procura o vídeo do smash hit da nossa MC Detran, Olivia Rodrigo!"
+      ]
+    }
   },
   "util": {
     "noHasDescription": "This command hasn't description.",
