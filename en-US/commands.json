@@ -21,7 +21,7 @@
       "description": "Shows all bot commands and their information.",
       "examples": [
         "|-| Show all bot commands.",
-        "user info |-| Mostra a informação específica do comando user info."
+        "user info |-| Shows the specific information of the command user info."
       ]
     },
     "examples": "Examples",
@@ -37,7 +37,7 @@
     "add-me": "Click here to add me!",
     "youNeedPermissions": "You need to have `{{perm}}` permissions use this command",
     "iNeedPermissions": "I need `{{perm}}` permissions use this command",
-    "notFound": "Eu não achei nenhum comando que se encaixe nos termos digitados!"
+    "notFound": "I haven't found any command that fits within the requested parameters!"
   },
   "language": {
     "config": {
@@ -54,8 +54,8 @@
       "description": "Make me say something!",
       "examples": [
         "Hello world! |-| Send a message on the channel on which the command was executed, and thanks for calling me cute.",
-        "Olá mundo! /-/ #😎│bate-papo |-| Envia uma mensagem no canal que foi mencionado.",
-        "Olá mundo! /-/ 297732013006389252 |-| Envia uma mensagem em outro canal pelo ID.",
+        "Hello World! /-/ #😎│bate-papo |-| Sends a message in the mentioned channel.",
+        "Hello world! /-/ 297732013006389252 |-| Sends a message in another channel using the ID.",
         "{\"embed\": {\"description\": \"Hello world\", \"color\": \"BLURPLE\"}} |-| Send an embed message using the embed JSON code."
       ]
     },
@@ -81,8 +81,8 @@
     "config": {
       "description": "With this command you can buy your beloved backgrounds for your profile. Each background has a different value. `(Common, Uncommon, Rare, Epic and Legendary.)`",
       "examples": [
-        "|-| Para ver todos os backgrounds que você tem.",
-        "OrangeBackground |-| Equipa o background padrão, Orange Background, no seu perfil.",
+        "|-| To see how many backgrounds you have.",
+        "OrangeBackground |-| Equips the default background, Orange Background, in your profile.",
         "kameHouse |-| Equipa o background, kameHouse, no seu perfil.",
         "random |-| Ativa o modo aleatório, backgrounds aleatórios irão aparecer no seu perfil."
       ]
