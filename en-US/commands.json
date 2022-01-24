@@ -1223,7 +1223,7 @@
     "collection": "Collection:",
     "rarity": "Rarity:",
     "artist": "Artist:",
-    "addedAt": "Added on:",
+    "addedAt": "Added at:",
     "dontHaveMoney": "you don't have enough money to buy this item.",
     "alreadyHave": "you already have this profile item, try to choose another!",
     "youPurchased": "você comprou o item `{{name}}`, você pode usar-lo usando, `/background set` ou `/layout set`.",
