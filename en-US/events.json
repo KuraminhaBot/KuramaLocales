@@ -20,7 +20,7 @@
     "youReBanned": "You cannot use my commands, you are **banned**!\n✍️ **|** Reason: `{{reason}}`"
   },
   "autocomplete": {
-    "typeQuery": "Digite o que você deseja procurar."
+    "typeQuery": "Type your query."
   },
   "status": {
     "disabled": "Disabled",
