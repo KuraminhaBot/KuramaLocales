@@ -1043,8 +1043,8 @@
     "config": {
       "description": "See the status of your favorite Fortnite partners",
       "examples": [
-        "PeterStark000 |-| Mostra os stats da conta \"PeterStark000\"",
-        "Ninja |-| Mostra os stats da conta \"Ninja\". Ponpon dashite shimaeba ii no, zenzen shinai no tsumaranai desho~ ♫"
+        "PeterStark000 |-| See the account \"PeterStark000\" stats",
+        "Ninja |-| Shows the stats of the \"Ninja\" account. Ponpon dashite shimaeba ii no, zenzen shinai no tsumaranai desho~ ♫"
       ]
     },
     "notFound": "I searched everywhere... In matches, in Battle-Royale, even on the battle bus. Are you sure this user has this nickname on `Epic Games`?",
@@ -1173,7 +1173,7 @@
     "config": {
       "description": "Convert temperature measurements to other thermometric scales.",
       "examples": [
-        "30 /-/ Celsius /-/ Kelvin |-| Converta 30º Celsius para Kelvin!"
+        "30 /-/ Celsius /-/ Kelvin |-| Convert 30º Celsius to Kelvin!"
       ]
     },
     "converted": "**{{number}} {{from}} in {{to}}:** {{result}}"
@@ -1187,10 +1187,10 @@
   },
   "inviteinfo": {
     "config": {
-      "description": "Veja as informações de um invite do Discord",
+      "description": "View information about a Discord invite",
       "examples": [
-        "discord.gg/rededark |-| Veja as informações do convite da Rede Dark",
-        "band6PU |-| Veja as informações do convite do servidor de suporte do Kurama"
+        "discord.gg/rededark |-| See informations of Rede Dark invite",
+        "band6PU |-| View Kurama Support server invite information"
       ]
     },
     "guild": {
@@ -1201,19 +1201,19 @@
       "yes": "😊 Yes, I am on the server!",
       "no": "😭 No, I'm not in the server!"
     },
-    "channel": "Canal do convite",
+    "channel": "Invite Channel",
     "members": "Members",
     "features": "Server Resources",
-    "inviter": "Quem convidou",
+    "inviter": "Inviter",
     "expiresAt": "Expires in",
     "uses": "Uses",
-    "notFound": "Talvez isto não seja um convite válido... Tente novamente!"
+    "notFound": "Maybe this is not a valid server invite... Please try again!"
   },
   "shop": {
     "config": {
       "description": "Get new profiles and backgrounds using the Daily Shop! Every day has a new item!",
       "examples": [
-        "|-| Veja quais itens estão disponíveis no catálogo da Loja Diária!"
+        "|-| See what items are available in the Daily Shop catalog!"
       ]
     },
     "noHasDescription": "There's no description for this item!",
@@ -1226,18 +1226,18 @@
     "addedAt": "Added at:",
     "dontHaveMoney": "you don't have enough money to buy this item.",
     "alreadyHave": "you already have this profile item, try to choose another!",
-    "youPurchased": "você comprou o item `{{name}}`, você pode usar-lo usando, `/background set` ou `/layout set`.",
+    "youPurchased": "you bought the item `{{name}}`, you can use it using, `/background set` or `/layout set`.",
     "placeholder": "Click here to see the Daily Shop's options.",
     "buyThisItem": "Buy this item!",
     "new": "NEW",
     "newItensIn": "New items in {{time}}!",
-    "itemUnavailable": "Sinto muito mas você não pode comprar este item, pois ele não está mais na Loja Diária!"
+    "itemUnavailable": "Sorry, you can't purchase this item as it is no longer in the Daily Shop!"
   },
   "ytvideo": {
     "config": {
-      "description": "Procure por um vídeo no YouTube usando o Kurama!",
+      "description": "Search for a video on YouTube using Kurama!",
       "examples": [
-        "Drivers License |-| Procura o vídeo do smash hit da nossa MC Detran, Olivia Rodrigo!"
+        "Drivers License |-| Search for the video of the smash hit by singer Olivia Rodrigo!"
       ]
     }
   },
