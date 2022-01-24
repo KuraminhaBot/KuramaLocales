@@ -844,7 +844,7 @@
       ]
     },
     "lyricsSugestion": "Lyrics Suggestion: You are currently listening to `{{song}}`, to select, click 🎶.",
-    "notFound": "Unfortunately I couldn't find the lyrics of this song!"
+    "notFound": "Unfortunately I couldn't find the lyrics to this song!"
   },
   "ocr": {
     "config": {
@@ -1217,7 +1217,7 @@
       ]
     },
     "noHasDescription": "There's no description for this item!",
-    "notFoundArtist": "I didn't find the artist.",
+    "notFoundArtist": "I can't find the artist.",
     "name": "Name:",
     "price": "Price:",
     "collection": "Collection:",
@@ -1225,12 +1225,12 @@
     "artist": "Artist:",
     "addedAt": "Added at:",
     "dontHaveMoney": "you don't have enough money to buy this item.",
-    "alreadyHave": "you already have this profile item, try to choose another!",
+    "alreadyHave": "you already have this profile item! Try buy another item",
     "youPurchased": "you bought the item `{{name}}`, you can use it using, `/background set` or `/layout set`.",
-    "placeholder": "Click here to see the Daily Shop's options.",
+    "placeholder": "Click here to see the Daily Shop options.",
     "buyThisItem": "Buy this item!",
     "new": "NEW",
-    "newItensIn": "New items in {{time}}!",
+    "newItensIn": "New itens in `{{time}}`!",
     "itemUnavailable": "Sorry, you can't purchase this item as it is no longer in the Daily Shop!"
   },
   "ytvideo": {

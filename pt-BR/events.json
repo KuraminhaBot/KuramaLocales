@@ -19,6 +19,9 @@
     "notFoundVideos": "Desculpe, mas eu não achei nenhum video que eu possa usar! Eu tentei pegar videos em links, videos anexados... mas eu não achei nada disso na sua mensagem.",
     "youReBanned": "Você não pode utilizar meus comandos, você está **banido**!\n✍️ **|** Motivo: `{{reason}}`"
   },
+  "autocomplete": {
+    "typeQuery": "Digite o que você deseja procurar."
+  },
   "status": {
     "disabled": "Desativado",
     "enabled": "Habilitado"
