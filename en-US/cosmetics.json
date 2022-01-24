@@ -269,7 +269,7 @@
     },
     "zenitsuDemonSlayer": {
       "name": "Thunder Breathing",
-      "description": "If I sleep, I wont fear no haunting, they will feel the power of the thunder god, I wont have mercy until my eyes open"
+      "description": "If I sleep I won't fear no haunts, they'll feel the power of the thunder god, I won't have mercy till my eyes are open"
     },
     "kakeguruiYumeko": {
       "name": "Yumeko Jabami",
@@ -282,6 +282,86 @@
     "sunsetGogeta": {
       "name": "Gogeta",
       "description": "Im neither Goku or Vegeta, I am the one in charge to defeat you"
+    },
+    "attackOnTitanLeviTeam": {
+      "name": "Special Ops Squad",
+      "description": "Doesn't matter what type of knowledge, say the option that you choose, no one will be able to say that it's right or wrong until you get a result."
+    },
+    "jujutsuKaisenItadori": {
+      "name": "Yuji Itadori: Sukuna's Host",
+      "description": "I don't know how it feels when we are about to die, but I won't regret my way of living."
+    },
+    "superiorMoonsKimetsu": {
+      "name": "Upper Moons",
+      "description": "In this world, exists only one demon whose blood that runs through his veins can turn humans into demons."
+    },
+    "theLastOfUsEllie": {
+      "name": "Humanity's Last Hope",
+      "description": "After everything we lived through, what we did, it can't be for nothing, I will avenge you Joel"
+    },
+    "discordFuturisticCity": {
+      "name": "Imagine a futuristic city",
+      "description": "There isn't a better view than to look at the sky and see Wumpus!"
+    },
+    "wumpusWinterForest": {
+      "name": "Wumpus at the Frozen Forest",
+      "description": "There is nothing better than to travel, play in the snow, drink a hot chocolate and appreciate a beautiful view!"
+    },
+    "discordMovie": {
+      "name": "Imagine a place!",
+      "description": "Here you can everything you want, be a pirate, a great explorer or who knows a skillful ninja! Whatever! Be yourself!"
+    },
+    "lolEmissariesOfLight": {
+      "name": "The Emissaries!",
+      "description": "Light and Darkness, Chaos and Order, opposite forces and at the same time necessary, that work together to maintain the balance of the Universe!"
+    },
+    "jojoBloodline": {
+      "name": "Jojo: Bloodline",
+      "description": "Those marked with the star on the back of your neck, possess the blood of the Joestar family and have to carry our legacy!"
+    },
+    "jojoBrothers": {
+      "name": "Jojo: Brothers!",
+      "description": "Ties are unexplainable and become stronger when we share the same goals!"
+    },
+    "jojoGiornoPose": {
+      "name": "I am Giorno Giovanna, and I have a dream",
+      "description": "You told me that there were 2 ways, but unfortunately, you only have one"
+    },
+    "jojoJolynePose": {
+      "name": "Jolyne Cujoh",
+      "description": "\"Yare Yare Dawa.\""
+    },
+    "jojoJonathanBoxes": {
+      "name": "[JoJo] | I fight for my honour!",
+      "description": "\"I will make you cry like a baby, Dio!!!\""
+    },
+    "jojoJonathanPose": {
+      "name": "At your service, Jonathan Joestar",
+      "description": "\"How my heart resounds! I am pulsing with heat and life! My own blood is a symphony inside of me!\""
+    },
+    "jojoJosephPose": {
+      "name": "\"Joseph Joestar! Nice to meet you!\"",
+      "description": "\"What did you say? Depending on your response, I may have to kick your but!\""
+    },
+    "jojoJotaroPose": {
+      "name": "Jotaro Kujo",
+      "description": "\"I stopped time at the 9 second mark! And now Dio, I will need only 1 second to finish you!\""
+    },
+    "jojoJosukePose": {
+      "name": "My name is Josuke Higashikata",
+      "description": "\"It's true that I wouldn't feel right beating someone in bed. However, if I make you well again, and THEN kick your ass, I won't be \"bullying the weak\", right?\""
+    },
+    "jojoPolnareffPose": {
+      "name": "Jean Pierre Polnareff",
+      "description": "\"My stand possesses the card of Chariot, Silver Chariot! Muhammed Avdol, if I'm not wrong, don't tell me you want to die first.\""
+    },
+    "jojoSpeedwagon": {
+      "name": "I'm nosy, my name is Speedwagon",
+      "description": "\"I'm doing by best to contain my sadness and anger! While Dio isn't defeated, we can't give in to mourning\""
+    },
+    "jojoWattermellowSugar": {
+      "name": "[JoJo] Tastes like strawberries!",
+      "description": "\"But even if your blood has been spilled, your spirit stays alive. Rest in peace Caesar Zeppeli.\" - Narrator"
     },
     "collections": {
       "narutoDark": "Naruto Dark",
@@ -306,6 +386,8 @@
       "fateSayNight": "Fate Stay Night",
       "jujutsuNoKaisen": "Jujutsu Kaisen",
       "kakegurui": "Kakegurui",
+      "theLastOfUs": "The Last Of Us",
+      "attackOnTitan": "Attack On Titan",
       "jojoBizarreAdventures": "JoJo: Bizarre Adventures"
     }
   },

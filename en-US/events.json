@@ -115,7 +115,7 @@
   },
   "guildCreate": {
     "embed": [
-      "Hi {{inviter}}, I was recently added to `{{guild}}`, it's a pleasure to be available to help you and your team on this server. Anyway, I think it's time to introduce myself, in case you are getting to know me now, I'm {{name}}, a simple bot for Discord. My goal is to help as many people as possible on this platform, whether helping with **Moderation**, **Administration**, **Entertainment**, **Music** and many others!",
+      "Hi {{inviter}}, I was recently added to` {{guild}} `, it's a pleasure to be available to help you and your team on this server. Anyway, I think it's time to introduce myself, in case you are getting to know me now, I'm {{name}}, a simple bot for Discord. My goal is to help as many people as possible on this platform, whether helping with **Moderation**, **Administration**, **Entertainment**, **Music** and many others!",
       "And if you are really getting to know me now, I bet you are curious to know what I do, right? I do a lot of things, ban users, make an image command, play a song and many others. To see all my \"skills\" use `d!help`, I will send you several super cool commands about me.",
       "And if you need help, don't forget, I have a **Support Server**, you can join it using {{support}}, get in there. I hope you are well received.",
       "I hope you enjoyed the \"little bit\" I told you about, sorry to bother you and I hope to see you around."
