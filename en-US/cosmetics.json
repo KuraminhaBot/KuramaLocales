@@ -269,7 +269,7 @@
     },
     "zenitsuDemonSlayer": {
       "name": "Thunder Breathing",
-      "description": "If I sleep, I wont fear no haunting, they will feel the power of the thunder god, I wont have mercry until my eyes open"
+      "description": "If I sleep I won't fear no haunts, they'll feel the power of the thunder god, I won't have mercy till my eyes are open"
     },
     "kakeguruiYumeko": {
       "name": "Yumeko Jabami",
@@ -289,7 +289,7 @@
     },
     "jujutsuKaisenItadori": {
       "name": "Yuji Itadori: Sukuna's Host",
-      "description": "I don't know how it feels when we are about to die, but I wont regret my way of living."
+      "description": "I don't know how it feels when we are about to die, but I won't regret my way of living."
     },
     "superiorMoonsKimetsu": {
       "name": "Upper Moons",
@@ -301,67 +301,67 @@
     },
     "discordFuturisticCity": {
       "name": "Imagine a futuristic city",
-      "description": "Não existe uma visão mais bonita do que olhar para o céu e ver o Wumpus!"
+      "description": "There isn't a better view than to look at the sky and see Wumpus!"
     },
     "wumpusWinterForest": {
-      "name": "Wumpus na Floresta Congelada",
-      "description": "Não existe nada melhor do que viajar, brincar na neve, tomar um chocolate quente e apreciar uma bela paisagem!"
+      "name": "Wumpus at the Frozen Forest",
+      "description": "There is nothing better than to travel, play in the snow, drink a hot chocolate and appreciate a beautiful view!"
     },
     "discordMovie": {
       "name": "Imagine a place!",
-      "description": "Aqui você pode tudo o que quiser, seja um pirata, um grande explorador ou quem sabe um ninja muito hábil! Tanto faz! Seja você mesmo!"
+      "description": "Here you can everything you want, be a pirate, a great explorer or who knows a skillful ninja! Whatever! Be yourself!"
     },
     "lolEmissariesOfLight": {
-      "name": "Os Emissários!",
-      "description": "Luz e Trevas, Caos e Ordem, forças opostas e ao mesmo tempo necessárias, que trabalham em conjunto para manter o equilíbrio do Universo!"
+      "name": "The Emissaries!",
+      "description": "Light and Darkness, Chaos and Order, opposite forces and at the same time necessary, that work together to maintain the balance of the Universe!"
     },
     "jojoBloodline": {
-      "name": "JoJo: Linhagem de Sangue",
-      "description": "Aqueles marcados com a estrela em sua nuca, possuem o sangue da família Joestar e devem carregar o nosso legado!"
+      "name": "Jojo: Bloodline",
+      "description": "Those marked with the star on the back of your neck, possess the blood of the Joestar family and have to carry our legacy!"
     },
     "jojoBrothers": {
-      "name": "JoJo: Irmãos!",
-      "description": "Laços são inexplicáveis e se tornam mais fortes quando compartilhamos os mesmos objetivos!"
+      "name": "Jojo: Brothers!",
+      "description": "Ties are unexplainable and become stronger when we share the same goals!"
     },
     "jojoGiornoPose": {
-      "name": "Eu sou Giorno Giovanna, e eu tenho um sonho",
-      "description": "Você me disse que havia 2 caminhos, mas, infelizmente, você só tem um"
+      "name": "I am Giorno Giovanna, and I have a dream",
+      "description": "You told me that there were 2 ways, but unfortunately, you only have one"
     },
     "jojoJolynePose": {
       "name": "Jolyne Cujoh",
       "description": "\"Yare Yare Dawa.\""
     },
     "jojoJonathanBoxes": {
-      "name": "[JoJo] | Eu luto pela minha honra!",
-      "description": "\"Eu vou fazer você chorar como um bebê, Dio!!!\""
+      "name": "[JoJo] | I fight for my honour!",
+      "description": "\"I will make you cry like a baby, Dio!!!\""
     },
     "jojoJonathanPose": {
-      "name": "Ao seu dispor, Jonathan Joestar",
-      "description": "\"Como meu coração ressoa! Estou pulsando com calor e vida! Meu próprio sangue é uma sinfonia dentro de mim!\""
+      "name": "At your service, Jonathan Joestar",
+      "description": "\"How my heart resounds! I am pulsing with heat and life! My own blood is a symphony inside of me!\""
     },
     "jojoJosephPose": {
-      "name": "\"Joseph Joestar! Prazer em conhecê-lo!\"",
-      "description": "\"O que você disse? Dependendo da sua resposta, posso ter que chutar o seu traseiro!\""
+      "name": "\"Joseph Joestar! Nice to meet you!\"",
+      "description": "\"What did you say? Depending on your response, I may have to kick your but!\""
     },
     "jojoJotaroPose": {
       "name": "Jotaro Kujo",
-      "description": "\"Eu paralisei o tempo na marca de 9 segundos! E agora Dio, eu vou precisar de apenas 1 segundo para acabar com você!\""
+      "description": "\"I stopped time at the 9 second mark! And now Dio, I will need only 1 second to finish you!\""
     },
     "jojoJosukePose": {
-      "name": "O meu nome é Josuke Higashikata",
-      "description": "\"É verdade que eu não me sentiria bem batendo em alguém de cama. Portanto eu já previa isto e eu já te curei, sendo assim, se eu te curasse antes, não seria mais baixaria né?\""
+      "name": "My name is Josuke Higashikata",
+      "description": "\"It's true that I wouldn't feel right beating someone in bed. However, if I make you well again, and THEN kick your ass, I won't be \"bullying the weak\", right?\""
     },
     "jojoPolnareffPose": {
       "name": "Jean Pierre Polnareff",
-      "description": "\"O meu stand possuí a carta da Carruagem, Silver Chariot! Muhammad Avdol, se eu não estiver enganado, não me diga que quer morrer primeiro.\""
+      "description": "\"My stand possesses the card of Chariot, Silver Chariot! Muhammed Avdol, if I'm not wrong, don't tell me you want to die first.\""
     },
     "jojoSpeedwagon": {
-      "name": "Eu sou só um enxerido, meu nome é Speedwagon",
-      "description": "\"Eu estou fazendo o possível para conter a minha tristeza e fúria! Enquanto Dio não for derrotado, não podemos nos entregar ao luto\""
+      "name": "I'm nosy, my name is Speedwagon",
+      "description": "\"I'm doing by best to contain my sadness and anger! While Dio isn't defeated, we can't give in to mourning\""
     },
     "jojoWattermellowSugar": {
       "name": "[JoJo] Tastes like strawberries!",
-      "description": "\"Mas mesmo que seu sangue tenha sido derramado, seu espirito continua vivo. Descanse em paz Caesar Zeppeli.\" - Narrador"
+      "description": "\"But even if your blood has been spilled, your spirit stays alive. Rest in peace Caesar Zeppeli.\" - Narrator"
     },
     "collections": {
       "narutoDark": "Naruto Dark",
@@ -392,8 +392,8 @@
     }
   },
   "rarity": {
-    "COMMON": "Comum",
-    "UNCOMMON": "Incomum",
+    "COMMON": "Common",
+    "UNCOMMON": "Uncommon",
     "RARE": "Rare",
     "EPIC": "Epic",
     "LEGENDARY": "Legendary"
