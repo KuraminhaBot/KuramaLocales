@@ -461,10 +461,11 @@
     "banInfo": "Todas as informações do ban de `{{user}}`",
     "noReason": "Sem motivo informado",
     "isNotBanned": "este usuário não está banido (pelo menos ainda não `^-^`).",
-    "clickToUnban": "Para desbanir o usuário clique em {{emoji}}.",
+    "clickToUnban": "Para desbanir o usuário clique no botão abaixo.",
     "reason": "Motivo",
     "userUnbanned": "prontinho ^^, o usuário foi desbanido do seu servidor. Espero que ela aprenda dessa vez!",
-    "unbanReason": "Desbanido pelo comando d!baninfo, por: {{user}}!"
+    "unbanReason": "Desbanido pelo comando d!baninfo, por: {{user}}!",
+    "clickHere": "Desbanir o usuário!"
   },
   "daily": {
     "config": {
@@ -1113,7 +1114,7 @@
     "computedVote": "Seu voto foi computado com sucesso! Aguarde o resultado da votação.",
     "insufficientPermissions": "Eu não tenho permissão para ver as mensagens do canal ou não consigo enviar mensagens nele, me dê essas permissões para que eu consiga finalizar a votação!",
     "notFoundMessage": "Eu não consegui encontrar a mensagem ou o canal onde a votação foi feita... Talvez alguém as tenha apagado ou eu perdi acesso ao canal.",
-    "tieString": "🏆 **| Empate!** `{{options}}` empataram",
+    "tieString": "🏆 **| Empate!** `{{options}}` empataram com {{winnerVotes}} de {{votes}} votos.",
     "duration": "Duração",
     "winnerString": "🏆 **| {{winner}}** ganhou com {{winnerVotes}} de {{votes}} votos",
     "endString": "Votação encerrada, confira o resultado [aqui]({{url}})",
@@ -1238,6 +1239,24 @@
       "description": "Procure por um vídeo no YouTube usando o Kurama!",
       "examples": [
         "Drivers License |-| Procura o vídeo do smash hit da nossa MC Detran, Olivia Rodrigo!"
+      ]
+    }
+  },
+  "bbb22": {
+    "config": {
+      "description": "Viciado na casa mais vigiada do Brasil? Por que não embarcar nessa aventura e entrar no BBB você também?",
+      "examples": [
+        "Julliete /-/ 31 Anos /-/ Advogada e Maquiadora /-/ Campina Grande - PB /-/ Pipoca 🍿 /-/ https://imgur.com/15lAy4j.png |-| Exemplo do comando com uma participante \"Pipoca\"",
+        "Jade Picon /-/ 20 Anos /-/ Empresária e Influencer /-/ São Paulo - SP /-/ Camarote 🎥 /-/ https://imgur.com/5NsYe0B.png |-| Exemplo do comando com uma participante \"Camarote\""
+      ]
+    }
+  },
+  "serverfeatures": {
+    "config": {
+      "description": "Veja todas as features disponíveis que um servidor possui!",
+      "examples": [
+        "417061847489839106 |-| Veja as features do servidor da Rede Dark",
+        "769892417025212497 |-| Veja as features do servidor de suporte do Kurama"
       ]
     }
   },

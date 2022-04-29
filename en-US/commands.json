@@ -461,10 +461,11 @@
     "banInfo": "All ban information for `{{user}}`",
     "noReason": "No reason given",
     "isNotBanned": "this user is not banned (at least not yet `^-^`).",
-    "clickToUnban": "To unban the user, click {{emoji}}.",
+    "clickToUnban": "To unban the user click the button below.",
     "reason": "Reason",
     "userUnbanned": "ready ^^, the user has been unbanned from your server I hope she learn this time.",
-    "unbanReason": "Unbanned by the d!baninfo command, by: {{user}}!"
+    "unbanReason": "Unbanned by the d!baninfo command, by: {{user}}!",
+    "clickHere": "Unban the user!"
   },
   "daily": {
     "config": {
@@ -1113,7 +1114,7 @@
     "computedVote": "Your vote was successfully counted! Wait for the vote result.",
     "insufficientPermissions": "I don't have permission to see the channel messages or I can't send messages to it, give me those permissions so I can finish the vote!",
     "notFoundMessage": "I couldn't find the message or channel where the vote was taken... Maybe someone deleted them or I lost access to the channel.",
-    "tieString": "🏆 **| Tie!** `{{options}}` tie",
+    "tieString": "🏆 **| Tie!** `{{options}}` tie with {{winnerVotes}} of {{votes}} votes",
     "duration": "Duration",
     "winnerString": "🏆 **| {{winner}}** won with {{winnerVotes}} of {{votes}} votes",
     "endString": "Vote closed, check the result [here]({{url}})",
@@ -1238,6 +1239,15 @@
       "description": "Search for a video on YouTube using Kurama!",
       "examples": [
         "Drivers License |-| Search for the video of the smash hit by singer Olivia Rodrigo!"
+      ]
+    }
+  }, 
+  "bbb22": {
+    "config": {
+      "description": "Addicted to the most watched house in Brazil? Why not embark on this adventure and join the BBB yourself?",
+      "examples": [
+        "Julliete /-/ 31 Years old /-/ Lawyer and Makeup Artist /-/ Campina Grande - PB  /-/ Pipoca 🍿 /-/ https://imgur.com/15lAy4j.png |-| Example of the command with a participant \"Pipoca\"",
+        "Jade Picon /-/ 20 Years /-/ Businesswoman and Influencer /-/ São Paulo - SP  /-/ Camarote 🎥 /-/ https://imgur.com/5NsYe0B.png |-| Example of the command with a participant \"Camarote\""
       ]
     }
   },
