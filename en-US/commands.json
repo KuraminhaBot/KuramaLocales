@@ -465,7 +465,7 @@
     "reason": "Reason",
     "userUnbanned": "ready ^^, the user has been unbanned from your server I hope she learn this time.",
     "unbanReason": "Unbanned by the d!baninfo command, by: {{user}}!",
-    "clickHere": "Desbanir o usuário!"
+    "clickHere": "Unban the user!"
   },
   "daily": {
     "config": {
@@ -1244,7 +1244,7 @@
   },
   "bbb22": {
     "config": {
-      "description": "Viciado na casa mais vigiada do Brasil? Por que não embarcar nessa aventura e entrar no BBB você também?",
+      "description": "Addicted to the most watched house in Brazil? Why not embark on this adventure and enter the BBB you too?",
       "examples": [
         "Julliete /-/ 31 Anos /-/ Advogada e Maquiadora /-/ Campina Grande - PB /-/ Pipoca 🍿 /-/ https://imgur.com/15lAy4j.png |-| Exemplo do comando com uma participante \"Pipoca\"",
         "Jade Picon /-/ 20 Anos /-/ Empresária e Influencer /-/ São Paulo - SP /-/ Camarote 🎥 /-/ https://imgur.com/5NsYe0B.png |-| Exemplo do comando com uma participante \"Camarote\""
