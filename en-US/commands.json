@@ -461,7 +461,7 @@
     "banInfo": "All ban information for `{{user}}`",
     "noReason": "No reason given",
     "isNotBanned": "this user is not banned (at least not yet `^-^`).",
-    "clickToUnban": "Para desbanir o usuário clique no botão abaixo.",
+    "clickToUnban": "To unban the user click on the button below.",
     "reason": "Reason",
     "userUnbanned": "ready ^^, the user has been unbanned from your server I hope she learn this time.",
     "unbanReason": "Unbanned by the d!baninfo command, by: {{user}}!",
@@ -1114,7 +1114,7 @@
     "computedVote": "Your vote was successfully counted! Wait for the vote result.",
     "insufficientPermissions": "I don't have permission to see the channel messages or I can't send messages to it, give me those permissions so I can finish the vote!",
     "notFoundMessage": "I couldn't find the message or channel where the vote was taken... Maybe someone deleted them or I lost access to the channel.",
-    "tieString": "🏆 **| Empate!** `{{options}}` empataram com {{winnerVotes}} de {{votes}} votos.",
+    "tieString": "🏆 **| Draw!** `{{options}}` tied with {{winnerVotes}} out of {{votes}} votes.",
     "duration": "Duration",
     "winnerString": "🏆 **| {{winner}}** won with {{winnerVotes}} of {{votes}} votes",
     "endString": "Vote closed, check the result [here]({{url}})",
@@ -1246,17 +1246,17 @@
     "config": {
       "description": "Addicted to the most watched house in Brazil? Why not embark on this adventure and enter the BBB you too?",
       "examples": [
-        "Julliete /-/ 31 Anos /-/ Advogada e Maquiadora /-/ Campina Grande - PB /-/ Pipoca 🍿 /-/ https://imgur.com/15lAy4j.png |-| Exemplo do comando com uma participante \"Pipoca\"",
-        "Jade Picon /-/ 20 Anos /-/ Empresária e Influencer /-/ São Paulo - SP /-/ Camarote 🎥 /-/ https://imgur.com/5NsYe0B.png |-| Exemplo do comando com uma participante \"Camarote\""
+        "Julliete /-/ 31 Years old /-/ Lawyer and Makeup Artist /-/ Campina Grande - PB /-/ Popcorn 🍿 /-/ https://imgur.com/15lAy4j.png |-| Example of the command with a participant \"Popcorn\"",
+        "Jade Picon /-/ 20 Years old /-/ Businesswoman and Influencer /-/ São Paulo - SP /-/ V.I.P. area 🎥 /-/ https://imgur.com/5NsYe0B.png |-| Example of the command with a participant \"V.I.P. area\""
       ]
     }
   },
   "serverfeatures": {
     "config": {
-      "description": "Veja todas as features disponíveis que um servidor possui!",
+      "description": "See all the features available that a server has!",
       "examples": [
-        "417061847489839106 |-| Veja as features do servidor da Rede Dark",
-        "769892417025212497 |-| Veja as features do servidor de suporte do Kurama"
+        "417061847489839106 |-| See the features of the Rede Dark server",
+        "769892417025212497 |-| See the features of the Kurama support server"
       ]
     }
   },
