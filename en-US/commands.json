@@ -15,9 +15,9 @@
     "premiumSince": "Boosting since:",
     "badges": "Badges:",
     "voicechannel": "Voice Channel:",
-    "pending": "Membership Screening",
-    "termsOfService": "Terms of Service",
-    "policyPrivacy": "Privacy Policy"
+    "pending": "Avaliação de Associação",
+    "termsOfService": "Termos de Serviço",
+    "policyPrivacy": "Política de Privacidade"
   },
   "help": {
     "config": {
@@ -36,13 +36,13 @@
     "iNeedPermissions": "I need `{{perm}}` permissions use this command",
     "notFound": "I haven't found any command that fits within the requested parameters!",
     "embed": {
-      "description": "For more information about a command you can use `{{prefix}}help <command>`! For support, [join our server]({{invite}}). If you've landed here with a parachute and don't really know what they are and how to use Slash Commands, just [click here](https://support.discord.com/hc/en-us/articles/1500000368501) to learn!",
-      "news": "News",
-      "newsValue": "Be on our [support server]({{invite}}) and [click here]({{messageUrl}}) to read the latest news from Kuraminha!",
-      "categories": "Categories",
-      "categoriesValue": "Kuraminha's commands are grouped into categories. Click on the menu below to select a category and display its list of commands.",
+      "description": "Para mais informações sobre um comando você pode usar `{{prefix}}help <command>`! Para suporte, [entre no nosso servidor]({{invite}}). Se você caiu aqui de paraquedas e não sabe direito o que são e como usar Slash Commands basta [clicar aqui](https://support.discord.com/hc/en-us/articles/1500000368501) para aprender!",
+      "news": "Novidades",
+      "newsValue": "Esteja no nosso [servidor de suporte]({{invite}}) e [clique aqui]({{messageUrl}}) para ler as últimas novidades do Kuraminha!",
+      "categories": "Categorias",
+      "categoriesValue": "Os comandos de Kuraminha são agrupados em categorias. Clique no menu abaixo para selecionar uma categoria e mostrar sua lista de comandos.",
       "vote": "Upvote {{bot}}",
-      "voteValue": "Like Kuraminha? Upvote it here! You'll also get a cool reward and role in support server! Also, please review the bot!"
+      "voteValue": "Gostou do Kuraminha? [Vote aqui]({{link}})! Você também terá um recompensas e um cargo legal no servidor suporte! Além disso, avalie o bot!"
     }
   },
   "language": {
@@ -169,7 +169,7 @@
     "config": {
       "description": "See all bot information using this command"
     },
-    "description": "Hello, how are you? I am {{bot}}, a BOT developed in Brazil to help servers in the areas of **Moderation, Administration, Entertainment and many others**. I’m currently trying to grow, and if you want to contribute, use: `{{prefix}}bot invite`",
+    "description": "Olá, tudo bem? Eu sou o **{{bot}}**, um BOT desenvolvido no Brasil para ajudar servidores nas partes de **Moderação**, **Administração**, **Entretenimento e muitos outros.** Atualmente estou tentando crescer, e se você quer contribuir com isso, use: `{{prefix}}bot invite`.",
     "servers": "Servers",
     "libraryField": "Made in [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript), using [Discord JS](https://discord.js.org/)",
     "supportGuild": "Support Server:",
@@ -394,8 +394,8 @@
     "position": "Position",
     "mention": "Mention",
     "mentionable": "Mentionable",
-    "integration": "Integration",
-    "hoist": "Hoist",
+    "integration": "Integração",
+    "hoist": "Destacado",
     "color": "Role Color"
   },
   "profile": {
@@ -467,7 +467,7 @@
     "banInfo": "All ban information for `{{user}}`",
     "noReason": "No reason given",
     "isNotBanned": "this user is not banned (at least not yet `^-^`).",
-    "clickToUnban": "To unban the user click the button below.",
+    "clickToUnban": "To unban the user click on the button below.",
     "reason": "Reason",
     "userUnbanned": "ready ^^, the user has been unbanned from your server I hope she learn this time.",
     "unbanReason": "Unbanned by the d!baninfo command, by: {{user}}!",
@@ -851,7 +851,7 @@
       ]
     },
     "lyricsSugestion": "Lyrics Suggestion: You are currently listening to `{{song}}`, to select, click 🎶.",
-    "notFound": "Unfortunately I couldn't find the lyrics to this song!"
+    "notFound": "Unfortunately I couldn't find the lyrics of this song!"
   },
   "ocr": {
     "config": {
@@ -912,7 +912,7 @@
         "<#769897341121069097> |-| Shows the information of the mentioned channel.",
         "769897341121069097 |-| Shows the information of a channel by ID.",
         "<#702156877210845315> |-| Shows the information of a voice channel.",
-        "null /-/ total |-| Shows total information about voice channels."
+        "null /-/ true |-| Mostra informações totais sobre canais de voz."
       ]
     },
     "totalInfo": "Total Information",
@@ -1120,7 +1120,7 @@
     "computedVote": "Your vote was successfully counted! Wait for the vote result.",
     "insufficientPermissions": "I don't have permission to see the channel messages or I can't send messages to it, give me those permissions so I can finish the vote!",
     "notFoundMessage": "I couldn't find the message or channel where the vote was taken... Maybe someone deleted them or I lost access to the channel.",
-    "tieString": "🏆 **| Tie!** `{{options}}` tie with {{winnerVotes}} of {{votes}} votes",
+    "tieString": "🏆 **| Draw!** `{{options}}` tied with {{winnerVotes}} out of {{votes}} votes.",
     "duration": "Duration",
     "winnerString": "🏆 **| {{winner}}** won with {{winnerVotes}} of {{votes}} votes",
     "endString": "Vote closed, check the result [here]({{url}})",
@@ -1167,7 +1167,10 @@
   },
   "musicfind": {
     "config": {
-      "description": "Search a song's name from a video!"
+      "description": "Search a song's name from a video!",
+      "examples": [
+        "https://imgur.com/JWjxPX0.mp4 |-| Encontre a música que está sendo tocada no vídeo."
+      ]
     },
     "errorInDownload": "I couldn't download this video... Are you sure it's a valid link? Or that's not a very big video?",
     "biggerFile": "The video has a very long duration! Try to provide a video that is between 10 and 20 seconds, please!",
@@ -1180,7 +1183,8 @@
     "config": {
       "description": "Convert temperature measurements to other thermometric scales.",
       "examples": [
-        "30 /-/ Celsius /-/ Kelvin |-| Convert 30º Celsius to Kelvin!"
+        "30 /-/ Celsius /-/ Kelvin |-| Convert 30º Celsius to Kelvin!",
+        "180 /-/ Fahrenheit /-/ Celsius |-| Converta 180º Fahrenheit para Celsius!"
       ]
     },
     "converted": "**{{number}} {{from}} in {{to}}:** {{result}}"
@@ -1224,7 +1228,7 @@
       ]
     },
     "noHasDescription": "There's no description for this item!",
-    "notFoundArtist": "I can't find the artist.",
+    "notFoundArtist": "I didn't find the artist.",
     "name": "Name:",
     "price": "Price:",
     "collection": "Collection:",
@@ -1232,12 +1236,12 @@
     "artist": "Artist:",
     "addedAt": "Added at:",
     "dontHaveMoney": "you don't have enough money to buy this item.",
-    "alreadyHave": "you already have this profile item! Try buy another item",
+    "alreadyHave": "you already have this profile item, try to choose another!",
     "youPurchased": "you bought the item `{{name}}`, you can use it using, `/background set` or `/layout set`.",
-    "placeholder": "Click here to see the Daily Shop options.",
+    "placeholder": "Click here to see the Daily Shop's options.",
     "buyThisItem": "Buy this item!",
     "new": "NEW",
-    "newItensIn": "New itens in `{{time}}`!",
+    "newItensIn": "New items in {{time}}!",
     "itemUnavailable": "Sorry, you can't purchase this item as it is no longer in the Daily Shop!"
   },
   "ytvideo": {
@@ -1247,13 +1251,22 @@
         "Drivers License |-| Search for the video of the smash hit by singer Olivia Rodrigo!"
       ]
     }
-  }, 
+  },
   "bbb22": {
     "config": {
-      "description": "Addicted to the most watched house in Brazil? Why not embark on this adventure and join the BBB yourself?",
+      "description": "Addicted to the most watched house in Brazil? Why not embark on this adventure and enter the BBB you too?",
       "examples": [
-        "Julliete /-/ 31 Years old /-/ Lawyer and Makeup Artist /-/ Campina Grande - PB  /-/ Pipoca 🍿 /-/ https://imgur.com/15lAy4j.png |-| Example of the command with a participant \"Pipoca\"",
-        "Jade Picon /-/ 20 Years /-/ Businesswoman and Influencer /-/ São Paulo - SP  /-/ Camarote 🎥 /-/ https://imgur.com/5NsYe0B.png |-| Example of the command with a participant \"Camarote\""
+        "Juliette /-/ 31 Years old /-/ Lawyer and Makeup Artist /-/ Campina Grande - PB /-/ Pipoca🍿 /-/ https://imgur.com/15lAy4j.png |-| Example of the command with a participant \"Pipoca\"",
+        "Jade Picon /-/ 20 Years old /-/ Businesswoman and Influencer /-/ São Paulo - SP /-/ Camarote 🎥 /-/ https://imgur.com/5NsYe0B.png |-| Example of the command with a participant \"Camarote\""
+      ]
+    }
+  },
+  "serverfeatures": {
+    "config": {
+      "description": "See all the features available that a server has!",
+      "examples": [
+        "417061847489839106 |-| See the features of the Rede Dark server",
+        "769892417025212497 |-| See the features of the Kurama support server"
       ]
     }
   },
