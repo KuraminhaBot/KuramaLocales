@@ -22,6 +22,23 @@
   "autocomplete": {
     "typeQuery": "Digite o que você deseja procurar."
   },
+  "categories": {
+    "names": {
+      "Home": "Início",
+      "Action": "Ação",
+      "Discord": "Discord",
+      "Economy": "Economia",
+      "Fun": "Diversão",
+      "Games": "Jogos",
+      "Image": "Imagem",
+      "Magic": "Mágica",
+      "Minecraft": "Minecraft",
+      "Moderation": "Moderação",
+      "Util": "Utilidades",
+      "Social": "Social",
+      "Music": "Música"
+    }
+  },
   "status": {
     "disabled": "Desativado",
     "enabled": "Habilitado"
@@ -67,9 +84,6 @@
     "plural": "Eu procurei por todo lugar, menções, mensagens, ID's e servidores, mas tudo indica que, `{{list}}` não são usuários válidos.",
     "nouns": "Eu procurei por todo lugar, menções, mensagens, ID's e servidores, mas tudo indica que, `{{list}}` não é um usuário válido.",
     "none": "Eu procurei por todo lugar, menções, mensagens, ID's e servidores, mas não achei nenhum usuário válido na sua mensagem."
-  },
-  "moderation": {
-    "noReason": "O motivo não foi informado."
   },
   "clickHere_hyperlink": "[Clique aqui]({{link}})",
   "action_commands": {

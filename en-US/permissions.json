@@ -41,6 +41,7 @@
   "CREATE_PRIVATE_THREADS": "Create Private Threads",
   "SEND_MESSAGES_IN_THREADS": "Send Messages In Threads",
   "START_EMBEDDED_ACTIVITIES": "Start Embedded Activities",
+  "MODERATE_MEMBERS": "Moderate Members",
   "features": {
     "ANIMATED_ICON": "Animated Icon",
     "BANNER": "Banner",
@@ -71,6 +72,8 @@
     "NEW_THREAD_PERMISSIONS": "New Threads Permissions",
     "ANIMATED_BANNER": "Animated Banner",
     "MORE_EMOJI": "More Emojis",
-    "HAS_DIRECTORY_ENTRY": "Directory Entry"
+    "HAS_DIRECTORY_ENTRY": "Directory Entry",
+    "THREADS_ENABLED_TESTING": "Threads Enabled Testing",
+    "AUTO_MODERATION": "Automod"
   }
 }

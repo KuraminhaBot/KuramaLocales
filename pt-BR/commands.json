@@ -14,7 +14,10 @@
     "joinedAt": "Entrou em:",
     "premiumSince": "Impulsionando desde:",
     "badges": "Emblemas:",
-    "voicechannel": "Canal de Voz:"
+    "voicechannel": "Canal de Voz:",
+    "pending": "Avaliação de Associação",
+    "termsOfService": "Termos de Serviço",
+    "policyPrivacy": "Política de Privacidade"
   },
   "help": {
     "config": {
@@ -27,17 +30,21 @@
     "examples": "Exemplos",
     "aliases": "Sinônimos",
     "commands": "Comandos",
-    "Mod": "Moderação",
-    "Util": "Utilitários",
-    "Action": "Ação",
-    "Fun": "Diversão",
-    "Economy": "Economia",
-    "Music": "Música",
+
     "permissions": "Permissões",
     "add-me": "Clique aqui para me adicionar!",
     "youNeedPermissions": "Você precisa ter permissão para `{{perm}}` para utilizar esse comando.",
     "iNeedPermissions": "Eu preciso ter permissão para `{{perm}}` para executar esse comando.",
-    "notFound": "Eu não achei nenhum comando que se encaixe nos termos digitados!"
+    "notFound": "Eu não achei nenhum comando que se encaixe nos termos digitados!",
+    "embed": {
+      "description": "Para mais informações sobre um comando você pode usar `{{prefix}}help <command>`! Para suporte, [entre no nosso servidor]({{invite}}). Se você caiu aqui de paraquedas e não sabe direito o que são e como usar Slash Commands basta [clicar aqui](https://support.discord.com/hc/en-us/articles/1500000368501) para aprender!",
+      "news": "Novidades",
+      "newsValue": "Esteja no nosso [servidor de suporte]({{invite}}) e [clique aqui]({{messageUrl}}) para ler as últimas novidades do Kuraminha!",
+      "categories": "Categorias",
+      "categoriesValue": "Os comandos de Kuraminha são agrupados em categorias. Clique no menu abaixo para selecionar uma categoria e mostrar sua lista de comandos.",
+      "vote": "Upvote {{bot}}",
+      "voteValue": "Gostou do Kuraminha? [Vote aqui]({{link}})! Você também terá um recompensas e um cargo legal no servidor suporte! Além disso, avalie o bot!"
+    }
   },
   "language": {
     "config": {
@@ -163,7 +170,7 @@
     "config": {
       "description": "Veja todas as informações do bot usando este comando"
     },
-    "description": "Olá, tudo bem? Eu sou o **{{bot}}**, um BOT desenvolvido no Brasil para ajudar servidores nas partes de **Moderação**, **Administração**, **Entretenimento e muitos outros.** Atualmente estou tentando crescer, e se você quer contribuir com isso, use: `{{prefix}}invite`.",
+    "description": "Olá, tudo bem? Eu sou o **{{bot}}**, um BOT desenvolvido no Brasil para ajudar servidores nas partes de **Moderação**, **Administração**, **Entretenimento e muitos outros.** Atualmente estou tentando crescer, e se você quer contribuir com isso, use: `{{prefix}}bot invite`.",
     "servers": "Servidores",
     "libraryField": "Feito em [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript), usando [Discord JS](https://discord.js.org/)",
     "supportGuild": "Servidor Suporte:",
@@ -388,8 +395,8 @@
     "position": "Posição",
     "mention": "Menção",
     "mentionable": "Mencionável",
-    "maneged": "Integração",
-    "hoist": "Exibido separadamente",
+    "integration": "Integração",
+    "hoist": "Destacado",
     "color": "Cor do cargo"
   },
   "profile": {
@@ -906,7 +913,7 @@
         "<#769897341121069097> |-| Mostra as informações do canal mencionado.",
         "769897341121069097 |-| Mostra a informação de um canal pelo ID.",
         "<#702156877210845315> |-| Mostra as informações de um canal de voz.",
-        "null /-/ total |-| Mostra informações totais sobre canais de voz."
+        "null /-/ true |-| Mostra informações totais sobre canais de voz."
       ]
     },
     "totalInfo": "Informações Totais",
@@ -1161,7 +1168,10 @@
   },
   "musicfind": {
     "config": {
-      "description": "Procura o nome de uma musica a partir de um video!"
+      "description": "Procura o nome de uma musica a partir de um video!",
+      "examples": [
+        "https://imgur.com/JWjxPX0.mp4 |-| Encontre a música que está sendo tocada no vídeo."
+      ]
     },
     "errorInDownload": "Eu não consegui baixar este vídeo... Tem certeza de que ele é um link válido? Ou que não é um vídeo muito grande?",
     "biggerFile": "O vídeo tem uma duração muito grande! Tente fornecer um vídeo que tenha entre 10 e 20 segundos, por favor!",
@@ -1174,7 +1184,8 @@
     "config": {
       "description": "Converta medidas de temperaturas em outras escalas termométricas.",
       "examples": [
-        "30 /-/ Celsius /-/ Kelvin |-| Converta 30º Celsius para Kelvin!"
+        "30 /-/ Celsius /-/ Kelvin |-| Converta 30º Celsius para Kelvin!",
+        "180 /-/ Fahrenheit /-/ Celsius |-| Converta 180º Fahrenheit para Celsius!"
       ]
     },
     "converted": "**{{number}} {{from}} em {{to}}:** {{result}}"

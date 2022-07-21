@@ -41,6 +41,7 @@
   "CREATE_PRIVATE_THREADS": "Criar Conversas Privadas",
   "SEND_MESSAGES_IN_THREADS": "Enviar Mensagens em Conversas",
   "START_EMBEDDED_ACTIVITIES": "Começar Atividades",
+  "MODERATE_MEMBERS": "Moderar Membros",
   "features": {
     "ANIMATED_ICON": "Ícone Animado",
     "BANNER": "Banner",
@@ -71,6 +72,8 @@
     "NEW_THREAD_PERMISSIONS": "Novas Permissões de Threads",
     "ANIMATED_BANNER": "Banner Animado",
     "MORE_EMOJI": "Emojis Extras",
-    "HAS_DIRECTORY_ENTRY": "Directory Entry"
+    "HAS_DIRECTORY_ENTRY": "Directory Entry",
+    "THREADS_ENABLED_TESTING": "Teste de Threads Habilitado",
+    "AUTO_MODERATION": "Automod"
   }
 }

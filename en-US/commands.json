@@ -14,7 +14,10 @@
     "joinedAt": "Joined at:",
     "premiumSince": "Boosting since:",
     "badges": "Badges:",
-    "voicechannel": "Voice Channel:"
+    "voicechannel": "Voice Channel:",
+    "pending": "Membership Screening",
+    "termsOfService": "Terms of Service",
+    "policyPrivacy": "Privacy Policy"
   },
   "help": {
     "config": {
@@ -27,17 +30,20 @@
     "examples": "Examples",
     "aliases": "Aliases",
     "commands": "Commands",
-    "Mod": "Moderation",
-    "Util": "Utility",
-    "Action": "Action",
-    "Fun": "Fun",
-    "Economy": "Economy",
-    "Music": "Music",
     "permissions": "Permissions",
     "add-me": "Click here to add me!",
     "youNeedPermissions": "You need to have `{{perm}}` permissions use this command",
     "iNeedPermissions": "I need `{{perm}}` permissions use this command",
-    "notFound": "I haven't found any command that fits within the requested parameters!"
+    "notFound": "I haven't found any command that fits within the requested parameters!",
+    "embed": {
+      "description": "For more information about a command you can use `{{prefix}}help <command>`! For support, [join our server]({{invite}}). If you've landed here with a parachute and don't really know what they are and how to use Slash Commands, just [click here](https://support.discord.com/hc/en-us/articles/1500000368501) to learn!",
+      "news": "News",
+      "newsValue": "Be on our [support server]({{invite}}) and [click here]({{messageUrl}}) to read the latest news from Kuraminha!",
+      "categories": "Categories",
+      "categoriesValue": "Kuraminha's commands are grouped into categories. Click on the menu below to select a category and display its list of commands.",
+      "vote": "Upvote {{bot}}",
+      "voteValue": "Like Kuraminha? Upvote it here! You'll also get a cool reward and role in support server! Also, please review the bot!"
+    }
   },
   "language": {
     "config": {
@@ -163,7 +169,7 @@
     "config": {
       "description": "See all bot information using this command"
     },
-    "description": "Hello, how are you? I am {{bot}}, a BOT developed in Brazil to help servers in the areas of **Moderation, Administration, Entertainment and many others**. I’m currently trying to grow, and if you want to contribute, use: `{{prefix}}invite`",
+    "description": "Hello, how are you? I am {{bot}}, a BOT developed in Brazil to help servers in the areas of **Moderation, Administration, Entertainment and many others**. I’m currently trying to grow, and if you want to contribute, use: `{{prefix}}bot invite`",
     "servers": "Servers",
     "libraryField": "Made in [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript), using [Discord JS](https://discord.js.org/)",
     "supportGuild": "Support Server:",
@@ -388,8 +394,8 @@
     "position": "Position",
     "mention": "Mention",
     "mentionable": "Mentionable",
-    "maneged": "Integration",
-    "hoist": "Displays separately",
+    "integration": "Integration",
+    "hoist": "Hoist",
     "color": "Role Color"
   },
   "profile": {
