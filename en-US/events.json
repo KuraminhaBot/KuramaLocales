@@ -24,19 +24,19 @@
   },
   "categories": {
     "names": {
-      "Home": "Início",
-      "Action": "Ação",
+      "Home": "Home",
+      "Action": "Action",
       "Discord": "Discord",
-      "Economy": "Economia",
-      "Fun": "Diversão",
-      "Games": "Jogos",
-      "Image": "Imagem",
-      "Magic": "Mágica",
+      "Economy": "Economy",
+      "Fun": "Fun",
+      "Games": "Games",
+      "Image": "Image",
+      "Magic": "Magic",
       "Minecraft": "Minecraft",
-      "Moderation": "Moderação",
-      "Util": "Utilidades",
+      "Moderation": "Moderation",
+      "Util": "Utilities",
       "Social": "Social",
-      "Music": "Música"
+      "Music": "Music"
     }
   },
   "status": {
