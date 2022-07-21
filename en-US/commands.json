@@ -1167,7 +1167,10 @@
   },
   "musicfind": {
     "config": {
-      "description": "Search a song's name from a video!"
+      "description": "Search a song's name from a video!",
+      "examples": [
+        "https://imgur.com/JWjxPX0.mp4 |-| Find the song being played in the video."
+      ]
     },
     "errorInDownload": "I couldn't download this video... Are you sure it's a valid link? Or that's not a very big video?",
     "biggerFile": "The video has a very long duration! Try to provide a video that is between 10 and 20 seconds, please!",
@@ -1180,7 +1183,8 @@
     "config": {
       "description": "Convert temperature measurements to other thermometric scales.",
       "examples": [
-        "30 /-/ Celsius /-/ Kelvin |-| Convert 30º Celsius to Kelvin!"
+        "30 /-/ Celsius /-/ Kelvin |-| Convert 30º Celsius to Kelvin!",
+        "180 /-/ Fahrenheit /-/ Celsius |-| Convert 180º Fahrenheit to Celsius!"
       ]
     },
     "converted": "**{{number}} {{from}} in {{to}}:** {{result}}"
@@ -1247,13 +1251,22 @@
         "Drivers License |-| Search for the video of the smash hit by singer Olivia Rodrigo!"
       ]
     }
-  }, 
+  },
   "bbb22": {
     "config": {
       "description": "Addicted to the most watched house in Brazil? Why not embark on this adventure and join the BBB yourself?",
       "examples": [
         "Julliete /-/ 31 Years old /-/ Lawyer and Makeup Artist /-/ Campina Grande - PB  /-/ Pipoca 🍿 /-/ https://imgur.com/15lAy4j.png |-| Example of the command with a participant \"Pipoca\"",
         "Jade Picon /-/ 20 Years /-/ Businesswoman and Influencer /-/ São Paulo - SP  /-/ Camarote 🎥 /-/ https://imgur.com/5NsYe0B.png |-| Example of the command with a participant \"Camarote\""
+      ]
+    }
+  },
+  "serverfeatures": {
+    "config": {
+      "description": "See all the features available that a server has!",
+      "examples": [
+        "417061847489839106 |-| See the features of the Rede Dark server",
+        "769892417025212497 |-| See the features of the Kurama support server"
       ]
     }
   },
