@@ -24,19 +24,19 @@
   },
   "categories": {
     "names": {
-      "Home": "Home",
-      "Action": "Action",
+      "Home": "Início",
+      "Action": "Ação",
       "Discord": "Discord",
-      "Economy": "Economy",
-      "Fun": "Fun",
-      "Games": "Games",
-      "Image": "Image",
-      "Magic": "Magic",
+      "Economy": "Economia",
+      "Fun": "Diversão",
+      "Games": "Jogos",
+      "Image": "Imagem",
+      "Magic": "Mágica",
       "Minecraft": "Minecraft",
-      "Moderation": "Moderation",
-      "Util": "Utilities",
+      "Moderation": "Moderação",
+      "Util": "Utilidades",
       "Social": "Social",
-      "Music": "Music"
+      "Music": "Música"
     }
   },
   "status": {
@@ -85,6 +85,30 @@
     "nouns": "I searched everywhere for mentions, messages, ID's and servers, but it seems that `{{list}}` is not a valid user.",
     "none": "I searched everywhere for mentions, messages, ID's and servers, but I couldn't find any valid users in your message."
   },
+  "clickHere_hyperlink": "[Click here]({{link}})",
+  "action_commands": {
+    "embed_footer": "Click the button to reciprocate!",
+    "reciprocate": "Reciprocate"
+  },
+  "invalidChannels": "I did not identify any channels in your message, I search between mentions and ID's, try again!",
+  "Boolean": {
+    "yesOrNo": {
+      "true": "Yes",
+      "false": "No"
+    },
+    "trueOrFalse": {
+      "true": "True",
+      "falso": "False"
+    }
+  },
+  "guildCreate": {
+    "embed": [
+      "Hi {{inviter}}, I was recently added to` {{guild}} `, it's a pleasure to be available to help you and your team on this server. Anyway, I think it's time to introduce myself, in case you are getting to know me now, I'm {{name}}, a simple bot for Discord. My goal is to help as many people as possible on this platform, whether helping with **Moderation**, **Administration**, **Entertainment**, **Music** and many others!",
+      "And if you are really getting to know me now, I bet you are curious to know what I do, right? I do a lot of things, ban users, make an image command, play a song and many others. To see all my \"skills\" use `d!help`, I will send you several super cool commands about me.",
+      "And if you need help, don't forget, I have a **Support Server**, you can join it using {{support}}, get in there. I hope you are well received.",
+      "I hope you enjoyed the \"little bit\" I told you about, sorry to bother you and I hope to see you around."
+    ]
+  },
   "moderation": {
     "youCannotPunish": "You cannot punish `{{list}}`, as you do not have the necessary permissions to do so.",
     "iCannotPunish": "I cannot punish `{{list}}`, my position is less than that of the user to be punished! So that I can punish, climb my position to the top of the list of positions, thank you!",
@@ -113,30 +137,6 @@
       "messageContent": "Whoops! Is this a punished user? It looks like it! **{{userTag}} {{userID}}** was punished by `{{staffTag}} ({{staffID}})`",
       "permanent": "Permanently"
     }
-  },
-  "clickHere_hyperlink": "[Click here]({{link}})",
-  "action_commands": {
-    "embed_footer": "Click the button to reciprocate!",
-    "reciprocate": "Reciprocate"
-  },
-  "invalidChannels": "I did not identify any channels in your message, I search between mentions and ID's, try again!",
-  "Boolean": {
-    "yesOrNo": {
-      "true": "Yes",
-      "false": "No"
-    },
-    "trueOrFalse": {
-      "true": "True",
-      "falso": "False"
-    }
-  },
-  "guildCreate": {
-    "embed": [
-      "Hi {{inviter}}, I was recently added to` {{guild}} `, it's a pleasure to be available to help you and your team on this server. Anyway, I think it's time to introduce myself, in case you are getting to know me now, I'm {{name}}, a simple bot for Discord. My goal is to help as many people as possible on this platform, whether helping with **Moderation**, **Administration**, **Entertainment**, **Music** and many others!",
-      "And if you are really getting to know me now, I bet you are curious to know what I do, right? I do a lot of things, ban users, make an image command, play a song and many others. To see all my \"skills\" use `d!help`, I will send you several super cool commands about me.",
-      "And if you need help, don't forget, I have a **Support Server**, you can join it using {{support}}, get in there. I hope you are well received.",
-      "I hope you enjoyed the \"little bit\" I told you about, sorry to bother you and I hope to see you around."
-    ]
   },
   "reaction_logs": {
     "added": "{{user}} Reacted with the emoji in the message.",
