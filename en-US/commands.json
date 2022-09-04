@@ -843,7 +843,7 @@
     "contentMessage": "Aqui você pode ver a maioria das suas transações!",
     "null": "Parece que não temos nenhuma transação aqui ainda!",
     "selectMenu": {
-      "placeholder": "Selecione filtros para a busca"
+      "placeholder": "Select filters for the search"
     }
   },
   "coinflip": {
@@ -950,10 +950,10 @@
   },
   "strongdog": {
     "config": {
-      "description": "Aposto que você se lembra deste meme. Quando se quer fazer uma comparação para zoar um amigo ou uma situação lembre-se deste comando!",
+      "description": "I bet you remember this meme. When you want to make a comparison to joke with a friend or a situation remember this command!",
       "examples": [
-        "Você na Educação Física /-/ Você na sala de aula |-| Gera um meme de comparação entre essas duas frases.",
-        "Você na Educação Física /-/ Você na sala de aula /-/ É ágil e rápido como um Leão /-/ \"Pera.. 9*7 é quanto mesmo?\" |-| Gera um meme de comparação entre dois estados cada um com uma frase."
+        "You in Physical Education /-/ You in the classroom |-| Generates a comparison meme between these two sentences.",
+        "You in Physical Education /-/ You in the classroom /-/ It's agile and fast as a Lion /-/ \"wait.. 9*7 is how much?\" |-| Generates a comparison meme between two states each with one sentence."
       ]
     }
   },
@@ -1285,12 +1285,12 @@
   },
   "svg": {
     "config": {
-      "description": "Transforma um código de vetor SVG em uma imagem PNG.",
+      "description": "Transforms an SVG vector code into a PNG image.",
       "examples": [
-        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg |-| Transforme o código de um emoji em uma imagem PNG a partir de um link!",
-        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg /-/ 350 |-| Transforme o código de um emoji em uma imagem PNG com a largura de 350px!",
-        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg /-/ 350 /-/ 200 |-| Transforme o código de um emoji em uma imagem PNG com a largura de 350px e a altura de 200px!",
-        "<svg width=\"400\" height=\"110\"><rect width=\"300\" height=\"100\" style=\"fill:#fff\"/></svg> |-| Transforme o código de um retângulo em uma imagem PNG!"
+        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg |-| Transform an emoji code into a PNG image from a link!",
+        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg /-/ 350 |-| Transform an emoji code into a PNG image with a width of 350px!",
+        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg /-/ 350 /-/ 200 |-| Transform an emoji code into a PNG image with a width of 350px and a height of 200px!",
+        "<svg width=\"400\" height=\"110\"><rect width=\"300\" height=\"100\" style=\"fill:#fff\"/></svg> |-| Transform the code of a rectangle into a PNG image!"
       ],
       "invalidSVG": "Este não é um código de vetor SVG válido! Por favor tente novamente ou utilize um link..."
     }
@@ -1329,7 +1329,7 @@
     "rollbackSuccess": "Prontinho! Desfiz a categoria `{{category}}`... Apaguei todos os canais que estavam nela tambem.",
     "deleteReason": "[Clone Category] | Os canais foram deletados a pedido de {{user}}.",
     "clonedChannels": "Aqui estão eles: {{channels}}",
-    "rollback": "Desfazer"
+    "rollback": "Undo"
   },
   "managepoll": {
     "config": {
@@ -1342,19 +1342,19 @@
     "noPolls": "Wow! Isso é raro... Parece que seu servidor não tem nenhuma enquete criada, bem, que tal criar uma agora? Use o comando `/help command:poll` para mais informações!",
     "placeholder": "Selecione no menu a votação que você deseja gerenciar.",
     "guildPolls": "Aqui estão todas as enquetes ativas do seu servidor:",
-    "finishPoll": "Finalizar",
-    "deletePoll": "Deletar",
-    "message_url": "Link da Mensagem",
-    "pollInfo": "Dados da Votação",
-    "pollID": "ID da Votação",
-    "author": "Criador",
-    "endTimestamp": "Termina em",
-    "channel": "Canal",
-    "votes": "Votos",
+    "finishPoll": "Finish",
+    "deletePoll": "Delete",
+    "message_url": "Message Link",
+    "pollInfo": "Vote Date",
+    "pollID": "Vote ID",
+    "author": "Creator",
+    "endTimestamp": "Ends in",
+    "channel": "Channel",
+    "votes": "Votes",
     "poll": {
       "finish": "Yay! Prontinho, sua votação foi encerrada com sucesso!",
       "delete": "Yay! Prontinho, sua votação foi deletada do banco de dados com sucesso!",
-      "poll": "Enquete"
+      "poll": "Poll"
     }
   },
   "rankcoins": {
