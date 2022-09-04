@@ -43,7 +43,7 @@
     "disabled": "Disabled",
     "enabled": "Enabled"
   },
-  "page": "Página",
+  "page": "Page",
   "deferReply": "I'm thinking... Wait a minute.",
   "onlyguilds": "you cannot use this command in private messages!",
   "mention": "Hello! My prefix in this server is `{{prefix}}`, if you need help, use `{{prefix}}help`",
@@ -218,7 +218,7 @@
       "COINFLIP_BET": "on bets by spinning a coin."
     },
     "PAYMENT": {
-      "name": "Pagamentos",
+      "name": "Payments",
       "description": "Transações relacionadas a transferência de Kurama Coins entre os usuários."
     },
     "PROFILE": {
@@ -226,15 +226,15 @@
       "description": "Trasações relacionadas a compras de layouts de perfil."
     },
     "MARRIAGE": {
-      "name": "Casamento",
+      "name": "Marriage",
       "description": "Transações relacionadas ao ritual de casamento."
     },
     "MARRIAGE_TAX": {
-      "name": "Taxas de Casamento",
+      "name": "Marriage Tax",
       "description": "Transações relacionadas a taxas de casamento."
     },
     "DAILY": {
-      "name": "Recompensa Diária",
+      "name": "Daily Rewards",
       "description": "Transações relacionadas a recompensa diária."
     },
     "SUPPORT_BOOST": {
