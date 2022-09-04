@@ -69,6 +69,9 @@
     "markdown": "**Message sent by {{user}}**"
   },
   "invite": {
+    "config": {
+      "description": "Mostra o convite do bot para que você possa adiciona-lo em seu servidor!"
+    },
     "botInvite": "Do you want to add me to other Discord guilds/servers? Then [click here]({{invite}}) to add me to another server!",
     "haveFun": " You have no idea how it helps me 🙇. I hope to be on enough servers to be able to cheer and have fun!",
     "supportGuild": "And, of course, join my guild to give suggestions, report bugs and more! [Join to guild, click here]({{supportGuild}})",
@@ -186,7 +189,9 @@
       ]
     },
     "youBalance": "you have **{{coins}} Kurama Coins**!",
-    "userBalance": "**__{{user}}__** have **{{coins}} Kurama Coins**!"
+    "userBalance": "**__{{user}}__** have **{{coins}} Kurama Coins**!",
+    "youPosition": "Você está em **#{{position}} lugar** no ranking, veja outros ostentadores em `/rank coins`!",
+    "userPosition": "Este usuário está em **#{{position}} lugar** no ranking, veja outros ostentadores em `/rank coins`!"
   },
   "kurama-ban": {
     "config": {
@@ -591,7 +596,9 @@
     "transactionMade": "you gave **{{coins}} Kurama Coins** to {{user}} successfully.",
     "cannotYourself": "You cannot use this command with yourself, are you trying to cheat the system?",
     "accountLess": "Hi! you cannot transfer coins now. Discord Accounts created less than 3 days ago cannot have domains (example : Twitter.com). And Discord accounts created less than 30 days old cannot transfer coins in the Kurama Bot.",
-    "guildMembers": "for security, how are you in a retatively small guild, you cannot transfer coins."
+    "guildMembers": "for security, how are you in a retatively small guild, you cannot transfer coins.",
+    "youPosition": "Agora você está na posição **#{{position}}** do ranking de Kurama Coins.",
+    "hePosition": "Agora {{user}} está na posição **#{{position}}** do ranking de Kurama Coins."
   },
   "anime": {
     "config": {
@@ -685,7 +692,8 @@
     },
     "emojiAdded": "emoji added successfully!",
     "maxSize": "Your file is {{size}} bytes long, you can try to cut it or reduce the size. It must be equal to or less than 256000 bytes for the emote to be added.",
-    "invalidUrl": "url is invalid, try using another link."
+    "invalidUrl": "url is invalid, try using another link.",
+    "emojiDeleted": "emoji foi deletado com sucesso!"
   },
   "clear": {
     "config": {
@@ -831,7 +839,12 @@
     "allTransactions": "Total Transactions: {{total}}.",
     "pageDontExist": "i searched everywhere , but the pages finished here...",
     "unknownTransactions": "That person never do a Kurama-Coins transaction in her life",
-    "page": "Page {{number}}"
+    "page": "Page {{number}}",
+    "contentMessage": "Aqui você pode ver a maioria das suas transações!",
+    "null": "Parece que não temos nenhuma transação aqui ainda!",
+    "selectMenu": {
+      "placeholder": "Selecione filtros para a busca"
+    }
   },
   "coinflip": {
     "config": {
@@ -935,12 +948,12 @@
     "slowmode": "Slowmode",
     "private": "Private"
   },
-  "strongDoge": {
+  "strongdog": {
     "config": {
-      "description": "I bet you remember this meme When you want to make a comparison to joke whit a friend or a situation remember this command!",
+      "description": "Aposto que você se lembra deste meme. Quando se quer fazer uma comparação para zoar um amigo ou uma situação lembre-se deste comando!",
       "examples": [
-        "You in Physical Education /-/ You in the classroom |-| Generates a comparison meme between these two sentences.",
-        "You in Physical Education /-/ You in the classroom /-/ It's agile and fast as a Lion /-/ \"wait.. 9*7 is how much? \" |-| Generates a comparison meme between two states each with one sentence."
+        "Você na Educação Física /-/ Você na sala de aula |-| Gera um meme de comparação entre essas duas frases.",
+        "Você na Educação Física /-/ Você na sala de aula /-/ É ágil e rápido como um Leão /-/ \"Pera.. 9*7 é quanto mesmo?\" |-| Gera um meme de comparação entre dois estados cada um com uma frase."
       ]
     }
   },
@@ -1269,6 +1282,93 @@
         "769892417025212497 |-| See the features of the Kurama support server"
       ]
     }
+  },
+  "svg": {
+    "config": {
+      "description": "Transforma um código de vetor SVG em uma imagem PNG.",
+      "examples": [
+        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg |-| Transforme o código de um emoji em uma imagem PNG a partir de um link!",
+        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg /-/ 350 |-| Transforme o código de um emoji em uma imagem PNG com a largura de 350px!",
+        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg /-/ 350 /-/ 200 |-| Transforme o código de um emoji em uma imagem PNG com a largura de 350px e a altura de 200px!",
+        "<svg width=\"400\" height=\"110\"><rect width=\"300\" height=\"100\" style=\"fill:#fff\"/></svg> |-| Transforme o código de um retângulo em uma imagem PNG!"
+      ],
+      "invalidSVG": "Este não é um código de vetor SVG válido! Por favor tente novamente ou utilize um link..."
+    }
+  },
+  "decode": {
+    "config": {
+      "description": "Descodifica uma mensagem codificada em URI Component."
+    }
+  },
+  "wanted": {
+    "config": {
+      "description": "Atenção! Isto não é um teste... Parece que alguns marinheiros estão atrás da sua cabeça!"
+    }
+  },
+  "mariframe": {
+    "config": {
+      "description": "Faça Mari Baianinha (BBB21) se emocionar com algum álbum ou foto do seu artista preferido!"
+    }
+  },
+  "emojiview": {
+    "config": {
+      "description": "Veja em detalhes um emoji de algum servidor ou padrão do Discord."
+    },
+    "notFound": "Eu não encontrei nada sobre esse emoji aqui e nem em outro servidor... Será que isso é mesmo um emoji?"
+  },
+  "categoryclone": {
+    "config": {
+      "description": "Clonar uma categoria do servidor com as mesmas permissões.",
+      "examples": [
+        "#Staff |-| Clonar a categoria \"Staff\" do servidor onde você executou o comando."
+      ]
+    },
+    "success": "Aqui está: {{category}}! A categoria foi clonada com sucesso!",
+    "successWithChannels": "Aqui está: {{category}}! A categoria foi clonada com sucesso! Os canais foram clonados também!",
+    "notFound": "Talvez a categoria tenha sido deletada... Não posso deletar os canais que estão nela, pois ela não existe..",
+    "rollbackSuccess": "Prontinho! Desfiz a categoria `{{category}}`... Apaguei todos os canais que estavam nela tambem.",
+    "deleteReason": "[Clone Category] | Os canais foram deletados a pedido de {{user}}.",
+    "clonedChannels": "Aqui estão eles: {{channels}}",
+    "rollback": "Desfazer"
+  },
+  "managepoll": {
+    "config": {
+      "description": "Gerencie as enquetes ativas feitas pelo Kuraminha no seu servidor!",
+      "examples": [
+        "|-| Veja todas as suas enquetes.",
+        "https://discord.com/channels/417061847489839106/826350337241251880/1012899761642295438 |-| Veja uma enquete específica procurando pelo link da mensagem."
+      ]
+    },
+    "noPolls": "Wow! Isso é raro... Parece que seu servidor não tem nenhuma enquete criada, bem, que tal criar uma agora? Use o comando `/help command:poll` para mais informações!",
+    "placeholder": "Selecione no menu a votação que você deseja gerenciar.",
+    "guildPolls": "Aqui estão todas as enquetes ativas do seu servidor:",
+    "finishPoll": "Finalizar",
+    "deletePoll": "Deletar",
+    "message_url": "Link da Mensagem",
+    "pollInfo": "Dados da Votação",
+    "pollID": "ID da Votação",
+    "author": "Criador",
+    "endTimestamp": "Termina em",
+    "channel": "Canal",
+    "votes": "Votos",
+    "poll": {
+      "finish": "Yay! Prontinho, sua votação foi encerrada com sucesso!",
+      "delete": "Yay! Prontinho, sua votação foi deletada do banco de dados com sucesso!",
+      "poll": "Enquete"
+    }
+  },
+  "rankcoins": {
+    "config": {
+      "description": "Veja o ranking de usuários com mais Kurama Coins!",
+      "examples": [
+        "|-| Veja o ranking de usuários com mais Kurama Coins de maneira global.",
+        "5 |-| Veja o ranking de usuários com mais Kurama Coins de maneira global, a partir da página 5.",
+        "2 /-/ true |-| Veja o ranking de usuários com mais Kurama Coins do servidor, a partir da página 2."
+      ]
+    },
+    "noUsers": "Wow! Parece que você encontrou uma página sem usuários, deixei de ser apressado, um dia essa página terá usuários, mas por enquanto está vazia!",
+    "noUsersInGuild": "Eita... Acho que não tem ninguém nesse servidor que tenha Kurama Coins.",
+    "myPosition": "Minha colocação"
   },
   "util": {
     "noHasDescription": "This command hasn't description.",
