@@ -43,6 +43,7 @@
     "disabled": "Desativado",
     "enabled": "Habilitado"
   },
+  "page": "Página",
   "deferReply": "Eu estou pensando... Espere um momento.",
   "onlyguilds": "você não pode usar este comando em mensagens privadas!",
   "mention": "Olá! Meu prefix nesse servidor é `{{prefix}}`, se você precisar de ajuda, use `{{prefix}}help`",
@@ -215,6 +216,54 @@
       "CHARGEBACK": "por devoluções de dinheiro (chargeback).",
       "BUNDLE_PURCHASE": "em compra de Kurama-Coins.",
       "COINFLIP_BET": "em apostas girando uma moeda."
+    },
+    "PAYMENT": {
+      "name": "Pagamentos",
+      "description": "Transações relacionadas a transferência de Kurama Coins entre os usuários."
+    },
+    "PROFILE": {
+      "name": "Compras de Layouts de Perfil",
+      "description": "Trasações relacionadas a compras de layouts de perfil."
+    },
+    "MARRIAGE": {
+      "name": "Casamento",
+      "description": "Transações relacionadas ao ritual de casamento."
+    },
+    "MARRIAGE_TAX": {
+      "name": "Taxas de Casamento",
+      "description": "Transações relacionadas a taxas de casamento."
+    },
+    "DAILY": {
+      "name": "Recompensa Diária",
+      "description": "Transações relacionadas a recompensa diária."
+    },
+    "SUPPORT_BOOST": {
+      "name": "Recompensas de Server Boost",
+      "description": "Transações relacionadas a recompensas de server boost em servidores do Kurama."
+    },
+    "BACKGROUND": {
+      "name": "Compra de Backgrounds de Perfil",
+      "description": "Transações relacionadas a compra de backgrounds de perfil."
+    },
+    "KAME_BET": {
+      "name": "Aposta de Kamehameha",
+      "description": "Transações relacionadas a apostas de Kamehameha."
+    },
+    "DBL_VOTE": {
+      "name": "Votos no Bot",
+      "description": "Transações relacionadas a votações feitas para o Bot."
+    },
+    "CHARGEBACK": {
+      "name": "Reembolsos de Dinheiro",
+      "description": "Transações relacionadas a reembolsos de dinheiro (chargeback)."
+    },
+    "BUNDLE_PURCHASE": {
+      "name": "Compra de Kurama-Coins",
+      "description": "Transações relacionadas a compra de Kurama-Coins na loja oficial."
+    },
+    "COINFLIP_BET": {
+      "name": "Apostas em moedas",
+      "description": "Transações relacionadas a apostas em moedas."
     }
   }
 }

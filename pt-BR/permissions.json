@@ -74,6 +74,8 @@
     "MORE_EMOJI": "Emojis Extras",
     "HAS_DIRECTORY_ENTRY": "Directory Entry",
     "THREADS_ENABLED_TESTING": "Teste de Threads Habilitado",
-    "AUTO_MODERATION": "Automod"
+    "AUTO_MODERATION": "Automod",
+    "TEXT_IN_VOICE_ENABLED": "Texto em Voz",
+    "GUILD_HOME_TEST": "Teste de Home de Servidor"
   }
 }

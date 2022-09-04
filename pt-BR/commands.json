@@ -70,6 +70,9 @@
     "markdown": "**Mensagem enviada por {{user}}**"
   },
   "invite": {
+    "config": {
+      "description": "Mostra o convite do bot para que você possa adiciona-lo em seu servidor!"
+    },
     "botInvite": "Deseja me adicionar a outros servidores do Discord? Então [clique aqui]({{invite}}) para me adicionar a outro servidor!",
     "haveFun": "Você não tem ideia de como isso me ajuda :person_bowing:. Espero estar em servidores suficientes para poder trabalhar e te divertir!",
     "supportGuild": "E, claro, junte-se ao meu servidor para dar sugestões, relatar bugs e muito mais! [Entre no servidor, clique aqui]({{supportGuild}})",
@@ -187,7 +190,9 @@
       ]
     },
     "youBalance": "você possui **{{coins}} Kurama Coins**!",
-    "userBalance": "**__{{user}}__** possui **{{coins}} Kurama Coins**!"
+    "userBalance": "**__{{user}}__** possui **{{coins}} Kurama Coins**!",
+    "youPosition": "Você está em **#{{position}} lugar** no ranking, veja outros ostentadores em `/rank coins`!",
+    "userPosition": "Este usuário está em **#{{position}} lugar** no ranking, veja outros ostentadores em `/rank coins`!"
   },
   "kurama-ban": {
     "config": {
@@ -592,7 +597,9 @@
     "transactionMade": "você enviou **{{coins}} Kurama Coins** para {{user}} com sucesso.",
     "cannotYourself": "você não pode utilizar este comando com si mesmo, querendo burlar o sistema né?",
     "accountLess": "Olá! você não pode transferir coins ainda. Contas com menos de 3 dias no Discord não podem ter domínios (exemplo Twitter.com). E contas com menos de 30 dias não podem transferir coins no Kurama Bot.",
-    "guildMembers": "por segurança, como você está numa guild relativamente pequena, você não pode transferir coins."
+    "guildMembers": "por segurança, como você está numa guild relativamente pequena, você não pode transferir coins.",
+    "youPosition": "Agora você está na posição **#{{position}}** do ranking de Kurama Coins.",
+    "hePosition": "Agora {{user}} está na posição **#{{position}}** do ranking de Kurama Coins."
   },
   "anime": {
     "config": {
@@ -686,7 +693,8 @@
     },
     "emojiAdded": "emoji adicionado com sucesso!",
     "maxSize": "Seu arquivo tem {{size}} bytes, você pode tentar cortá-lo ou reduzir o tamanho. Ele precisa ser igual ou menor que 256000 bytes para que o emote seja adicionado.",
-    "invalidUrl": "url está inválida, tente usar outro link."
+    "invalidUrl": "url está inválida, tente usar outro link.",
+    "emojiDeleted": "emoji foi deletado com sucesso!"
   },
   "clear": {
     "config": {
@@ -832,7 +840,12 @@
     "allTransactions": "Total de Transações: {{total}}.",
     "pageDontExist": "Eu procurei até no infinito e além, mas pelo visto as páginas acabam aqui...",
     "unknownTransactions": "Essa pessoa nunca fez transações de Kurama-Coins na vida dela!",
-    "page": "Página {{number}}"
+    "page": "Página {{number}}",
+    "contentMessage": "Aqui você pode ver a maioria das suas transações!",
+    "null": "Parece que não temos nenhuma transação aqui ainda!",
+    "selectMenu": {
+      "placeholder": "Selecione filtros para a busca"
+    }
   },
   "coinflip": {
     "config": {
@@ -936,7 +949,7 @@
     "slowmode": "Modo Lento",
     "private": "Privado"
   },
-  "strongDoge": {
+  "strongdog": {
     "config": {
       "description": "Aposto que você se lembra deste meme. Quando se quer fazer uma comparação para zoar um amigo ou uma situação lembre-se deste comando!",
       "examples": [
@@ -1270,6 +1283,93 @@
         "769892417025212497 |-| Veja as features do servidor de suporte do Kurama"
       ]
     }
+  },
+  "svg": {
+    "config": {
+      "description": "Transforma um código de vetor SVG em uma imagem PNG.",
+      "examples": [
+        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg |-| Transforme o código de um emoji em uma imagem PNG a partir de um link!",
+        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg /-/ 350 |-| Transforme o código de um emoji em uma imagem PNG com a largura de 350px!",
+        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg /-/ 350 /-/ 200 |-| Transforme o código de um emoji em uma imagem PNG com a largura de 350px e a altura de 200px!",
+        "<svg width=\"400\" height=\"110\"><rect width=\"300\" height=\"100\" style=\"fill:#fff\"/></svg> |-| Transforme o código de um retângulo em uma imagem PNG!"
+      ],
+      "invalidSVG": "Este não é um código de vetor SVG válido! Por favor tente novamente ou utilize um link..."
+    }
+  },
+  "decode": {
+    "config": {
+      "description": "Descodifica uma mensagem codificada em URI Component."
+    }
+  },
+  "wanted": {
+    "config": {
+      "description": "Atenção! Isto não é um teste... Parece que alguns marinheiros estão atrás da sua cabeça!"
+    }
+  },
+  "mariframe": {
+    "config": {
+      "description": "Faça Mari Baianinha (BBB21) se emocionar com algum álbum ou foto do seu artista preferido!" 
+    }
+  },
+  "emojiview": {
+    "config": {
+      "description": "Veja em detalhes um emoji de algum servidor ou padrão do Discord."
+    },
+    "notFound": "Eu não encontrei nada sobre esse emoji aqui e nem em outro servidor... Será que isso é mesmo um emoji?"
+  },
+  "categoryclone": {
+    "config": {
+      "description": "Clonar uma categoria do servidor com as mesmas permissões.",
+      "examples": [
+        "#Staff |-| Clonar a categoria \"Staff\" do servidor onde você executou o comando."
+      ]
+    },
+    "success": "Aqui está: {{category}}! A categoria foi clonada com sucesso!",
+    "successWithChannels": "Aqui está: {{category}}! A categoria foi clonada com sucesso! Os canais foram clonados também!",
+    "notFound": "Talvez a categoria tenha sido deletada... Não posso deletar os canais que estão nela, pois ela não existe..",
+    "rollbackSuccess": "Prontinho! Desfiz a categoria `{{category}}`... Apaguei todos os canais que estavam nela tambem.",
+    "deleteReason": "[Clone Category] | Os canais foram deletados a pedido de {{user}}.",
+    "clonedChannels": "Aqui estão eles: {{channels}}",
+    "rollback": "Desfazer"
+  },
+  "managepoll": {
+    "config": {
+      "description": "Gerencie as enquetes ativas feitas pelo Kuraminha no seu servidor!",
+      "examples": [
+        "|-| Veja todas as suas enquetes.",
+        "https://discord.com/channels/417061847489839106/826350337241251880/1012899761642295438 |-| Veja uma enquete específica procurando pelo link da mensagem."
+      ]
+    },
+    "noPolls": "Wow! Isso é raro... Parece que seu servidor não tem nenhuma enquete criada, bem, que tal criar uma agora? Use o comando `/help command:poll` para mais informações!",
+    "placeholder": "Selecione no menu a votação que você deseja gerenciar.",
+    "guildPolls": "Aqui estão todas as enquetes ativas do seu servidor:",
+    "finishPoll": "Finalizar",
+    "deletePoll": "Deletar",
+    "message_url": "Link da Mensagem",
+    "pollInfo": "Dados da Votação",
+    "pollID": "ID da Votação",
+    "author": "Criador",
+    "endTimestamp": "Termina em",
+    "channel": "Canal",
+    "votes": "Votos",
+    "poll": {
+      "finish": "Yay! Prontinho, sua votação foi encerrada com sucesso!",
+      "delete": "Yay! Prontinho, sua votação foi deletada do banco de dados com sucesso!",
+      "poll": "Enquete"
+    }
+  },
+  "rankcoins": {
+    "config": {
+      "description": "Veja o ranking de usuários com mais Kurama Coins!",
+      "examples": [
+        "|-| Veja o ranking de usuários com mais Kurama Coins de maneira global.",
+        "5 |-| Veja o ranking de usuários com mais Kurama Coins de maneira global, a partir da página 5.",
+        "2 /-/ true |-| Veja o ranking de usuários com mais Kurama Coins do servidor, a partir da página 2." 
+      ]
+    },
+    "noUsers": "Wow! Parece que você encontrou uma página sem usuários, deixei de ser apressado, um dia essa página terá usuários, mas por enquanto está vazia!",
+    "noUsersInGuild": "Eita... Acho que não tem ninguém nesse servidor que tenha Kurama Coins.",
+    "myPosition": "Minha colocação"
   },
   "util": {
     "noHasDescription": "Esse comando não tem descrição.",
