@@ -75,7 +75,7 @@
     "HAS_DIRECTORY_ENTRY": "Directory Entry",
     "THREADS_ENABLED_TESTING": "Threads Enabled Testing",
     "AUTO_MODERATION": "Automod",
-    "TEXT_IN_VOICE_ENABLED": "Texto em Voz",
-    "GUILD_HOME_TEST": "Teste de Home de Servidor"
+    "TEXT_IN_VOICE_ENABLED": "Text in Voice",
+    "GUILD_HOME_TEST": "Guild Home Test"
   }
 }
