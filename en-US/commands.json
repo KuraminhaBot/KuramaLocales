@@ -597,8 +597,8 @@
     "cannotYourself": "You cannot use this command with yourself, are you trying to cheat the system?",
     "accountLess": "Hi! you cannot transfer coins now. Discord Accounts created less than 3 days ago cannot have domains (example : Twitter.com). And Discord accounts created less than 30 days old cannot transfer coins in the Kurama Bot.",
     "guildMembers": "for security, how are you in a retatively small guild, you cannot transfer coins.",
-    "youPosition": "Agora você está na posição **#{{position}}** do ranking de Kurama Coins.",
-    "hePosition": "Agora {{user}} está na posição **#{{position}}** do ranking de Kurama Coins."
+    "youPosition": "Now you are in rank **#{{position}}** of Kurama Coins ranking.",
+    "hePosition": "Now {{user}} is in position **#{{position}}** of Kurama Coins ranking."
   },
   "anime": {
     "config": {
@@ -693,7 +693,7 @@
     "emojiAdded": "emoji added successfully!",
     "maxSize": "Your file is {{size}} bytes long, you can try to cut it or reduce the size. It must be equal to or less than 256000 bytes for the emote to be added.",
     "invalidUrl": "url is invalid, try using another link.",
-    "emojiDeleted": "emoji foi deletado com sucesso!"
+    "emojiDeleted": "emoji deleted with success!"
   },
   "clear": {
     "config": {
@@ -840,8 +840,8 @@
     "pageDontExist": "i searched everywhere , but the pages finished here...",
     "unknownTransactions": "That person never do a Kurama-Coins transaction in her life",
     "page": "Page {{number}}",
-    "contentMessage": "Aqui você pode ver a maioria das suas transações!",
-    "null": "Parece que não temos nenhuma transação aqui ainda!",
+    "contentMessage": "Here you can see most of your transactions!",
+    "null": "It seems that we don't have any transaction here yet!",
     "selectMenu": {
       "placeholder": "Select filters for the search"
     }
@@ -1292,56 +1292,56 @@
         "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg /-/ 350 /-/ 200 |-| Transform an emoji code into a PNG image with a width of 350px and a height of 200px!",
         "<svg width=\"400\" height=\"110\"><rect width=\"300\" height=\"100\" style=\"fill:#fff\"/></svg> |-| Transform the code of a rectangle into a PNG image!"
       ],
-      "invalidSVG": "Este não é um código de vetor SVG válido! Por favor tente novamente ou utilize um link..."
+      "invalidSVG": "This is not a valid SVG vector code! Please try again or use a link..."
     }
   },
   "decode": {
     "config": {
-      "description": "Descodifica uma mensagem codificada em URI Component."
+      "description": "Decodes a message encoded in URI Component."
     }
   },
   "wanted": {
     "config": {
-      "description": "Atenção! Isto não é um teste... Parece que alguns marinheiros estão atrás da sua cabeça!"
+      "description": "Attention! This is not a test... Looks like some marines are after your head!"
     }
   },
   "mariframe": {
     "config": {
-      "description": "Faça Mari Baianinha (BBB21) se emocionar com algum álbum ou foto do seu artista preferido!"
+      "description": "Make Mari Baianinha (BBB21) get emotional with an album or photo of your favorite artist!"
     }
   },
   "emojiview": {
     "config": {
-      "description": "Veja em detalhes um emoji de algum servidor ou padrão do Discord."
+      "description": "See in details an emoji from any server or Discords standards."
     },
-    "notFound": "Eu não encontrei nada sobre esse emoji aqui e nem em outro servidor... Será que isso é mesmo um emoji?"
+    "notFound": "I didn't find anything about this emoji here, not even in other servers... Is this really an emoji?"
   },
   "categoryclone": {
     "config": {
-      "description": "Clonar uma categoria do servidor com as mesmas permissões.",
+      "description": "Clone a servers' category with the same permissions.",
       "examples": [
-        "#Staff |-| Clonar a categoria \"Staff\" do servidor onde você executou o comando."
+        "#Staff |-| Clone the \"Staff\" category from the server where you executed the command."
       ]
     },
-    "success": "Aqui está: {{category}}! A categoria foi clonada com sucesso!",
-    "successWithChannels": "Aqui está: {{category}}! A categoria foi clonada com sucesso! Os canais foram clonados também!",
-    "notFound": "Talvez a categoria tenha sido deletada... Não posso deletar os canais que estão nela, pois ela não existe..",
-    "rollbackSuccess": "Prontinho! Desfiz a categoria `{{category}}`... Apaguei todos os canais que estavam nela tambem.",
-    "deleteReason": "[Clone Category] | Os canais foram deletados a pedido de {{user}}.",
-    "clonedChannels": "Aqui estão eles: {{channels}}",
+    "success": "Here is: {{category}}! The category was cloned successfully!",
+    "successWithChannels": "Here is: {{category}}! The category was cloned successfully! The channels were cloned too!",
+    "notFound": "Maybe the category was deleted... I can't delete the channels that are in it, because it doesn't exist..",
+    "rollbackSuccess": "Ready! I undid the category `{{category}}`... I deleted every channel that were in it too.",
+    "deleteReason": "[Clone Category] | The channels were deleted in favor of {{user}}.",
+    "clonedChannels": "Here they are: {{channels}}",
     "rollback": "Undo"
   },
   "managepoll": {
     "config": {
-      "description": "Gerencie as enquetes ativas feitas pelo Kuraminha no seu servidor!",
+      "description": "Manage active polls made by Kuraminha on your server!",
       "examples": [
-        "|-| Veja todas as suas enquetes.",
-        "https://discord.com/channels/417061847489839106/826350337241251880/1012899761642295438 |-| Veja uma enquete específica procurando pelo link da mensagem."
+        "|-| See all your polls.",
+        "https://discord.com/channels/417061847489839106/826350337241251880/1012899761642295438 |-| View a specific poll by looking for the message link."
       ]
     },
-    "noPolls": "Wow! Isso é raro... Parece que seu servidor não tem nenhuma enquete criada, bem, que tal criar uma agora? Use o comando `/help command:poll` para mais informações!",
-    "placeholder": "Selecione no menu a votação que você deseja gerenciar.",
-    "guildPolls": "Aqui estão todas as enquetes ativas do seu servidor:",
+    "noPolls": "Wow! This is rare... Looks like your server doesn't have any poll made, well, how about creating one now? Use the command `/help command:poll` for more information!",
+    "placeholder": "Select the poll you want to manage in the menu.",
+    "guildPolls": "Here are all the active polls in your server:",
     "finishPoll": "Finish",
     "deletePoll": "Delete",
     "message_url": "Message Link",
@@ -1352,23 +1352,23 @@
     "channel": "Channel",
     "votes": "Votes",
     "poll": {
-      "finish": "Yay! Prontinho, sua votação foi encerrada com sucesso!",
-      "delete": "Yay! Prontinho, sua votação foi deletada do banco de dados com sucesso!",
+      "finish": "Yay! Ready, your vote was closed successfully!",
+      "delete": "Yay! Ready, your vote was deleted from the data bank successfully!",
       "poll": "Poll"
     }
   },
   "rankcoins": {
     "config": {
-      "description": "Veja o ranking de usuários com mais Kurama Coins!",
+      "description": "See the ranking of users with the most Kurama Coins!",
       "examples": [
-        "|-| Veja o ranking de usuários com mais Kurama Coins de maneira global.",
-        "5 |-| Veja o ranking de usuários com mais Kurama Coins de maneira global, a partir da página 5.",
-        "2 /-/ true |-| Veja o ranking de usuários com mais Kurama Coins do servidor, a partir da página 2."
+        "|-| See the ranking of users with the most Kurama Coins globally.",
+        "5 |-| See the ranking of users with the most Kurama Coins globally, starting on page 5.",
+        "2 /-/ true |-| See the ranking of users with the most Kurama Coins on the server, starting on page 2."
       ]
     },
-    "noUsers": "Wow! Parece que você encontrou uma página sem usuários, deixei de ser apressado, um dia essa página terá usuários, mas por enquanto está vazia!",
-    "noUsersInGuild": "Eita... Acho que não tem ninguém nesse servidor que tenha Kurama Coins.",
-    "myPosition": "Minha colocação"
+    "noUsers": "Wow! Looks like you found a page with no users, no rush, one day this page will have users, but for now it's empty!",
+    "noUsersInGuild": "Jeez... I don't think there's anyone on this server that has Kurama Coins.",
+    "myPosition": "My placement"
   },
   "util": {
     "noHasDescription": "This command hasn't description.",
