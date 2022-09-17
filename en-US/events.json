@@ -219,51 +219,51 @@
     },
     "PAYMENT": {
       "name": "Payments",
-      "description": "Transações relacionadas a transferência de Kurama Coins entre os usuários."
+      "description": "Transactions related to the transfer of Kurama Coins between users."
     },
     "PROFILE": {
-      "name": "Compras de Layouts de Perfil",
-      "description": "Trasações relacionadas a compras de layouts de perfil."
+      "name": "Profile Layout Purchases",
+      "description": "Transactions related to purchasing profile layouts."
     },
     "MARRIAGE": {
       "name": "Marriage",
-      "description": "Transações relacionadas ao ritual de casamento."
+      "description": "Transactions related to the wedding ritual."
     },
     "MARRIAGE_TAX": {
       "name": "Marriage Tax",
-      "description": "Transações relacionadas a taxas de casamento."
+      "description": "Transactions related to wedding fees."
     },
     "DAILY": {
       "name": "Daily Rewards",
-      "description": "Transações relacionadas a recompensa diária."
+      "description": "Transactions related to daily reward."
     },
     "SUPPORT_BOOST": {
-      "name": "Recompensas de Server Boost",
-      "description": "Transações relacionadas a recompensas de server boost em servidores do Kurama."
+      "name": "Server Boosting Rewards",
+      "description": "Transactions related to server boosting rewards on Kurama servers."
     },
     "BACKGROUND": {
-      "name": "Compra de Backgrounds de Perfil",
-      "description": "Transações relacionadas a compra de backgrounds de perfil."
+      "name": "Purchasing Profile Backgrounds",
+      "description": "Transactions related to the purchase of profile backgrounds."
     },
     "KAME_BET": {
-      "name": "Aposta de Kamehameha",
-      "description": "Transações relacionadas a apostas de Kamehameha."
+      "name": "Kamehameha bet",
+      "description": "Transactions related to Kamehameha bets."
     },
     "DBL_VOTE": {
-      "name": "Votos no Bot",
-      "description": "Transações relacionadas a votações feitas para o Bot."
+      "name": "Bot votes",
+      "description": "Transactions related to voting made for the Bot."
     },
     "CHARGEBACK": {
-      "name": "Reembolsos de Dinheiro",
-      "description": "Transações relacionadas a reembolsos de dinheiro (chargeback)."
+      "name": "Cash Refunds",
+      "description": "Transactions related to cash refunds (chargeback)."
     },
     "BUNDLE_PURCHASE": {
-      "name": "Compra de Kurama-Coins",
-      "description": "Transações relacionadas a compra de Kurama-Coins na loja oficial."
+      "name": "Purchase of Kurama-Coins",
+      "description": "Transactions related to the purchase of Kurama-Coins in the official store."
     },
     "COINFLIP_BET": {
-      "name": "Apostas em moedas",
-      "description": "Transações relacionadas a apostas em moedas."
+      "name": "Coin bets",
+      "description": "Transactions related to coin bets."
     }
   }
 }
