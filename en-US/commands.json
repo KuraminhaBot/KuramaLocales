@@ -70,7 +70,7 @@
   },
   "invite": {
     "config": {
-      "description": "Mostra o convite do bot para que você possa adiciona-lo em seu servidor!"
+      "description": "Show the bot invite so you can add it to your server!"
     },
     "botInvite": "Do you want to add me to other Discord guilds/servers? Then [click here]({{invite}}) to add me to another server!",
     "haveFun": " You have no idea how it helps me 🙇. I hope to be on enough servers to be able to cheer and have fun!",
@@ -190,8 +190,8 @@
     },
     "youBalance": "you have **{{coins}} Kurama Coins**!",
     "userBalance": "**__{{user}}__** have **{{coins}} Kurama Coins**!",
-    "youPosition": "Você está em **#{{position}} lugar** no ranking, veja outros ostentadores em `/rank coins`!",
-    "userPosition": "Este usuário está em **#{{position}} lugar** no ranking, veja outros ostentadores em `/rank coins`!"
+    "youPosition": "You are in **#{{position}} place** in the ranking, see other show-offs in `/rank coins`!",
+    "userPosition": "This user is in **#{{position}} place** in the ranking, see other show-offs in `/rank coins`!"
   },
   "kurama-ban": {
     "config": {
