@@ -70,7 +70,7 @@
   },
   "invite": {
     "config": {
-      "description": "Show the bot invite so you can add it to your server!"
+      "description": "Shows the bots' invite so you can add it to your server!"
     },
     "botInvite": "Do you want to add me to other Discord guilds/servers? Then [click here]({{invite}}) to add me to another server!",
     "haveFun": " You have no idea how it helps me 🙇. I hope to be on enough servers to be able to cheer and have fun!",
