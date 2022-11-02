@@ -70,7 +70,7 @@
   },
   "invite": {
     "config": {
-      "description": "Shows the bots' invite so you can add it to your server!"
+      "description": "Shows the bot invite so you can add it to your server!"
     },
     "botInvite": "Do you want to add me to other Discord guilds/servers? Then [click here]({{invite}}) to add me to another server!",
     "haveFun": " You have no idea how it helps me 🙇. I hope to be on enough servers to be able to cheer and have fun!",
@@ -413,7 +413,7 @@
       ]
     },
     "userBanned": "{{user}} is **banned**!\n✍️ **|** Reason: `{{reason}}`",
-    "bannedAt": "Banido em {{date}}"
+    "bannedAt": "Banned at {{date}}"
   },
   "mcskin": {
     "config": {
@@ -447,8 +447,8 @@
         "play.narutodark.com |-| Shows the status of the Naruto Dark server (which by the way is very good!)"
       ]
     },
-    "serverOnline": "Servidor está **online** - ",
-    "serverOffline": "Servidor está **offline** - ",
+    "serverOnline": "Server is **online** - ",
+    "serverOffline": "Server is **offline** - ",
     "players": "people are playing.",
     "noOnePlay": "Nobody is playing!",
     "latency": "The above data may be wrong, it depends on the latency of the API used"
@@ -1294,7 +1294,7 @@
         "<svg width=\"400\" height=\"110\"><rect width=\"300\" height=\"100\" style=\"fill:#fff\"/></svg> |-| Transform the code of a rectangle into a PNG image!"
       ]
     },
-    "invalidSVG": "Este não é um código de vetor SVG válido! Por favor tente novamente ou utilize um link..."
+    "invalidSVG": "This is not a valid SVG vector code! Please try again or use a link..."
   },
   "decode": {
     "config": {
@@ -1313,13 +1313,13 @@
   },
   "emojiview": {
     "config": {
-      "description": "See in details an emoji from any server or Discords standards."
+      "description": "See in details an emoji from any server or Discord standards."
     },
     "notFound": "I didn't find anything about this emoji here, not even in other servers... Is this really an emoji?"
   },
   "categoryclone": {
     "config": {
-      "description": "Clone a servers' category with the same permissions.",
+      "description": "Clone a server category with the same permissions.",
       "examples": [
         "#Staff |-| Clone the \"Staff\" category from the server where you executed the command."
       ]
@@ -1328,7 +1328,7 @@
     "successWithChannels": "Here is: {{category}}! The category was cloned successfully! The channels were cloned too!",
     "notFound": "Maybe the category was deleted... I can't delete the channels that are in it, because it doesn't exist..",
     "rollbackSuccess": "Ready! I undid the category `{{category}}`... I deleted every channel that were in it too.",
-    "deleteReason": "[Clone Category] | The channels were deleted in favor of {{user}}.",
+    "deleteReason": "[Clone Category] | The channels were deleted by {{user}}.",
     "clonedChannels": "Here they are: {{channels}}",
     "rollback": "Undo"
   },
@@ -1353,8 +1353,8 @@
     "channel": "Channel",
     "votes": "Votes",
     "poll": {
-      "finish": "Yay! Ready, your vote was closed successfully!",
-      "delete": "Yay! Ready, your vote was deleted from the data bank successfully!",
+      "finish": "Yay! Ready, your poll was closed successfully!",
+      "delete": "Yay! Ready, your poll was deleted from the data bank successfully!",
       "poll": "Poll"
     }
   },
@@ -1387,9 +1387,9 @@
       "description": "Veja a paleta de cores presentes uma imagem enviada no Discord."
     },
     "embed": {
-      "title": "Paleta de Cores"
+      "title": "Color Palette"
     },
-    "palette": "Cores da Imagem"
+    "palette": "Image Colors"
   },
   "util": {
     "noHasDescription": "This command hasn't description.",
