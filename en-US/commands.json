@@ -69,6 +69,9 @@
     "markdown": "**Message sent by {{user}}**"
   },
   "invite": {
+    "config": {
+      "description": "Shows the bot invite so you can add it to your server!"
+    },
     "botInvite": "Do you want to add me to other Discord guilds/servers? Then [click here]({{invite}}) to add me to another server!",
     "haveFun": " You have no idea how it helps me 🙇. I hope to be on enough servers to be able to cheer and have fun!",
     "supportGuild": "And, of course, join my guild to give suggestions, report bugs and more! [Join to guild, click here]({{supportGuild}})",
@@ -186,7 +189,9 @@
       ]
     },
     "youBalance": "you have **{{coins}} Kurama Coins**!",
-    "userBalance": "**__{{user}}__** have **{{coins}} Kurama Coins**!"
+    "userBalance": "**__{{user}}__** have **{{coins}} Kurama Coins**!",
+    "youPosition": "You are in **#{{position}} place** in the ranking, see other show-offs in `/rank coins`!",
+    "userPosition": "This user is in **#{{position}} place** in the ranking, see other show-offs in `/rank coins`!"
   },
   "kurama-ban": {
     "config": {
@@ -407,7 +412,8 @@
         "361977144445763585 |-| Shows a user's profile by ID"
       ]
     },
-    "userBanned": "{{user}} is **banned**!\n✍️ **|** Reason: `{{reason}}`"
+    "userBanned": "{{user}} is **banned**!\n✍️ **|** Reason: `{{reason}}`",
+    "bannedAt": "Banned at {{date}}"
   },
   "mcskin": {
     "config": {
@@ -591,7 +597,9 @@
     "transactionMade": "you gave **{{coins}} Kurama Coins** to {{user}} successfully.",
     "cannotYourself": "You cannot use this command with yourself, are you trying to cheat the system?",
     "accountLess": "Hi! you cannot transfer coins now. Discord Accounts created less than 3 days ago cannot have domains (example : Twitter.com). And Discord accounts created less than 30 days old cannot transfer coins in the Kurama Bot.",
-    "guildMembers": "for security, how are you in a retatively small guild, you cannot transfer coins."
+    "guildMembers": "for security, how are you in a retatively small guild, you cannot transfer coins.",
+    "youPosition": "Now you are in rank **#{{position}}** of Kurama Coins ranking.",
+    "hePosition": "Now {{user}} is in position **#{{position}}** of Kurama Coins ranking."
   },
   "anime": {
     "config": {
@@ -685,7 +693,8 @@
     },
     "emojiAdded": "emoji added successfully!",
     "maxSize": "Your file is {{size}} bytes long, you can try to cut it or reduce the size. It must be equal to or less than 256000 bytes for the emote to be added.",
-    "invalidUrl": "url is invalid, try using another link."
+    "invalidUrl": "url is invalid, try using another link.",
+    "emojiDeleted": "emoji deleted with success!"
   },
   "clear": {
     "config": {
@@ -831,7 +840,12 @@
     "allTransactions": "Total Transactions: {{total}}.",
     "pageDontExist": "i searched everywhere , but the pages finished here...",
     "unknownTransactions": "That person never do a Kurama-Coins transaction in her life",
-    "page": "Page {{number}}"
+    "page": "Page {{number}}",
+    "contentMessage": "Here you can see most of your transactions!",
+    "null": "It seems that we don't have any transaction here yet!",
+    "selectMenu": {
+      "placeholder": "Select filters for the search"
+    }
   },
   "coinflip": {
     "config": {
@@ -935,12 +949,12 @@
     "slowmode": "Slowmode",
     "private": "Private"
   },
-  "strongDoge": {
+  "strongdog": {
     "config": {
-      "description": "I bet you remember this meme When you want to make a comparison to joke whit a friend or a situation remember this command!",
+      "description": "I bet you remember this meme. When you want to make a comparison to joke with a friend or a situation remember this command!",
       "examples": [
         "You in Physical Education /-/ You in the classroom |-| Generates a comparison meme between these two sentences.",
-        "You in Physical Education /-/ You in the classroom /-/ It's agile and fast as a Lion /-/ \"wait.. 9*7 is how much? \" |-| Generates a comparison meme between two states each with one sentence."
+        "You in Physical Education /-/ You in the classroom /-/ It's agile and fast as a Lion /-/ \"wait.. 9*7 is how much?\" |-| Generates a comparison meme between two states each with one sentence."
       ]
     }
   },
@@ -1269,6 +1283,113 @@
         "769892417025212497 |-| See the features of the Kurama support server"
       ]
     }
+  },
+  "svg": {
+    "config": {
+      "description": "Transforms an SVG vector code into a PNG image.",
+      "examples": [
+        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg |-| Transform an emoji code into a PNG image from a link!",
+        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg /-/ 350 |-| Transform an emoji code into a PNG image with a width of 350px!",
+        "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg /-/ 350 /-/ 200 |-| Transform an emoji code into a PNG image with a width of 350px and a height of 200px!",
+        "<svg width=\"400\" height=\"110\"><rect width=\"300\" height=\"100\" style=\"fill:#fff\"/></svg> |-| Transform the code of a rectangle into a PNG image!"
+      ]
+    },
+    "invalidSVG": "This is not a valid SVG vector code! Please try again or use a link..."
+  },
+  "decode": {
+    "config": {
+      "description": "Decodes a message encoded in URI Component."
+    }
+  },
+  "wanted": {
+    "config": {
+      "description": "Attention! This is not a test... Looks like some marines are after your head!"
+    }
+  },
+  "mariframe": {
+    "config": {
+      "description": "Make Mari Baianinha (BBB21) get emotional with an album or photo of your favorite artist!"
+    }
+  },
+  "emojiview": {
+    "config": {
+      "description": "See in details an emoji from any server or Discord standards."
+    },
+    "notFound": "I didn't find anything about this emoji here, not even in other servers... Is this really an emoji?"
+  },
+  "categoryclone": {
+    "config": {
+      "description": "Clone a server category with the same permissions.",
+      "examples": [
+        "#Staff |-| Clone the \"Staff\" category from the server where you executed the command."
+      ]
+    },
+    "success": "Here is: {{category}}! The category was cloned successfully!",
+    "successWithChannels": "Here is: {{category}}! The category was cloned successfully! The channels were cloned too!",
+    "notFound": "Maybe the category was deleted... I can't delete the channels that are in it, because it doesn't exist..",
+    "rollbackSuccess": "Ready! I undid the category `{{category}}`... I deleted every channel that were in it too.",
+    "deleteReason": "[Clone Category] | The channels were deleted by {{user}}.",
+    "clonedChannels": "Here they are: {{channels}}",
+    "rollback": "Undo"
+  },
+  "managepoll": {
+    "config": {
+      "description": "Manage active polls made by Kuraminha on your server!",
+      "examples": [
+        "|-| See all your polls.",
+        "https://discord.com/channels/417061847489839106/826350337241251880/1012899761642295438 |-| View a specific poll by looking for the message link."
+      ]
+    },
+    "noPolls": "Wow! This is rare... Looks like your server doesn't have any poll made, well, how about creating one now? Use the command `/help command:poll` for more information!",
+    "placeholder": "Select the poll you want to manage in the menu.",
+    "guildPolls": "Here are all the active polls in your server:",
+    "finishPoll": "Finish",
+    "deletePoll": "Delete",
+    "message_url": "Message Link",
+    "pollInfo": "Vote Date",
+    "pollID": "Vote ID",
+    "author": "Creator",
+    "endTimestamp": "Ends in",
+    "channel": "Channel",
+    "votes": "Votes",
+    "poll": {
+      "finish": "Yay! Ready, your poll was closed successfully!",
+      "delete": "Yay! Ready, your poll was deleted from the data bank successfully!",
+      "poll": "Poll"
+    }
+  },
+  "rankcoins": {
+    "config": {
+      "description": "See the ranking of users with the most Kurama Coins!",
+      "examples": [
+        "|-| See the ranking of users with the most Kurama Coins globally.",
+        "5 |-| See the ranking of users with the most Kurama Coins globally, starting on page 5.",
+        "2 /-/ true |-| See the ranking of users with the most Kurama Coins on the server, starting on page 2."
+      ]
+    },
+    "noUsers": "Wow! Looks like you found a page with no users, no rush, one day this page will have users, but for now it's empty!",
+    "noUsersInGuild": "Jeez... I don't think there's anyone on this server that has Kurama Coins.",
+    "myPosition": "My placement"
+  },
+  "mcrecipe": {
+    "config": {
+      "description": "Procure por uma receita do Minecraft usando o Kurama!",
+      "examples": [
+        "Espada de Ferro |-| Procure pela receita de uma \"Espada de Ferro\" usando o autocomplete!",
+        "155 |-| Procure pela receita de um \"Bloco de Quartzo\" usando o ID do item!"
+      ]
+    },
+    "isNotCraftableItem": "Este item não é craftável! Talvez seja melhor você usar o autocomplete para encontrar um item craftável.",
+    "isNotId": "Isso não parece um número, muito menos um ID do Minecraft... Talvez seja melhor você tentar novamente com um ID numérico."
+  },
+  "palette": {
+    "config": {
+      "description": "Veja a paleta de cores presentes uma imagem enviada no Discord."
+    },
+    "embed": {
+      "title": "Color Palette"
+    },
+    "palette": "Image Colors"
   },
   "util": {
     "noHasDescription": "This command hasn't description.",

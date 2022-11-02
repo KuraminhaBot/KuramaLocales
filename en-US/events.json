@@ -43,6 +43,7 @@
     "disabled": "Disabled",
     "enabled": "Enabled"
   },
+  "page": "Page",
   "deferReply": "I'm thinking... Wait a minute.",
   "onlyguilds": "you cannot use this command in private messages!",
   "mention": "Hello! My prefix in this server is `{{prefix}}`, if you need help, use `{{prefix}}help`",
@@ -215,6 +216,54 @@
       "CHARGEBACK": "for chargeback.",
       "BUNDLE_PURCHASE": "on buying Kurama-Coins.",
       "COINFLIP_BET": "on bets by spinning a coin."
+    },
+    "PAYMENT": {
+      "name": "Payments",
+      "description": "Transactions related to the transfer of Kurama Coins between users."
+    },
+    "PROFILE": {
+      "name": "Profile Layout Purchases",
+      "description": "Transactions related to purchasing profile layouts."
+    },
+    "MARRIAGE": {
+      "name": "Marriage",
+      "description": "Transactions related to the wedding ritual."
+    },
+    "MARRIAGE_TAX": {
+      "name": "Marriage Tax",
+      "description": "Transactions related to wedding fees."
+    },
+    "DAILY": {
+      "name": "Daily Rewards",
+      "description": "Transactions related to daily reward."
+    },
+    "SUPPORT_BOOST": {
+      "name": "Server Boosting Rewards",
+      "description": "Transactions related to server boosting rewards on Kurama servers."
+    },
+    "BACKGROUND": {
+      "name": "Purchasing Profile Backgrounds",
+      "description": "Transactions related to the purchase of profile backgrounds."
+    },
+    "KAME_BET": {
+      "name": "Kamehameha bet",
+      "description": "Transactions related to Kamehameha bets."
+    },
+    "DBL_VOTE": {
+      "name": "Bot votes",
+      "description": "Transactions related to voting made for the Bot."
+    },
+    "CHARGEBACK": {
+      "name": "Cash Refunds",
+      "description": "Transactions related to cash refunds (chargeback)."
+    },
+    "BUNDLE_PURCHASE": {
+      "name": "Purchase of Kurama-Coins",
+      "description": "Transactions related to the purchase of Kurama-Coins in the official store."
+    },
+    "COINFLIP_BET": {
+      "name": "Coin bets",
+      "description": "Transactions related to coin bets."
     }
   }
 }
