@@ -413,7 +413,8 @@
         "361977144445763585 |-| Mostra o perfil de um usuário pelo ID"
       ]
     },
-    "userBanned": "{{user}} está **banido(a)**! \n✍️ **|** Reason: `{{reason}}`"
+    "userBanned": "{{user}} está **banido(a)**! \n✍️ **|** Reason: `{{reason}}`",
+    "bannedAt": "Banido em {{date}}"
   },
   "mcskin": {
     "config": {
@@ -447,8 +448,8 @@
         "play.narutodark.com |-| Mostra o status do servidor Naruto Dark (que aliás é muito bom!)"
       ]
     },
-    "serverOnline": "Servidor** está **online** - ",
-    "serverOffline": "Servidor está offline - ",
+    "serverOnline": "Servidor está **online** - ",
+    "serverOffline": "Servidor está **offline** - ",
     "players": "pessoas estão jogando.",
     "noOnePlay": "Ninguem está jogando!",
     "latency": "Os dados acimas podem estar errados, depende da latência da API utilizada"
@@ -1292,9 +1293,9 @@
         "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg /-/ 350 |-| Transforme o código de um emoji em uma imagem PNG com a largura de 350px!",
         "https://discord.com/assets/f64f47a895e537305b3463f9d30bc177.svg /-/ 350 /-/ 200 |-| Transforme o código de um emoji em uma imagem PNG com a largura de 350px e a altura de 200px!",
         "<svg width=\"400\" height=\"110\"><rect width=\"300\" height=\"100\" style=\"fill:#fff\"/></svg> |-| Transforme o código de um retângulo em uma imagem PNG!"
-      ],
-      "invalidSVG": "Este não é um código de vetor SVG válido! Por favor tente novamente ou utilize um link..."
-    }
+      ]
+    },
+    "invalidSVG": "Este não é um código de vetor SVG válido! Por favor tente novamente ou utilize um link..."
   },
   "decode": {
     "config": {
@@ -1370,6 +1371,26 @@
     "noUsers": "Wow! Parece que você encontrou uma página sem usuários, deixei de ser apressado, um dia essa página terá usuários, mas por enquanto está vazia!",
     "noUsersInGuild": "Eita... Acho que não tem ninguém nesse servidor que tenha Kurama Coins.",
     "myPosition": "Minha colocação"
+  },
+  "mcrecipe": {
+    "config": {
+      "description": "Procure por uma receita do Minecraft usando o Kurama!",
+      "examples": [
+        "Espada de Ferro |-| Procure pela receita de uma \"Espada de Ferro\" usando o autocomplete!",
+        "155 |-| Procure pela receita de um \"Bloco de Quartzo\" usando o ID do item!"
+      ]
+    },
+    "isNotCraftableItem": "Este item não é craftável! Talvez seja melhor você usar o autocomplete para encontrar um item craftável.",
+    "isNotId": "Isso não parece um número, muito menos um ID do Minecraft... Talvez seja melhor você tentar novamente com um ID numérico."
+  },
+  "palette": {
+    "config": {
+      "description": "Veja a paleta de cores presentes uma imagem enviada no Discord."
+    },
+    "embed": {
+      "title": "Paleta de Cores"
+    },
+    "palette": "Cores da Imagem"
   },
   "util": {
     "noHasDescription": "Esse comando não tem descrição.",

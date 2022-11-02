@@ -441,15 +441,15 @@
         "play.narutodark.com |-| Shows the status of the Naruto Dark server (which by the way is very good!)"
       ]
     },
-    "serverOnline": "Server** is **online** - ",
-    "serverOffline": "Server is offline - ",
+    "serverOnline": "Server is **online** - ",
+    "serverOffline": "Server is **offline** - ",
     "players": "people are playing.",
     "noOnePlay": "Nobody is playing!",
     "latency": "The above data may be wrong, it depends on the latency of the API used"
   },
   "imgur": {
     "config": {
-      "description": "Send an image to imgur using this command.",
+      "description": "Upload an image to imgur using this command.",
       "examples": [
         "https://cdn.discordapp.com/emojis/624803136888111107.png?v=1 |-| Send Roberto's emoji to imgur.",
         "Image attached |-| Send the image attached to your message to imgur"
