@@ -455,7 +455,7 @@
   },
   "imgur": {
     "config": {
-      "description": "Upload an image to imgur using this command.",
+      "description": "Send an image to imgur using this command.",
       "examples": [
         "https://cdn.discordapp.com/emojis/624803136888111107.png?v=1 |-| Send Roberto's emoji to imgur.",
         "Image attached |-| Send the image attached to your message to imgur"
@@ -1373,18 +1373,18 @@
   },
   "mcrecipe": {
     "config": {
-      "description": "Procure por uma receita do Minecraft usando o Kurama!",
+      "description": "Look for a recipe from Minecraft using Kurama!",
       "examples": [
-        "Espada de Ferro |-| Procure pela receita de uma \"Espada de Ferro\" usando o autocomplete!",
-        "155 |-| Procure pela receita de um \"Bloco de Quartzo\" usando o ID do item!"
+        "Iron sword |-| Look for the recipe of an \"Iron Sword\" using autocomplete!",
+        "155 |-| Look for the recipe of a \"Quartz Block\" using the ID of the item!"
       ]
     },
-    "isNotCraftableItem": "Este item não é craftável! Talvez seja melhor você usar o autocomplete para encontrar um item craftável.",
-    "isNotId": "Isso não parece um número, muito menos um ID do Minecraft... Talvez seja melhor você tentar novamente com um ID numérico."
+    "isNotCraftableItem": "This item is not craftable! Maybe it's better for you to use autocomplete to find a craftable item.",
+    "isNotId": "This doesn't look like a number, much less a Minecraft ID... Maybe it's better for you to try again with a numeric ID."
   },
   "palette": {
     "config": {
-      "description": "Veja a paleta de cores presentes uma imagem enviada no Discord."
+      "description": "See the color palette present in an image sent on Discord."
     },
     "embed": {
       "title": "Color Palette"
