@@ -1409,94 +1409,94 @@
     "palette": "Image Colors"
   },
   "textcombo": {
-    "choiceACommand": "Escolha um comando para essa mensagem",
-    "howDisable": "Para desabilitar o event-log, basta utilizar o comando `/manage eventlog disable:True`."
+    "choiceACommand": "Choose a command for this message",
+    "howDisable": "To disable the event-log, simply use the command `/manage eventlog disable:True`."
   },
   "fnnews": {
     "config": {
-      "description": "Veja as últimas notícias do Fortnite!",
+      "description": "Check out the latest Fortnite news!",
       "examples": [
-        "Battle Royale |-| Veja as últimas notícias do modo Battle Royale.",
-        "Save the World |-| Veja as últimas notícias do modo Save the World."
+        "Battle Royale |-| See the latest news from the Battle Royale mode.",
+        "Save the World |-| See the latest news from the Save the World mode."
       ]
     },
-    "noNews": "Não há notícias para serem mostradas no momento.",
-    "notFound": "Bem.. Eu fui até o final do mapa, fiquei até o final da partida mas não encontrei nenhuma notícia...",
-    "news": "Notícias do Fortnite",
+    "noNews": "There are no news to be shown at the moment.",
+    "notFound": "Well... I went to the end of the map, stayed until the end of the match, but I didn't find any news...",
+    "news": "Fortnite News",
     "embed": {
       "title": {
-        "br": "Notícias do Battle Royale do Fortnite de {{timestamp}}",
-        "stw": "Notícias do Save the World do Fortnite de {{timestamp}}"
+        "br": "Fortnite Battle Royale News from {{timestamp}}",
+        "stw": "Fortnite Save the World News from {{timestamp}}"
       }
     }
   },
   "fnmap": {
     "config": {
-      "description": "Veja o mapa da temporada atual do Fortnite!"
+      "description": "See the current map of Fortnite!"
     },
-    "notFound": "Bem.. Eu juro que tentei sobrevoar o mapa inteiro no Ônibus de Batalha, mas não consegui tirar uma foto boa...",
-    "map": "Este é o mapa atual do Fortnite:"
+    "notFound": "Well... I swear I tried to fly over the entire map on the Battle Bus, but I couldn't get a good photo...",
+    "map": "This is the current map of Fortnite:"
   },
   "fnsetSkin": {
     "config": {
-      "description": "Coloque uma skin de Fortnite em seu perfil no /fortnite stats! (Apenas premium)",
+      "description": "Put a Fortnite skin on your profile in /fortnite stats! (Premium only)",
       "examples": [
-        "Spider-Man |-| Coloque a skin do \"Homem Aranha\" em seu perfil no /fortnite stats.",
-        "Spider-Man (No Way Home) |-| Coloque a skin do \"Spider-Man (No Way Home)\" em seu perfil no /fortnite stats."
+        "Spider-Man |-| Put the \"Spider-Man\" skin on your profile in /fortnite stats.",
+        "Spider-Man (No Way Home) |-| Put the \"Spider-Man (No Way Home)\" skin on your profile in /fortnite stats."
       ]
     },
-    "notFound": "Entrei agora na loja do Fortnite, gastei todos os meus v-bucks e não encontrei essa skin...",
-    "viewPreview": "Ver preview da skin",
-    "skinChanged": "Sua skin foi alterada com sucesso para **\"{{skin}}\"**!",
-    "oldSkin": "Sua skin antiga era **\"{{old}}\"**.",
-    "title": "Skin alterada!",
+    "notFound": "I just entered the Fortnite store, spent all my V-Bucks, and didn't find this skin...",
+    "viewPreview": "View skin preview",
+    "skinChanged": "Your skin has been successfully changed to **\"{{skin}}\"**!",
+    "oldSkin": "Your old skin was **\"{{old}}\"**.",
+    "title": "Skin changed!",
     "autocomplete": {
-      "notFound": "Eu não encontrei nenhuma skin que bata com o que você digitou, tente novamente com outro nome."
+      "notFound": "I didn't find any skin that matches what you typed, try again with another name."
     }
   },
   "fnsetNickname": {
     "config": {
-      "description": "Coloque um nickname de Fortnite em seu perfil no /fortnite stats!",
+      "description": "Set a Fortnite nickname on your profile in /fortnite stats!",
       "examples": [
-        "Kurama |-| Coloque o nickname \"Kurama\" em seu perfil no /fortnite stats.",
-        "Kurama (BR) |-| Coloque o nickname \"Kurama (BR)\" em seu perfil no /fortnite stats."
+        "Kurama |-| Set the nickname \"Kurama\" on your profile in /fortnite stats.",
+        "Kurama (BR) |-| Set the nickname \"Kurama (BR)\" on your profile in /fortnite stats."
       ]
     },
-    "success": "Seu nickname foi alterado com sucesso para \"{{nickname}}\"!",
-    "checkDetails": "Verifique se este é o seu nickname da **Epic Games** no jogo mesmo.",
-    "alreadyInUse": "Parece que o usuário {{id}} está utilizando este nick... Se tiver algo errado, procure nosso suporte!"
+    "success": "Your nickname has been successfully changed to \"{{nickname}}\"!",
+    "checkDetails": "Make sure this is your nickname from **Epic Games** in the game itself.",
+    "alreadyInUse": "It looks like user {{id}} is using this nick... If something is wrong, contact our support!"
   },
   "fnskin": {
     "config": {
-      "description": "Veja todas as informações que você precisa de uma skin do Fortnite!",
+      "description": "See all the information you need about a Fortnite skin!",
       "examples": [
-        "Goku Black |-| Aguarde o autocomplete funcionar e veja as informações sobre a skin do \"Goku Black\" no Fortnite.",
-        "CID_A_399_Athena_Commando_F_Ultralight |-| Veja informação sobre a skin da \"Feiticeira Escarlate\" no Fortnite."
+        "Goku Black |-| Wait for autocomplete to work and see information about the \"Goku Black\" skin in Fortnite.",
+        "CID_A_399_Athena_Commando_F_Ultralight |-| See information about the \"Scarlet Witch\" skin in Fortnite."
       ]
     },
-    "price": "Preço",
+    "price": "Price",
     "series": "Series",
-    "rarity": "Raridade",
-    "reactive": "Reativo",
-    "introduction": "Introduzido",
-    "set": "Conjunto",
-    "addedAt": "Adicionado em",
-    "lastAppearance": "Última aparição",
-    "notFound": "Entrei agora na loja do Fortnite, gastei todos os meus v-bucks e não encontrei essa skin...",
-    "viewPreview": "Ver preview da skin",
-    "viewEmote": "Ver preview do emote",
-    "grants": "Pacote",
-    "variations": "Variações",
-    "never": "Nunca",
-    "free": "Grátis",
+    "rarity": "Rarity",
+    "reactive": "Reactive",
+    "introduction": "Introduced",
+    "set": "Set",
+    "addedAt": "Added at",
+    "lastAppearance": "Last appearance",
+    "notFound": "I just entered the Fortnite store, spent all my V-Bucks, and didn't find this skin...",
+    "viewPreview": "View skin preview",
+    "viewEmote": "View emote preview",
+    "grants": "Bundle",
+    "variations": "Variations",
+    "never": "Never",
+    "free": "Free",
     "autocomplete": {
-      "notFound": "Eu não encontrei nenhuma skin que bata com o que você digitou, tente novamente com outro nome."
+      "notFound": "I didn't find any skin that matches what you typed, try again with another name."
     }
   },
   "spotifyPlayer": {
-    "listening": "Ouvindo:",
-    "notListening": "Não está ouvindo nada no momento."
-  },
+    "listening": "Listening to:",
+    "notListening": "Not listening to anything at the moment."
+  },  
   "whokilled": {
     "config": {
       "description": "\"Aline Riscado died?\" This is a soap opera from RecordTV, dear! Make a fun montage with the famous Topíssima novela meme, \"Who killed Luciana?\" (Who killed Luciana?)!",

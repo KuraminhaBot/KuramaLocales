@@ -1,30 +1,30 @@
 {
   "profiles": {
     "defaultProfile": {
-      "name": "Simplismente Aconchegante",
-      "description": "O perfil padrão do Kurama, feito com um toque especial de aconchego."
+      "name": "Simply Cozy",
+      "description": "Kurama's default profile, crafted with a special touch of coziness."
     },
     "defaultWhiteProfile": {
-      "name": "Simplesmente Achonchegante (Claro)",
-      "description": "O perfil padrão do Kurama, feito com um toque especial de aconchego em sua versão clara."
+      "name": "Simply Cozy (Light)",
+      "description": "Kurama's default profile, crafted with a special touch of coziness in its light version."
     },
     "discordProfile": {
-      "name": "Quartel General do Discord",
-      "description": "Um perfil baseado no design futurista e minimalista do Discord."
+      "name": "Discord Headquarters",
+      "description": "A profile inspired by the futuristic and minimalist design of Discord."
     },
     "minecraftProfile": {
-      "name": "Perfil Minecraft",
-      "description": "Um perfil baseado no inventário do jogo Minecraft."
+      "name": "Minecraft Profile",
+      "description": "A profile inspired by the inventory of the Minecraft game."
     },
     "modernProfile": {
-      "name": "Modernamente Minimalista",
-      "description": "Um perfil moderno e minimalista que deixa qualquer um impressionado."
+      "name": "Modernly Minimalist",
+      "description": "A modern and minimalist profile that leaves everyone impressed."
     },
     "twitterProfile": {
-      "name": "Twitteiro",
-      "description": "Um perfil baseado no Twitter, mas sem a parte chata que habita lá."
+      "name": "Twitter Enthusiast",
+      "description": "A profile inspired by Twitter, but without the annoying parts found there."
     }
-  },
+  },  
   "backgrounds": {
     "default": {
       "noHasDescription": "This background hasn't a defined description!"
