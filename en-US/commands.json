@@ -172,13 +172,22 @@
     "config": {
       "description": "See all bot information using this command"
     },
-    "description": "Hello, how are you? I am {{bot}}, a BOT developed in Brazil to help servers in the areas of **Moderation, Administration, Entertainment and many others**. I’m currently trying to grow, and if you want to contribute, use: `{{prefix}}bot invite`",
-    "servers": "Servers",
-    "libraryField": "Made in [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript), using [Discord JS](https://discord.js.org/)",
+    "oldDescription": "Hello, how are you? I am {{bot}}, a BOT developed in Brazil to help servers in the areas of **Moderation, Administration, Entertainment and many others**. I’m currently trying to grow, and if you want to contribute, use: `{{prefix}}bot invite`.",
+    "description": [
+      "In **{{servers}} servers**, monitoring **{{channels}} channels** and **{{users}} users**.",
+      "If you need help, use the command {{commandMention}}",
+      "If you want to add me to your server, use the command {{commandMention}}"
+    ],
+    "libary": "Library",
+    "RAMUse": "RAM Usage",
+    "engine": "Engine",
+    "developer": "Developer",
+    "lastLogin": "Last Login",
     "supportGuild": "Support Server:",
-    "createdBy": "Bot created by {{user}}",
-    "addMe": "Add me:",
-    "voteMe": "Vote me:"
+    "policyPrivacy": "Privacy Policy",
+    "termsOfService": "Community Guidelines",
+    "cpuModel": "CPU Model",
+    "inviteMe": "Add me in your server"
   },
   "kurama-coins": {
     "config": {
@@ -412,6 +421,7 @@
         "361977144445763585 |-| Shows a user's profile by ID"
       ]
     },
+    "editAboutMe": "Edit About Me",
     "userBanned": "{{user}} is **banned**!\n✍️ **|** Reason: `{{reason}}`",
     "bannedAt": "Banned at {{date}}"
   },
@@ -455,7 +465,7 @@
   },
   "imgur": {
     "config": {
-      "description": "Upload an image to imgur using this command.",
+      "description": "Send an image to imgur using this command.",
       "examples": [
         "https://cdn.discordapp.com/emojis/624803136888111107.png?v=1 |-| Send Roberto's emoji to imgur.",
         "Image attached |-| Send the image attached to your message to imgur"
@@ -780,6 +790,11 @@
         "disable": "The auto delete of the message has been deactivated, to reactivate just use the argument` enable`! ",
         "enable": "The auto delete of the message has been activated, to disable it just use the argument` disable`! "
       }
+    },
+    "fortniteShop": {
+      "sucess": "All set! Now I'll send all the updates from the Fortnite Daily Shop to {{channel}}!",
+      "sucessMentionRole": "In all my posts, I'll mention the role {{role}}, just as you requested!",
+      "disable": "I deactivated the Fortnite Daily Shop module; to reactivate, simply configure the channel again!"
     }
   },
   "setPrefix": {
@@ -976,6 +991,7 @@
         "selfbot | log |-| Searches for users who have been banned with the term \"selfbot\" in the ban reason, and sends it in a special log file."
       ]
     },
+    "noArgs": "You need to tell me the reason for the ban or the name of a banned person you want to search for.",
     "filtred": "A list of users who have been filtered for this specific reason has been attached to a file. Altogether {{size}} users.",
     "notFound": "No banned users were found that fit the filter..."
   },
@@ -1069,6 +1085,7 @@
       ]
     },
     "notFound": "I searched everywhere... In matches, in Battle-Royale, even on the battle bus. Are you sure this user has this nickname on `Epic Games`?",
+    "noNickname": "Este usuário que você me mostrou não tem nenhum nickname da `Epic Games` definido na minha base de dados.",
     "playedTime": "Played Time"
   },
   "bwstats": {
@@ -1373,23 +1390,112 @@
   },
   "mcrecipe": {
     "config": {
-      "description": "Procure por uma receita do Minecraft usando o Kurama!",
+      "description": "Look for a recipe from Minecraft using Kurama!",
       "examples": [
-        "Espada de Ferro |-| Procure pela receita de uma \"Espada de Ferro\" usando o autocomplete!",
-        "155 |-| Procure pela receita de um \"Bloco de Quartzo\" usando o ID do item!"
+        "Iron Sword |-| Look for the recipe of an \"Iron Sword\" using autocomplete!",
+        "155 |-| Look for the recipe of a \"Quartz Block\" using the ID of the item!"
       ]
     },
-    "isNotCraftableItem": "Este item não é craftável! Talvez seja melhor você usar o autocomplete para encontrar um item craftável.",
-    "isNotId": "Isso não parece um número, muito menos um ID do Minecraft... Talvez seja melhor você tentar novamente com um ID numérico."
+    "isNotCraftableItem": "This item is not craftable! Maybe it's better for you to use autocomplete to find a craftable item.",
+    "isNotId": "This doesn't look like a number, much less a Minecraft ID... Maybe it's better for you to try again with a numeric ID."
   },
   "palette": {
     "config": {
-      "description": "Veja a paleta de cores presentes uma imagem enviada no Discord."
+      "description": "See the color palette present in an image sent on Discord."
     },
     "embed": {
       "title": "Color Palette"
     },
     "palette": "Image Colors"
+  },
+  "textcombo": {
+    "choiceACommand": "Escolha um comando para essa mensagem",
+    "howDisable": "Para desabilitar o event-log, basta utilizar o comando `/manage eventlog disable:True`."
+  },
+  "fnnews": {
+    "config": {
+      "description": "Veja as últimas notícias do Fortnite!",
+      "examples": [
+        "Battle Royale |-| Veja as últimas notícias do modo Battle Royale.",
+        "Save the World |-| Veja as últimas notícias do modo Save the World."
+      ]
+    },
+    "noNews": "Não há notícias para serem mostradas no momento.",
+    "notFound": "Bem.. Eu fui até o final do mapa, fiquei até o final da partida mas não encontrei nenhuma notícia...",
+    "news": "Notícias do Fortnite",
+    "embed": {
+      "title": {
+        "br": "Notícias do Battle Royale do Fortnite de {{timestamp}}",
+        "stw": "Notícias do Save the World do Fortnite de {{timestamp}}"
+      }
+    }
+  },
+  "fnmap": {
+    "config": {
+      "description": "Veja o mapa da temporada atual do Fortnite!"
+    },
+    "notFound": "Bem.. Eu juro que tentei sobrevoar o mapa inteiro no Ônibus de Batalha, mas não consegui tirar uma foto boa...",
+    "map": "Este é o mapa atual do Fortnite:"
+  },
+  "fnsetSkin": {
+    "config": {
+      "description": "Coloque uma skin de Fortnite em seu perfil no /fortnite stats! (Apenas premium)",
+      "examples": [
+        "Spider-Man |-| Coloque a skin do \"Homem Aranha\" em seu perfil no /fortnite stats.",
+        "Spider-Man (No Way Home) |-| Coloque a skin do \"Spider-Man (No Way Home)\" em seu perfil no /fortnite stats."
+      ]
+    },
+    "notFound": "Entrei agora na loja do Fortnite, gastei todos os meus v-bucks e não encontrei essa skin...",
+    "viewPreview": "Ver preview da skin",
+    "skinChanged": "Sua skin foi alterada com sucesso para **\"{{skin}}\"**!",
+    "oldSkin": "Sua skin antiga era **\"{{old}}\"**.",
+    "title": "Skin alterada!",
+    "autocomplete": {
+      "notFound": "Eu não encontrei nenhuma skin que bata com o que você digitou, tente novamente com outro nome."
+    }
+  },
+  "fnsetNickname": {
+    "config": {
+      "description": "Coloque um nickname de Fortnite em seu perfil no /fortnite stats!",
+      "examples": [
+        "Kurama |-| Coloque o nickname \"Kurama\" em seu perfil no /fortnite stats.",
+        "Kurama (BR) |-| Coloque o nickname \"Kurama (BR)\" em seu perfil no /fortnite stats."
+      ]
+    },
+    "success": "Seu nickname foi alterado com sucesso para \"{{nickname}}\"!",
+    "checkDetails": "Verifique se este é o seu nickname da **Epic Games** no jogo mesmo.",
+    "alreadyInUse": "Parece que o usuário {{id}} está utilizando este nick... Se tiver algo errado, procure nosso suporte!"
+  },
+  "fnskin": {
+    "config": {
+      "description": "Veja todas as informações que você precisa de uma skin do Fortnite!",
+      "examples": [
+        "Goku Black |-| Aguarde o autocomplete funcionar e veja as informações sobre a skin do \"Goku Black\" no Fortnite.",
+        "CID_A_399_Athena_Commando_F_Ultralight |-| Veja informação sobre a skin da \"Feiticeira Escarlate\" no Fortnite."
+      ]
+    },
+    "price": "Preço",
+    "series": "Series",
+    "rarity": "Raridade",
+    "reactive": "Reativo",
+    "introduction": "Introduzido",
+    "set": "Conjunto",
+    "addedAt": "Adicionado em",
+    "lastAppearance": "Última aparição",
+    "notFound": "Entrei agora na loja do Fortnite, gastei todos os meus v-bucks e não encontrei essa skin...",
+    "viewPreview": "Ver preview da skin",
+    "viewEmote": "Ver preview do emote",
+    "grants": "Pacote",
+    "variations": "Variações",
+    "never": "Nunca",
+    "free": "Grátis",
+    "autocomplete": {
+      "notFound": "Eu não encontrei nenhuma skin que bata com o que você digitou, tente novamente com outro nome."
+    }
+  },
+  "spotifyPlayer": {
+    "listening": "Ouvindo:",
+    "notListening": "Não está ouvindo nada no momento."
   },
   "whokilled": {
     "config": {

@@ -13,14 +13,27 @@
     "onlyDevs": "Only special people can use this command :3",
     "interaction": {
       "youCanNot": "You cannot interact with this component, only the command author can.",
-      "noInteract": "Wait a minute... you aren't {{user}}! This isn't for you, go away!"
+      "noInteract": "Wait a minute... you aren't {{user}}! This isn't for you, go away!",
+      "expired": "Opa, você não pode usar esse componente, ele acabou expirando {{time}} atrás!",
+      "executeAgain": "Você demorou muito tempo pra usar-ló, por favor, use o comando novamente... Desculpe!"
     },
     "notFoundImage": "Sorry, but I couldn't find any images I can use! I tried to get images from links, attached images, mentioned user avatars, emojis... but I didn't find any of that in your message.",
     "notFoundVideos": "Sorry, but I couldn't find any videos I can use! I tried to get videos from links, attached videos... but I didn't find any of that in your message.",
-    "youReBanned": "You cannot use my commands, you are **banned**!\n✍️ **|** Reason: `{{reason}}`"
+    "youReBanned": "You cannot use my commands, you are **banned**!\n✍️ **|** Reason: `{{reason}}`",
+    "premiumOnly": "Você não é premium, para usar esse comando você precisa ser um usuário premium!"
   },
   "autocomplete": {
     "typeQuery": "Type your query."
+  },
+  "fortnite": {
+    "shop": {
+      "addMe": "ME-ADICIONE NO SEU SERVIDOR PARA APOIAR",
+      "nextUpdateString": "Renovação da Loja {{time}}",
+      "nextUpdate": "RENOVAÇÃO DA LOJA",
+      "discount": "V-BUCKS DE DESCONTO",
+      "dailyShop": "LOJA DIÁRIA",
+      "page": "PÁGINA"
+    }
   },
   "categories": {
     "names": {
@@ -246,7 +259,7 @@
       "description": "Transactions related to the purchase of profile backgrounds."
     },
     "KAME_BET": {
-      "name": "Kamehameha bet",
+      "name": "Kamehameha Bet",
       "description": "Transactions related to Kamehameha bets."
     },
     "DBL_VOTE": {
@@ -254,7 +267,7 @@
       "description": "Transactions related to voting made for the Bot."
     },
     "CHARGEBACK": {
-      "name": "Cash Refunds",
+      "name": "Chargeback",
       "description": "Transactions related to cash refunds (chargeback)."
     },
     "BUNDLE_PURCHASE": {
