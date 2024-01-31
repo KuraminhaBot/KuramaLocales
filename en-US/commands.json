@@ -1085,7 +1085,7 @@
       ]
     },
     "notFound": "I searched everywhere... In matches, in Battle-Royale, even on the battle bus. Are you sure this user has this nickname on `Epic Games`?",
-    "noNickname": "Este usuário que você me mostrou não tem nenhum nickname da `Epic Games` definido na minha base de dados.",
+    "noNickname": "The user you showed me doesn't have any Epic Games nickname set in my database.",
     "playedTime": "Played Time"
   },
   "bwstats": {
@@ -1496,7 +1496,7 @@
   "spotifyPlayer": {
     "listening": "Listening to:",
     "notListening": "Not listening to anything at the moment."
-  },  
+  },
   "whokilled": {
     "config": {
       "description": "\"Aline Riscado died?\" This is a soap opera from RecordTV, dear! Make a fun montage with the famous Topíssima novela meme, \"Who killed Luciana?\" (Who killed Luciana?)!",
