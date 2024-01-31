@@ -1391,6 +1391,20 @@
     },
     "palette": "Image Colors"
   },
+  "whokilled": {
+    "config": {
+      "description": "\"Aline Riscado died?\" This is a soap opera from RecordTV, dear! Make a fun montage with the famous Topíssima novela meme, \"Who killed Luciana?\" (Who killed Luciana?)!",
+      "examples": [
+        "@Kuraminha#7575 |-| Create a poster asking who ordered the hit on \"Kuraminha\".",
+        "Naruto /-/ https://imgur.com/0IWYKN2.png |-| Create a poster asking who ordered the hit on \"Naruto\" using an image link.",
+        "Naruto /-/ https://imgur.com/0IWYKN2.png /-/ Sasuke Uchiha |-| Create a poster asking who ordered the hit on \"Naruto\" using an image link and a custom connecting name.",
+        "Naruto /-/ https://imgur.com/0IWYKN2.png /-/ Sasuke Uchiha /-/ true |-| Create a poster asking who ordered the hit on \"Naruto\" using an image link, a custom connecting name, and send the poster photo separately."
+      ]
+    },
+    "whoKilled": "WHO KILLED",
+    "anyInformation": "Any information that might help",
+    "callTo": "call to"
+  },
   "util": {
     "noHasDescription": "This command hasn't description.",
     "examples": {

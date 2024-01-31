@@ -1,4 +1,30 @@
 {
+  "profiles": {
+    "defaultProfile": {
+      "name": "Simplismente Aconchegante",
+      "description": "O perfil padrão do Kurama, feito com um toque especial de aconchego."
+    }, 
+    "defaultWhiteProfile": {
+      "name": "Simplesmente Achonchegante (Claro)",
+      "description": "O perfil padrão do Kurama, feito com um toque especial de aconchego em sua versão clara."
+    },
+    "discordProfile": {
+      "name": "Quartel General do Discord",
+      "description": "Um perfil baseado no design futurista e minimalista do Discord."
+    },
+    "minecraftProfile": {
+      "name": "Perfil Minecraft",
+      "description": "Um perfil baseado no inventário do jogo Minecraft."
+    },
+    "modernProfile": {
+      "name": "Modernamente Minimalista",
+      "description": "Um perfil moderno e minimalista que deixa qualquer um impressionado."
+    },
+    "twitterProfile": {
+      "name": "Twitteiro",
+      "description": "Um perfil baseado no Twitter, mas sem a parte chata que habita lá."
+    }
+  },
   "backgrounds": {
     "default": {
       "noHasDescription": "Este background não tem uma descrição definida!"
@@ -77,7 +103,7 @@
     },
     "happyPudim": {
       "name": "Pudim feliz uwu.",
-      "description": "Considerado a comida dos deuses. Queria saber por quê comidas com rostos são tão fofinhas meu deus (⁄ ⁄•⁄ω⁄•⁄ ⁄), deu fome só de olhar..."
+      "description": "Considerado a comida dos deuses. Queria saber por quê comidas com rostos são tão fofinhas meu deus (⁄⁄•⁄ω⁄•⁄⁄), deu fome só de olhar..."
     },
     "inosukeSakuraForest": {
       "name": "Fuyu no Isuke",
@@ -182,10 +208,6 @@
     "pokemonMimikyuPikachu": {
       "name": "Pikachu?",
       "description": "Um estranho pokémon apareceu, parece ser um pikachu, certo?"
-    },
-    "lolBloodAkali": {
-      "name": "Akali Lua Sangrenta",
-      "description": "Já estou pensando no próximo alvo."
     },
     "narutoLetsGoKurama": {
       "name": "Naruto e Kurama",

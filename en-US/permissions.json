@@ -76,6 +76,16 @@
     "THREADS_ENABLED_TESTING": "Threads Enabled Testing",
     "AUTO_MODERATION": "Automod",
     "TEXT_IN_VOICE_ENABLED": "Text in Voice",
-    "GUILD_HOME_TEST": "Guild Home Test"
+    "GUILD_HOME_TEST": "Guild Home Test",
+    "AUTOMOD_TRIGGER_SPAM_LINK_FILTER": "Automod Spam Link Filter",
+    "AUTOMOD_TRIGGER_KEYWORD_FILTER": "Automod Keyword Filter",
+    "CHANNEL_HIGHLIGHTS": "Channel Highlights",
+    "COMMUNITY_EXP_LARGE_UNGATED": "Community Experience Large Ungated",
+    "COMMUNITY_EXP_LARGE_GATED": "Community Experience Large Gated",
+    "GUILD_COMMUNICATION_DISABLED_GUILDS": "Communication Disabled Guilds",
+    "GUILD_ONBOARDING": "Guild Onboarding",
+    "DEVELOPER_SUPPORT_SERVER": "Support Server",
+    "APPLICATION_COMMAND_PERMISSIONS_V2": "Application Command Permissions V2",
+    "RAID_ALERTS_ENABLED": "Raid Alerts"
   }
 }

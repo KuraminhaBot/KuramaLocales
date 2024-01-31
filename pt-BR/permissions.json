@@ -76,6 +76,13 @@
     "THREADS_ENABLED_TESTING": "Teste de Threads Habilitado",
     "AUTO_MODERATION": "Automod",
     "TEXT_IN_VOICE_ENABLED": "Texto em Voz",
-    "GUILD_HOME_TEST": "Teste de Home de Servidor"
+    "GUILD_HOME_TEST": "Teste de Início de Servidor",
+    "AUTOMOD_TRIGGER_SPAM_LINK_FILTER": "Filtro de Spam de Link",
+    "AUTOMOD_TRIGGER_KEYWORD_FILTER": "Automod Keyword Filter",
+    "CHANNEL_HIGHLIGHTS": "Destaques de Canais",
+    "DEVELOPER_SUPPORT_SERVER": "Servidor de Suporte",
+    "APPLICATION_COMMAND_PERMISSIONS_V2": "Permissões de Comandos de Aplicações V2",
+    "GUILD_ONBOARDING": "Acolhimento",
+    "RAID_ALERTS_ENABLED": "Alertas de Raids"
   }
 }
