@@ -173,13 +173,22 @@
     "config": {
       "description": "Veja todas as informações do bot usando este comando"
     },
-    "description": "Olá, tudo bem? Eu sou o **{{bot}}**, um BOT desenvolvido no Brasil para ajudar servidores nas partes de **Moderação**, **Administração**, **Entretenimento e muitos outros.** Atualmente estou tentando crescer, e se você quer contribuir com isso, use: `{{prefix}}bot invite`.",
-    "servers": "Servidores",
-    "libraryField": "Feito em [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript), usando [Discord JS](https://discord.js.org/)",
-    "supportGuild": "Servidor Suporte:",
-    "createdBy": "Bot criado por {{user}}",
-    "addMe": "Me adicione:",
-    "voteMe": "Vote em mim:"
+    "oldDescription": "Olá, tudo bem? Eu sou o **{{bot}}**, um BOT desenvolvido no Brasil para ajudar servidores nas partes de **Moderação**, **Administração**, **Entretenimento e muitos outros.** Atualmente estou tentando crescer, e se você quer contribuir com isso, use: `{{prefix}}bot invite`.",
+    "description": [
+      "Em **{{servers}} servidores**, observando **{{channels}} canais** e **{{users}} usuários**.",
+      "Se você precisa de ajuda utilize o comando {{commandMention}}",
+      "Se você quer me adicionar em seu servidor utilize o comando {{commandMention}}"
+    ],
+    "libary": "Biblioteca",
+    "RAMUse": "Uso de RAM",
+    "engine": "Engine",
+    "developer": "Desenvolvedor",
+    "lastLogin": "Último Login",
+    "supportGuild": "Servidor Suporte",
+    "policyPrivacy": "Política de Privacidade",
+    "termsOfService": "Diretrizes da Comunidade",
+    "cpuModel": "Modelo da CPU",
+    "inviteMe": "Me adicione no seu servidor"
   },
   "kurama-coins": {
     "config": {
@@ -413,6 +422,7 @@
         "361977144445763585 |-| Mostra o perfil de um usuário pelo ID"
       ]
     },
+    "editAboutMe": "Editar Sobre Mim",
     "userBanned": "{{user}} está **banido(a)**! \n✍️ **|** Reason: `{{reason}}`",
     "bannedAt": "Banido em {{date}}"
   },
@@ -781,6 +791,11 @@
         "disable": "O auto delete da mensagem foi desativado, para reativar basta utilizar o argumento `enable`!",
         "enable": "O auto delete da mensagem foi ativado, para desativar basta utilizar o argumento `disable`!"
       }
+    },
+    "fortniteShop": {
+      "sucess": "Prontinho! Agora irei mandar todas as novidades da Loja Diária do Fortnite em {{channel}}!",
+      "sucessMentionRole": "Em todas as minhas postagens eu irei mencionar o cargo {{role}}, assim como você pediu!",
+      "disable": "Eu desativei o módulo de Loja Diária do Fortnite, para reativar basta configurar novamente o canal!"
     }
   },
   "setPrefix": {
@@ -977,6 +992,7 @@
         "selfbot | log |-| Busca usuários que foram banidos com o termo \"selfbot\" nos motivos, e manda num arquivo log especial."
       ]
     },
+    "noArgs": "Você precisa me dizer o motivo do banimento ou o nome de uma pessoa banida que você quer buscar.",
     "filtred": "Foi anexado em um arquivo a lista de usuários que foram filtrados com este motivo específico. Ao todo todo {{size}} usuários.",
     "notFound": "Não foi encontrado nenhum usuário banido que se encaixe no filtro..."
   },
@@ -1070,6 +1086,7 @@
       ]
     },
     "notFound": "Eu procurei em todos os lugares... Em partidas, no Battle-Royale, até mesmo no ônibus de batalha. Você tem certeza que esse usuário tem este nick na `Epic Games`?",
+    "noNickname": "Este usuário que você me mostrou não tem nenhum nickname da `Epic Games` definido na minha base de dados.",
     "playedTime": "Tempo Jogado"
   },
   "bwstats": {
@@ -1391,6 +1408,109 @@
       "title": "Paleta de Cores"
     },
     "palette": "Cores da Imagem"
+  },
+  "textcombo": {
+    "choiceACommand": "Escolha um comando para essa mensagem",
+    "howDisable": "Para desabilitar o event-log, basta utilizar o comando `/manage eventlog disable:True`."
+  },
+  "fnnews": {
+    "config": {
+      "description": "Veja as últimas notícias do Fortnite!",
+      "examples": [
+        "Battle Royale |-| Veja as últimas notícias do modo Battle Royale.",
+        "Save the World |-| Veja as últimas notícias do modo Save the World."
+      ]
+    },
+    "noNews": "Não há notícias para serem mostradas no momento.",
+    "notFound": "Bem.. Eu fui até o final do mapa, fiquei até o final da partida mas não encontrei nenhuma notícia...",
+    "news": "Notícias do Fortnite",
+    "embed": {
+      "title": {
+        "br": "Notícias do Battle Royale do Fortnite de {{timestamp}}",
+        "stw": "Notícias do Save the World do Fortnite de {{timestamp}}"
+      }
+    }
+  },
+  "fnmap": {
+    "config": {
+      "description": "Veja o mapa da temporada atual do Fortnite!"
+    },
+    "notFound": "Bem.. Eu juro que tentei sobrevoar o mapa inteiro no Ônibus de Batalha, mas não consegui tirar uma foto boa...",
+    "map": "Este é o mapa atual do Fortnite:"
+  },
+  "fnsetSkin": {
+    "config": {
+      "description": "Coloque uma skin de Fortnite em seu perfil no /fortnite stats! (Apenas premium)",
+      "examples": [
+        "Spider-Man |-| Coloque a skin do \"Homem Aranha\" em seu perfil no /fortnite stats.",
+        "Spider-Man (No Way Home) |-| Coloque a skin do \"Spider-Man (No Way Home)\" em seu perfil no /fortnite stats."
+      ]
+    },
+    "notFound": "Entrei agora na loja do Fortnite, gastei todos os meus v-bucks e não encontrei essa skin...",
+    "viewPreview": "Ver preview da skin",
+    "skinChanged": "Sua skin foi alterada com sucesso para **\"{{skin}}\"**!",
+    "oldSkin": "Sua skin antiga era **\"{{old}}\"**.",
+    "title": "Skin alterada!",
+    "autocomplete": {
+      "notFound": "Eu não encontrei nenhuma skin que bata com o que você digitou, tente novamente com outro nome."
+    }
+  },
+  "fnsetNickname": {
+    "config": {
+      "description": "Coloque um nickname de Fortnite em seu perfil no /fortnite stats!",
+      "examples": [
+        "Kurama |-| Coloque o nickname \"Kurama\" em seu perfil no /fortnite stats.",
+        "Kurama (BR) |-| Coloque o nickname \"Kurama (BR)\" em seu perfil no /fortnite stats."
+      ]
+    },
+    "success": "Seu nickname foi alterado com sucesso para \"{{nickname}}\"!",
+    "checkDetails": "Verifique se este é o seu nickname da **Epic Games** no jogo mesmo.",
+    "alreadyInUse": "Parece que o usuário {{id}} está utilizando este nick... Se tiver algo errado, procure nosso suporte!"
+  },
+  "fnskin": {
+    "config": {
+      "description": "Veja todas as informações que você precisa de uma skin do Fortnite!",
+      "examples": [
+        "Goku Black |-| Aguarde o autocomplete funcionar e veja as informações sobre a skin do \"Goku Black\" no Fortnite.",
+        "CID_A_399_Athena_Commando_F_Ultralight |-| Veja informação sobre a skin da \"Feiticeira Escarlate\" no Fortnite."
+      ]
+    },
+    "price": "Preço",
+    "series": "Series",
+    "rarity": "Raridade",
+    "reactive": "Reativo",
+    "introduction": "Introduzido",
+    "set": "Conjunto",
+    "addedAt": "Adicionado em",
+    "lastAppearance": "Última aparição",
+    "notFound": "Entrei agora na loja do Fortnite, gastei todos os meus v-bucks e não encontrei essa skin...",
+    "viewPreview": "Ver preview da skin",
+    "viewEmote": "Ver preview do emote",
+    "grants": "Pacote",
+    "variations": "Variações",
+    "never": "Nunca",
+    "free": "Grátis",
+    "autocomplete": {
+      "notFound": "Eu não encontrei nenhuma skin que bata com o que você digitou, tente novamente com outro nome."
+    }
+  },
+  "spotifyPlayer": {
+    "listening": "Ouvindo:",
+    "notListening": "Não está ouvindo nada no momento."
+  },
+  "whokilled": {
+    "config": {
+      "description": "\"Aline Riscado morreu?\" Isso é uma novela da Record querido! Faça uma montagem divertida com o famoso meme da novela Topíssima, \"Quem matou Luciana?\"!",
+      "examples": [
+        "@Kuraminha#7575 |-| Faça um cartaz perguntando sobre quem mandou matar \"Kuraminha\".",
+        "Naruto /-/ https://imgur.com/0IWYKN2.png |-| Faça um cartaz perguntando sobre quem mandou matar \"Naruto\" utilizando um link de uma imagem.",
+        "Naruto /-/ https://imgur.com/0IWYKN2.png /-/ Sasuke Uchiha |-| Faça um cartaz perguntando sobre quem mandou matar \"Naruto\" utilizando um link de uma imagem e um nome para ligar personalizado.",
+        "Naruto /-/ https://imgur.com/0IWYKN2.png /-/ Sasuke Uchiha /-/ true |-| Faça um cartaz perguntando sobre quem mandou matar \"Naruto\" utilizando um link de uma imagem, um nome para ligar personalizado e envie a foto do cartaz separamente."
+      ]
+    },
+    "whoKilled": "QUEM MATOU",
+    "anyInformation": "Qualquer informação que possa ajudar",
+    "callTo": "ligue para"
   },
   "util": {
     "noHasDescription": "Esse comando não tem descrição.",

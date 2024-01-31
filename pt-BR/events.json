@@ -13,14 +13,27 @@
     "onlyDevs": "Apenas pessoas especiais podem utilizar esse comando :3",
     "interaction": {
       "youCanNot": "Você não pode interagir com esse componente, apenas o autor do comando pode.",
-      "noInteract": "Espere um minuto... você não é {{user}}! Isso não é para você, vá embora!"
+      "noInteract": "Espere um minuto... você não é {{user}}! Isso não é para você, vá embora!",
+      "expired": "Opa, você não pode usar esse componente, ele acabou expirando {{time}} atrás!",
+      "executeAgain": "Você demorou muito tempo pra usar-ló, por favor, use o comando novamente... Desculpe!"
     },
     "notFoundImage": "Desculpe, mas eu não achei nenhuma imagem que eu possa usar! Eu tentei pegar imagens em links, imagens anexadas, avatares de usuários mencionados, emojis... mas eu não achei nada disso na sua mensagem.",
     "notFoundVideos": "Desculpe, mas eu não achei nenhum video que eu possa usar! Eu tentei pegar videos em links, videos anexados... mas eu não achei nada disso na sua mensagem.",
-    "youReBanned": "Você não pode utilizar meus comandos, você está **banido**!\n✍️ **|** Motivo: `{{reason}}`"
+    "youReBanned": "Você não pode utilizar meus comandos, você está **banido**!\n✍️ **|** Motivo: `{{reason}}`",
+    "premiumOnly": "Você não é premium, para usar esse comando você precisa ser um usuário premium!"
   },
   "autocomplete": {
     "typeQuery": "Digite o que você deseja procurar."
+  },
+  "fortnite": {
+    "shop": {
+      "addMe": "ME-ADICIONE NO SEU SERVIDOR PARA APOIAR",
+      "nextUpdateString": "Renovação da Loja {{time}}",
+      "nextUpdate": "RENOVAÇÃO DA LOJA",
+      "discount": "V-BUCKS DE DESCONTO",
+      "dailyShop": "LOJA DIÁRIA",
+      "page": "PÁGINA"
+    }
   },
   "categories": {
     "names": {
