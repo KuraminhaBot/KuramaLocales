@@ -172,22 +172,22 @@
     "config": {
       "description": "See all bot information using this command"
     },
-    "oldDescription": "Olá, tudo bem? Eu sou o **{{bot}}**, um BOT desenvolvido no Brasil para ajudar servidores nas partes de **Moderação**, **Administração**, **Entretenimento e muitos outros.** Atualmente estou tentando crescer, e se você quer contribuir com isso, use: `{{prefix}}bot invite`.",
+    "oldDescription": "Hello, how are you? I am {{bot}}, a BOT developed in Brazil to help servers in the areas of **Moderation, Administration, Entertainment and many others**. I’m currently trying to grow, and if you want to contribute, use: `{{prefix}}bot invite`.",
     "description": [
-      "Em **{{servers}} servidores**, observando **{{channels}} canais** e **{{users}} usuários**.",
-      "Se você precisa de ajuda utilize o comando {{commandMention}}",
-      "Se você quer me adicionar em seu servidor utilize o comando {{commandMention}}"
+      "In **{{servers}} servers**, monitoring **{{channels}} channels** and **{{users}} users**.",
+      "If you need help, use the command {{commandMention}}",
+      "If you want to add me to your server, use the command {{commandMention}}"
     ],
-    "libary": "Biblioteca",
-    "RAMUse": "Uso de RAM",
+    "libary": "Library",
+    "RAMUse": "RAM Usage",
     "engine": "Engine",
-    "developer": "Desenvolvedor",
-    "lastLogin": "Último Login",
+    "developer": "Developer",
+    "lastLogin": "Last Login",
     "supportGuild": "Support Server:",
-    "policyPrivacy": "Política de Privacidade",
-    "termsOfService": "Diretrizes da Comunidade",
-    "cpuModel": "Modelo da CPU",
-    "inviteMe": "Me adicione no seu servidor"
+    "policyPrivacy": "Privacy Policy",
+    "termsOfService": "Community Guidelines",
+    "cpuModel": "CPU Model",
+    "inviteMe": "Add me in your server"
   },
   "kurama-coins": {
     "config": {
@@ -421,7 +421,7 @@
         "361977144445763585 |-| Shows a user's profile by ID"
       ]
     },
-    "editAboutMe": "Editar Sobre Mim",
+    "editAboutMe": "Edit About Me",
     "userBanned": "{{user}} is **banned**!\n✍️ **|** Reason: `{{reason}}`",
     "bannedAt": "Banned at {{date}}"
   },
@@ -792,9 +792,9 @@
       }
     },
     "fortniteShop": {
-      "sucess": "Prontinho! Agora irei mandar todas as novidades da Loja Diária do Fortnite em {{channel}}!",
-      "sucessMentionRole": "Em todas as minhas postagens eu irei mencionar o cargo {{role}}, assim como você pediu!",
-      "disable": "Eu desativei o módulo de Loja Diária do Fortnite, para reativar basta configurar novamente o canal!"
+      "sucess": "All set! Now I'll send all the updates from the Fortnite Daily Shop to {{channel}}!",
+      "sucessMentionRole": "In all my posts, I'll mention the role {{role}}, just as you requested!",
+      "disable": "I deactivated the Fortnite Daily Shop module; to reactivate, simply configure the channel again!"
     }
   },
   "setPrefix": {
@@ -991,7 +991,7 @@
         "selfbot | log |-| Searches for users who have been banned with the term \"selfbot\" in the ban reason, and sends it in a special log file."
       ]
     },
-    "noArgs": "Você precisa me dizer o motivo do banimento ou o nome de uma pessoa banida que você quer buscar.",
+    "noArgs": "You need to tell me the reason for the ban or the name of a banned person you want to search for.",
     "filtred": "A list of users who have been filtered for this specific reason has been attached to a file. Altogether {{size}} users.",
     "notFound": "No banned users were found that fit the filter..."
   },
