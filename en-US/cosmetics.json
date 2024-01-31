@@ -1,4 +1,30 @@
 {
+  "profiles": {
+    "defaultProfile": {
+      "name": "Simplismente Aconchegante",
+      "description": "O perfil padrão do Kurama, feito com um toque especial de aconchego."
+    },
+    "defaultWhiteProfile": {
+      "name": "Simplesmente Achonchegante (Claro)",
+      "description": "O perfil padrão do Kurama, feito com um toque especial de aconchego em sua versão clara."
+    },
+    "discordProfile": {
+      "name": "Quartel General do Discord",
+      "description": "Um perfil baseado no design futurista e minimalista do Discord."
+    },
+    "minecraftProfile": {
+      "name": "Perfil Minecraft",
+      "description": "Um perfil baseado no inventário do jogo Minecraft."
+    },
+    "modernProfile": {
+      "name": "Modernamente Minimalista",
+      "description": "Um perfil moderno e minimalista que deixa qualquer um impressionado."
+    },
+    "twitterProfile": {
+      "name": "Twitteiro",
+      "description": "Um perfil baseado no Twitter, mas sem a parte chata que habita lá."
+    }
+  },
   "backgrounds": {
     "default": {
       "noHasDescription": "This background hasn't a defined description!"
