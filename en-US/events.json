@@ -27,12 +27,15 @@
   },
   "fortnite": {
     "shop": {
-      "addMe": "ME-ADICIONE NO SEU SERVIDOR PARA APOIAR",
-      "nextUpdateString": "Renovação da Loja {{time}}",
-      "nextUpdate": "RENOVAÇÃO DA LOJA",
-      "discount": "V-BUCKS DE DESCONTO",
-      "dailyShop": "LOJA DIÁRIA",
-      "page": "PÁGINA"
+      "addMe": "ADD ME TO YOUR SERVER TO SUPPORT",
+      "nextUpdateString": " Shop Refresh {{time}}",
+      "nextUpdate": "SHOP REFRESH",
+      "discount": "V-BUCKS OFF",
+      "dailyShop": {
+        "normal": "Fortnite Daily Shop",
+        "music": "Fortnite Music Shop"
+      },
+      "page": "PAGE"
     }
   },
   "categories": {

@@ -23,6 +23,10 @@
     "twitterProfile": {
       "name": "Twitteiro",
       "description": "Um perfil baseado no Twitter, mas sem a parte chata que habita lá."
+    },
+    "iosProfile": {
+      "name": "Perfil de Riquinho",
+      "description": "Ai tem iPhone e é riquinha... Quem diria que o seu bot preferido teria um perfil baseado no design do sistema operacional iOS né?"
     }
   },
   "backgrounds": {
@@ -389,6 +393,22 @@
       "name": "[JoJo] Tastes like strawberries!",
       "description": "\"Mas mesmo que seu sangue tenha sido derramado, seu espirito continua vivo. Descanse em paz Caesar Zeppeli.\" - Narrador"
     },
+    "bpLovesickGirls": {
+      "name": "We are the lovesick girls",
+      "description": "But why we still looking for love?"
+    },
+    "bpDduDduDdu": {
+      "name": "BLACKPINK in your area",
+      "description": "Hit you with that ddu-du ddu-du du"
+    },
+    "bpShutDown": {
+      "name": "Shut Down",
+      "description": "Keep talking, we shut you down"
+    },
+    "chuuLoona": {
+      "name": "Chuu Ruindade Pura",
+      "description": "Você por acaso já viu essa mulher? Se não... Bem, agora está vendo."
+    },
     "collections": {
       "narutoDark": "Naruto Dark",
       "boruto": "Boruto: Naruto Next Generations",
@@ -414,7 +434,9 @@
       "kakegurui": "Kakegurui",
       "theLastOfUs": "The Last Of Us",
       "attackOnTitan": "Attack On Titan",
-      "jojoBizarreAdventures": "JoJo: Bizarre Adventures"
+      "jojoBizarreAdventures": "JoJo: Bizarre Adventures",
+      "blackPink": "BLACKPINK",
+      "kpop": "K-Pop"
     }
   },
   "rarity": {
