@@ -32,8 +32,8 @@
       "nextUpdate": "SHOP RENEWAL",
       "discount": "V-BUCKS OFF",
       "dailyShop": {
-        "normal": "Loja Diária do Fortnite",
-        "music": "Loja de Músicas do Fortnite"
+        "normal": "Fortnite's Daily Store",
+        "music": "Fortnite's Musics' Store"
       },
       "page": "PAGE"
     }
@@ -95,9 +95,9 @@
     "message": "here is your profile",
     "marriedWith": "Married with\n{{user}}",
     "marriedWith2": "Married with {{user}}",
-    "marriedWith3": "Casado com",
-    "nowListening": "Ouvindo agora",
-    "notifications": "+2 Notificações"
+    "marriedWith3": "Married with",
+    "nowListening": "Currently listening",
+    "notifications": "+2 Notifications"
   },
   "blockedCommands": "this channel was configured to not receive commands from me. Use commands on another channel!",
   "invalidUsers": {
