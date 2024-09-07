@@ -1288,7 +1288,7 @@
       "description": "Addicted to the most watched house in Brazil? Why not embark on this adventure and join the BBB yourself?",
       "examples": [
         "Julliete /-/ 31 Years old /-/ Lawyer and Makeup Artist /-/ Campina Grande - PB /-/ Popcorn 🍿 /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageBBB22/juliette.png |-| Example using the command with a \"Popcorn\" participant",
-        "Jade Picon /-/ 20 Anos /-/ Empresária e Influencer /-/ São Paulo - SP /-/ Camarote 🎥 /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageBBB22/jade.png |-| Exemplo do comando com uma participante \"Camarote\""
+        "Jade Picon /-/ 20 Years old /-/ Businesswoman and Influencer /-/ São Paulo - SP /-/ Box 🎥 /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageBBB22/jade.png |-| Example of the command with a \"Box\" participant"
       ]
     }
   },
@@ -1464,7 +1464,7 @@
     },
     "success": "Your nickname has been successfully changed to \"{{nickname}}\"!",
     "checkDetails": "Make sure this is your nickname from **Epic Games** in the game itself.",
-    "alreadyInUse": "Parece que o usuário {{id}} está utilizando este nick... Se algo estiver errado, procure nosso suporte!"
+    "alreadyInUse": "It looks like user {{id}} is using this nickname... If something is wrong, contact our support!"
   },
   "fnskin": {
     "config": {
@@ -1498,15 +1498,15 @@
     "notListening": "Not listening to anything at the moment."
   },
   "spotifyLyrics": {
-    "listening": "Ouvindo:",
-    "notListening": "Não está ouvindo nada no momento."
+    "listening": "Listening to:",
+    "notListening": "Not listening to anything at the moment."
   },
   "whokilled": {
     "config": {
       "description": "\"Aline Riscado died?\" This is a soap opera from RecordTV, dear! Make a fun montage with the famous Topíssima novela meme, \"Who killed Luciana?\" (Who killed Luciana?)!",
       "examples": [
         "@Kuraminha#7575 |-| Create a poster asking who ordered the hit on \"Kuraminha\".",
-        "Naruto /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWhoKilled/naruto.png |-| Faça um cartaz perguntando sobre quem mandou matar \"Naruto\" utilizando um link de uma imagem.",
+        "Naruto /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWhoKilled/naruto.png |-| Create a poster asking who ordered \"Naruto\" 's death using an image link.",
         "Naruto /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWhoKilled/naruto.png /-/ Sasuke Uchiha |-| Faça um cartaz perguntando sobre quem mandou matar \"Naruto\" utilizando um link de uma imagem e um nome para ligar personalizado.",
         "Naruto /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWhoKilled/naruto.png /-/ Sasuke Uchiha /-/ true |-| Faça um cartaz perguntando sobre quem mandou matar \"Naruto\" utilizando um link de uma imagem, um nome para ligar personalizado e envie a foto do cartaz separamente."
       ]
@@ -1525,16 +1525,16 @@
     },
     "notFound": "Eu não consegui encontrar nenhuma informação sobre este usuário no Last.fm...",
     "noArgs": "Você precisa me dizer o nome de um usuário do Last.fm que você quer buscar.",
-    "artists": "Artistas",
-    "artist": "Artista",
-    "albums": "Álbuns",
-    "album": "Álbum",
-    "tracks": "Músicas",
-    "track": "Música",
-    "registeredAt": "Ativo desde",
-    "country": "País",
-    "listeningNow": "Escutando agora",
-    "listenedAt": "Escutou há"
+    "artists": "Artists",
+    "artist": "Artist",
+    "albums": "Albums",
+    "album": "Album",
+    "tracks": "Songs",
+    "track": "Music",
+    "registeredAt": "Active since",
+    "country": "Country",
+    "listeningNow": "Now playing",
+    "listenedAt": "Listened has been"
   },
   "lastFmRegister": {
     "config": {
