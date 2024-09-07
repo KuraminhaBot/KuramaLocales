@@ -698,7 +698,7 @@
         "<:discordlogo:826399361390477332> |-| Adds an emoji from another server (with the same name) to the server.",
         "<:discordlogo:826399361390477332> /-/ logo |-| Adds an emoji from another server to the server, but with a different name.",
         "https://cdn.discordapp.com/emojis/666786466436743183.png /-/ quartz |-| Add an emoji to the server using the link of another emoji.",
-        "https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/emojiAdd/redcat.png /-/ red_cat |-| Adiciona no servidor um emoji utilizando a imagem do Github."
+        "https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/emojiAdd/redcat.png /-/ red_cat |-| Adds an emoji to the server using the image from GitHub."
       ]
     },
     "emojiAdded": "emoji added successfully!",
@@ -1200,7 +1200,7 @@
     "config": {
       "description": "Search a song's name from a video!",
       "examples": [
-        "https://github.com/KuraminhaBot/KuramaAssets/raw/main/musicFind/videoExample.mp4 |-| Encontre a música que está sendo tocada no vídeo."
+        "https://github.com/KuraminhaBot/KuramaAssets/raw/main/musicFind/videoExample.mp4 |-| Find the song being played in the video."
       ]
     },
     "errorInDownload": "I couldn't download this video... Are you sure it's a valid link? Or that's not a very big video?",
@@ -1287,7 +1287,7 @@
     "config": {
       "description": "Addicted to the most watched house in Brazil? Why not embark on this adventure and join the BBB yourself?",
       "examples": [
-        "Julliete /-/ 31 Anos /-/ Advogada e Maquiadora /-/ Campina Grande - PB /-/ Pipoca 🍿 /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageBBB22/juliette.png |-| Exemplo do comando com uma participante \"Pipoca\"",
+        "Julliete /-/ 31 Years old /-/ Lawyer and Makeup Artist /-/ Campina Grande - PB /-/ Popcorn 🍿 /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageBBB22/juliette.png |-| Example using the command with a \"Popcorn\" participant",
         "Jade Picon /-/ 20 Anos /-/ Empresária e Influencer /-/ São Paulo - SP /-/ Camarote 🎥 /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageBBB22/jade.png |-| Exemplo do comando com uma participante \"Camarote\""
       ]
     }
