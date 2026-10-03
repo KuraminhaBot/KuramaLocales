@@ -587,8 +587,8 @@
     "heDoesntHave": "{{user}} doesn't have **Kurama Coins** enough to bet, come back when you have the money to use this command.",
     "message": [
       "and {{user}} Ready? So let's start the bet.\n",
-      "stay with <:kurama2_kamehameha:826416553276080149>!",
-      "{{user}} stay with <:shukaku_kamehameha:826445270144385025>!\n",
+      "stay with [[emoji:kurama2_kamehameha]]!",
+      "{{user}} stay with [[emoji:shukaku_kamehameha]]!\n",
       "It works like this, the user who got the character that wins the **Kamehameha** win the bet.\n",
       "{{user}} you want to accept the bet? You will bet **{{price}} Kurama Coins** ({{tax}}.0 Kurama-Coins of tax) with {{author}}!",
       "To confirm, click in ✅ to accept transaction."
@@ -1027,7 +1027,7 @@
       "description": "Displays the information of emojis from the server or a specific one.",
       "examples": [
         "|-| See the list of emojis available on the server!",
-        "<:kurama_reverse:934586313582207016> |-| See informations for a specific emoji!"
+        "[[emoji:kurama_reverse]] |-| See informations for a specific emoji!"
       ]
     },
     "page": "Page",

@@ -439,6 +439,104 @@
       "kpop": "K-Pop"
     }
   },
+  "badges": {
+    "DISCORD_EMPLOYEE": {
+      "name": "Funcionário do Discord",
+      "description": "Este emblema é concedido a todos os funcionários do Discord."
+    },
+    "DISCORD_PARTNER": {
+      "name": "Proprietário de Servidor Parceiro",
+      "description": "Este emblema é concedido a todos os usuários que possuem um servidor que é parceiro do Discord."
+    },
+    "DISCORD_MODERATOR": {
+      "name": "Ex-Aluno do Programa de Moderadores",
+      "description": "Este emblema pode ser obtido após concluir com sucesso o Exame de Moderador do Discord e estar ativo no DMD por pelo menos 3 meses."
+    },
+    "HYPESQUAD_EVENTS": {
+      "name": "Eventos do HypeSquad",
+      "description": "Este emblema é concedido aos participantes de eventos do HypeSquad e aqueles que participam de convenções locais em nome do HypeSquad."
+    },
+    "BUGHUNTER_LEVEL_2": {
+      "name": "Caçador de Bugs",
+      "description": "Concedido àqueles que fazem contribuições significativas para a caça de bugs."
+    },
+    "BUGHUNTER_LEVEL_1": {
+      "name": "Caçador de Bugs",
+      "description": "Usuários dedicados do servidor Discord Testers são premiados com um destes emblemas."
+    },
+    "HOUSE_BRAVERY": {
+      "name": "Casa da Bravura",
+      "description": "Após fazer o teste do HypeSquad, os usuários recebem um dos três emblemas das casas."
+    },
+    "HOUSE_BRILLIANCE": {
+      "name": "Casa da Brilhantismo",
+      "description": "Após fazer o teste do HypeSquad, os usuários recebem um dos três emblemas das casas."
+    },
+    "HOUSE_BALANCE": {
+      "name": "Casa do Equilíbrio",
+      "description": "Após fazer o teste do HypeSquad, os usuários recebem um dos três emblemas das casas."
+    },
+    "EARLY_SUPPORTER": {
+      "name": "Apoiador Inicial",
+      "description": "Este emblema foi concedido a todos os usuários que tinham uma assinatura do Discord Nitro antes de <t:1539140400:D>."
+    },
+    "VERIFIED_DEVELOPER": {
+      "name": "Desenvolvedor de Bot Verificado",
+      "description": "Este emblema foi concedido a todos os desenvolvedores que verificaram um bot antes de <t:1597806000:D>."
+    },
+    "ACTIVE_DEVELOPER": {
+      "name": "Desenvolvedor Ativo",
+      "description": "Este emblema é concedido àqueles que têm um bot que recebeu pelo menos um comando de aplicação nos últimos 30 dias."
+    },
+    "NITRO": {
+      "name": "Assinante Nitro",
+      "description": "Este emblema é concedido a qualquer usuário que tenha uma assinatura Nitro ativa em sua conta."
+    },
+    "BOOST": {
+      "name": "Impulsionador de Servidor",
+      "description": "Alguém com este emblema está usando ativamente um Impulso de Servidor em um servidor."
+    },
+    "BOT": {
+      "name": "Bot",
+      "description": "Este emblema é concedido a qualquer conta que seja marcada como bot na API."
+    },
+    "VERIFIED_BOT": {
+      "name": "Bot Verificado",
+      "description": "Este emblema foi concedido a todos os bots que estão em mais de 75 servidores e passaram pelo formulário de verificação."
+    },
+    "SUPPORT_SLASH_COMMANDS": {
+      "name": "Possui Comandos Slash",
+      "description": "Este emblema só pode ser obtido por bots que suportam comandos slash."
+    },
+    "MARRIED": {
+      "name": "Casado",
+      "description": "Este emblema é concedido a todos os usuários que estão casados no Kuraminha Bot."
+    },
+    "TRANSLATORS": {
+      "name": "Tradutores",
+      "description": "Este emblema é concedido a todos os usuários que ajudaram a traduzir o Kuraminha Bot."
+    },
+    "LAST_FM": {
+      "name": "Last.fm",
+      "description": "Este emblema é concedido a todos os usuários que vincularam sua conta Last.fm ao Kuraminha Bot."
+    },
+    "KURAMA_BODYGUARD": {
+      "name": "Anbu do Kurama",
+      "description": "Este emblema é concedido a todos os usuários que são moderadores do Kurama."
+    },
+    "STAFFDARK": {
+      "name": "Staff Dark",
+      "description": "Este emblema é concedido a todos os usuários que são parte da equipe de algum servidor da Rede Dark, a rede de servidores de Minecraft do Kurama."
+    },
+    "PREMIUM_USER": {
+      "name": "Apoiador do Kurama",
+      "description": "Este emblema é concedido a todos os usuários que me apoiam e ajudam a manter minhas funcionalidades ativas doando pra mim."
+    },
+    "FORTNITE_PLAYER": {
+      "name": "Jogador de Fortnite",
+      "description": "Este emblema é concedido a todos os usuários que vincularam sua conta de Fortnite ao Kuraminha Bot."
+    }
+  },
   "rarity": {
     "COMMON": "Comum",
     "UNCOMMON": "Incomum",

@@ -130,8 +130,8 @@
     "youCannotPunish": "You cannot punish `{{list}}`, as you do not have the necessary permissions to do so.",
     "iCannotPunish": "I cannot punish `{{list}}`, my position is less than that of the user to be punished! So that I can punish, climb my position to the top of the list of positions, thank you!",
     "noReason": "No reason set.",
-    "punishmentConfirm": "you are about to punish `{{list}}` on your server!\n\n<:kurama_coffee:826415473775869962> **|** Click the <:certo:713730585989873767> to confirm the action or click at the <:errado:639895787983339531> to cancel the action.",
-    "notBePunished": "user will not be punished! I hope he learns this time! <:kurama_knife:770307319325130753>",
+    "punishmentConfirm": "you are about to punish `{{list}}` on your server!\n\n[[emoji:kurama_coffee]] **|** Click the <:certo:713730585989873767> to confirm the action or click at the <:errado:639895787983339531> to cancel the action.",
+    "notBePunished": "user will not be punished! I hope he learns this time! [[emoji:kurama_knife]]",
     "punished": "ready, that idiot was punished! minus a riot on the server. registered reason `{{reason}}`",
     "kick": {
       "notOnServer": {
@@ -168,7 +168,7 @@
       "default": "Sorry but you can not send this link here in this channel... If you think this is an error, look for the server management team."
     }
   },
-  "pending_restart": "**Scheduled update**, we would like to warn you that the bot can be restarted at any time, I will probably be back after ~1 minuto e 20 segundos after after restarting... Sorry for the inconvenience! <:kurama_sob:826430408173813820>",
+  "pending_restart": "**Scheduled update**, we would like to warn you that the bot can be restarted at any time, I will probably be back after ~1 minuto e 20 segundos after after restarting... Sorry for the inconvenience! [[emoji:kurama_sob]]",
   "disableCommand": "This command has been disabled due to technical problems, sorry for the inconvenience.",
   "verification_level": {
     "NONE": "None",

@@ -588,8 +588,8 @@
     "heDoesntHave": "{{user}} não tem **Kurama Coins** suficientes para cobrir a aposta, volte quando tiver o dinheiro para utilizar este comando.",
     "message": [
       "e {{user}} preparados? Então vamos iniciar a aposta.\n",
-      "ficou com o <:kurama2_kamehameha:826416553276080149>!",
-      "{{user}} ficou com o <:shukaku_kamehameha:826445270144385025>!\n",
+      "ficou com o [[emoji:kurama2_kamehameha]]!",
+      "{{user}} ficou com o [[emoji:shukaku_kamehameha]]!\n",
       "Funciona da seguinte maneira, o usuário que pegou o personagem que vencer o **Kamehameha** ganha a aposta.\n",
       "{{user}} você quer aceitar a aposta? Você está prestes a apostar **{{price}} Kurama Coins** ({{tax}}.0 Kurama-Coins de taxa) com {{author}}!",
       "Para confirmar, clique em ✅ para aceitar a transação."
@@ -1017,18 +1017,22 @@
       "examples": [
         "|-| Veja o seu banner, usando o comando.",
         "640593174171090984 |-| Veja o banner da raposa mais linda do site.",
-        "@PeterStark000#6011 |-| Veja o banner da pessoa mencionada."
+        "@PeterStark000 |-| Veja o banner da pessoa mencionada.",
+        "@PeterStark000 /-/ true |-| Veja o banner de servidor da pessoa mencionado."
       ]
     },
     "hyperlink": "**[Clique aqui]({{url}}) para baixar o banner!**",
-    "noHas": "Esse usuário não definiu um banner em seu perfil."
+    "noHas": "Esse usuário não definiu um banner em seu perfil.",
+    "noHasGuild": "Esse usuário não definiu um banner em seu perfil do servidor.",
+    "normal": "Banner de Usuário",
+    "guild": "Banner de Servidor"
   },
   "emojiinfo": {
     "config": {
       "description": "Mostra a informação dos emojis do servidor ou de um específico.",
       "examples": [
         "|-| Veja a lista de emojis disponíveis no servidor!",
-        "<:kurama_reverse:934586313582207016> |-| Veja as informações de um emoji específico!"
+        "[[emoji:kurama_reverse]] |-| Veja as informações de um emoji específico!"
       ]
     },
     "page": "Página",
@@ -1682,6 +1686,16 @@
       "12month": "Últimos 12 meses"
     }
   },
+  "lastfmNowPlaying": {
+    "config": {
+      "description": "Veja o que você ouve no Last.fm no momento!",
+      "examples": [
+        "|-| Veja o que você está ouvindo no Last.fm no momento.",
+        "PeterStark000 |-| Veja o que o usuário \"PeterStark000\" está ouvindo no Last.fm no momento."
+      ]
+    },
+    "notPlaying": "Parece que você ou a pessoa que você me falou não está ouvindo nada no momento..."
+  },
   "deathNotice": {
     "config": {
       "description": "Faça um gif engraçado com a notícia de que alguém morreu! (Meme do Twitter)",
@@ -1706,6 +1720,22 @@
       "examples": [
         "PYONG LEEEEEE! |-| Faça uma montagem com a frase \"PYONG LEEEEEE!\".",
         "QUERO COMER PIZZAA |-| Faça uma montagem com a frase \"QUERO COMER PIZZAA\"."
+      ]
+    }
+  },
+  "deadpoolFrame": {
+    "config": {
+      "description": "Faça uma montagem com o Deadpool imitando o Wolverine segurando uma imagem de sua escolha!",
+      "examples": [
+        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageDeadpoolFrame/wolverineMeme.png |-| Faça uma montagem com o Deadpool segurando a imagem do meme do Wolverine."
+      ]
+    }
+  },
+  "wolverineFrame": {
+    "config": {
+      "description": "Faça uma montagem com o meme do Wolverine do MCU (Universo Cinematográfico da Marvel) segurando uma foto da Jean e do Scott só que com uma foto da sua escolha!",
+      "examples": [
+        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWolverineFrame/scottAndJean.png |-| Refaça o meme do Wolverine (X-Men 97) só que na vida real."
       ]
     }
   },

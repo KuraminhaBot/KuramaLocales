@@ -133,8 +133,8 @@
     "youCannotPunish": "Você não pode punir `{{list}}`, pois você não tem permissões necessárias para isso.",
     "iCannotPunish": "Eu não posso punir `{{list}}`, meu cargo é menor que o do usuário a ser punido! Para que eu possa punir, suba o meu cargo para o topo na lista de cargos, obrigado!",
     "noReason": "Sem motivo definido.",
-    "punishmentConfirm": "você está prestes a punir `{{list}}` no seu servidor!\n\n<:kurama_coffee:826415473775869962> **|** Clique no <:certo:713730585989873767> para confirmar a ação ou clique no <:errado:639895787983339531> para cancelar a ação. ",
-    "notBePunished": "usuário não será punido! Espero que ele aprenda dessa vez! <:kurama_knife:770307319325130753>",
+    "punishmentConfirm": "você está prestes a punir `{{list}}` no seu servidor!\n\n[[emoji:kurama_coffee]] **|** Clique no <:certo:713730585989873767> para confirmar a ação ou clique no <:errado:639895787983339531> para cancelar a ação. ",
+    "notBePunished": "usuário não será punido! Espero que ele aprenda dessa vez! [[emoji:kurama_knife]]",
     "punished": "prontinho, esse idiota foi punido! Menos um baderneiro no servidor. Motivo registrado `{{reason}}`",
     "kick": {
       "notOnServer": {
@@ -171,7 +171,7 @@
       "default": "desculpe! Mas você não pode enviar este link aqui neste canal... Se você acha que isto é um erro, procure a equipe de administração do servidor."
     }
   },
-  "pending_restart": "**Atualização programada**, gostaríamos de avisar que o bot pode ser reiniciado à qualquer momento, provavelmente voltarei depois de ~1 minuto e 20 segundos após reiniciar... Desculpe pela inconveniência! <:kurama_sob:826430408173813820>",
+  "pending_restart": "**Atualização programada**, gostaríamos de avisar que o bot pode ser reiniciado à qualquer momento, provavelmente voltarei depois de ~1 minuto e 20 segundos após reiniciar... Desculpe pela inconveniência! [[emoji:kurama_sob]]",
   "disableCommand": "Este comando foi desabilitado por problemas técnicos, desculpe pela inconveniência.",
   "verification_level": {
     "NONE": "Nenhum",
