@@ -441,100 +441,100 @@
   },
   "badges": {
     "DISCORD_EMPLOYEE": {
-      "name": "Funcionário do Discord",
-      "description": "Este emblema é concedido a todos os funcionários do Discord."
+      "name": "Discord Staff",
+      "description": "This badge is awarded to all Discord employees."
     },
     "DISCORD_PARTNER": {
-      "name": "Proprietário de Servidor Parceiro",
-      "description": "Este emblema é concedido a todos os usuários que possuem um servidor que é parceiro do Discord."
+      "name": "Partnered Server Owner",
+      "description": "This badge is awarded to all users who own a Discord Partner server."
     },
     "DISCORD_MODERATOR": {
-      "name": "Ex-Aluno do Programa de Moderadores",
-      "description": "Este emblema pode ser obtido após concluir com sucesso o Exame de Moderador do Discord e estar ativo no DMD por pelo menos 3 meses."
+      "name": "Moderator Programs Alumni",
+      "description": "This badge can be earned by successfully passing the Discord Moderator Exam and being active in the DMD for at least 3 months."
     },
     "HYPESQUAD_EVENTS": {
-      "name": "Eventos do HypeSquad",
-      "description": "Este emblema é concedido aos participantes de eventos do HypeSquad e aqueles que participam de convenções locais em nome do HypeSquad."
+      "name": "HypeSquad Events",
+      "description": "This badge is awarded to HypeSquad event attendees and those who attend local conventions on behalf of HypeSquad."
     },
     "BUGHUNTER_LEVEL_2": {
-      "name": "Caçador de Bugs",
-      "description": "Concedido àqueles que fazem contribuições significativas para a caça de bugs."
+      "name": "Bug Hunter",
+      "description": "Awarded to those who make significant contributions to bug hunting."
     },
     "BUGHUNTER_LEVEL_1": {
-      "name": "Caçador de Bugs",
-      "description": "Usuários dedicados do servidor Discord Testers são premiados com um destes emblemas."
+      "name": "Bug Hunter",
+      "description": "Dedicated members of the Discord Testers server are awarded one of these badges."
     },
     "HOUSE_BRAVERY": {
-      "name": "Casa da Bravura",
-      "description": "Após fazer o teste do HypeSquad, os usuários recebem um dos três emblemas das casas."
+      "name": "House of Bravery",
+      "description": "After taking the HypeSquad quiz, users receive one of the three house badges."
     },
     "HOUSE_BRILLIANCE": {
-      "name": "Casa da Brilhantismo",
-      "description": "Após fazer o teste do HypeSquad, os usuários recebem um dos três emblemas das casas."
+      "name": "House of Brilliance",
+      "description": "After taking the HypeSquad quiz, users receive one of the three house badges."
     },
     "HOUSE_BALANCE": {
-      "name": "Casa do Equilíbrio",
-      "description": "Após fazer o teste do HypeSquad, os usuários recebem um dos três emblemas das casas."
+      "name": "House of Balance",
+      "description": "After taking the HypeSquad quiz, users receive one of the three house badges."
     },
     "EARLY_SUPPORTER": {
-      "name": "Apoiador Inicial",
-      "description": "Este emblema foi concedido a todos os usuários que tinham uma assinatura do Discord Nitro antes de <t:1539140400:D>."
+      "name": "Early Supporter",
+      "description": "This badge was awarded to all users who had a Discord Nitro subscription before <t:1539140400:D>."
     },
     "VERIFIED_DEVELOPER": {
-      "name": "Desenvolvedor de Bot Verificado",
-      "description": "Este emblema foi concedido a todos os desenvolvedores que verificaram um bot antes de <t:1597806000:D>."
+      "name": "Verified Bot Developer",
+      "description": "This badge was awarded to all developers who verified a bot before <t:1597806000:D>."
     },
     "ACTIVE_DEVELOPER": {
-      "name": "Desenvolvedor Ativo",
-      "description": "Este emblema é concedido àqueles que têm um bot que recebeu pelo menos um comando de aplicação nos últimos 30 dias."
+      "name": "Active Developer",
+      "description": "This badge is awarded to those who have a bot that has received at least one application command in the last 30 days."
     },
     "NITRO": {
-      "name": "Assinante Nitro",
-      "description": "Este emblema é concedido a qualquer usuário que tenha uma assinatura Nitro ativa em sua conta."
+      "name": "Nitro Subscriber",
+      "description": "This badge is awarded to any user with an active Nitro subscription on their account."
     },
     "BOOST": {
-      "name": "Impulsionador de Servidor",
-      "description": "Alguém com este emblema está usando ativamente um Impulso de Servidor em um servidor."
+      "name": "Server Booster",
+      "description": "Someone with this badge is actively using a Server Boost on a server."
     },
     "BOT": {
       "name": "Bot",
-      "description": "Este emblema é concedido a qualquer conta que seja marcada como bot na API."
+      "description": "This badge is awarded to any account marked as a bot in the API."
     },
     "VERIFIED_BOT": {
-      "name": "Bot Verificado",
-      "description": "Este emblema foi concedido a todos os bots que estão em mais de 75 servidores e passaram pelo formulário de verificação."
+      "name": "Verified Bot",
+      "description": "This badge was awarded to all bots that are in more than 75 servers and have completed the verification form."
     },
     "SUPPORT_SLASH_COMMANDS": {
-      "name": "Possui Comandos Slash",
-      "description": "Este emblema só pode ser obtido por bots que suportam comandos slash."
+      "name": "Supports Slash Commands",
+      "description": "This badge can only be earned by bots that support slash commands."
     },
     "MARRIED": {
-      "name": "Casado",
-      "description": "Este emblema é concedido a todos os usuários que estão casados no Kuraminha Bot."
+      "name": "Married",
+      "description": "This badge is awarded to all users who are married in Kuraminha Bot."
     },
     "TRANSLATORS": {
-      "name": "Tradutores",
-      "description": "Este emblema é concedido a todos os usuários que ajudaram a traduzir o Kuraminha Bot."
+      "name": "Translators",
+      "description": "This badge is awarded to all users who helped translate Kuraminha Bot."
     },
     "LAST_FM": {
       "name": "Last.fm",
-      "description": "Este emblema é concedido a todos os usuários que vincularam sua conta Last.fm ao Kuraminha Bot."
+      "description": "This badge is awarded to all users who linked their Last.fm account to Kuraminha Bot."
     },
     "KURAMA_BODYGUARD": {
-      "name": "Anbu do Kurama",
-      "description": "Este emblema é concedido a todos os usuários que são moderadores do Kurama."
+      "name": "Kurama's Anbu",
+      "description": "This badge is awarded to all users who are Kurama moderators."
     },
     "STAFFDARK": {
-      "name": "Staff Dark",
-      "description": "Este emblema é concedido a todos os usuários que são parte da equipe de algum servidor da Rede Dark, a rede de servidores de Minecraft do Kurama."
+      "name": "Dark Staff",
+      "description": "This badge is awarded to all users who are staff members on a server in Rede Dark, Kurama's Minecraft server network."
     },
     "PREMIUM_USER": {
-      "name": "Apoiador do Kurama",
-      "description": "Este emblema é concedido a todos os usuários que me apoiam e ajudam a manter minhas funcionalidades ativas doando pra mim."
+      "name": "Kurama Supporter",
+      "description": "This badge is awarded to all users who support me and help keep my features running by donating to me."
     },
     "FORTNITE_PLAYER": {
-      "name": "Jogador de Fortnite",
-      "description": "Este emblema é concedido a todos os usuários que vincularam sua conta de Fortnite ao Kuraminha Bot."
+      "name": "Fortnite Player",
+      "description": "This badge is awarded to all users who linked their Fortnite account to Kuraminha Bot."
     }
   },
   "rarity": {
