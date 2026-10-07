@@ -1022,14 +1022,14 @@
         "|-| See your banner, using the command.",
         "640593174171090984 |-| See the banner of the most beautiful fox on the site.",
         "@PeterStark000#6011 |-| See the banner of mentioned user.",
-        "@PeterStark000 /-/ true |-| Veja o banner de servidor da pessoa mencionado."
+        "@PeterStark000 /-/ true |-| View the mentioned user's server profile banner."
       ]
     },
     "hyperlink": "**[Click here]({{url}}) to download the banner!**",
     "noHas": "This user has not set a banner on their profile.",
-    "noHasGuild": "Esse usuário não definiu um banner em seu perfil do servidor.",
-    "normal": "Banner de Usuário",
-    "guild": "Banner de Servidor"
+    "noHasGuild": "This user hasn't set a banner for their server profile.",
+    "normal": "User Banner",
+    "guild": "Server Banner"
   },
   "emojiinfo": {
     "config": {
@@ -1720,13 +1720,13 @@
   },
   "lastfmNowPlaying": {
     "config": {
-      "description": "Veja o que você ouve no Last.fm no momento!",
+      "description": "See what you're listening to on Last.fm right now!",
       "examples": [
-        "|-| Veja o que você está ouvindo no Last.fm no momento.",
-        "PeterStark000 |-| Veja o que o usuário \"PeterStark000\" está ouvindo no Last.fm no momento."
+        "|-| See what you're listening to on Last.fm right now.",
+        "PeterStark000 |-| See what the user \"PeterStark000\" is listening to on Last.fm right now."
       ]
     },
-    "notPlaying": "Parece que você ou a pessoa que você me falou não está ouvindo nada no momento..."
+    "notPlaying": "It looks like you or the person you mentioned aren't listening to anything right now..."
   },
   "deathNotice": {
     "config": {
@@ -1757,17 +1757,17 @@
   },
   "deadpoolFrame": {
     "config": {
-      "description": "Faça uma montagem com o Deadpool imitando o Wolverine segurando uma imagem de sua escolha!",
+      "description": "Create an edit of Deadpool imitating Wolverine, holding an image of your choice!",
       "examples": [
-        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageDeadpoolFrame/wolverineMeme.png |-| Faça uma montagem com o Deadpool segurando a imagem do meme do Wolverine."
+        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageDeadpoolFrame/wolverineMeme.png |-| Create an edit of Deadpool holding the Wolverine meme image."
       ]
     }
   },
   "wolverineFrame": {
     "config": {
-      "description": "Faça uma montagem com o meme do Wolverine do MCU (Universo Cinematográfico da Marvel) segurando uma foto da Jean e do Scott só que com uma foto da sua escolha!",
+      "description": "Recreate the MCU (Marvel Cinematic Universe) Wolverine meme where he holds a photo of Jean and Scott, but with a photo of your choice!",
       "examples": [
-        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWolverineFrame/scottAndJean.png |-| Refaça o meme do Wolverine (X-Men 97) só que na vida real."
+        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWolverineFrame/scottAndJean.png |-| Recreate the Wolverine meme (X-Men 97), but in real life."
       ]
     }
   },
