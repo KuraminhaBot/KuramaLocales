@@ -424,7 +424,8 @@
     },
     "editAboutMe": "Editar Sobre Mim",
     "userBanned": "{{user}} está **banido(a)**! \n✍️ **|** Reason: `{{reason}}`",
-    "bannedAt": "Banido em {{date}}"
+    "bannedAt": "Banido em {{date}}",
+    "aboutMe": "Sobre Mim"
   },
   "mcskin": {
     "config": {
@@ -525,7 +526,11 @@
         "Olá Youtube! /-/ @PeterStark000#6011 |-| Faça um comentário de um usuário mencionado."
       ]
     },
-    "comment": "Olokinho meu! `{{user}}` acaba de comentar algo."
+    "comment": "Olokinho meu! `{{user}}` acaba de comentar algo.",
+    "timeAgo": "agora",
+    "reply": "Responder",
+    "oneReply": "{{count}} resposta",
+    "replies": "{{count}} respostas"
   },
   "faketweet": {
     "config": {
@@ -1065,6 +1070,7 @@
       ]
     },
     "choiceWord": "Escolha o significado da palavra",
+    "unavailable": "O dicionário não respondeu a tempo ou está indisponível. Tente novamente daqui a pouco.",
     "title": "Dicionário",
     "sentences": "Frases",
     "synonyms": "Sinônimos",
@@ -1111,7 +1117,12 @@
     "notFound": "Eu procurei por todo lugar, em arenas, em modos de dupla, mas não achei nenhum usuário ou clube com esta tag! Lembre-se, eu só consigor encontrar usuários pela tag `(#TAG)`, e não pelo nome!",
     "seePlayerInfo": "Estatísticas do Jogador",
     "seeClubInfo": "Informações do Clube",
-    "seeBattleLogs": "10 últimas batalhas"
+    "seeBattleLogs": "10 últimas batalhas",
+    "apiUnavailable": "A API do Brawl Stars está indisponível no momento. Tente novamente mais tarde.",
+    "apiAccessDenied": "Não consegui acessar a API do Brawl Stars. A administração do bot precisa verificar a chave e os IPs autorizados no painel da API.",
+    "strongestBrawler": "Brawler com mais troféus",
+    "power11Brawlers": "Brawlers com poder 11",
+    "hyperChargeBrawlers": "Brawlers com hipercarga"
   },
   "bwclubs": {
     "config": {
@@ -1126,7 +1137,13 @@
     "power": "Nível de Poder",
     "starPowers": "Poderes",
     "rank": "Ranking",
-    "gadgets": "Gadgets"
+    "gadgets": "Gadgets",
+    "gears": "Equipamentos",
+    "hyperCharges": "Hipercargas",
+    "skin": "Skin equipada",
+    "prestige": "Prestígio",
+    "currentWinStreak": "Sequência atual de vitórias",
+    "maxWinStreak": "Maior sequência de vitórias"
   },
   "bwbattles": {
     "config": {
@@ -1147,7 +1164,9 @@
     "battleTime": "Horário",
     "mode": "Modo",
     "select": "Selecione a batalha para ver as informações",
-    "unknown": "Desconhecido"
+    "unknown": "Desconhecido",
+    "placement": "Posição final",
+    "trophyChange": "Variação de troféus"
   },
   "poll": {
     "messageDeleted": "Mensagem deletada com sucesso!",
@@ -1415,7 +1434,8 @@
   },
   "textcombo": {
     "choiceACommand": "Escolha um comando para essa mensagem",
-    "howDisable": "Para desabilitar o event-log, basta utilizar o comando `/manage eventlog disable:True`."
+    "howDisable": "Para desabilitar o event-log, basta utilizar o comando `/manage eventlog disable:True`.",
+    "chooseACommand": "Escolha um comando para essa mensagem"
   },
   "fnnews": {
     "config": {
@@ -1480,6 +1500,7 @@
       ]
     },
     "price": "Preço",
+    "none": "Indisponível",
     "series": "Series",
     "rarity": "Raridade",
     "reactive": "Reativo",
@@ -1496,7 +1517,19 @@
     "free": "Grátis",
     "autocomplete": {
       "notFound": "Eu não encontrei nenhuma skin que bata com o que você digitou, tente novamente com outro nome."
-    }
+    },
+    "shopStatus": "Disponibilidade na loja",
+    "inShop": "Disponível agora",
+    "notInShop": "Fora da loja atual",
+    "shopUntil": "Saída prevista da loja",
+    "offer": "Oferta",
+    "bundlePrice": "O preço informado é do pacote que inclui esta skin.",
+    "viewLego": "Ver versão LEGO",
+    "viewBean": "Ver versão Fall Guys",
+    "viewYouTube": "Ver no YouTube",
+    "viewOfficialPreview": "Ver no site do Fortnite",
+    "previewUnavailable": "Não consegui carregar o vídeo dessa skin agora. Tente novamente mais tarde.",
+    "imageUnavailable": "Não consegui carregar a versão LEGO dessa skin agora. Tente novamente mais tarde."
   },
   "spotifyPlayer": {
     "listening": "Ouvindo:",
@@ -1744,5 +1777,16 @@
     "examples": {
       "userExamples": []
     }
+  },
+  "badgeInfo": {
+    "config": {
+      "description": "Veja informações sobre um emblema."
+    },
+    "choiceBadge": "Escolha um emblema para ver suas informações.",
+    "noBadges": "Este usuário ainda não tem emblemas.",
+    "selectBadge": "Escolha um emblema"
+  },
+  "fnshop": {
+    "unavailable": "Não consegui carregar a loja do Fortnite. Tente novamente mais tarde."
   }
 }
