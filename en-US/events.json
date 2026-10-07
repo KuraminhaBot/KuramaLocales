@@ -28,12 +28,12 @@
   "fortnite": {
     "shop": {
       "addMe": "ADD ME TO YOUR SERVER TO SUPPORT",
-      "nextUpdateString": " Shop Refresh {{time}}",
-      "nextUpdate": "SHOP REFRESH",
+      "nextUpdateString": "Shop Renewal {{time}}",
+      "nextUpdate": "SHOP RENEWAL",
       "discount": "V-BUCKS OFF",
       "dailyShop": {
-        "normal": "Fortnite Daily Shop",
-        "music": "Fortnite Music Shop"
+        "normal": "Fortnite Daily Store",
+        "music": "Fortnite Music Store"
       },
       "page": "PAGE"
     }
