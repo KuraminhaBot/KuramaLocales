@@ -424,7 +424,8 @@
     },
     "editAboutMe": "Editar Sobre Mim",
     "userBanned": "{{user}} está **banido(a)**! \n✍️ **|** Reason: `{{reason}}`",
-    "bannedAt": "Banido em {{date}}"
+    "bannedAt": "Banido em {{date}}",
+    "aboutMe": "Sobre Mim"
   },
   "mcskin": {
     "config": {
@@ -525,7 +526,11 @@
         "Olá Youtube! /-/ @PeterStark000#6011 |-| Faça um comentário de um usuário mencionado."
       ]
     },
-    "comment": "Olokinho meu! `{{user}}` acaba de comentar algo."
+    "comment": "Olokinho meu! `{{user}}` acaba de comentar algo.",
+    "timeAgo": "agora",
+    "reply": "Responder",
+    "oneReply": "{{count}} resposta",
+    "replies": "{{count}} respostas"
   },
   "faketweet": {
     "config": {
@@ -588,8 +593,8 @@
     "heDoesntHave": "{{user}} não tem **Kurama Coins** suficientes para cobrir a aposta, volte quando tiver o dinheiro para utilizar este comando.",
     "message": [
       "e {{user}} preparados? Então vamos iniciar a aposta.\n",
-      "ficou com o <:kurama2_kamehameha:826416553276080149>!",
-      "{{user}} ficou com o <:shukaku_kamehameha:826445270144385025>!\n",
+      "ficou com o [[emoji:kurama2_kamehameha]]!",
+      "{{user}} ficou com o [[emoji:shukaku_kamehameha]]!\n",
       "Funciona da seguinte maneira, o usuário que pegou o personagem que vencer o **Kamehameha** ganha a aposta.\n",
       "{{user}} você quer aceitar a aposta? Você está prestes a apostar **{{price}} Kurama Coins** ({{tax}}.0 Kurama-Coins de taxa) com {{author}}!",
       "Para confirmar, clique em ✅ para aceitar a transação."
@@ -699,7 +704,7 @@
         "<:discordlogo:826399361390477332> |-| Adiciona no servidor um emoji de outro servidor (com o mesmo nome).",
         "<:discordlogo:826399361390477332> /-/ logo |-| Adiciona no servidor um emoji de outro servidor, porém com o nome diferente.",
         "https://cdn.discordapp.com/emojis/666786466436743183.png /-/ quartz |-| Adiciona no servidor um emoji utilizando o link de outro emoji.",
-        "https://i.imgur.com/SVkttz4.png /-/ red_cat |-| Adiciona no servidor um emoji utilizando a imagem do Imgur."
+        "https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/emojiAdd/redcat.png /-/ red_cat |-| Adiciona no servidor um emoji utilizando a imagem do Github."
       ] 
     },
     "emojiAdded": "emoji adicionado com sucesso!",
@@ -1017,18 +1022,22 @@
       "examples": [
         "|-| Veja o seu banner, usando o comando.",
         "640593174171090984 |-| Veja o banner da raposa mais linda do site.",
-        "@PeterStark000#6011 |-| Veja o banner da pessoa mencionada."
+        "@PeterStark000 |-| Veja o banner da pessoa mencionada.",
+        "@PeterStark000 /-/ true |-| Veja o banner de servidor da pessoa mencionado."
       ]
     },
     "hyperlink": "**[Clique aqui]({{url}}) para baixar o banner!**",
-    "noHas": "Esse usuário não definiu um banner em seu perfil."
+    "noHas": "Esse usuário não definiu um banner em seu perfil.",
+    "noHasGuild": "Esse usuário não definiu um banner em seu perfil do servidor.",
+    "normal": "Banner de Usuário",
+    "guild": "Banner de Servidor"
   },
   "emojiinfo": {
     "config": {
       "description": "Mostra a informação dos emojis do servidor ou de um específico.",
       "examples": [
         "|-| Veja a lista de emojis disponíveis no servidor!",
-        "<:kurama_reverse:934586313582207016> |-| Veja as informações de um emoji específico!"
+        "[[emoji:kurama_reverse]] |-| Veja as informações de um emoji específico!"
       ]
     },
     "page": "Página",
@@ -1061,6 +1070,7 @@
       ]
     },
     "choiceWord": "Escolha o significado da palavra",
+    "unavailable": "O dicionário não respondeu a tempo ou está indisponível. Tente novamente daqui a pouco.",
     "title": "Dicionário",
     "sentences": "Frases",
     "synonyms": "Sinônimos",
@@ -1107,7 +1117,12 @@
     "notFound": "Eu procurei por todo lugar, em arenas, em modos de dupla, mas não achei nenhum usuário ou clube com esta tag! Lembre-se, eu só consigor encontrar usuários pela tag `(#TAG)`, e não pelo nome!",
     "seePlayerInfo": "Estatísticas do Jogador",
     "seeClubInfo": "Informações do Clube",
-    "seeBattleLogs": "10 últimas batalhas"
+    "seeBattleLogs": "10 últimas batalhas",
+    "apiUnavailable": "A API do Brawl Stars está indisponível no momento. Tente novamente mais tarde.",
+    "apiAccessDenied": "Não consegui acessar a API do Brawl Stars. A administração do bot precisa verificar a chave e os IPs autorizados no painel da API.",
+    "strongestBrawler": "Brawler com mais troféus",
+    "power11Brawlers": "Brawlers com poder 11",
+    "hyperChargeBrawlers": "Brawlers com hipercarga"
   },
   "bwclubs": {
     "config": {
@@ -1122,7 +1137,13 @@
     "power": "Nível de Poder",
     "starPowers": "Poderes",
     "rank": "Ranking",
-    "gadgets": "Gadgets"
+    "gadgets": "Gadgets",
+    "gears": "Equipamentos",
+    "hyperCharges": "Hipercargas",
+    "skin": "Skin equipada",
+    "prestige": "Prestígio",
+    "currentWinStreak": "Sequência atual de vitórias",
+    "maxWinStreak": "Maior sequência de vitórias"
   },
   "bwbattles": {
     "config": {
@@ -1143,7 +1164,9 @@
     "battleTime": "Horário",
     "mode": "Modo",
     "select": "Selecione a batalha para ver as informações",
-    "unknown": "Desconhecido"
+    "unknown": "Desconhecido",
+    "placement": "Posição final",
+    "trophyChange": "Variação de troféus"
   },
   "poll": {
     "messageDeleted": "Mensagem deletada com sucesso!",
@@ -1201,7 +1224,7 @@
     "config": {
       "description": "Procura o nome de uma musica a partir de um video!",
       "examples": [
-        "https://imgur.com/JWjxPX0.mp4 |-| Encontre a música que está sendo tocada no vídeo."
+        "https://github.com/KuraminhaBot/KuramaAssets/raw/main/musicFind/videoExample.mp4 |-| Encontre a música que está sendo tocada no vídeo."
       ]
     },
     "errorInDownload": "Eu não consegui baixar este vídeo... Tem certeza de que ele é um link válido? Ou que não é um vídeo muito grande?",
@@ -1288,8 +1311,8 @@
     "config": {
       "description": "Viciado na casa mais vigiada do Brasil? Por que não embarcar nessa aventura e entrar no BBB você também?",
       "examples": [
-        "Julliete /-/ 31 Anos /-/ Advogada e Maquiadora /-/ Campina Grande - PB /-/ Pipoca 🍿 /-/ https://imgur.com/15lAy4j.png |-| Exemplo do comando com uma participante \"Pipoca\"",
-        "Jade Picon /-/ 20 Anos /-/ Empresária e Influencer /-/ São Paulo - SP /-/ Camarote 🎥 /-/ https://imgur.com/5NsYe0B.png |-| Exemplo do comando com uma participante \"Camarote\""
+        "Julliete /-/ 31 Anos /-/ Advogada e Maquiadora /-/ Campina Grande - PB /-/ Pipoca 🍿 /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageBBB22/juliette.png |-| Exemplo do comando com uma participante \"Pipoca\"",
+        "Jade Picon /-/ 20 Anos /-/ Empresária e Influencer /-/ São Paulo - SP /-/ Camarote 🎥 /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageBBB22/jade.png |-| Exemplo do comando com uma participante \"Camarote\""
       ]
     }
   },
@@ -1411,7 +1434,8 @@
   },
   "textcombo": {
     "choiceACommand": "Escolha um comando para essa mensagem",
-    "howDisable": "Para desabilitar o event-log, basta utilizar o comando `/manage eventlog disable:True`."
+    "howDisable": "Para desabilitar o event-log, basta utilizar o comando `/manage eventlog disable:True`.",
+    "chooseACommand": "Escolha um comando para essa mensagem"
   },
   "fnnews": {
     "config": {
@@ -1465,7 +1489,7 @@
     },
     "success": "Seu nickname foi alterado com sucesso para \"{{nickname}}\"!",
     "checkDetails": "Verifique se este é o seu nickname da **Epic Games** no jogo mesmo.",
-    "alreadyInUse": "Parece que o usuário {{id}} está utilizando este nick... Se tiver algo errado, procure nosso suporte!"
+    "alreadyInUse": "Parece que o usuário {{id}} está utilizando este nick... Se algo estiver errado, procure nosso suporte!"
   },
   "fnskin": {
     "config": {
@@ -1476,6 +1500,7 @@
       ]
     },
     "price": "Preço",
+    "none": "Indisponível",
     "series": "Series",
     "rarity": "Raridade",
     "reactive": "Reativo",
@@ -1492,9 +1517,25 @@
     "free": "Grátis",
     "autocomplete": {
       "notFound": "Eu não encontrei nenhuma skin que bata com o que você digitou, tente novamente com outro nome."
-    }
+    },
+    "shopStatus": "Disponibilidade na loja",
+    "inShop": "Disponível agora",
+    "notInShop": "Fora da loja atual",
+    "shopUntil": "Saída prevista da loja",
+    "offer": "Oferta",
+    "bundlePrice": "O preço informado é do pacote que inclui esta skin.",
+    "viewLego": "Ver versão LEGO",
+    "viewBean": "Ver versão Fall Guys",
+    "viewYouTube": "Ver no YouTube",
+    "viewOfficialPreview": "Ver no site do Fortnite",
+    "previewUnavailable": "Não consegui carregar o vídeo dessa skin agora. Tente novamente mais tarde.",
+    "imageUnavailable": "Não consegui carregar a versão LEGO dessa skin agora. Tente novamente mais tarde."
   },
   "spotifyPlayer": {
+    "listening": "Ouvindo:",
+    "notListening": "Não está ouvindo nada no momento."
+  },
+  "spotifyLyrics": {
     "listening": "Ouvindo:",
     "notListening": "Não está ouvindo nada no momento."
   },
@@ -1503,19 +1544,249 @@
       "description": "\"Aline Riscado morreu?\" Isso é uma novela da Record querido! Faça uma montagem divertida com o famoso meme da novela Topíssima, \"Quem matou Luciana?\"!",
       "examples": [
         "@Kuraminha#7575 |-| Faça um cartaz perguntando sobre quem mandou matar \"Kuraminha\".",
-        "Naruto /-/ https://imgur.com/0IWYKN2.png |-| Faça um cartaz perguntando sobre quem mandou matar \"Naruto\" utilizando um link de uma imagem.",
-        "Naruto /-/ https://imgur.com/0IWYKN2.png /-/ Sasuke Uchiha |-| Faça um cartaz perguntando sobre quem mandou matar \"Naruto\" utilizando um link de uma imagem e um nome para ligar personalizado.",
-        "Naruto /-/ https://imgur.com/0IWYKN2.png /-/ Sasuke Uchiha /-/ true |-| Faça um cartaz perguntando sobre quem mandou matar \"Naruto\" utilizando um link de uma imagem, um nome para ligar personalizado e envie a foto do cartaz separamente."
+        "Naruto /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWhoKilled/naruto.png |-| Faça um cartaz perguntando sobre quem mandou matar \"Naruto\" utilizando um link de uma imagem.",
+        "Naruto /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWhoKilled/naruto.png /-/ Sasuke Uchiha |-| Faça um cartaz perguntando sobre quem mandou matar \"Naruto\" utilizando um link de uma imagem e um nome para ligar personalizado.",
+        "Naruto /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWhoKilled/naruto.png /-/ Sasuke Uchiha /-/ true |-| Faça um cartaz perguntando sobre quem mandou matar \"Naruto\" utilizando um link de uma imagem, um nome para ligar personalizado e envie a foto do cartaz separamente."
       ]
     },
     "whoKilled": "QUEM MATOU",
     "anyInformation": "Qualquer informação que possa ajudar",
     "callTo": "ligue para"
   },
+  "lastfmInfo": {
+    "config": {
+      "description": "Veja as informações de um usuário do Last.fm",
+      "examples": [
+        "|-| Veja as informações do usuário que está vinculado com a sua conta do Last.fm.",
+        "PeterStark000 |-| Veja as informações do usuário \"PeterStark000\"."
+      ]
+    },
+    "notFound": "Eu não consegui encontrar nenhuma informação sobre este usuário no Last.fm...",
+    "noArgs": "Você precisa me dizer o nome de um usuário do Last.fm que você quer buscar.",
+    "artists": "Artistas",
+    "artist": "Artista",
+    "albums": "Álbuns",
+    "album": "Álbum",
+    "tracks": "Músicas",
+    "track": "Música",
+    "registeredAt": "Ativo desde",
+    "country": "País",
+    "listeningNow": "Escutando agora",
+    "listenedAt": "Escutou há"
+  },
+  "lastFmRegister": {
+    "config": {
+      "description": "Registre no Kurama a sua conta do Last.fm!",
+      "examples": [
+        "<username> |-| Registra uma conta do Last.FM no seu perfil do Discord."
+      ]
+    },
+    "success": "Seu perfil no Last Fm foi vinculado com sucesso para \"{{username}}\"!",
+    "checkDetails": "Verifique se este é realmente o seu nickname do **Last FM** no site para evitar problemas!",
+    "alreadyInUse": "Parece que o usuário {{id}} está utilizando este nick... Se algo estiver errado, procure nosso suporte!"
+  },
+  "lastFmAlbum": {
+    "config": {
+      "description": "Veja informações sobre um álbum que está no Last.FM.",
+      "examples": [
+        "eternal sunshine /-/ Ariana Grande |-| Veja as informações sobre o álbum \"eternal sunshine\" da cantora Ariana Grande no Last.FM",
+        "1989 /-/ Taylor Swift |-| Veja as informações sobre o álbum \"1989\" da cantora Taylor Swift no Last.FM"
+      ]
+    },
+    "listeners": "Ouvintes",
+    "playcount": "Reproduções",
+    "yourScrobbles": "Seus Scrobbles",
+    "notFoundTracks": "Nenhuma faixa encontrada.",
+    "viewFullTracklist": "Veja a tracklist completa [aqui]({{link}})",
+    "albumNotFound": "Não encontrei nenhum álbum desse artista com esse nome.. Será que você não está ouvindo alguma música de outro planeta?"
+  },
+  "lastFmArtist": {
+    "config": {
+      "description": "Veja informações sobre o seu artista preferido utilizando os dados do Last.FM e do MusicBrainZ.",
+      "examples": [
+        "Ariana Grande |-| Veja todas as informações da cantora norte-americana \"Ariana Grande\".",
+        "BLACKPINK |-| Veja todas as informações sobre o girlgroup sul-coreano \"BLACKPINK\".",
+        "JISOO |-| Veja todas as informações sobre a solista \"Kim Jisoo\".",
+        "Marília Mendonça |-| Veja todas as informações sobre a cantora brasileira \"Marília Mendonça\"."
+      ]
+    },
+    "notFound": "Será que você não está ouvindo alguma artista de outro planeta? Acho que não encontrei ninguém aqui no planeta Terra que se chame assim..",
+    "mainAlbuns": "Principais Álbuns",
+    "secondaryAlbuns": "Álbuns Secundários",
+    "singles": "Principais Singles",
+    "readMore": "Leia mais em Last.FM",
+    "listeners": "Ouvintes",
+    "playcount": "Reproduções",
+    "yourScrobbles": "Seus Scrobbles",
+    "type": "Classificação",
+    "age": "Idade",
+    "artistAge": "{{count}} anos",
+    "beginArea": "Nasceu em",
+    "unknown": "Desconhecido",
+    "noSingles": "Sem singles.",
+    "noAlbuns": "Sem álbuns.",
+    "noSecondaryAlbuns": "Sem álbuns secundários.",
+    "noTags": "Sem tags disponíveis para este artista."
+  },
+  "lastFmCompare": {
+    "config": {
+      "description": "Competições saudáveis são sempre divertidas né? Que tal competir com usuários do seu servidor quem escuta mais tal música, artista ou tal álbum? Com este comando você pode se divertir com seus membros comparando scrobbles de todos os membros do seu servidor registrados no Last.Fm.",
+      "examples": [
+        "|-| Veja quem do seu servidor tem mais scrobbles na música que você está ouvindo no momento (Lembre-se de ter vinculado sua conta Last.FM ao seu perfil do Discord).",
+        "Ariana Grande |-| Veja quem do seu servidor tem mais scrobbles na artista \"Ariana Grande\".",
+        "Ariana Grande /-/ no tears left to cry |-| Veja quem do seu servidor tem mais scrobbles na música \"no tears left to cry\" da cantora \"Ariana Grande\".",
+        "Ariana Grande /-/  /-/ eternal sunshine |-| Veja quem do seu servidor tem mais scrobbles no álbum \"eternal sunshine\" da cantora \"Ariana Grande\".",
+        "Kendrick Lamar /-/ Money Trees /-/  /-/ true |-| Veja quem do seu servidor tem mais scrobbles na música \"Money Trees\" do rapper \"Kendrick Lamar\", porém faça o Kurama por mais membros do seu servidor."
+      ]
+    },
+    "from": "de",
+    "supervising": "Fiscalizando",
+    "fullScrobbles": "**{{count}} scrobbles** totais.",
+    "noPlaycount": "Nenhum usuário encontrado com scrobbles para essa música.",
+    "notFound": "Forneça algum artista, música ou álbum para que eu pesquise, ou esteja escutando algo no momento para que eu procure a música que você está ouvindo."  
+  },
+  "imageChandler": {
+    "config": {
+      "description": "Música é sua paixão? Wow! Você sabia que música também é a paixão do Chandler? Faça uma montagem com a famosa cena do Chandler de \"Friends\" abraçando um álbum.",
+      "examples": [
+        "[Anexo] |-| Faça uma imagem com uma imagem anexada no comando.",
+        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageChandler/eternalExample.png |-| Faça uma montagem com o álbum \"eternal sunshine\" da cantora norte-americana \"Ariana Grande\".",
+        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageChandler/hmhasExample.png |-| Faça uma montagem com o álbum \"HIT ME HARD AND SOFT\" da cantora norte-americana \"Billie Eilish\"."
+      ]
+    }
+  },
+  "imagePitchfork": {
+    "config": {
+      "description": "Você é um crítico musical? Que tal fazer uma montagem com página de avaliação de álbum da Pitchfork? Faça uma montagem com um álbum e uma nota de 0 à 10!",
+      "examples": [
+        "Nome do Álbum /-/ 5 /-/ Artista /-/ 2016 /-/ [Anexo] |-| Faça uma montagem com um álbum da sua escolha, com a imagem anexada, nota 5 e o ano de 2016.",
+        "COWBOY CARTER /-/ 9,2 /-/ Beyoncé /-/ 2024 /-/  /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imagePitchfork/cowboyCarterExample.png |-| Faz uma montagem com a capa do álbum \"COWBOY CARTER\" e a nota 9.2 para o álbum da cantora \"Beyoncé\".",
+        "eternal sunshine /-/ 10 /-/ Ariana Grande /-/ 2024 /-/  /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imagePitchfork/eternalExample.png /-/ True |-| Faz uma montagem na classificação \"Best New Álbum\" com a capa do álbum \"eternal sunshine\" e a nota 10 para o álbum da cantora \"Ariana Grande\"."
+      ]
+    }
+  },
+  "lastFmPersonalChart": {
+    "config": {
+      "description": "Gere um gráfico semanal ou mensal dos artistas mais ouvidos no Last.FM, usando seus dados ou os de um amigo!",
+      "examples": [
+        "|-| Gere um gráfico semanal dos seus artistas mais ouvidos no Last.FM.",
+        "souarth /-/ dark /-/ 7day |-| Gere um gráfico semanal dos artistas mais ouvidos no Last.FM do usuário \"souarth\" com o tema escuro.",
+        "PeterStark000 /-/ /-/ 1month |-| Gere um gráfico mensal dos artistas mais ouvidos no Last.FM do usuário \"PeterStark000\". (Apenas VIP'S)"
+      ]
+    },
+    "noData": "Não há dados suficientes para gerar um gráfico.",
+    "premiumOnly": "Este comando é exclusivo para usuários VIP's. Que tal me ajudar a manter o bot online e ter acesso a comandos exclusivos?",
+    "title": {
+      "7day_scrooble": "{{user}} Scroobles Semanais",
+      "7day_chart:": "Grafico Semanal de {{user}}",
+      "1month_scrooble": "{{user}} Scroobles Mensais",
+      "1month_chart": "Gráfico Mensal de {{user}}"
+    },
+    "your": "Seus",
+    "lastPeriod": {
+      "7day": "Scroobles na última semana",
+      "1month": "Scroobles no último mês"
+    },
+    "comparation_less": {
+      "7day": "{{scroobles}} scroobles a menos que na última semana.",
+      "1month": "{{scroobles}} scroobles a menos que no último mês."
+    },
+    "comparation_more": {
+      "7day": "{{scroobles}} scroobles a mais que na última semana.",
+      "1month": "{{scroobles}} scroobles a mais que no último mês."
+    },
+    "top10Scroobles": {
+      "7day": "Scroobles do seu Top 10 Semanal",
+      "1month": "Scroobles do seu Top 10 Mensal"
+    }
+  },
+  "lastFmTrackCollage": {
+    "config": {
+      "description": "Gere um collage semanal ou mensal das músicas mais ouvidas no Last.FM, usando seus dados ou os de um amigo!",
+      "examples": [
+        "|-| Gere um collage semanal das suas músicas mais ouvidas no Last.FM.",
+        "souarth /-/ 4x4 /-/ 7day |-| Gere um collage 4x4 das músicas mais ouvidas no Last.FM do usuário \"souarth\" na última semana.",
+        "PeterStark000 /-/ 5x5 /-/ 1month |-| Gere um collage 5x5 das músicas mais ouvidas no Last.FM do usuário \"PeterStark000\" no último mês."
+      ]
+    },
+    "fiscalPeriod": "Período de Fiscalização",
+    "period": {
+      "overall": "Geral",
+      "7day": "Últimos 7 dias",
+      "1month": "Último mês",
+      "3month": "Últimos 3 meses",
+      "6month": "Últimos 6 meses",
+      "12month": "Últimos 12 meses"
+    }
+  },
+  "lastfmNowPlaying": {
+    "config": {
+      "description": "Veja o que você ouve no Last.fm no momento!",
+      "examples": [
+        "|-| Veja o que você está ouvindo no Last.fm no momento.",
+        "PeterStark000 |-| Veja o que o usuário \"PeterStark000\" está ouvindo no Last.fm no momento."
+      ]
+    },
+    "notPlaying": "Parece que você ou a pessoa que você me falou não está ouvindo nada no momento..."
+  },
+  "deathNotice": {
+    "config": {
+      "description": "Faça um gif engraçado com a notícia de que alguém morreu! (Meme do Twitter)",
+      "examples": [
+        "@diobrando |-| Faça um gif com a notícia de que \"@diobrando\" morreu!"
+      ]
+    },
+    "died": "morreu",
+    "someone": "@fulano"
+  },
+  "heloscream": {
+    "config": {
+      "description": "\"Sérgio! Sérgio, eu te amo!\" Faça uma montagem com a famosa cena de Heloísa da novela \"Mulheres Apaixonadas\" gritando por Sérgio, acompanhada por uma marchinha de carnaval!",
+      "examples": [
+        "KURAMAA /-/ TU HITOU DE NOVO |-| Faça uma montagem com a frase \"KURAMAA\" e a frase \"TU HITOU DE NOVO\"."
+      ]
+    }
+  },
+  "gizellyScream": {
+    "config": {
+      "description": "Recrie a icônica cena de Gizelly do BBB20 gritando \"PYONG LEEEEEE!\" com um texto da sua escolha!",
+      "examples": [
+        "PYONG LEEEEEE! |-| Faça uma montagem com a frase \"PYONG LEEEEEE!\".",
+        "QUERO COMER PIZZAA |-| Faça uma montagem com a frase \"QUERO COMER PIZZAA\"."
+      ]
+    }
+  },
+  "deadpoolFrame": {
+    "config": {
+      "description": "Faça uma montagem com o Deadpool imitando o Wolverine segurando uma imagem de sua escolha!",
+      "examples": [
+        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageDeadpoolFrame/wolverineMeme.png |-| Faça uma montagem com o Deadpool segurando a imagem do meme do Wolverine."
+      ]
+    }
+  },
+  "wolverineFrame": {
+    "config": {
+      "description": "Faça uma montagem com o meme do Wolverine do MCU (Universo Cinematográfico da Marvel) segurando uma foto da Jean e do Scott só que com uma foto da sua escolha!",
+      "examples": [
+        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWolverineFrame/scottAndJean.png |-| Refaça o meme do Wolverine (X-Men 97) só que na vida real."
+      ]
+    }
+  },
   "util": {
     "noHasDescription": "Esse comando não tem descrição.",
     "examples": {
       "userExamples": []
     }
+  },
+  "badgeInfo": {
+    "config": {
+      "description": "Veja informações sobre um emblema."
+    },
+    "choiceBadge": "Escolha um emblema para ver suas informações.",
+    "noBadges": "Este usuário ainda não tem emblemas.",
+    "selectBadge": "Escolha um emblema"
+  },
+  "fnshop": {
+    "unavailable": "Não consegui carregar a loja do Fortnite. Tente novamente mais tarde."
   }
 }

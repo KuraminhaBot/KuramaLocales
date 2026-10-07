@@ -423,7 +423,8 @@
     },
     "editAboutMe": "Edit About Me",
     "userBanned": "{{user}} is **banned**!\n✍️ **|** Reason: `{{reason}}`",
-    "bannedAt": "Banned at {{date}}"
+    "bannedAt": "Banned at {{date}}",
+    "aboutMe": "About Me"
   },
   "mcskin": {
     "config": {
@@ -524,7 +525,11 @@
         "Hello Youtube! /-/ @PeterStark000#6011 |-| Make a comment from a mentioned user."
       ]
     },
-    "comment": "`{{user}}` just commented."
+    "comment": "`{{user}}` just commented.",
+    "timeAgo": "just now",
+    "reply": "Reply",
+    "oneReply": "{{count}} reply",
+    "replies": "{{count}} replies"
   },
   "faketweet": {
     "config": {
@@ -587,8 +592,8 @@
     "heDoesntHave": "{{user}} doesn't have **Kurama Coins** enough to bet, come back when you have the money to use this command.",
     "message": [
       "and {{user}} Ready? So let's start the bet.\n",
-      "stay with <:kurama2_kamehameha:826416553276080149>!",
-      "{{user}} stay with <:shukaku_kamehameha:826445270144385025>!\n",
+      "stay with [[emoji:kurama2_kamehameha]]!",
+      "{{user}} stay with [[emoji:shukaku_kamehameha]]!\n",
       "It works like this, the user who got the character that wins the **Kamehameha** win the bet.\n",
       "{{user}} you want to accept the bet? You will bet **{{price}} Kurama Coins** ({{tax}}.0 Kurama-Coins of tax) with {{author}}!",
       "To confirm, click in ✅ to accept transaction."
@@ -1027,7 +1032,7 @@
       "description": "Displays the information of emojis from the server or a specific one.",
       "examples": [
         "|-| See the list of emojis available on the server!",
-        "<:kurama_reverse:934586313582207016> |-| See informations for a specific emoji!"
+        "[[emoji:kurama_reverse]] |-| See informations for a specific emoji!"
       ]
     },
     "page": "Page",
@@ -1060,6 +1065,7 @@
       ]
     },
     "choiceWord": "Choose the meaning of the word",
+    "unavailable": "The dictionary timed out or is unavailable. Please try again shortly.",
     "title": "Dictionary",
     "sentences": "Sentences",
     "synonyms": "Synonyms",
@@ -1106,7 +1112,12 @@
     "notFound": "I searched everywhere, in arenas, in duo modes, but I didn't find any users and clubs with this tag! Remember, I can only find users by the `(#TAG)` tag, not by name!",
     "seePlayerInfo": "Player Statistics",
     "seeClubInfo": "Club Info",
-    "seeBattleLogs": "10 last battles"
+    "seeBattleLogs": "10 last battles",
+    "apiUnavailable": "The Brawl Stars API is currently unavailable. Please try again later.",
+    "apiAccessDenied": "I could not access the Brawl Stars API. The bot administrator needs to check the API key and allowed IP addresses in the API dashboard.",
+    "strongestBrawler": "Brawler with most trophies",
+    "power11Brawlers": "Power 11 brawlers",
+    "hyperChargeBrawlers": "Brawlers with hypercharges"
   },
   "bwclubs": {
     "config": {
@@ -1121,7 +1132,13 @@
     "power": "Power Level",
     "starPowers": "Powers",
     "rank": "Ranking",
-    "gadgets": "Gadgets"
+    "gadgets": "Gadgets",
+    "gears": "Gears",
+    "hyperCharges": "Hypercharges",
+    "skin": "Equipped skin",
+    "prestige": "Prestige",
+    "currentWinStreak": "Current win streak",
+    "maxWinStreak": "Longest win streak"
   },
   "bwbattles": {
     "config": {
@@ -1142,7 +1159,9 @@
     "battleTime": "Time",
     "mode": "Mode",
     "select": "Select battle to see information",
-    "unknown": "Unknown"
+    "unknown": "Unknown",
+    "placement": "Final placement",
+    "trophyChange": "Trophy change"
   },
   "poll": {
     "messageDeleted": "Message successfully deleted!",
@@ -1410,7 +1429,8 @@
   },
   "textcombo": {
     "choiceACommand": "Choose a command for this message",
-    "howDisable": "To disable the event-log, simply use the command `/manage eventlog disable:True`."
+    "howDisable": "To disable the event-log, simply use the command `/manage eventlog disable:True`.",
+    "chooseACommand": "Choose a command for this message"
   },
   "fnnews": {
     "config": {
@@ -1475,6 +1495,7 @@
       ]
     },
     "price": "Price",
+    "none": "Unavailable",
     "series": "Series",
     "rarity": "Rarity",
     "reactive": "Reactive",
@@ -1491,7 +1512,19 @@
     "free": "Free",
     "autocomplete": {
       "notFound": "I didn't find any skin that matches what you typed, try again with another name."
-    }
+    },
+    "shopStatus": "Shop availability",
+    "inShop": "Available now",
+    "notInShop": "Not in the current shop",
+    "shopUntil": "Scheduled shop departure",
+    "offer": "Offer",
+    "bundlePrice": "The displayed price is for the bundle containing this outfit.",
+    "viewLego": "View LEGO version",
+    "viewBean": "View Fall Guys version",
+    "viewYouTube": "View on YouTube",
+    "viewOfficialPreview": "View on the Fortnite website",
+    "previewUnavailable": "I couldn't load this skin's video right now. Try again later.",
+    "imageUnavailable": "I couldn't load this skin's LEGO version right now. Try again later."
   },
   "spotifyPlayer": {
     "listening": "Listening to:",
@@ -1713,5 +1746,16 @@
     "examples": {
       "userExamples": []
     }
+  },
+  "badgeInfo": {
+    "config": {
+      "description": "Get information about a badge."
+    },
+    "choiceBadge": "Choose a badge to see its information.",
+    "noBadges": "This user has no badges yet.",
+    "selectBadge": "Choose a badge"
+  },
+  "fnshop": {
+    "unavailable": "I could not load the Fortnite shop. Please try again later."
   }
 }
