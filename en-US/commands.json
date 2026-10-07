@@ -1540,8 +1540,8 @@
       "examples": [
         "@Kuraminha#7575 |-| Create a poster asking who ordered the hit on \"Kuraminha\".",
         "Naruto /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWhoKilled/naruto.png |-| Create a poster asking who ordered \"Naruto\" 's death using an image link.",
-        "Naruto /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWhoKilled/naruto.png /-/ Sasuke Uchiha |-| Faça um cartaz perguntando sobre quem mandou matar \"Naruto\" utilizando um link de uma imagem e um nome para ligar personalizado.",
-        "Naruto /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWhoKilled/naruto.png /-/ Sasuke Uchiha /-/ true |-| Faça um cartaz perguntando sobre quem mandou matar \"Naruto\" utilizando um link de uma imagem, um nome para ligar personalizado e envie a foto do cartaz separamente."
+        "Naruto /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWhoKilled/naruto.png /-/ Sasuke Uchiha |-| Create a poster asking who ordered the hit on \"Naruto\" using an image link and a custom connecting name.",
+        "Naruto /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWhoKilled/naruto.png /-/ Sasuke Uchiha /-/ true |-| Create a poster asking who ordered the hit on \"Naruto\" using an image link, a custom connecting name, and send the poster photo separately."
       ]
     },
     "whoKilled": "WHO KILLED",
