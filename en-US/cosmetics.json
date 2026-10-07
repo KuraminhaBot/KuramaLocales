@@ -25,8 +25,8 @@
       "description": "A profile inspired by Twitter, but without the annoying parts found there."
     },
     "iosProfile": {
-      "name": "Perfil de Riquinho",
-      "description": "Ai tem iPhone e é riquinha... Quem diria que o seu bot preferido teria um perfil baseado no design do sistema operacional iOS né?"
+      "name": "Rich Kid Profile",
+      "description": "Oh, you have an iPhone? Fancy... Who would've thought your favorite bot would have a profile based on the design of iOS?"
     }
   },
   "backgrounds": {
@@ -406,8 +406,8 @@
       "description": "Keep talking, we shut you down"
     },
     "chuuLoona": {
-      "name": "Chuu Ruindade Pura",
-      "description": "Você por acaso já viu essa mulher? Se não... Bem, agora está vendo."
+      "name": "Chuu, Pure Evil",
+      "description": "Have you ever seen this woman? If not... Well, now you have."
     },
     "collections": {
       "narutoDark": "Naruto Dark",
@@ -437,6 +437,104 @@
       "jojoBizarreAdventures": "JoJo: Bizarre Adventures",
       "blackPink": "BLACKPINK",
       "kpop": "K-Pop"
+    }
+  },
+  "badges": {
+    "DISCORD_EMPLOYEE": {
+      "name": "Discord Staff",
+      "description": "This badge is awarded to all Discord employees."
+    },
+    "DISCORD_PARTNER": {
+      "name": "Partnered Server Owner",
+      "description": "This badge is awarded to all users who own a Discord Partner server."
+    },
+    "DISCORD_MODERATOR": {
+      "name": "Moderator Programs Alumni",
+      "description": "This badge can be earned by successfully passing the Discord Moderator Exam and being active in the DMD for at least 3 months."
+    },
+    "HYPESQUAD_EVENTS": {
+      "name": "HypeSquad Events",
+      "description": "This badge is awarded to HypeSquad event attendees and those who attend local conventions on behalf of HypeSquad."
+    },
+    "BUGHUNTER_LEVEL_2": {
+      "name": "Bug Hunter",
+      "description": "Awarded to those who make significant contributions to bug hunting."
+    },
+    "BUGHUNTER_LEVEL_1": {
+      "name": "Bug Hunter",
+      "description": "Dedicated members of the Discord Testers server are awarded one of these badges."
+    },
+    "HOUSE_BRAVERY": {
+      "name": "House of Bravery",
+      "description": "After taking the HypeSquad quiz, users receive one of the three house badges."
+    },
+    "HOUSE_BRILLIANCE": {
+      "name": "House of Brilliance",
+      "description": "After taking the HypeSquad quiz, users receive one of the three house badges."
+    },
+    "HOUSE_BALANCE": {
+      "name": "House of Balance",
+      "description": "After taking the HypeSquad quiz, users receive one of the three house badges."
+    },
+    "EARLY_SUPPORTER": {
+      "name": "Early Supporter",
+      "description": "This badge was awarded to all users who had a Discord Nitro subscription before <t:1539140400:D>."
+    },
+    "VERIFIED_DEVELOPER": {
+      "name": "Verified Bot Developer",
+      "description": "This badge was awarded to all developers who verified a bot before <t:1597806000:D>."
+    },
+    "ACTIVE_DEVELOPER": {
+      "name": "Active Developer",
+      "description": "This badge is awarded to those who have a bot that has received at least one application command in the last 30 days."
+    },
+    "NITRO": {
+      "name": "Nitro Subscriber",
+      "description": "This badge is awarded to any user with an active Nitro subscription on their account."
+    },
+    "BOOST": {
+      "name": "Server Booster",
+      "description": "Someone with this badge is actively using a Server Boost on a server."
+    },
+    "BOT": {
+      "name": "Bot",
+      "description": "This badge is awarded to any account marked as a bot in the API."
+    },
+    "VERIFIED_BOT": {
+      "name": "Verified Bot",
+      "description": "This badge was awarded to all bots that are in more than 75 servers and have completed the verification form."
+    },
+    "SUPPORT_SLASH_COMMANDS": {
+      "name": "Supports Slash Commands",
+      "description": "This badge can only be earned by bots that support slash commands."
+    },
+    "MARRIED": {
+      "name": "Married",
+      "description": "This badge is awarded to all users who are married in Kuraminha Bot."
+    },
+    "TRANSLATORS": {
+      "name": "Translators",
+      "description": "This badge is awarded to all users who helped translate Kuraminha Bot."
+    },
+    "LAST_FM": {
+      "name": "Last.fm",
+      "description": "This badge is awarded to all users who linked their Last.fm account to Kuraminha Bot."
+    },
+    "KURAMA_BODYGUARD": {
+      "name": "Kurama's Anbu",
+      "description": "This badge is awarded to all users who are Kurama moderators."
+    },
+    "STAFFDARK": {
+      "name": "Dark Staff",
+      "description": "This badge is awarded to all users who are staff members on a server in Rede Dark, Kurama's Minecraft server network."
+    },
+    "PREMIUM_USER": {
+      "name": "Kurama Supporter",
+      "description": "This badge is awarded to all users who support me and help keep my features running by donating to me."
+    },
+    "FORTNITE_PLAYER": {
+      "name": "Fortnite Player",
+      "description": "This badge is awarded to all users who linked their Fortnite account to Kuraminha Bot."
     }
   },
   "rarity": {

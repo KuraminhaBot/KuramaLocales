@@ -183,7 +183,7 @@
     "engine": "Engine",
     "developer": "Developer",
     "lastLogin": "Last Login",
-    "supportGuild": "Support Server:",
+    "supportGuild": "Support Server",
     "policyPrivacy": "Privacy Policy",
     "termsOfService": "Community Guidelines",
     "cpuModel": "CPU Model",
@@ -1021,11 +1021,15 @@
       "examples": [
         "|-| See your banner, using the command.",
         "640593174171090984 |-| See the banner of the most beautiful fox on the site.",
-        "@PeterStark000#6011 |-| See the banner of mentioned user."
+        "@PeterStark000#6011 |-| See the banner of mentioned user.",
+        "@PeterStark000 /-/ true |-| View the mentioned user's server profile banner."
       ]
     },
     "hyperlink": "**[Click here]({{url}}) to download the banner!**",
-    "noHas": "This user has not set a banner on their profile."
+    "noHas": "This user has not set a banner on their profile.",
+    "noHasGuild": "This user hasn't set a banner for their server profile.",
+    "normal": "User Banner",
+    "guild": "Server Banner"
   },
   "emojiinfo": {
     "config": {
@@ -1306,8 +1310,8 @@
     "config": {
       "description": "Addicted to the most watched house in Brazil? Why not embark on this adventure and join the BBB yourself?",
       "examples": [
-        "Julliete /-/ 31 Years old /-/ Lawyer and Makeup Artist /-/ Campina Grande - PB /-/ Popcorn 🍿 /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageBBB22/juliette.png |-| Example using the command with a \"Popcorn\" participant",
-        "Jade Picon /-/ 20 Years old /-/ Businesswoman and Influencer /-/ São Paulo - SP /-/ Box 🎥 /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageBBB22/jade.png |-| Example of the command with a \"Box\" participant"
+        "Julliete /-/ 31 Years old /-/ Lawyer and Makeup Artist /-/ Campina Grande - PB /-/ Pipoca 🍿 /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageBBB22/juliette.png |-| Example using the command with a \"Pipoca\" participant",
+        "Jade Picon /-/ 20 Years old /-/ Businesswoman and Influencer /-/ São Paulo - SP /-/ Camarote 🎥 /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageBBB22/jade.png |-| Example of the command with a \"Camarote\" participant"
       ]
     }
   },
@@ -1550,14 +1554,14 @@
   },
   "lastfmInfo": {
     "config": {
-      "description": "Veja as informações de um usuário do Last.fm",
+      "description": "View information about a Last.fm user",
       "examples": [
-        "|-| Veja as informações do usuário que está vinculado com a sua conta do Last.fm.",
-        "PeterStark000 |-| Veja as informações do usuário \"PeterStark000\"."
+        "|-| View information about the user linked to your Last.fm account.",
+        "PeterStark000 |-| View information about the user \"PeterStark000\"."
       ]
     },
-    "notFound": "Eu não consegui encontrar nenhuma informação sobre este usuário no Last.fm...",
-    "noArgs": "Você precisa me dizer o nome de um usuário do Last.fm que você quer buscar.",
+    "notFound": "I couldn't find any information about this user on Last.fm...",
+    "noArgs": "You need to tell me the Last.fm username you want to look up.",
     "artists": "Artists",
     "artist": "Artist",
     "albums": "Albums",
@@ -1571,173 +1575,199 @@
   },
   "lastFmRegister": {
     "config": {
-      "description": "Registre no Kurama a sua conta do Last.fm!",
+      "description": "Register your Last.fm account with Kurama!",
       "examples": [
-        "<username> |-| Registra uma conta do Last.FM no seu perfil do Discord."
+        "<username> |-| Link a Last.FM account to your Discord profile."
       ]
     },
-    "success": "Seu perfil no Last Fm foi vinculado com sucesso para \"{{username}}\"!",
-    "checkDetails": "Verifique se este é realmente o seu nickname do **Last FM** no site para evitar problemas!",
-    "alreadyInUse": "Parece que o usuário {{id}} está utilizando este nick... Se algo estiver errado, procure nosso suporte!"
+    "success": "Your Last.fm profile was successfully linked to \"{{username}}\"!",
+    "checkDetails": "Check the website to make sure this is your actual **Last FM** username to avoid any issues!",
+    "alreadyInUse": "It looks like user {{id}} is using this username... If something is wrong, contact our support team!"
   },
   "lastFmAlbum": {
     "config": {
-      "description": "Veja informações sobre um álbum que está no Last.FM.",
+      "description": "View information about an album on Last.FM.",
       "examples": [
-        "eternal sunshine /-/ Ariana Grande |-| Veja as informações sobre o álbum \"eternal sunshine\" da cantora Ariana Grande no Last.FM",
-        "1989 /-/ Taylor Swift |-| Veja as informações sobre o álbum \"1989\" da cantora Taylor Swift no Last.FM"
+        "eternal sunshine /-/ Ariana Grande |-| View information about Ariana Grande's album \"eternal sunshine\" on Last.FM",
+        "1989 /-/ Taylor Swift |-| View information about Taylor Swift's album \"1989\" on Last.FM"
       ]
     },
-    "listeners": "Ouvintes",
-    "playcount": "Reproduções",
-    "yourScrobbles": "Seus Scrobbles",
-    "notFoundTracks": "Nenhuma faixa encontrada.",
-    "viewFullTracklist": "Veja a tracklist completa [aqui]({{link}})",
-    "albumNotFound": "Não encontrei nenhum álbum desse artista com esse nome.. Será que você não está ouvindo alguma música de outro planeta?"
+    "listeners": "Listeners",
+    "playcount": "Plays",
+    "yourScrobbles": "Your Scrobbles",
+    "notFoundTracks": "No tracks found.",
+    "viewFullTracklist": "View the full tracklist [here]({{link}})",
+    "albumNotFound": "I couldn't find an album by this artist with that name.. Could you be listening to music from another planet?"
   },
   "lastFmArtist": {
     "config": {
-      "description": "Veja informações sobre o seu artista preferido utilizando os dados do Last.FM e do MusicBrainZ.",
+      "description": "View information about your favorite artist using data from Last.FM and MusicBrainz.",
       "examples": [
-        "Ariana Grande |-| Veja todas as informações da cantora norte-americana \"Ariana Grande\".",
-        "BLACKPINK |-| Veja todas as informações sobre o girlgroup sul-coreano \"BLACKPINK\".",
-        "JISOO |-| Veja todas as informações sobre a solista \"Kim Jisoo\".",
-        "Marília Mendonça |-| Veja todas as informações sobre a cantora brasileira \"Marília Mendonça\"."
+        "Ariana Grande |-| View all the information about the American singer \"Ariana Grande\".",
+        "BLACKPINK |-| View all the information about the South Korean girl group \"BLACKPINK\".",
+        "JISOO |-| View all the information about the solo artist \"Kim Jisoo\".",
+        "Marília Mendonça |-| View all the information about the Brazilian singer \"Marília Mendonça\"."
       ]
     },
-    "notFound": "Será que você não está ouvindo alguma artista de outro planeta? Acho que não encontrei ninguém aqui no planeta Terra que se chame assim..",
-    "mainAlbuns": "Principais Álbuns",
-    "secondaryAlbuns": "Álbuns Secundários",
-    "singles": "Principais Singles",
-    "readMore": "Leia mais em Last.FM",
-    "listeners": "Ouvintes",
-    "playcount": "Reproduções",
-    "yourScrobbles": "Seus Scrobbles",
-    "type": "Classificação",
-    "age": "Idade",
-    "artistAge": "{{count}} anos",
-    "beginArea": "Nasceu em",
-    "unknown": "Desconhecido",
-    "noSingles": "Sem singles.",
-    "noAlbuns": "Sem álbuns.",
-    "noSecondaryAlbuns": "Sem álbuns secundários.",
-    "noTags": "Sem tags disponíveis para este artista."
+    "notFound": "Could you be listening to an artist from another planet? I don't think I found anyone here on Earth with that name..",
+    "mainAlbuns": "Main Albums",
+    "secondaryAlbuns": "Secondary Albums",
+    "singles": "Main Singles",
+    "readMore": "Read more on Last.FM",
+    "listeners": "Listeners",
+    "playcount": "Plays",
+    "yourScrobbles": "Your Scrobbles",
+    "type": "Type",
+    "age": "Age",
+    "artistAge": "{{count}} years old",
+    "beginArea": "Born on",
+    "unknown": "Unknown",
+    "noSingles": "No singles.",
+    "noAlbuns": "No albums.",
+    "noSecondaryAlbuns": "No secondary albums.",
+    "noTags": "No tags available for this artist."
   },
   "lastFmCompare": {
     "config": {
-      "description": "Competições saudáveis são sempre divertidas né? Que tal competir com usuários do seu servidor quem escuta mais tal música, artista ou tal álbum? Com este comando você pode se divertir com seus membros comparando scrobbles de todos os membros do seu servidor registrados no Last.Fm.",
+      "description": "A little friendly competition is always fun, right? How about competing with others in your server to see who listens to a song, artist, or album the most? With this command, you can have fun comparing scrobbles from all your server members registered on Last.fm.",
       "examples": [
-        "|-| Veja quem do seu servidor tem mais scrobbles na música que você está ouvindo no momento (Lembre-se de ter vinculado sua conta Last.FM ao seu perfil do Discord).",
-        "Ariana Grande |-| Veja quem do seu servidor tem mais scrobbles na artista \"Ariana Grande\".",
-        "Ariana Grande /-/ no tears left to cry |-| Veja quem do seu servidor tem mais scrobbles na música \"no tears left to cry\" da cantora \"Ariana Grande\".",
-        "Ariana Grande /-/  /-/ eternal sunshine |-| Veja quem do seu servidor tem mais scrobbles no álbum \"eternal sunshine\" da cantora \"Ariana Grande\".",
-        "Kendrick Lamar /-/ Money Trees /-/  /-/ true |-| Veja quem do seu servidor tem mais scrobbles na música \"Money Trees\" do rapper \"Kendrick Lamar\", porém faça o Kurama por mais membros do seu servidor."
+        "|-| See who in your server has the most scrobbles for the song you're currently listening to (Make sure your Last.FM account is linked to your Discord profile).",
+        "Ariana Grande |-| See who in your server has the most scrobbles for the artist \"Ariana Grande\".",
+        "Ariana Grande /-/ no tears left to cry |-| See who in your server has the most scrobbles for the song \"no tears left to cry\" by \"Ariana Grande\".",
+        "Ariana Grande /-/ /-/ eternal sunshine |-| See who in your server has the most scrobbles for the album \"eternal sunshine\" by \"Ariana Grande\".",
+        "Kendrick Lamar /-/ Money Trees /-/ /-/ true |-| See who in your server has the most scrobbles for the song \"Money Trees\" by the rapper \"Kendrick Lamar\", but have Kurama check more members of your server."
       ]
     },
-    "from": "de",
-    "supervising": "Fiscalizando",
-    "fullScrobbles": "**{{count}} scrobbles** totais.",
-    "noPlaycount": "Nenhum usuário encontrado com scrobbles para essa música.",
-    "notFound": "Forneça algum artista, música ou álbum para que eu pesquise, ou esteja escutando algo no momento para que eu procure a música que você está ouvindo."
+    "from": "by",
+    "supervising": "Checking",
+    "fullScrobbles": "**{{count}} scrobbles** in total.",
+    "noPlaycount": "No users found with scrobbles for this song.",
+    "notFound": "Give me an artist, song, or album to search for, or play something so I can look up the song you're currently listening to."
   },
   "imageChandler": {
     "config": {
-      "description": "Música é sua paixão? Wow! Você sabia que música também é a paixão do Chandler? Faça uma montagem com a famosa cena do Chandler de \"Friends\" abraçando um álbum.",
+      "description": "Is music your passion? Wow! Did you know Chandler loves music too? Create an edit of the famous scene from \"Friends\" where Chandler hugs an album.",
       "examples": [
-        "[Anexo] |-| Faça uma imagem com uma imagem anexada no comando.",
-        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageChandler/eternalExample.png |-| Faça uma montagem com o álbum \"eternal sunshine\" da cantora norte-americana \"Ariana Grande\".",
-        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageChandler/hmhasExample.png |-| Faça uma montagem com o álbum \"HIT ME HARD AND SOFT\" da cantora norte-americana \"Billie Eilish\"."
+        "[Attachment] |-| Create an image using an image attached to the command.",
+        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageChandler/eternalExample.png |-| Create an edit featuring the album \"eternal sunshine\" by the American singer \"Ariana Grande\".",
+        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageChandler/hmhasExample.png |-| Create an edit featuring the album \"HIT ME HARD AND SOFT\" by the American singer \"Billie Eilish\"."
       ]
     }
   },
   "imagePitchfork": {
     "config": {
-      "description": "Você é um crítico musical? Que tal fazer uma montagem com página de avaliação de álbum da Pitchfork? Faça uma montagem com um álbum e uma nota de 0 à 10!",
+      "description": "Are you a music critic? How about creating your own Pitchfork album review image? Choose an album and give it a score from 0 to 10!",
       "examples": [
-        "Nome do Álbum /-/ 5 /-/ Artista /-/ 2016 /-/ [Anexo] |-| Faça uma montagem com um álbum da sua escolha, com a imagem anexada, nota 5 e o ano de 2016.",
-        "COWBOY CARTER /-/ 9,2 /-/ Beyoncé /-/ 2024 /-/  /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imagePitchfork/cowboyCarterExample.png |-| Faz uma montagem com a capa do álbum \"COWBOY CARTER\" e a nota 9.2 para o álbum da cantora \"Beyoncé\".",
-        "eternal sunshine /-/ 10 /-/ Ariana Grande /-/ 2024 /-/  /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imagePitchfork/eternalExample.png /-/ True |-| Faz uma montagem na classificação \"Best New Álbum\" com a capa do álbum \"eternal sunshine\" e a nota 10 para o álbum da cantora \"Ariana Grande\"."
+        "Album Name /-/ 5 /-/ Artist /-/ 2016 /-/ [Attachment] |-| Create an edit featuring an album of your choice, using the attached image, a score of 5, and the year 2016.",
+        "COWBOY CARTER /-/ 9,2 /-/ Beyoncé /-/ 2024 /-/ /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imagePitchfork/cowboyCarterExample.png |-| Create an edit featuring the cover of \"COWBOY CARTER\" by \"Beyoncé\" with a score of 9.2.",
+        "eternal sunshine /-/ 10 /-/ Ariana Grande /-/ 2024 /-/ /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imagePitchfork/eternalExample.png /-/ True |-| Create an edit featuring the cover of \"eternal sunshine\" by \"Ariana Grande\" with a score of 10 and the \"Best New Album\" label."
       ]
     }
   },
   "lastFmPersonalChart": {
     "config": {
-      "description": "Gere um gráfico semanal ou mensal dos artistas mais ouvidos no Last.FM, usando seus dados ou os de um amigo!",
+      "description": "Generate a weekly or monthly chart of the most-listened-to artists on Last.FM, using your data or a friend's!",
       "examples": [
-        "|-| Gere um gráfico semanal dos seus artistas mais ouvidos no Last.FM.",
-        "souarth /-/ dark /-/ 7day |-| Gere um gráfico semanal dos artistas mais ouvidos no Last.FM do usuário \"souarth\" com o tema escuro.",
-        "PeterStark000 /-/ /-/ 1month |-| Gere um gráfico mensal dos artistas mais ouvidos no Last.FM do usuário \"PeterStark000\". (Apenas VIP'S)"
+        "|-| Generate a weekly chart of your most-listened-to artists on Last.FM.",
+        "souarth /-/ dark /-/ 7day |-| Generate a weekly chart of the most-listened-to artists for Last.FM user \"souarth\" with the dark theme.",
+        "PeterStark000 /-/ /-/ 1month |-| Generate a monthly chart of the most-listened-to artists for Last.FM user \"PeterStark000\". (VIPs only)"
       ]
     },
-    "noData": "Não há dados suficientes para gerar um gráfico.",
-    "premiumOnly": "Este comando é exclusivo para usuários VIP's. Que tal me ajudar a manter o bot online e ter acesso a comandos exclusivos?",
+    "noData": "There is not enough data to generate a chart.",
+    "premiumOnly": "This command is exclusive to VIP users. How about helping me keep the bot online and getting access to exclusive commands?",
     "title": {
-      "7day_scrooble": "{{user}} Scroobles Semanais",
-      "7day_chart:": "Grafico Semanal de {{user}}",
-      "1month_scrooble": "{{user}} Scroobles Mensais",
-      "1month_chart": "Gráfico Mensal de {{user}}"
+      "7day_scrooble": "{{user}} Weekly Scrobbles",
+      "7day_chart:": "Weekly Chart for {{user}}",
+      "1month_scrooble": "{{user}} Monthly Scrobbles",
+      "1month_chart": "Monthly Chart for {{user}}"
     },
-    "your": "Seus",
+    "your": "Your",
     "lastPeriod": {
-      "7day": "Scroobles na última semana",
-      "1month": "Scroobles no último mês"
+      "7day": "Scrobbles in the past week",
+      "1month": "Scrobbles in the past month"
     },
     "comparation_less": {
-      "7day": "{{scroobles}} scroobles a menos que na última semana.",
-      "1month": "{{scroobles}} scroobles a menos que no último mês."
+      "7day": "{{scroobles}} fewer scrobbles than last week.",
+      "1month": "{{scroobles}} fewer scrobbles than last month."
     },
     "comparation_more": {
-      "7day": "{{scroobles}} scroobles a mais que na última semana.",
-      "1month": "{{scroobles}} scroobles a mais que no último mês."
+      "7day": "{{scroobles}} more scrobbles than last week.",
+      "1month": "{{scroobles}} more scrobbles than last month."
     },
     "top10Scroobles": {
-      "7day": "Scroobles do seu Top 10 Semanal",
-      "1month": "Scroobles do seu Top 10 Mensal"
+      "7day": "Scrobbles from your Weekly Top 10",
+      "1month": "Scrobbles from your Monthly Top 10"
     }
   },
   "lastFmTrackCollage": {
     "config": {
-      "description": "Gere um collage semanal ou mensal das músicas mais ouvidas no Last.FM, usando seus dados ou os de um amigo!",
+      "description": "Generate a weekly or monthly collage of the most-listened-to songs on Last.FM, using your data or a friend's!",
       "examples": [
-        "|-| Gere um collage semanal das suas músicas mais ouvidas no Last.FM.",
-        "souarth /-/ 4x4 /-/ 7day |-| Gere um collage 4x4 das músicas mais ouvidas no Last.FM do usuário \"souarth\" na última semana.",
-        "PeterStark000 /-/ 5x5 /-/ 1month |-| Gere um collage 5x5 das músicas mais ouvidas no Last.FM do usuário \"PeterStark000\" no último mês."
+        "|-| Generate a weekly collage of your most-listened-to songs on Last.FM.",
+        "souarth /-/ 4x4 /-/ 7day |-| Generate a 4x4 collage of the most-listened-to songs for Last.FM user \"souarth\" in the past week.",
+        "PeterStark000 /-/ 5x5 /-/ 1month |-| Generate a 5x5 collage of the most-listened-to songs for Last.FM user \"PeterStark000\" in the past month."
       ]
     },
-    "fiscalPeriod": "Período de Fiscalização",
+    "fiscalPeriod": "Tracking Period",
     "period": {
-      "overall": "Geral",
-      "7day": "Últimos 7 dias",
-      "1month": "Último mês",
-      "3month": "Últimos 3 meses",
-      "6month": "Últimos 6 meses",
-      "12month": "Últimos 12 meses"
+      "overall": "All time",
+      "7day": "Last 7 days",
+      "1month": "Last month",
+      "3month": "Last 3 months",
+      "6month": "Last 6 months",
+      "12month": "Last 12 months"
     }
+  },
+  "lastfmNowPlaying": {
+    "config": {
+      "description": "See what you're listening to on Last.fm right now!",
+      "examples": [
+        "|-| See what you're listening to on Last.fm right now.",
+        "PeterStark000 |-| See what the user \"PeterStark000\" is listening to on Last.fm right now."
+      ]
+    },
+    "notPlaying": "It looks like you or the person you mentioned aren't listening to anything right now..."
   },
   "deathNotice": {
     "config": {
-      "description": "Faça um gif engraçado com a notícia de que alguém morreu! (Meme do Twitter)",
+      "description": "Create a funny GIF announcing that someone has died! (Twitter meme)",
       "examples": [
-        "@diobrando |-| Faça um gif com a notícia de que \"@diobrando\" morreu!"
+        "@diobrando |-| Create a GIF announcing that \"@diobrando\" has died!"
       ]
     },
-    "died": "morreu",
-    "someone": "@fulano"
+    "died": "died",
+    "someone": "@someone"
   },
   "heloscream": {
     "config": {
-      "description": "\"Sérgio! Sérgio, eu te amo!\" Faça uma montagem com a famosa cena de Heloísa da novela \"Mulheres Apaixonadas\" gritando por Sérgio, acompanhada por uma marchinha de carnaval!",
+      "description": "\"Sérgio! Sérgio, I love you!\" Create an edit of the famous scene from the soap opera \"Mulheres Apaixonadas\" where Heloísa calls out for Sérgio, set to a carnival march!",
       "examples": [
-        "KURAMAA /-/ TU HITOU DE NOVO |-| Faça uma montagem com a frase \"KURAMAA\" e a frase \"TU HITOU DE NOVO\"."
+        "KURAMAA /-/ YOU DID IT AGAIN |-| Create an edit with the phrases \"KURAMAA\" and \"YOU DID IT AGAIN\"."
       ]
     }
   },
   "gizellyScream": {
     "config": {
-      "description": "Recrie a icônica cena de Gizelly do BBB20 gritando \"PYONG LEEEEEE!\" com um texto da sua escolha!",
+      "description": "Recreate the iconic scene of Gizelly from BBB20 shouting \"PYONG LEEEEEE!\" with text of your choice!",
       "examples": [
-        "PYONG LEEEEEE! |-| Faça uma montagem com a frase \"PYONG LEEEEEE!\".",
-        "QUERO COMER PIZZAA |-| Faça uma montagem com a frase \"QUERO COMER PIZZAA\"."
+        "PYONG LEEEEEE! |-| Create an edit with the phrase \"PYONG LEEEEEE!\".",
+        "I WANNA EAT PIZZAA |-| Create an edit with the phrase \"I WANNA EAT PIZZAA\"."
+      ]
+    }
+  },
+  "deadpoolFrame": {
+    "config": {
+      "description": "Create an edit of Deadpool imitating Wolverine, holding an image of your choice!",
+      "examples": [
+        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageDeadpoolFrame/wolverineMeme.png |-| Create an edit of Deadpool holding the Wolverine meme image."
+      ]
+    }
+  },
+  "wolverineFrame": {
+    "config": {
+      "description": "Recreate the MCU (Marvel Cinematic Universe) Wolverine meme where he holds a photo of Jean and Scott, but with a photo of your choice!",
+      "examples": [
+        " /-/ https://raw.githubusercontent.com/KuraminhaBot/KuramaAssets/main/imageWolverineFrame/scottAndJean.png |-| Recreate the Wolverine meme (X-Men 97), but in real life."
       ]
     }
   },
